@@ -1,0 +1,20 @@
+<scroll-view class="sticker-page" scroll-y>
+  <view class="screen stickers-screen">
+    <view class="sticker-hero">
+      <text class="sticker-hero-icon">📒</text>
+      <view>
+        <text class="sticker-hero-title">Cubi 的动物贴纸册</text>
+        <text class="sticker-hero-subtitle">每收集 4 颗星星，解锁一位动物朋友</text>
+      </view>
+    </view>
+    <view class="count-banner">⭐ 现在有 {{stars}} 颗星星</view>
+
+    <view class="sticker-grid">
+      <view wx:for="{{stickers}}" wx:key="number" class="sticker-cell {{item.unlocked ? 'unlocked' : 'locked'}}">
+        <text class="sticker-icon">{{item.unlocked ? item.icon : '？'}}</text>
+        <text class="sticker-name">{{item.unlocked ? item.name : '等待解锁'}}</text>
+        <text class="sticker-number">#{{item.number}}</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>

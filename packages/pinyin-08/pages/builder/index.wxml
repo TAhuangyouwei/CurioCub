@@ -1,0 +1,160 @@
+<scroll-view class="builder-page" scroll-y>
+  <view class="screen builder-content">
+    <view class="builder-hero">
+      <view class="builder-hero-icon">♫</view>
+      <view>
+        <text class="builder-title">拼音学练机</text>
+        <text class="builder-subtitle">完整拼音键盘 · 点击每个按键都能听声音</text>
+      </view>
+    </view>
+
+    <view class="mode-tabs">
+      <button
+        wx:for="{{modes}}"
+        wx:key="value"
+        class="mode-tab {{activeMode === item.value ? 'mode-tab-active' : ''}}"
+        bindtap="switchMode"
+        data-value="{{item.value}}"
+      >{{item.label}}</button>
+    </view>
+
+    <block wx:if="{{activeMode !== 'whole'}}">
+      <view class="result-card result-ready" wx:if="{{example}}">
+        <text class="result-label">当前拼读</text>
+        <view class="spelling-row" wx:if="{{activeMode === 'two'}}">
+          <text>{{selectedInitial}}</text><text class="plus">+</text><text>{{selectedFinal}}</text><text class="arrow">→</text><text class="result-pinyin">{{pinyin}}</text>
+        </view>
+        <view class="spelling-row" wx:else>
+          <text>{{selectedInitial}}</text><text class="plus">+</text><text>{{selectedMedial}}</text><text class="plus">+</text><text>{{selectedEnding}}</text><text class="arrow">→</text><text class="result-pinyin">{{pinyin}}</text>
+        </view>
+        <text class="result-character">{{example.character}}</text>
+      </view>
+
+      <view class="result-card result-empty" wx:else>
+        <text class="result-label">这个组合暂时不能拼读</text>
+        <text class="empty-tip">声母和韵母仍可单独点击听音，换一个组合试试。</text>
+      </view>
+
+      <view class="keyboard-card">
+        <view class="key-section initial-section">
+          <view class="section-heading">
+            <text class="section-title">声母</text>
+            <text class="section-count">完整 23 个</text>
+          </view>
+          <view class="option-grid initials-grid">
+            <button
+              wx:for="{{initials}}"
+              wx:key="value"
+              class="sound-option initial-option {{item.value === selectedInitial ? 'initial-selected' : ''}}"
+              bindtap="selectInitial"
+              data-value="{{item.value}}"
+            >{{item.label}}</button>
+          </view>
+        </view>
+
+        <view class="key-section final-section" wx:if="{{activeMode === 'two'}}">
+          <view class="section-heading">
+            <text class="section-title">韵母</text>
+            <text class="section-count">完整 24 个</text>
+          </view>
+          <view class="option-grid finals-grid">
+            <button
+              wx:for="{{finals}}"
+              wx:key="value"
+              class="sound-option final-option {{item.value === selectedFinal ? 'final-selected' : ''}}"
+              bindtap="selectFinal"
+              data-value="{{item.value}}"
+            >{{item.label}}</button>
+          </view>
+          <text class="category-tip">单韵母 6 · 复韵母 8 · 特殊韵母 1 · 鼻韵母 9</text>
+        </view>
+
+        <block wx:else>
+          <view class="key-section medial-section">
+            <view class="section-heading">
+              <text class="section-title">介母</text>
+              <text class="section-count">i · u · ü</text>
+            </view>
+            <view class="option-grid medial-grid">
+              <button
+                wx:for="{{medials}}"
+                wx:key="value"
+                class="sound-option medial-option {{item.value === selectedMedial ? 'medial-selected' : ''}}"
+                bindtap="selectMedial"
+                data-value="{{item.value}}"
+              >{{item.label}}</button>
+            </view>
+          </view>
+
+          <view class="key-section final-section">
+            <view class="section-heading">
+              <text class="section-title">韵母</text>
+              <text class="section-count">三拼尾音</text>
+            </view>
+            <view class="option-grid ending-grid">
+              <button
+                wx:for="{{threeEndings}}"
+                wx:key="value"
+                class="sound-option final-option {{item.value === selectedEnding ? 'final-selected' : ''}} {{!item.available ? 'soft-unavailable' : ''}}"
+                bindtap="selectEnding"
+                data-value="{{item.value}}"
+              >{{item.label}}</button>
+            </view>
+          </view>
+        </block>
+
+        <view class="key-section tone-section">
+          <view class="section-heading">
+            <text class="section-title">声调</text>
+            <text class="section-count">点击后读完整音节</text>
+          </view>
+          <view class="tone-grid">
+            <button
+              wx:for="{{tones}}"
+              wx:key="value"
+              class="tone-option {{item.value === selectedTone ? 'tone-selected' : ''}} {{!item.available ? 'option-disabled' : ''}}"
+              bindtap="selectTone"
+              data-value="{{item.value}}"
+              data-available="{{item.available}}"
+              disabled="{{!item.available}}"
+            >
+              <text class="tone-mark">{{item.mark}}</text>
+              <text>{{item.label}}</text>
+            </button>
+          </view>
+        </view>
+      </view>
+
+      <button class="read-button" bindtap="readAloud" disabled="{{!example}}">🔊 听分步拼读</button>
+      <text class="spelling-tip">小提示：j、q、x 和 ü 相拼时，ü 上两点要省略。</text>
+    </block>
+
+    <block wx:else>
+      <view class="result-card whole-result">
+        <text class="result-label">整体认读，不需要拆开拼</text>
+        <text class="result-pinyin whole-pinyin">{{selectedWhole.pinyin}}</text>
+        <text class="result-character">{{selectedWhole.character}}</text>
+      </view>
+
+      <view class="keyboard-card whole-keyboard">
+        <view class="key-section whole-section">
+          <view class="section-heading">
+            <text class="section-title">整体认读音节</text>
+            <text class="section-count">完整 16 个</text>
+          </view>
+          <view class="whole-grid">
+            <button
+              wx:for="{{wholeSyllables}}"
+              wx:key="value"
+              class="whole-option {{item.value === selectedWhole.value ? 'whole-selected' : ''}}"
+              bindtap="selectWhole"
+              data-value="{{item.value}}"
+            >{{item.label}}</button>
+          </view>
+        </view>
+      </view>
+    </block>
+
+    <text class="privacy-note">23 个声母、24 个韵母、16 个整体认读音节全部收录；声音离线保存在 CurioCub 中。</text>
+  </view>
+</scroll-view>

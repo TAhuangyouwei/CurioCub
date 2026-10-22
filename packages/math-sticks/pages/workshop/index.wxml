@@ -1,0 +1,55 @@
+<view class="screen workshop-screen">
+  <view class="mode-tabs">
+    <button class="mode-tab {{mode === 'count' ? 'selected' : ''}}" data-mode="count" bindtap="changeMode">数一数</button>
+    <button class="mode-tab {{mode === 'add' ? 'selected' : ''}}" data-mode="add" bindtap="changeMode">加一加</button>
+    <button class="mode-tab {{mode === 'subtract' ? 'selected' : ''}}" data-mode="subtract" bindtap="changeMode">减一减</button>
+  </view>
+
+  <view class="equation-card" aria-live="polite">
+    <text class="equation-caption">{{caption}}</text>
+    <text class="equation">{{equation}}</text>
+  </view>
+
+  <view wx:if="{{mode === 'subtract'}}" class="total-picker">
+    <view>
+      <text class="picker-label">原有几根？</text>
+      <text class="picker-tip">调整数量会重新摆放</text>
+    </view>
+    <view class="stepper">
+      <button class="step-button" bindtap="changeTotal" data-delta="-1" disabled="{{startCount === 0}}" aria-label="少一根">−</button>
+      <text class="start-count">{{startCount}}</text>
+      <button class="step-button" bindtap="changeTotal" data-delta="1" disabled="{{startCount === limit}}" aria-label="多一根">+</button>
+    </view>
+  </view>
+
+  <text class="instruction">{{instruction}}</text>
+
+  <view class="sticks-board" style="height: {{boardHeight}}px;">
+    <view wx:for="{{zones}}" wx:key="id" class="drop-zone zone-{{item.id}}" style="left: {{item.x}}px; top: {{item.y}}px; width: {{item.width}}px; height: {{item.height}}px;">
+      <view class="zone-heading">
+        <text>{{item.title}}</text>
+        <text class="zone-count">{{item.count}} 根</text>
+      </view>
+      <text wx:if="{{!item.count}}" class="zone-empty">{{item.id === 'pool' ? '都拿出来啦' : '拖到这里'}}</text>
+    </view>
+
+    <view
+      wx:for="{{sticks}}" wx:key="id"
+      class="stick-handle stick-{{item.zone}} {{activeId === item.id ? 'dragging' : ''}}"
+      style="left: {{item.x}}px; top: {{item.y}}px; width: {{chipWidth}}px; height: {{chipHeight}}px;"
+      data-id="{{item.id}}"
+      catchtouchstart="onDragStart"
+      catchtouchmove="onDragMove"
+      catchtouchend="onDragEnd"
+      catchtouchcancel="onDragCancel"
+      aria-label="可拖动的火柴棍"
+    >
+      <view class="matchstick"><view class="match-head" /></view>
+    </view>
+  </view>
+
+  <view class="workshop-footer">
+    <text class="footer-tip">10 以内 · 松手自动排齐</text>
+    <button class="reset-button" bindtap="resetBoard">重新摆</button>
+  </view>
+</view>

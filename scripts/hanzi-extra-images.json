@@ -1,0 +1,382 @@
+[
+  {
+    "id": 41,
+    "character": "一",
+    "phrase": "一个苹果",
+    "filename": "hanzi-41-yi.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-50b2073b-fc2e-4fee-8f6b-3182f09c0fb8.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational\nAsset type: one square transparent PNG pictogram for a Chinese preschool literacy flashcard, readable at 56px.\nSubject: exactly ONE bright red apple with one small green leaf, centered, illustrating 一 / 一个苹果 (one apple).\nStyle: cute polished flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, subtle simple shading, clean silhouette. Subject fills 80% of square. True transparent background.\nConstraints: only one apple, no text, no characters or numerals, no scenery, no border, no watermark."
+  },
+  {
+    "id": 42,
+    "character": "泪",
+    "phrase": "眼泪",
+    "filename": "hanzi-42-lei.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-04f05780-5953-4cca-9502-a3933597e85f.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, for display at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. Truly transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A close-up friendly preschool child's face with one clearly visible blue teardrop rolling down the cheek. Calm, mildly sad expression, not distressed."
+  },
+  {
+    "id": 43,
+    "character": "眉",
+    "phrase": "眉毛",
+    "filename": "hanzi-43-mei.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-31da151d-a481-4f18-8ede-29dd09e3551f.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, for display at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. Truly transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A simple friendly child's face cropped to both eyes and forehead, with TWO thick clearly emphasized brown eyebrows above the eyes. Brows must be the most salient feature."
+  },
+  {
+    "id": 44,
+    "character": "耳",
+    "phrase": "耳朵",
+    "filename": "hanzi-44-er.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-31f182e5-86fc-4dc7-826f-279f887e3439.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, for display at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. Truly transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One anatomically clear human ear, side view, warm peach skin, recognizable outer rim and inner ear folds, no head or jewelry."
+  },
+  {
+    "id": 45,
+    "character": "三",
+    "phrase": "三颗星",
+    "filename": "hanzi-45-san.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-33234234-1870-4992-b33c-27889d72b9d6.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, for display at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. Truly transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY THREE five-point golden stars, separate and non-overlapping, arranged as one at top and two below. No extra stars or sparkles."
+  },
+  {
+    "id": 46,
+    "character": "舌",
+    "phrase": "舌头",
+    "filename": "hanzi-46-she.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-7d849361-c61c-430f-87ae-daa2640696c3.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, for display at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. Truly transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A friendly open smiling mouth, front view, with one rounded pink tongue sticking out clearly below the upper teeth. Mouth only, simple anatomically readable tongue."
+  },
+  {
+    "id": 47,
+    "character": "足",
+    "phrase": "双足",
+    "filename": "hanzi-47-zu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-ffbf3d21-bd05-4771-8842-bd97c51b5528.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, for display at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. Truly transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A matching pair of two bare human feet with five toes on each, viewed from above, warm peach skin. Feet only, toes distinctly visible, no shoes."
+  },
+  {
+    "id": 48,
+    "character": "身",
+    "phrase": "身体",
+    "filename": "hanzi-48-shen.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-c10c2361-604c-4dff-a389-6033537bd73f.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One fully clothed smiling preschool child standing facing forward, entire body visible from head to feet, wearing a simple blue t-shirt and shorts, arms slightly spread to make the body silhouette clear."
+  },
+  {
+    "id": 49,
+    "character": "二",
+    "phrase": "两只小鸟",
+    "filename": "hanzi-49-er.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-561af56d-2a75-4d6b-af7d-f935658f7469.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY TWO small friendly birds side by side, one blue and one orange, clear separated silhouettes. No extra birds, eggs or nest."
+  },
+  {
+    "id": 50,
+    "character": "牛",
+    "phrase": "小牛",
+    "filename": "hanzi-50-niu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-2821d3d0-b1cc-467e-9430-b5b176ea46d4.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One cute young cow, full body, white with a few brown patches, short horns, four legs and tail, friendly face, easily recognizable as a cow."
+  },
+  {
+    "id": 51,
+    "character": "羊",
+    "phrase": "小羊",
+    "filename": "hanzi-51-yang.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-6b5c67ab-4dcd-4949-b8dd-5ecf17ba770a.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One cute small sheep, full body, fluffy creamy white wool, brown face and four small legs, friendly face, clear sheep silhouette."
+  },
+  {
+    "id": 52,
+    "character": "六",
+    "phrase": "六朵花",
+    "filename": "hanzi-52-liu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-27b07f29-6283-4a12-ba73-2899574abdb9.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY SIX simple pink tulip blossoms with small stems and leaves, neatly separated in TWO ROWS OF THREE. Every flower easy to count. No extra blossoms or decoration."
+  },
+  {
+    "id": 53,
+    "character": "鱼",
+    "phrase": "小鱼",
+    "filename": "hanzi-53-yu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-987d0de4-f3d0-43f8-abe1-513250e3c732.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One cute orange fish in side profile, clear fins and tail, friendly eye, no water or bubbles."
+  },
+  {
+    "id": 54,
+    "character": "七",
+    "phrase": "七颗星",
+    "filename": "hanzi-54-qi.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-4e3a4a0a-981f-47a3-a595-a1ea6a5558a0.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY SEVEN golden five-point stars, separated and non-overlapping, arranged as FOUR stars in top row and THREE below. No extra stars or sparkles. Clear count."
+  },
+  {
+    "id": 55,
+    "character": "日",
+    "phrase": "日出",
+    "filename": "hanzi-55-ri.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-e78894fb-80fa-4b68-8d4a-2f2effcb596f.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A simple orange sunrise: half of a round orange sun rising above one gently curved green horizon, a few short rays, minimal shapes, clear rising sun scene."
+  },
+  {
+    "id": 56,
+    "character": "云",
+    "phrase": "白云",
+    "filename": "hanzi-56-yun.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-c7817788-9ea1-4bd2-b576-2e9f47fc2684.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One fluffy white cloud with a soft pale-blue outline and simple shading, strong rounded cloud silhouette."
+  },
+  {
+    "id": 57,
+    "character": "风",
+    "phrase": "吹风",
+    "filename": "hanzi-57-feng.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-8d04b5e1-511e-4a06-a857-b6e4c83c93c1.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A small green tree bending gently in the wind, with three simple blue curved wind lines blowing toward it and two loose green leaves. Wind motion immediately clear, minimal shapes."
+  },
+  {
+    "id": 58,
+    "character": "八",
+    "phrase": "八个气球",
+    "filename": "hanzi-58-ba.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-9df90168-de01-4cbb-a096-f416731d04a2.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY EIGHT oval balloons, in two neat rows of FOUR, four red upper balloons and four blue lower balloons, separate silhouettes, each with one short thin string, no extra balloons or decoration."
+  },
+  {
+    "id": 59,
+    "character": "雨",
+    "phrase": "下雨",
+    "filename": "hanzi-59-yu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-46101dd7-c903-4021-ab99-2c289b7c9469.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One fluffy gray-blue cloud dropping five clearly visible blue raindrops below it, simple recognizable rain weather symbol. No lightning, snow, sun or face."
+  },
+  {
+    "id": 60,
+    "character": "雪",
+    "phrase": "下雪",
+    "filename": "hanzi-60-xue.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-069e6e8b-22b9-44d1-9037-81f817ba8b26.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One pale-blue cloud with THREE clearly formed white and blue six-branched snowflakes falling below it. Snow crystals visibly different from rain drops, no lightning."
+  },
+  {
+    "id": 61,
+    "character": "雷",
+    "phrase": "打雷",
+    "filename": "hanzi-61-lei.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-3084e4dc-3b29-4762-962f-5539430912dc.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One round dark gray storm cloud with a short yellow lightning bolt below and two pairs of curved blue sound vibration marks beside the cloud to suggest rumbling thunder. Friendly weather teaching icon, no face, no text."
+  },
+  {
+    "id": 62,
+    "character": "电",
+    "phrase": "闪电",
+    "filename": "hanzi-62-dian.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-a28c01a3-1c96-4b52-93dc-b0e843971656.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One bold angular bright yellow lightning bolt with orange shading and thick dark-brown outline, isolated alone, clear electric lightning symbol, no cloud."
+  },
+  {
+    "id": 63,
+    "character": "田",
+    "phrase": "水田",
+    "filename": "hanzi-63-tian.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-e4ce79fd-06a1-4cfc-b9c6-27f24d90d7a9.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A small square rice paddy field seen from a slight top-down angle, divided into FOUR square flooded plots by brown earthen paths, neat small green rice seedlings in each plot, compact simple icon."
+  },
+  {
+    "id": 64,
+    "character": "木",
+    "phrase": "木头",
+    "filename": "hanzi-64-mu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-10d57056-7bc9-4f29-9223-1f2e70db0257.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One short brown wooden log, lying diagonally, clear pale cut end with a few concentric growth rings, one tiny cut branch stub. Easy to recognize wood."
+  },
+  {
+    "id": 65,
+    "character": "米",
+    "phrase": "大米",
+    "filename": "hanzi-65-mi.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-dc8e4bc1-78f9-4422-8758-73880359fc6d.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One small light-blue bowl full of white uncooked rice grains, with three enlarged rice grains in front. Grains visibly rice-shaped, no chopsticks or extra food."
+  },
+  {
+    "id": 66,
+    "character": "果",
+    "phrase": "水果",
+    "filename": "hanzi-66-guo.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-360d524e-5dd3-4393-8e0b-f3ec3159ecde.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Create one cute square flat children's textbook illustration of a small group of fresh fruit: one red apple, one orange, one purple grape bunch. Thick dark brown outlines, simple soft cheerful colors, centered and recognizable at tiny icon size. No bowl, no words, no numerals, no decoration. Transparent background."
+  },
+  {
+    "id": 67,
+    "character": "十",
+    "phrase": "十颗星",
+    "filename": "hanzi-67-shi.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-0af34232-dc20-402c-9b12-4a5610cc4504.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY TEN simple golden five-point stars in TWO perfectly neat rows of FIVE stars, each separate and equal size. No extra stars or sparkles. Count accurately: 5 in top row, 5 in bottom row."
+  },
+  {
+    "id": 68,
+    "character": "瓜",
+    "phrase": "西瓜",
+    "filename": "hanzi-68-gua.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-2800dbdc-d5e2-4a29-8a1d-14c420119b05.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One clearly recognizable slice of watermelon with red flesh, several black seeds, a white inner rind and thick green outer rind, triangular wedge, no other fruits."
+  },
+  {
+    "id": 69,
+    "character": "苗",
+    "phrase": "树苗",
+    "filename": "hanzi-69-miao.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-4051c01c-90ca-4ae7-9d48-33d900f372d5.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One tiny healthy green tree seedling with a thin stem and four leaves growing from one small mound of brown soil, clear young plant silhouette."
+  },
+  {
+    "id": 70,
+    "character": "明",
+    "phrase": "明亮",
+    "filename": "hanzi-70-ming.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-89b38f65-a469-461a-83ba-85fdb870cde5.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One bright golden sun with simple short thick orange rays evenly surrounding a round yellow center, warm cheerful light, no face, no cloud or landscape."
+  },
+  {
+    "id": 71,
+    "character": "尖",
+    "phrase": "笔尖",
+    "filename": "hanzi-71-jian.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-9f673046-89ab-4b50-806d-8e907bd35d16.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A close-up of ONE sharpened yellow pencil point, diagonal, with its very sharp dark graphite TIP clearly emphasized. Simple wood cone and yellow pencil barrel, no paper, no letters, no arrow."
+  },
+  {
+    "id": 72,
+    "character": "李",
+    "phrase": "李子",
+    "filename": "hanzi-72-li.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-48aba38a-71e6-468d-9987-5ca5de384627.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: Two ripe purple-red PLUMS with one small green leaf, one whole round plum and one cut half showing golden yellow flesh and a single brown stone. Must read as plums, not peaches or apples."
+  },
+  {
+    "id": 73,
+    "character": "姜",
+    "phrase": "生姜",
+    "filename": "hanzi-73-jiang.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-a7d97ccf-080c-42a8-afaa-ccc3a33485b7.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One recognizable knobbly pale tan fresh ginger root, with one cut end showing bright yellow interior, a few natural short root branches. No leaves, no other vegetables."
+  },
+  {
+    "id": 74,
+    "character": "言",
+    "phrase": "发言",
+    "filename": "hanzi-74-yan.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-ea711934-0703-4cf9-816d-a040da7e9d74.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One friendly preschool child, upper body, speaking with one hand slightly raised and one EMPTY rounded speech bubble beside the mouth. Simple clear speaking action, no letters or symbols in bubble."
+  },
+  {
+    "id": 75,
+    "character": "午",
+    "phrase": "中午",
+    "filename": "hanzi-75-wu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-115d69a3-7ab8-410f-90e8-52c63dbbcbfc.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: A simple round analogue clock showing exactly TWELVE O'CLOCK with both hands pointing straight up, twelve short tick marks but NO numerals, with a small golden sun above it indicating noon. No words."
+  },
+  {
+    "id": 76,
+    "character": "弓",
+    "phrase": "弓箭",
+    "filename": "hanzi-76-gong.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-10764889-e3fe-481c-a297-6a0a562475c1.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One simple brown wooden bow with a taut bowstring and one separate short wooden arrow with a rounded gray tip and orange feather fletching beside it. Toy-like friendly schoolbook icon, no people, no target."
+  },
+  {
+    "id": 77,
+    "character": "张",
+    "phrase": "一张纸",
+    "filename": "hanzi-77-zhang.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-8a7cdd3d-e726-41ca-926b-a92db3e951ab.png",
+    "transparentBackground": false,
+    "generator": "built-in image_gen",
+    "prompt": "A simple cute flat preschool flashcard picture of ONE CLEAN BLANK SHEET OF WHITE PAPER, centered, with a folded upper corner and a thick dark brown outline, a little pale blue shading only along the edges. The sheet's entire center is bright opaque pure white and perfectly clean. Pale lavender solid background #F6EEFF. Square composition, paper slightly angled, full silhouette visible. No words, no letters, no drawings, no spots, no dark central shading. This is a regular fully opaque illustration on a pale lavender canvas, not a cutout."
+  },
+  {
+    "id": 78,
+    "character": "许",
+    "phrase": "许愿",
+    "filename": "hanzi-78-xu.png",
+    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-ca389b8b-49b9-4a71-906f-5a4a916c33ce.png",
+    "transparentBackground": true,
+    "generator": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One friendly preschool child, upper body, eyes gently closed and hands clasped together under chin making a wish, one small golden star above the child as a wish symbol. Calm happy hopeful expression, no birthday candles, no text."
+  }
+]

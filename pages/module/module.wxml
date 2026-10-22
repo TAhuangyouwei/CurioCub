@@ -1,0 +1,62 @@
+<scroll-view class="module-page" scroll-y wx:if="{{module}}">
+  <view class="screen module-content">
+    <view class="module-hero" style="--module-color: {{module.color}}">
+      <view class="module-hero-icon">{{module.icon}}</view>
+      <view>
+        <text class="module-hero-title">{{module.title}}</text>
+        <text class="module-hero-subtitle">{{module.subtitle}}</text>
+      </view>
+      <view class="star-pill">⭐ {{stars}}</view>
+    </view>
+
+    <view class="tip-card">
+      <text class="tip-icon">🐻</text>
+      <text>想学哪里就点哪里，也可以随时玩配对复习！</text>
+    </view>
+
+    <button wx:if="{{module.id === 'pinyin'}}" class="workshop-button" bindtap="openPinyinWorkshop">
+      <text class="workshop-title">♪ 拼读小工坊</text>
+      <text class="workshop-subtitle">自己选声母、韵母和声调，拼出新声音</text>
+      <text class="workshop-arrow">›</text>
+    </button>
+
+    <button wx:if="{{module.id === 'math'}}" class="workshop-button math-workshop" bindtap="openMathWorkshop">
+      <text class="workshop-title">火柴棍小工坊</text>
+      <text class="workshop-subtitle">亲手拖一拖，数数、加一加、减一减</text>
+      <text class="workshop-arrow">›</text>
+    </button>
+
+    <view wx:for="{{groups}}" wx:key="index" class="group-card">
+      <view class="group-header">
+        <view>
+          <text class="group-title">第 {{item.number}} 站</text>
+          <text class="group-progress">{{item.completed}} / {{item.total}} 已完成</text>
+        </view>
+        <text class="group-state" wx:if="{{item.complete}}">完成</text>
+        <text class="group-state" wx:else>{{item.completed ? '进行中' : '随时开始'}}</text>
+      </view>
+
+      <view class="unit-list">
+        <view
+          wx:for="{{item.items}}"
+          wx:for-item="unit"
+          wx:key="id"
+          class="unit-row tap-card {{unit.completed ? 'unit-done' : ''}}"
+          bindtap="openLesson"
+          data-unit-id="{{unit.id}}"
+        >
+          <view class="unit-symbol">{{unit.title}}</view>
+          <view class="unit-copy">
+            <text class="unit-phrase">{{unit.phrase}}</text>
+            <text class="unit-helper" wx:if="{{unit.completed}}">已收集星星 ✓</text>
+            <text class="unit-helper" wx:else>点击开始</text>
+          </view>
+          <text class="unit-check" wx:if="{{unit.completed}}">⭐</text>
+          <text class="unit-arrow" wx:else>›</text>
+        </view>
+      </view>
+
+      <button class="review-button" bindtap="openReview" data-group-index="{{item.index}}">拖一拖，配对复习</button>
+    </view>
+  </view>
+</scroll-view>

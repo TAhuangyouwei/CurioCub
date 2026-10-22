@@ -1,0 +1,53 @@
+<view class="screen lesson" wx:if="{{unit}}">
+  <view class="custom-header">
+    <button class="home-button tap-card" bindtap="returnToModule" aria-label="返回{{module.title}}">‹</button>
+    <view class="header-copy">
+      <text class="module-chip" style="background: {{module.color}}">{{module.icon}} {{module.title}}</text>
+      <text class="card-count">第 {{currentNumber}} / {{cardTotal}} 张</text>
+    </view>
+    <text class="done-chip" wx:if="{{completed}}">{{isHanzi ? '已学会 ✓' : '已完成 ✓'}}</text>
+  </view>
+
+  <swiper class="lesson-swiper" current="{{currentIndex}}" duration="260" bindchange="onCardChange">
+    <swiper-item wx:for="{{lessonItems}}" wx:key="id">
+      <view class="lesson-card">
+        <block wx:if="{{isHanzi}}">
+          <view
+            wx:if="{{!hintVisible || item.id !== unit.id}}"
+            class="hint-slot hint-button tap-card"
+            catchtap="showHint"
+            data-unit-id="{{item.id}}"
+            role="button"
+          >💡 提示</view>
+          <image wx:else class="hint-slot scene-image" src="{{item.imageFile}}" mode="aspectFit" />
+        </block>
+        <text wx:else class="scene-icon">{{item.icon}}</text>
+        <text class="big-symbol tap-card" bindtap="playCardAudio">{{item.title}}</text>
+        <text class="scene-phrase">{{item.phrase}}</text>
+      </view>
+    </swiper-item>
+  </swiper>
+  <text class="swipe-hint">← 左右滑动，切换已学和新字 →</text>
+
+  <view class="listen-card">
+    <view>
+      <text class="listen-title">听一听，跟着读</text>
+      <text class="listen-subtitle" wx:if="{{isHanzi}}">点击大字或下面按钮都能听发音</text>
+      <text class="listen-subtitle" wx:else>点一下小喇叭，仔细听</text>
+    </view>
+    <text class="listen-bear">🐻</text>
+  </view>
+
+  <view class="audio-actions" wx:if="{{isHanzi}}">
+    <button class="audio-button tap-card" bindtap="playCharacterAudio">🔊 听“大字”</button>
+    <button class="audio-button light tap-card" bindtap="playPhraseAudio">🔊 听“词语”</button>
+  </view>
+  <button wx:else class="audio-button main-audio tap-card" bindtap="playMainAudio">🔊 点这里听声音</button>
+
+  <view class="lesson-tip">
+    <text wx:if="{{isHanzi}}">{{completed ? '✨ 已经记下啦，左右滑动继续认识新字。' : '✨ 认识这个字了吗？点“已学会”记下来。'}}</text>
+    <text wx:else>✨ 学会了吗？Cubi 准备了一个小挑战。</text>
+  </view>
+  <button wx:if="{{isHanzi}}" class="challenge-button" bindtap="markLearned" disabled="{{completed}}">{{completed ? '已学会 ✓' : '已学会'}}</button>
+  <button wx:else class="challenge-button" bindtap="startChallenge">去闯关</button>
+</view>

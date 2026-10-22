@@ -1,0 +1,22 @@
+.review-screen { padding: 40rpx 32rpx 72rpx; }
+.review-title { display: block; color: #385771; font-size: 39rpx; font-weight: 800; }
+.review-subtitle { display: block; margin-top: 9rpx; color: #71849a; font-size: 24rpx; }
+.progress-line { display: flex; justify-content: space-between; margin-top: 27rpx; color: #5e7890; font-size: 23rpx; font-weight: 700; }
+.match-card { margin-top: 24rpx; padding: 30rpx 28rpx; overflow: hidden; border-radius: 37rpx; background: #fff; box-shadow: 0 13rpx 28rpx rgba(80, 105, 140, 0.12); }
+.match-area { position: relative; width: 100%; }
+.drop-target { position: absolute; display: flex; width: 250rpx; height: 92rpx; box-sizing: border-box; align-items: center; justify-content: center; gap: 10rpx; border: 4rpx dashed #aac1d5; border-radius: 22rpx; color: #59748c; background: #f4f9fc; font-size: 23rpx; font-weight: 700; }
+.drop-target.paired { border-style: solid; border-color: #83c8ae; color: #43816d; background: #e2f6eb; }
+.target-icon { font-size: 33rpx; }
+.drag-chip { z-index: 2; display: flex; width: 150rpx; height: 92rpx; align-items: center; justify-content: center; border-radius: 22rpx; color: #fff; background: #6f89de; box-shadow: 0 8rpx 15rpx rgba(81, 108, 189, 0.24); font-size: 37rpx; font-weight: 800; }
+.chip-paired { background: #69b596; box-shadow: none; }
+.drag-tip, .success-tip { margin: 27rpx 0; padding: 20rpx; border-radius: 22rpx; color: #6a7e93; background: #edf6fb; text-align: center; font-size: 23rpx; line-height: 1.45; }
+.success-tip { color: #3e7e6b; background: #e1f5ea; }
+.pair-button { border-radius: 30rpx; color: #fff; background: #ec9a6e; font-size: 29rpx; font-weight: 800; }
+.hanzi-review { padding-top: 24rpx; }
+.hanzi-review .review-title { font-size: 34rpx; }
+.hanzi-review .progress-line { margin-top: 16rpx; }
+.hanzi-review .match-card { margin-top: 16rpx; padding-top: 20rpx; padding-bottom: 20rpx; }
+.hanzi-review .drag-chip { font-size: 26px; }
+.target-pinyin { font-size: 20px; font-weight: 600; }
+.paired-character { color: #43816d; font-size: 22px; }
+.hanzi-chip-paired { visibility: hidden; }

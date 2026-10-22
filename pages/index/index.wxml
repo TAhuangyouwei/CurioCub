@@ -1,0 +1,63 @@
+<scroll-view class="home" scroll-y>
+  <view class="screen home-content">
+    <view class="sky-orb orb-one"></view>
+    <view class="sky-orb orb-two"></view>
+
+    <view class="hero">
+      <view class="hero-copy">
+        <text class="eyebrow">CurioCub · 星光森林</text>
+        <text class="hero-title">和 Cubi 一起</text>
+        <text class="hero-title">发现新知识</text>
+        <button class="continue-button" bindtap="continueLearning">继续探险</button>
+      </view>
+      <image class="mascot" src="../../assets/images/cubi-mascot-light.png" mode="widthFix" />
+    </view>
+
+    <view class="reward-row">
+      <view class="reward-card star-card">
+        <text class="reward-icon">⭐</text>
+        <view>
+          <text class="reward-number">{{stars}}</text>
+          <text class="reward-label">探险星星</text>
+        </view>
+      </view>
+      <view class="reward-card sticker-card tap-card" bindtap="openStickers">
+        <text class="reward-icon">🦊</text>
+        <view>
+          <text class="reward-number">{{stickers}} / {{stickerTotal}}</text>
+          <text class="reward-label">动物贴纸 ›</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="section-heading">
+      <view>
+        <text class="section-title">今天学什么？</text>
+        <text class="section-subtitle">每完成一关，收集 1 颗星星</text>
+      </view>
+    </view>
+
+    <view class="module-grid">
+      <view
+        wx:for="{{modules}}"
+        wx:key="id"
+        class="module-card tap-card"
+        bindtap="openModule"
+        data-module-id="{{item.id}}"
+        style="--card-color: {{item.color}}"
+      >
+        <view class="module-icon">{{item.icon}}</view>
+        <text class="module-title">{{item.title}}</text>
+        <text class="module-subtitle">{{item.subtitle}}</text>
+        <view class="progress-track">
+          <view class="progress-fill" style="width: {{item.percent}}%"></view>
+        </view>
+        <text class="progress-copy">{{item.completed}} / {{item.total}} 关</text>
+      </view>
+    </view>
+
+    <view class="gentle-note">
+      <text>🌿 轻轻学习，慢慢长大</text>
+    </view>
+  </view>
+</scroll-view>

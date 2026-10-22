@@ -1,0 +1,23 @@
+<view class="screen reward-screen">
+  <view class="sparkle one">✦</view>
+  <view class="sparkle two">✧</view>
+  <view class="reward-bear">🐻</view>
+  <text class="reward-title">太棒啦！</text>
+  <text class="reward-subtitle">Cubi 为你鼓掌</text>
+
+  <view class="star-badge">⭐</view>
+  <text class="star-copy">你已经收集 {{stars}} 颗星星</text>
+
+  <view class="sticker-message" wx:if="{{newSticker}}">
+    <text class="sticker-big">🎁</text>
+    <view>
+      <text class="sticker-title">解锁一张动物贴纸！</text>
+      <text class="sticker-subtitle">每 4 颗星星，都会有新朋友</text>
+    </view>
+    <button class="see-sticker" bindtap="openStickers">看看</button>
+  </view>
+  <view class="kind-message" wx:else>再收集 {{4 - (stars % 4)}} 颗星星，就有新贴纸啦！</view>
+
+  <button class="next-button" bindtap="continueLearning">{{isLast ? '回到学习地图' : '下一张卡片'}}</button>
+  <button class="map-button" bindtap="backToMap">稍后再学</button>
+</view>

@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/module/module",
+    "pages/lesson/lesson",
+    "pages/challenge/challenge",
+    "pages/reward/reward",
+    "pages/review/review",
+    "pages/stickers/stickers"
+  ],
+  "subpackages": [
+    { "root": "packages/math-sticks", "name": "math-sticks", "pages": ["pages/workshop/index"] },
+    { "root": "packages/hanzi-extra", "name": "hanzi-extra", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/pinyin-basic-v2", "name": "pinyin-basic-v2", "pages": ["pages/loader/index"] },
+    { "root": "packages/pinyin-01", "name": "pinyin-01", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-02", "name": "pinyin-02", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-03", "name": "pinyin-03", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-04", "name": "pinyin-04", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-05", "name": "pinyin-05", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-06", "name": "pinyin-06", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-07", "name": "pinyin-07", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-08", "name": "pinyin-08", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-09", "name": "pinyin-09", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-10", "name": "pinyin-10", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-11", "name": "pinyin-11", "pages": ["pages/loader/index", "pages/builder/index"] },
+    { "root": "packages/pinyin-12", "name": "pinyin-12", "pages": ["pages/loader/index", "pages/builder/index"] }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "CurioCub",
+    "navigationBarBackgroundColor": "#eaf5ff",
+    "backgroundColor": "#eaf5ff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

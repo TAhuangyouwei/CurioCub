@@ -1,0 +1,26 @@
+<view class="screen challenge" wx:if="{{unit}}">
+  <view class="challenge-header">
+    <text class="challenge-label">Cubi 的小挑战</text>
+    <text class="challenge-stars">⭐ 答对就收集星星</text>
+  </view>
+
+  <view class="question-card">
+    <image wx:if="{{isHanzi}}" class="question-image" src="{{unit.imageFile}}" mode="aspectFit" />
+    <text wx:else class="question-icon">{{unit.icon}}</text>
+    <text class="question-title">{{unit.question}}</text>
+    <text class="question-hint">先点小喇叭，再选答案</text>
+    <button class="listen-round tap-card" bindtap="playQuestionAudio">🔊</button>
+  </view>
+
+  <view class="answer-list">
+    <button
+      wx:for="{{options}}"
+      wx:key="*this"
+      class="answer-button tap-card {{selected === item ? 'selected' : ''}}"
+      bindtap="chooseAnswer"
+      data-answer="{{item}}"
+    >{{item}}</button>
+  </view>
+
+  <view class="feedback {{feedbackKind}}" wx:if="{{feedback}}">{{feedback}}</view>
+</view>

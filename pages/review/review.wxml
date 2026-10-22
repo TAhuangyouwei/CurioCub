@@ -1,0 +1,53 @@
+<view class="screen review-screen {{isHanzi ? 'hanzi-review' : ''}}" wx:if="{{matches.length}}">
+  <view class="review-header">
+    <text class="review-title">拖一拖，配对复习</text>
+    <text class="review-subtitle">{{isHanzi ? '把上方的汉字拖到下方对应的拼音' : '把左边的文字拖到右边对应的位置'}}</text>
+  </view>
+
+  <view class="progress-line">
+    <text>{{module.title}}</text>
+    <text>已完成 {{completedCount}} / {{matches.length}}</text>
+  </view>
+
+  <view class="match-card">
+    <movable-area class="match-area" style="height: {{boardHeight}}px;">
+      <view
+        wx:for="{{targets}}"
+        wx:key="id"
+        class="drop-target {{item.paired ? 'paired' : ''}}"
+        style="left: {{item.x}}px; top: {{item.y}}px; width: {{metrics.targetWidth}}px; height: {{metrics.targetHeight}}px;"
+      >
+        <block wx:if="{{isHanzi}}">
+          <text wx:if="{{item.paired}}" class="paired-character">{{item.title}}</text>
+          <text class="target-pinyin">{{item.pinyin}}</text>
+        </block>
+        <block wx:else>
+          <text class="target-icon">{{item.icon}}</text>
+          <text>{{item.phrase}}</text>
+        </block>
+      </view>
+
+      <movable-view
+        wx:for="{{matches}}"
+        wx:key="id"
+        class="drag-chip {{item.paired ? 'chip-paired' : ''}} {{isHanzi && item.paired ? 'hanzi-chip-paired' : ''}}"
+        style="width: {{metrics.chipWidth}}px; height: {{metrics.chipHeight}}px;"
+        direction="all"
+        x="{{item.x}}"
+        y="{{item.y}}"
+        disabled="{{item.paired}}"
+        damping="22"
+        friction="2"
+        data-id="{{item.id}}"
+        bindchange="onDragChange"
+        bindtouchend="onDragEnd"
+      >
+        <text>{{item.title}}</text>
+      </movable-view>
+    </movable-area>
+  </view>
+
+  <view class="drag-tip" wx:if="{{!allPaired}}">👆 放到正确区域会自动吸附；放错会回到原位</view>
+  <view class="success-tip" wx:else>🎉 全部配对完成，做得真棒！</view>
+  <button wx:if="{{allPaired}}" class="pair-button" bindtap="backToMap">完成复习</button>
+</view>

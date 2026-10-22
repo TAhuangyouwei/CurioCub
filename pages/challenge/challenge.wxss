@@ -1,0 +1,29 @@
+.challenge { padding: 37rpx 32rpx 72rpx; }
+.challenge-header { display: flex; align-items: center; justify-content: space-between; }
+.challenge-label { color: #385771; font-size: 34rpx; font-weight: 800; }
+.challenge-stars { color: #997e31; font-size: 22rpx; }
+
+.question-card {
+  position: relative;
+  min-height: 335rpx;
+  box-sizing: border-box;
+  margin: 35rpx 0 34rpx;
+  padding: 42rpx 42rpx 35rpx;
+  overflow: hidden;
+  border-radius: 39rpx;
+  background: linear-gradient(145deg, #e4f6ff, #f4edff);
+  box-shadow: 0 15rpx 30rpx rgba(94, 104, 149, 0.14);
+}
+.question-icon { position: absolute; top: 26rpx; right: 35rpx; font-size: 62rpx; }
+.question-image { position: absolute; top: 24rpx; right: 30rpx; width: 112rpx; height: 112rpx; }
+.question-title { display: block; width: 78%; color: #314e66; font-size: 40rpx; line-height: 1.28; font-weight: 800; }
+.question-hint { display: block; margin-top: 15rpx; color: #6b8395; font-size: 24rpx; }
+.listen-round { position: absolute; bottom: 27rpx; left: 42rpx; width: 88rpx; height: 88rpx; padding: 0; border-radius: 50%; color: #fff; background: #5f83dd; font-size: 35rpx; line-height: 88rpx; }
+
+.answer-list { display: flex; flex-direction: column; gap: 18rpx; }
+.answer-button { width: 100%; min-height: 91rpx; border: 3rpx solid #e3eaf2; border-radius: 26rpx; color: #38566d; background: #fff; font-size: 32rpx; font-weight: 800; line-height: 91rpx; box-shadow: 0 7rpx 15rpx rgba(80, 105, 140, 0.08); }
+.answer-button.selected { border-color: #7b9be8; color: #4b6bc0; background: #edf3ff; }
+
+.feedback { margin-top: 28rpx; padding: 22rpx; border-radius: 24rpx; text-align: center; font-size: 27rpx; font-weight: 800; }
+.feedback.retry { color: #ae7045; background: #fff0df; }
+.feedback.success { color: #3f806e; background: #e2f6eb; }
