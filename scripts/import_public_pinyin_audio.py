@@ -29,11 +29,8 @@ FINAL_SOURCES = {
     "ang": "ang", "ing": "ying",
 }
 
-AUDIO_FILTER = (
-    "silenceremove="
-    "start_periods=1:start_silence=0.02:start_threshold=-45dB:"
-    "stop_periods=1:stop_silence=0.06:stop_threshold=-45dB"
-)
+# Preserve quiet consonants and pauses; never treat a short pause as the end.
+AUDIO_FILTER = 'apad=pad_dur=0.12'
 
 
 def source_key(project_key: str) -> str:

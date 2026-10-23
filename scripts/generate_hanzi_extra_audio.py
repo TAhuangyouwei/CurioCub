@@ -3,53 +3,47 @@
 import argparse
 import asyncio
 import json
-import shutil
 import subprocess
+import tempfile
 from pathlib import Path
 
-import edge_tts
+from import_public_pinyin_audio import convert, source_key
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'packages' / 'hanzi-extra' / 'audio'
-SILENCE_FILTER = (
-    'silenceremove=start_periods=1:start_silence=0.02:start_threshold=-45dB:'
-    'stop_periods=1:stop_silence=0.06:stop_threshold=-45dB'
-)
 
 
 def read_units():
     script = """
     const rows = require('./data/hanzi-extra')
     const { getModule } = require('./data/learning')
-    const { getPinyinLocalAudio } = require('./data/pinyin-local-audio')
     const units = getModule('hanzi').items.slice(-rows.length)
     process.stdout.write(JSON.stringify(rows.map((row, i) => ({
       id: units[i].id, phrase: row[1],
-      characterSource: getPinyinLocalAudio(row[4]).filePath
+      pronunciation: row[4]
     }))))
     """
     result = subprocess.run(['node', '-e', script], cwd=ROOT, check=True, capture_output=True)
     return json.loads(result.stdout.decode('utf-8'))
 
 
-async def build_phrase(unit, ffmpeg):
+async def build_phrase(unit, ffmpeg, force=False):
+    import edge_tts
+
     target = OUTPUT / f"{unit['id']}-phrase.mp3"
-    if target.exists() and target.stat().st_size > 0:
+    if not force and target.exists() and target.stat().st_size > 0:
         return
-    source = OUTPUT / f"{unit['id']}-phrase-source.mp3"
     for attempt in range(3):
         try:
-            await edge_tts.Communicate(
-                text=unit['phrase'], voice='zh-CN-XiaoxiaoNeural', rate='-5%'
-            ).save(str(source))
-            subprocess.run([
-                str(ffmpeg), '-y', '-hide_banner', '-loglevel', 'error',
-                '-i', str(source), '-af', SILENCE_FILTER,
-                '-ar', '24000', '-ac', '1', '-b:a', '32k',
-                '-map_metadata', '-1', str(target),
-            ], check=True)
-            source.unlink()
+            with tempfile.TemporaryDirectory(prefix='curiocub-phrase-') as directory:
+                source = Path(directory) / 'source.mp3'
+                encoded = Path(directory) / 'encoded.mp3'
+                await edge_tts.Communicate(
+                    text=unit['phrase'], voice='zh-CN-XiaoxiaoNeural', rate='-5%'
+                ).save(str(source))
+                convert(ffmpeg, source, encoded)
+                target.write_bytes(encoded.read_bytes())
             print(f"Ready {target.name}", flush=True)
             return
         except Exception:
@@ -61,19 +55,22 @@ async def build_phrase(unit, ffmpeg):
 async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--ffmpeg', type=Path, required=True)
+    parser.add_argument('--pinyin-source', type=Path, required=True,
+                        help='Original public-domain mp3 directory, before any trimming')
+    parser.add_argument('--force', action='store_true', help='Regenerate existing phrase clips')
     args = parser.parse_args()
     OUTPUT.mkdir(parents=True, exist_ok=True)
     units = read_units()
     for unit in units:
-        source = ROOT / unit['characterSource'].lstrip('/')
+        source = args.pinyin_source / f"{source_key(unit['pronunciation'])}.mp3"
         if not source.is_file():
             raise FileNotFoundError(f"Missing pronunciation: {source}")
-        shutil.copyfile(source, OUTPUT / f"{unit['id']}-character.mp3")
+        convert(args.ffmpeg, source, OUTPUT / f"{unit['id']}-character.mp3")
     semaphore = asyncio.Semaphore(3)
 
     async def limited(unit):
         async with semaphore:
-            await build_phrase(unit, args.ffmpeg)
+            await build_phrase(unit, args.ffmpeg, args.force)
 
     await asyncio.gather(*(limited(unit) for unit in units))
     print(f"Complete: {len(units)} character clips + {len(units)} phrase clips", flush=True)
