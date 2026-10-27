@@ -1,0 +1,40 @@
+.trace-screen { display: flex; flex-direction: column; box-sizing: border-box; padding: 12px 12px 0; overflow: hidden; }
+.trace-meta { display: flex; flex: none; height: 36px; align-items: center; gap: 10px; }
+.trace-pinyin { color: #526f9a; font-size: 22px; font-weight: 700; }
+.trace-phrase { flex: 1; min-width: 0; overflow: hidden; color: #557087; font-size: 16px; text-overflow: ellipsis; white-space: nowrap; }
+.trace-count { color: #71849a; font-size: 12px; white-space: nowrap; }
+.trace-tools { display: flex; flex: none; height: 40px; align-items: center; justify-content: space-between; gap: 4px; }
+.trace-screen .tool-button { flex: none; width: auto; margin: 0; min-height: 40px; padding: 0 8px; color: #526f9a; background: #e0eaff; font-size: 14px; line-height: 40px; border-radius: 12px; white-space: nowrap; }
+.auto-read { display: flex; align-items: center; color: #557087; font-size: 12px; white-space: nowrap; }
+.auto-read switch { transform: scale(0.72); transform-origin: right center; margin-left: -8px; }
+.trace-guide-help { display: flex; flex: none; height: 40px; align-items: center; justify-content: space-between; gap: 4px; color: #557087; font-size: 13px; }
+.trace-screen .guide-play { flex: none; width: auto; min-height: 40px; margin: 0; padding: 0 8px; color: #36866c; background: transparent; font-size: 14px; line-height: 40px; white-space: nowrap; }
+.trace-feedback { display: flex; flex: none; height: 32px; align-items: center; justify-content: center; color: #71849a; font-size: 12px; text-align: center; line-height: 16px; }
+.trace-feedback.success { color: #278765; }
+.trace-stage { display: flex; flex: 1; min-height: 0; align-items: center; justify-content: center; }
+.trace-board { position: relative; flex: none; overflow: hidden; border-radius: 12px; background: #fffefa; box-shadow: inset 0 0 0 2px #e4bbae; }
+.grid-horizontal, .grid-vertical { position: absolute; pointer-events: none; }
+.grid-horizontal { top: 50%; left: 0; right: 0; border-top: 1px dashed #e7c9c1; }
+.grid-vertical { top: 0; bottom: 0; left: 50%; border-left: 1px dashed #e7c9c1; }
+.trace-canvas { position: absolute; inset: 0; z-index: 1; display: block; width: 100%; height: 100%; touch-action: none; }
+.stroke-origin { position: absolute; z-index: 2; width: 0; height: 0; pointer-events: none; }
+.stroke-dot { position: absolute; left: -10px; top: -10px; width: 20px; height: 20px; border-radius: 50%; color: #fff; background: #279b73; font-size: 12px; font-weight: 700; line-height: 20px; text-align: center; box-shadow: 0 0 0 3px #ffffffcc; }
+.stroke-arrow { position: absolute; left: 0; top: -2px; width: 30px; height: 4px; background: #279b73; transform-origin: 0 50%; }
+.stroke-arrow::after { position: absolute; right: -1px; top: -4px; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 9px solid #279b73; content: ""; }
+.stroke-demo { position: absolute; z-index: 3; width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 50%; background: #e88931; box-shadow: 0 0 0 5px #f6aa5640; pointer-events: none; }
+.trace-controls { flex: none; margin-top: 8px; }
+.trace-actions { display: flex; gap: 12px; }
+.character-actions { margin-top: 10px; }
+.trace-screen .trace-action { flex: 1; width: 0; min-width: 0; height: 48px; margin: 0; padding: 0; border-radius: 14px; font-size: 18px; font-weight: 700; line-height: 48px; white-space: nowrap; }
+.trace-action.secondary { color: #526f9a; background: #e0eaff; }
+.trace-action.restart { color: #99613c; background: #ffe6c6; }
+.trace-action.primary { color: #fff; background: #5f83dd; }
+.trace-action[disabled] { color: #a0aab7; background: #e9edf2; }
+.hint-backdrop { position: fixed; inset: 0; z-index: 20; display: flex; align-items: center; justify-content: center; padding: 20px; background: #27445d88; }
+.hint-panel { box-sizing: border-box; width: 100%; max-width: 420px; max-height: 100%; overflow-y: auto; padding: 20px; border-radius: 24px; background: #fffefa; text-align: center; }
+.hint-title, .hint-phrase { display: block; color: #27445d; font-size: 24px; font-weight: 700; }
+.hint-image { display: block; width: 100%; height: 28vh; margin: 12px auto; }
+.hint-icon { display: block; margin: 16px 0; color: #557087; font-size: 36px; }
+.hint-phrase { margin-bottom: 16px; font-size: 22px; }
+.hint-panel .trace-action { width: 100%; }
+.trace-screen .hint-close { margin-top: 10px; }

@@ -5,12 +5,14 @@
 }
 
 .custom-header { display: flex; min-height: calc(74 * var(--ui-unit)); align-items: center; justify-content: space-between; }
-.home-button { width: calc(68 * var(--ui-unit)); height: calc(68 * var(--ui-unit)); margin: 0; padding: 0; border-radius: calc(34 * var(--ui-unit)); color: #46647e; background: #fff; font-size: calc(51 * var(--ui-unit)); font-weight: 400; line-height: calc(58 * var(--ui-unit)); box-shadow: 0 calc(7 * var(--ui-unit)) calc(16 * var(--ui-unit)) rgba(80, 105, 140, 0.12); }
-.header-copy { display: flex; flex: 1; align-items: center; gap: calc(12 * var(--ui-unit)); padding-left: calc(18 * var(--ui-unit)); }
+.lesson .home-button { flex: none; width: calc(68 * var(--ui-unit)); height: calc(68 * var(--ui-unit)); margin: 0; padding: 0; border-radius: calc(34 * var(--ui-unit)); color: #46647e; background: #fff; font-size: calc(51 * var(--ui-unit)); font-weight: 400; line-height: calc(58 * var(--ui-unit)); box-shadow: 0 calc(7 * var(--ui-unit)) calc(16 * var(--ui-unit)) rgba(80, 105, 140, 0.12); }
+.header-copy { display: flex; flex: 1; min-width: 0; flex-wrap: wrap; align-items: center; gap: calc(12 * var(--ui-unit)); padding: 0 calc(10 * var(--ui-unit)) 0 calc(18 * var(--ui-unit)); }
 .module-chip, .done-chip { padding: calc(10 * var(--ui-unit)) calc(15 * var(--ui-unit)); border-radius: calc(20 * var(--ui-unit)); color: #fff; font-size: calc(21 * var(--ui-unit)); font-weight: 700; }
 .done-chip { color: #4d8b79; background: #e3f6ed; }
 .unlearned-chip { color: #a67438; background: #fff0db; }
+.unseen-chip { color: #71849a; background: #edf0f4; }
 .card-count { color: #71849a; font-size: calc(21 * var(--ui-unit)); }
+.module-chip, .done-chip, .card-count { flex: none; white-space: nowrap; }
 
 .lesson-swiper { height: calc(470 * var(--ui-unit)); margin-top: calc(25 * var(--ui-unit)); }
 .lesson-card {
@@ -36,6 +38,7 @@
 .scene-phrase { margin-top: calc(18 * var(--ui-unit)); color: #557087; font-size: calc(35 * var(--ui-unit)); font-weight: 700; }
 .swipe-hint { display: block; margin: calc(-3 * var(--ui-unit)) 0 calc(22 * var(--ui-unit)); color: #8191a1; text-align: center; font-size: calc(21 * var(--ui-unit)); }
 .trace-button { margin: 0 0 calc(22 * var(--ui-unit)); border-radius: calc(28 * var(--ui-unit)); color: #99613c; background: #fff0d9; font-size: calc(29 * var(--ui-unit)); font-weight: 800; }
+.lesson .trace-button, .lesson .challenge-button, .lesson .main-audio { width: 100%; min-height: 44px; padding: 11px 12px; line-height: 1.5; }
 
 .listen-card {
   display: flex;
@@ -51,11 +54,15 @@
 
 .audio-actions { display: flex; gap: calc(18 * var(--ui-unit)); margin-top: calc(25 * var(--ui-unit)); }
 .audio-button { flex: 1; margin: 0; border-radius: calc(28 * var(--ui-unit)); color: #fff; background: #5f83dd; font-size: calc(25 * var(--ui-unit)); font-weight: 700; }
+.audio-actions .audio-button { width: 0; min-width: 0; min-height: 44px; padding: 11px 6px; line-height: 1.5; }
 .audio-button.light { color: #526f9a; background: #e8efff; }
 .main-audio { display: block; width: 100%; margin-top: calc(25 * var(--ui-unit)); }
 
 .lesson-tip { margin: calc(33 * var(--ui-unit)) 0 calc(16 * var(--ui-unit)); color: #6a7f94; text-align: center; font-size: calc(24 * var(--ui-unit)); }
 .challenge-button { border-radius: calc(31 * var(--ui-unit)); color: #fff; background: #ec9a6e; font-size: calc(29 * var(--ui-unit)); font-weight: 800; }
-.challenge-button.is-learned { color: #4d8b79; background: #e3f6ed; }
-.unlearned-button { margin-top: calc(16 * var(--ui-unit)); border-radius: calc(31 * var(--ui-unit)); color: #a67438; background: #fff0db; font-size: calc(27 * var(--ui-unit)); font-weight: 700; }
-.unlearned-button[disabled] { color: #a67438; background: #fff0db; }
+.learning-status { display: flex; gap: calc(12 * var(--ui-unit)); }
+.learning-status .status-button { flex: 1; width: 0; min-width: 0; min-height: 44px; margin: 0; padding: 11px 0; border: calc(3 * var(--ui-unit)) solid transparent; border-radius: calc(22 * var(--ui-unit)); color: #71849a; background: #edf0f4; font-size: calc(25 * var(--ui-unit)); font-weight: 700; line-height: 1.5; white-space: nowrap; }
+.status-button.learned { color: #4d8b79; background: #e3f6ed; }
+.status-button.unlearned { color: #a67438; background: #fff0db; }
+.status-button.selected { border-color: currentColor; }
+.auto-read-setting { display: flex; align-items: center; justify-content: space-between; margin-bottom: calc(16 * var(--ui-unit)); color: #557087; font-size: calc(25 * var(--ui-unit)); }

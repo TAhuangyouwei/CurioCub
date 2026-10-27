@@ -9,7 +9,7 @@ const app = { globalData: { audio: { stop() {} }, lessonRequest: null } }
 let redirect = null
 global.getApp = () => app
 global.wx = {
-  getStorageSync() { return saved },
+  getStorageSync(key) { return key === 'curiocub-hanzi-settings-v1' ? { autoRead: false } : saved },
   setStorageSync(key, value) { saved = JSON.parse(JSON.stringify(value)) },
   redirectTo(options) { redirect = options.url }
 }
@@ -37,8 +37,8 @@ assert.strictEqual(firstStationEnd.data.hintVisible, false)
 assert.strictEqual(firstStationEnd.data.completed, false)
 firstStationEnd.onCardChange({ detail: { current: 9 } })
 assert.strictEqual(firstStationEnd.data.unit.id, 'hanzi-10', '第二站首字应能反向滑回第一站末字')
-assert.strictEqual(firstStationEnd.data.completed, false, '点过提示的字应取消已学会状态')
-assert.strictEqual(firstStationEnd.data.unlearned, true, '滑回来后应保留未学会状态')
+assert.strictEqual(firstStationEnd.data.completed, true, '看提示和滑动后仍保留主动标记的已学会状态')
+assert.strictEqual(firstStationEnd.data.unlearned, false)
 
 for (let boundary = hanzi.groupSize; boundary < hanzi.items.length; boundary += hanzi.groupSize) {
   for (const [from, to] of [[boundary - 1, boundary], [boundary, boundary - 1]]) {

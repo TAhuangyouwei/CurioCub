@@ -11,7 +11,7 @@ global.Page = (definition) => { pageDefinition = definition }
 global.getApp = () => ({ globalData: { audio: { stop() {} }, lessonRequest: null } })
 let navigation = null
 global.wx = {
-  getStorageSync() { return null },
+  getStorageSync(key) { return key === 'curiocub-hanzi-settings-v1' ? { autoRead: false } : null },
   setStorageSync() {},
   showToast() {},
   reLaunch() {},

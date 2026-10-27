@@ -1,0 +1,27 @@
+const assert = require('assert')
+const { getModule } = require('../data/learning')
+const store = new Map()
+global.wx = {
+  getStorageSync: (key) => store.get(key),
+  setStorageSync: (key, value) => store.set(key, JSON.parse(JSON.stringify(value)))
+}
+const { getHanziSettings, saveRange, exitRange, setAutoRead, studyUnits } = require('../utils/hanzi-settings')
+const units = getModule('hanzi').items
+assert.strictEqual(getHanziSettings().autoRead, true)
+assert.deepStrictEqual(studyUnits(units), units)
+assert.strictEqual(saveRange(units[9].id, units[2].id), false, '倒序范围不得保存')
+assert.strictEqual(saveRange('invalid', units[2].id), false)
+assert(saveRange(units[2].id, units[9].id))
+assert.deepStrictEqual(studyUnits(units).map(u => u.id), units.slice(2, 10).map(u => u.id))
+setAutoRead(false)
+assert.strictEqual(getHanziSettings().autoRead, false)
+assert.strictEqual(studyUnits(units).length, 8, '声音开关不能清空学习范围')
+saveRange(units[39].id, units[40].id)
+assert.strictEqual(getHanziSettings().autoRead, false, '修改范围不能重置声音开关')
+assert.strictEqual(studyUnits(units).length, 2, '范围可以跨资源包')
+saveRange(units[5].id, units[5].id)
+assert.strictEqual(studyUnits(units).length, 1, '支持单字练习')
+exitRange()
+assert.deepStrictEqual(studyUnits(units), units)
+assert.strictEqual(getHanziSettings().autoRead, false)
+console.log('学习设置检查通过：默认值、持久化、范围校验、跨包/单字范围、退出与独立声音开关。')

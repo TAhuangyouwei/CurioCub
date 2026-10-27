@@ -1,0 +1,27 @@
+<view class="range-page">
+  <view class="range-header">
+    <text class="range-heading">{{selecting === 'end' ? '再点结束字' : rangeReady ? '已选好范围，可保存或重新点选' : '先点起始字，再点结束字'}}</text>
+    <text class="range-description">按字表顺序，选中的整段都会高亮；同一个字点两次可单字练习。</text>
+    <view class="status-legend"><text class="unseen">● 未学习</text><text class="learned">● 已学会</text><text class="unlearned">● 未学会</text></view>
+  </view>
+  <scroll-view class="range-scroll" scroll-y scroll-into-view="{{initialAnchor}}">
+    <view class="range-grid">
+      <view wx:for="{{units}}" wx:key="id" id="char-{{index}}"
+        class="range-cell {{item.status}} {{rangeCount && index >= rangeStart && index <= rangeEnd ? 'in-range' : ''}} {{rangeCount && (index === rangeStart || index === rangeEnd) ? 'endpoint' : ''}}"
+        bindtap="selectCharacter" data-index="{{index}}" role="button" aria-label="{{index + 1}}号，{{item.title}}，{{item.statusLabel}}">
+        <text class="cell-number">{{index + 1}}</text><text class="cell-character">{{item.title}}</text>
+        <text class="cell-state">●</text>
+        <text wx:if="{{rangeCount && (index === rangeStart || index === rangeEnd)}}" class="cell-endpoint">{{index === rangeStart ? (rangeStart === rangeEnd && rangeReady ? '起止' : '起') : '止'}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="range-footer">
+    <view class="range-endpoints">
+      <view><text class="selection-label">起始字</text><text class="selection-summary">{{rangeCount ? (rangeStart + 1) + ' · ' + units[rangeStart].title : '待选择'}}</text></view>
+      <text class="selection-arrow">→</text>
+      <view><text class="selection-label">结束字</text><text class="selection-summary">{{rangeCount && rangeReady ? (rangeEnd + 1) + ' · ' + units[rangeEnd].title : '待选择'}}</text></view>
+    </view>
+    <text class="selection-count">{{selecting === 'end' ? '起始字已选，请再点一个结束字' : rangeReady ? '包含首尾，共 ' + rangeCount + ' 个字；下次点击可重新选择' : '选好后只在这个范围内循环学习'}}</text>
+    <button class="save-range" disabled="{{!rangeReady}}" bindtap="saveAndStart">保存并开始学习</button>
+  </view>
+</view>

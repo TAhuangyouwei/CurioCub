@@ -9,14 +9,13 @@ const {
   getAvailableTones,
   getAvailableThreeEndings,
   getExample,
-  findFirstAvailableTone,
+  composeBase,
   formatPinyin
 } = require('../../data/pinyin-builder')
 const { getPinyinPackage } = require('../../data/pinyin-local-audio')
 const {
   speakLocalPinyin,
   speakBasicPinyin,
-  speakTonedBasicPinyin,
   speakPinyinSequence
 } = require('../../utils/pinyin-local-audio')
 const { stopAudio } = require('../../utils/audio')
@@ -31,13 +30,15 @@ function buildResult(initial, final, preferredTone) {
   const availableTones = getAvailableTones(initial, final)
   const selectedTone = availableTones.some((tone) => tone.value === preferredTone && tone.available)
     ? preferredTone
-    : findFirstAvailableTone(initial, final)
-  const example = getExample(initial, final, selectedTone)
+    : 0
+  const hasCombination = availableTones.some(tone => tone.available)
+  const example = selectedTone ? getExample(initial, final, selectedTone) : null
   return {
     tones: availableTones,
     selectedTone,
+    hasCombination,
     example,
-    pinyin: example ? formatPinyin(example.base, example.tone) : ''
+    pinyin: example ? formatPinyin(example.base, example.tone) : hasCombination ? composeBase(initial, final) : ''
   }
 }
 
@@ -56,7 +57,8 @@ function createPinyinBuilderPage() {
       selectedFinal: 'ao',
       selectedMedial: 'u',
       selectedEnding: 'a',
-      selectedTone: 3,
+      selectedTone: 0,
+      hasCombination: false,
       selectedWhole: wholeSyllables[0],
       threeFinal: '',
       pinyin: '',
@@ -72,7 +74,7 @@ function createPinyinBuilderPage() {
       const selectedFinal = options.final || 'ao'
       const selectedMedial = options.medial || 'u'
       const selectedEnding = options.ending || 'a'
-      const selectedTone = Number(options.tone || 3)
+      const selectedTone = Number(options.tone || 0)
       const selectedWhole = wholeSyllables.find((item) => item.value === options.whole) || wholeSyllables[0]
       this.setData({ activeMode, selectedWhole })
 
@@ -131,7 +133,7 @@ function createPinyinBuilderPage() {
     selectFinal(event) {
       const final = event.currentTarget.dataset.value
       this.updateTwo(this.data.selectedInitial, final, this.data.selectedTone, () => {
-        speakTonedBasicPinyin('final', final, this.data.selectedTone)
+        speakBasicPinyin('final', final)
       })
     },
 
@@ -144,7 +146,7 @@ function createPinyinBuilderPage() {
     selectEnding(event) {
       const ending = event.currentTarget.dataset.value
       this.updateThree(this.data.selectedInitial, this.data.selectedMedial, ending, this.data.selectedTone, () => {
-        speakTonedBasicPinyin('final', ending, this.data.selectedTone)
+        speakBasicPinyin('final', ending)
       })
     },
 
@@ -161,7 +163,7 @@ function createPinyinBuilderPage() {
         selectedTone,
         example,
         pinyin: example ? formatPinyin(example.base, example.tone) : ''
-      }, () => this.readAloud())
+      }, () => this.playSyllable(example.key))
     },
 
     selectWhole(event) {
@@ -220,7 +222,7 @@ function createPinyinBuilderPage() {
     readAloud() {
       const { example } = this.data
       if (!example) {
-        wx.showToast({ title: '这个组合不能拼读，换一个试试', icon: 'none' })
+        wx.showToast({ title: this.data.hasCombination ? '先选一个声调，再听拼读' : '这个组合不能拼读，换一个试试', icon: 'none' })
         return
       }
       this.playSyllable(example.key, true)

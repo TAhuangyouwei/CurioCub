@@ -14,12 +14,13 @@ Page({
   onShow() {
     const progress = getProgress()
     const moduleCards = modules.map((module) => {
-      const completed = getModuleCompletion(module.items)
+      const progressItems = module.id === 'math' ? module.items.slice(0, 10) : module.items
+      const completed = getModuleCompletion(progressItems)
       return {
         ...module,
         completed,
-        total: module.items.length,
-        percent: Math.round((completed / module.items.length) * 100)
+        total: progressItems.length,
+        percent: Math.round((completed / progressItems.length) * 100)
       }
     })
 

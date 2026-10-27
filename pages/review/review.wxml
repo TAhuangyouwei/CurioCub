@@ -1,7 +1,7 @@
 <view class="screen review-screen {{isHanzi ? 'hanzi-review' : ''}}" wx:if="{{matches.length}}">
   <view class="review-header">
     <text class="review-title">拖一拖，配对复习</text>
-    <text class="review-subtitle">{{isHanzi ? '把上方的汉字拖到下方对应的拼音' : '把左边的文字拖到右边对应的位置'}}</text>
+    <text class="review-subtitle">{{isHanzi ? '把汉字拖到对应拼音，点拼音可听读音' : '把左边的文字拖到右边对应的位置'}}</text>
   </view>
 
   <view class="progress-line">
@@ -16,9 +16,14 @@
         wx:key="id"
         class="drop-target {{item.paired ? 'paired' : ''}}"
         style="left: {{item.x}}px; top: {{item.y}}px; width: {{metrics.targetWidth}}px; height: {{metrics.targetHeight}}px;"
+        bindtap="playTargetAudio"
+        data-id="{{item.id}}"
+        hover-class="{{isHanzi ? 'target-listening' : 'none'}}"
+        aria-label="{{isHanzi ? '点击听读音：' + item.pinyin : item.phrase}}"
       >
         <block wx:if="{{isHanzi}}">
           <text wx:if="{{item.paired}}" class="paired-character">{{item.title}}</text>
+          <text wx:else class="target-audio-icon">🔊</text>
           <text class="target-pinyin">{{item.pinyin}}</text>
         </block>
         <block wx:else>

@@ -49,6 +49,29 @@ function markUnitUnlearned(unitId, moduleId) {
   return saveProgress(progress)
 }
 
+function markUnitUnstudied(unitId, moduleId) {
+  const progress = getProgress()
+  progress.lastModuleId = moduleId
+  delete progress.completedIds[unitId]
+  delete progress.unlearnedIds[unitId]
+  return saveProgress(progress)
+}
+
+function getUnitStatus(unitId, progress = getProgress()) {
+  if (progress.completedIds[unitId]) return 'learned'
+  return progress.unlearnedIds[unitId] ? 'unlearned' : 'unseen'
+}
+
+function clearNotebook(unitIds) {
+  const progress = getProgress()
+  for (const unitId of unitIds) {
+    if (!progress.unlearnedIds[unitId]) continue
+    delete progress.unlearnedIds[unitId]
+    delete progress.completedIds[unitId]
+  }
+  return saveProgress(progress)
+}
+
 function getModuleCompletion(items) {
   const progress = getProgress()
   return items.filter((item) => progress.completedIds[item.id]).length
@@ -62,6 +85,9 @@ module.exports = {
   getProgress,
   completeUnit,
   markUnitUnlearned,
+  markUnitUnstudied,
+  getUnitStatus,
+  clearNotebook,
   getModuleCompletion,
   resetProgress
 }

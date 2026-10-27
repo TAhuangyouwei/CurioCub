@@ -56,7 +56,7 @@
         <view class="progress-track">
           <view class="progress-fill" style="width: {{item.percent}}%"></view>
         </view>
-        <text class="progress-copy">{{item.completed}} / {{item.total}} 关</text>
+        <text class="progress-copy">{{item.completed}} / {{item.total}} {{item.id === 'math' ? '认数' : '关'}}</text>
       </view>
     </view>
 

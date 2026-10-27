@@ -18,12 +18,6 @@ function speakBasicPinyin(type, value) {
   return playLocalAudio(getPinyinBasicAudio(type, value))
 }
 
-function speakTonedBasicPinyin(type, value, tone) {
-  const audio = getPinyinBasicAudio(type, value, tone)
-  if (!audio) return playLocalAudio(audio)
-  return playAudioPath(audio.filePath, audio.fallbackFilePath)
-}
-
 function speakPinyinSequence(parts, key, tone) {
   const basicAudios = (parts || []).map((part) => (
     getPinyinBasicAudio(part.type, part.value, part.toned ? tone : 0)
@@ -40,4 +34,4 @@ function speakPinyinSequence(parts, key, tone) {
   return playAudioSequence(paths)
 }
 
-module.exports = { speakLocalPinyin, speakBasicPinyin, speakTonedBasicPinyin, speakPinyinSequence }
+module.exports = { speakLocalPinyin, speakBasicPinyin, speakPinyinSequence }

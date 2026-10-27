@@ -1,0 +1,3 @@
+All stroke outlines and medians derived from hanzi-writer-data 2.0.1 (Make Me a Hanzi / Arphic fonts).
+License: ARPHICPL.txt. Modified: centered, uniformly scaled and quantized to a 250-square grid.
+Source: https://github.com/chanind/hanzi-writer-data

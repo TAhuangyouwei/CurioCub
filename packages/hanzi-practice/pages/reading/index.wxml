@@ -13,7 +13,7 @@
       <text class="reader-tip">点一个字，可以单独听它的读音</text>
     </view>
     <button class="reader-primary" bindtap="playSentence">🔊 听整句</button>
-    <button class="reader-secondary" bindtap="togglePinyin">{{showPinyin ? '收起拼音' : '需要帮忙 · 显示拼音'}}</button>
+    <button class="reader-secondary" bindtap="togglePinyin">{{showPinyin ? '收起拼音' : '显示拼音'}}</button>
     <button class="reader-primary warm" bindtap="finish">我读过啦</button>
     <view wx:if="{{!isToday}}" class="reader-navigation">
       <button class="reader-secondary" bindtap="previous" disabled="{{!hasPrevious}}">‹ 上一句</button>

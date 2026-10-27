@@ -10,12 +10,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 INITIAL_SOURCES = {
-    "b": "bo1", "p": "po1", "m": "mo1", "f": "fo2",
-    "d": "de2", "t": "te4", "n": "ne1", "l": "le4",
+    "b": "bo1", "p": "po1", "m": "mo1", "f": "fo1",
+    "d": "de1", "t": "te1", "n": "ne1", "l": "le1",
     "g": "ge1", "k": "ke1", "h": "he1",
     "j": "ji1", "q": "qi1", "x": "xi1",
-    "zh": "zhi1", "ch": "chi1", "sh": "shi1", "r": "ri4",
-    "z": "zi1", "c": "ci3", "s": "si1", "y": "yi1", "w": "wu1",
+    "zh": "zhi1", "ch": "chi1", "sh": "shi1", "r": "ri1",
+    "z": "zi1", "c": "ci1", "s": "si1", "y": "yi1", "w": "wu1",
 }
 
 # Zero-initial spellings are used so the recording contains only the final.

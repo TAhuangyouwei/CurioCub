@@ -62,10 +62,17 @@ for (const width of [320, 375, 430]) {
 }
 
 let definition
+const played = []
+let stops = 0
+const player = {
+  stop() { stops++ }, play() { played.push(this.src) },
+  onError() {}, offError() {}, onCanplay() {}, offCanplay() {}, onEnded() {}, offEnded() {}
+}
+global.getApp = () => ({ globalData: { audio: player } })
 global.Page = (page) => { definition = page }
 global.wx = { getWindowInfo: () => ({ windowWidth: 375 }), setNavigationBarTitle() {}, showToast() {} }
 require('../pages/review/review')
-for (const groupIndex of [0, 7]) {
+for (const groupIndex of [0, 7, 45]) {
   const page = {
     ...definition,
     data: JSON.parse(JSON.stringify(definition.data)),
@@ -79,6 +86,18 @@ for (const groupIndex of [0, 7]) {
     }
   }
   page.onLoad({ moduleId: 'hanzi', groupIndex })
+  assert.strictEqual(typeof page.playTargetAudio, 'function', '拼音目标需要支持点击听读音')
+  const beforeListening = JSON.stringify(page.data)
+  for (const target of page.data.targets) {
+    page.playTargetAudio({ currentTarget: { dataset: { id: target.id } } })
+    const unit = page.reviewUnits.find(unit => unit.id === target.id)
+    const expected = unit.characterAudioFile.startsWith('/') ? unit.characterAudioFile : `/assets/audio/${unit.characterAudioFile}`
+    assert.strictEqual(played.at(-1), expected, '应读点击的拼音对应汉字，不能按打乱后的下标取声音')
+  }
+  assert.strictEqual(JSON.stringify(page.data), beforeListening, '听读音不能改变配对进度和位置')
+  const beforeInvalid = played.length
+  page.playTargetAudio({ currentTarget: { dataset: { id: 'invalid' } } })
+  assert.strictEqual(played.length, beforeInvalid)
   const first = page.data.matches[0]
   const event = { currentTarget: { dataset: { id: first.id } } }
   page.onDragChange({ ...event, detail: { x: 0, y: 0 } })
@@ -95,5 +114,12 @@ for (const groupIndex of [0, 7]) {
     assert(page.data.targets.find((target) => target.id === match.id).paired)
     assert.strictEqual(page.data.allPaired, index === page.data.matches.length - 1)
   })
+  const pairedTarget = page.data.targets[0]
+  page.playTargetAudio({ currentTarget: { dataset: { id: pairedTarget.id } } })
+  assert.strictEqual(played.length, beforeInvalid + 1, '配对完成后也应能点拼音听读音')
+  const beforeHide = stops
+  page.onHide()
+  page.onUnload()
+  assert.strictEqual(stops, beforeHide + 2, '离开页面时停止读音')
 }
-console.log('拖拽配对检查通过：识字整组 最多 10 个字与拼音、多屏宽、错误回位、正确吸附和完成整轮均正常。')
+console.log('拖拽配对检查通过：拼音点读、主包/分包音频、配对前后播放、离页停止，以及拖动/吸附/进度均正常。')

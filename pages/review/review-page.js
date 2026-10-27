@@ -1,5 +1,6 @@
 const { getModule } = require('../../data/learning')
 const { createReviewLayout, isInsideTarget, snappedPosition } = require('../../utils/review-matching')
+const { playAudio, stopAudio } = require('../../utils/audio')
 
 function createReviewPage() {
   return {
@@ -45,6 +46,12 @@ function createReviewPage() {
 
   onResize() {
     if (this.reviewUnits) this.updateLayout()
+  },
+
+  playTargetAudio(event) {
+    if (!this.data.isHanzi) return
+    const unit = this.reviewUnits.find(item => item.id === event.currentTarget.dataset.id)
+    if (unit) playAudio(unit.characterAudioFile)
   },
 
   onDragChange(event) {
@@ -95,6 +102,14 @@ function createReviewPage() {
 
   backToMap() {
     wx.navigateBack()
+  },
+
+  onHide() {
+    stopAudio()
+  },
+
+  onUnload() {
+    stopAudio()
   }
   }
 }

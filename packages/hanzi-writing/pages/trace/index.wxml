@@ -1,0 +1,49 @@
+<view wx:if="{{unit}}" class="trace-screen" style="height: {{windowHeight}}px; padding-bottom: {{bottomInset}}px;" bindtouchstart="onSwipeStart" bindtouchend="onSwipeEnd">
+  <view class="trace-meta">
+    <text class="trace-pinyin">{{unit.pinyin}}</text>
+    <text class="trace-phrase">{{unit.phrase}}</text>
+    <text class="trace-count">{{rangeEnabled ? '范围内 ' : ''}}{{currentNumber}} / {{total}}</text>
+  </view>
+  <view class="trace-tools">
+    <button class="tool-button" bindtap="showHint">💡 提示</button>
+    <button class="tool-button" bindtap="playCharacter">🔊 听字</button>
+    <label class="auto-read"><text>换字朗读</text><switch checked="{{autoRead}}" bindchange="changeAutoRead" color="#5f83dd" aria-label="换字自动朗读" /></label>
+  </view>
+  <view class="trace-guide-help">
+    <text>{{demonstrating ? '正在演示' : complete ? '全部完成 ✓' : '请写'}} · 第 {{strokeNumber}} / {{strokeCount}} 笔</text>
+    <button class="guide-play" bindtap="demonstrateAll">▶ 看完整笔顺</button>
+  </view>
+  <text class="trace-feedback {{complete ? 'success' : ''}}" aria-live="polite">{{feedback}}</text>
+  <view class="trace-stage">
+    <view class="trace-board" style="width: {{boardSize}}px; height: {{boardSize}}px;">
+      <view class="grid-horizontal"></view><view class="grid-vertical"></view>
+      <canvas id="trace-canvas" class="trace-canvas" type="2d" disable-scroll="{{true}}"
+        catchtouchstart="onTouchStart" catchtouchmove="onTouchMove" catchtouchend="onTouchEnd" catchtouchcancel="onTouchCancel"
+        aria-label="按照笔顺描写{{unit.title}}，第{{strokeNumber}}笔"></canvas>
+      <view wx:if="{{guide}}" class="stroke-origin" style="left: {{guide.start[0] / 10}}%; top: {{guide.start[1] / 10}}%;">
+        <view class="stroke-arrow" style="transform: rotate({{guide.angle}}deg);"></view><text class="stroke-dot">{{strokeNumber}}</text>
+      </view>
+      <view wx:if="{{demonstrating}}" class="stroke-demo" style="left: {{demoPoint[0] / 10}}%; top: {{demoPoint[1] / 10}}%;"></view>
+    </view>
+  </view>
+  <view class="trace-controls">
+    <view class="trace-actions">
+      <button class="trace-action secondary" bindtap="undoStroke" disabled="{{!hasInk}}">撤销一笔</button>
+      <button class="trace-action restart" bindtap="clearWriting">重新写</button>
+    </view>
+    <view class="trace-actions character-actions">
+      <button class="trace-action secondary" bindtap="previousCharacter" disabled="{{!hasPrevious}}">‹ 上一字</button>
+      <button class="trace-action primary" bindtap="nextCharacter" disabled="{{!hasNext}}">下一字 ›</button>
+    </view>
+  </view>
+  <view wx:if="{{hintVisible}}" class="hint-backdrop" catchtouchmove="ignoreTouch" bindtap="closeHint">
+    <view class="hint-panel" catchtap="ignoreTouch">
+      <text class="hint-title">{{unit.title}} · {{unit.pinyin}}</text>
+      <image wx:if="{{hintImage}}" class="hint-image" src="{{hintImage}}" mode="aspectFit" binderror="onHintImageError" />
+      <text wx:else class="hint-icon">{{hintLoading ? '正在准备提示…' : unit.icon}}</text>
+      <text class="hint-phrase">{{unit.phrase}}</text>
+      <button class="trace-action secondary" bindtap="playCharacter">🔊 听这个字</button>
+      <button class="trace-action primary hint-close" bindtap="closeHint">继续写</button>
+    </view>
+  </view>
+</view>

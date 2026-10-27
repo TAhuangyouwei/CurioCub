@@ -113,11 +113,6 @@ function getAvailableThreeEndings(initial, medial) {
   })
 }
 
-function findFirstAvailableTone(initial, final) {
-  const tone = getAvailableTones(initial, final).find((item) => item.available)
-  return tone ? tone.value : 1
-}
-
 function formatPinyin(base, tone) {
   const plain = base.replace(/v/g, 'ü')
   if (tone === 5) return plain
@@ -155,6 +150,5 @@ module.exports = {
   getAvailableTones,
   getAvailableThreeEndings,
   getExample,
-  findFirstAvailableTone,
   formatPinyin
 }

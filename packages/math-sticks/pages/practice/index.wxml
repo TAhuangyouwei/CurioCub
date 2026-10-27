@@ -1,0 +1,35 @@
+<view class="arithmetic-screen">
+  <text class="practice-heading">随机计算</text>
+  <text class="practice-description">一页10道题，填完后一起检查。</text>
+  <view class="practice-settings">
+    <view class="operation-tabs">
+      <button class="operation-option {{operation === 'add' ? 'selected' : ''}}" bindtap="changeOperation" data-operation="add">加法</button>
+      <button class="operation-option {{operation === 'subtract' ? 'selected' : ''}}" bindtap="changeOperation" data-operation="subtract">减法</button>
+    </view>
+    <view class="limit-setting">
+      <text>练习范围</text>
+      <view class="limit-value"><input type="number" maxlength="3" value="{{limitText}}" bindinput="onLimitInput" aria-label="练习上限，1到100" /><text>以内</text></view>
+    </view>
+    <text class="settings-note">填写1～100。加法的和不超范围，减法不出现负数。</text>
+    <button class="generate-button" bindtap="generate">{{questions.length ? '重新生成10题' : '生成10道题'}}</button>
+  </view>
+  <block wx:if="{{questions.length}}">
+    <view class="worksheet-heading"><text>本轮：{{roundLimit}}以内{{roundOperation === 'add' ? '加法' : '减法'}}</text><text>共10题</text></view>
+    <view class="question-grid">
+      <view wx:for="{{questions}}" wx:key="id" class="question-card {{checked ? (item.correct ? 'correct' : 'incorrect') : ''}}">
+        <view class="question-row">
+          <text class="question-number">{{item.id}}.</text>
+          <text class="equation">{{item.left}} {{roundOperation === 'add' ? '+' : '−'}} {{item.right}} =</text>
+          <input class="answer-input" type="number" maxlength="3" value="{{item.response}}" placeholder="?" bindinput="onAnswerInput" data-index="{{index}}" aria-label="第{{item.id}}题答案" />
+          <text wx:if="{{checked}}" class="answer-mark">{{item.correct ? '✓' : '再想想'}}</text>
+        </view>
+        <text wx:if="{{checked && !item.correct}}" class="correction">正确答案：{{item.answer}}</text>
+      </view>
+    </view>
+    <view wx:if="{{checked}}" class="round-result" aria-live="polite">
+      <text class="result-score">本轮答对 {{correctCount}} / 10 题</text>
+      <text>{{correctCount === 10 ? '全部答对啦，真棒！' : '看看标出的题，可以改好后再检查。'}}</text>
+    </view>
+    <button class="check-button" bindtap="checkAnswers">{{checked ? '再次检查' : '统一检查答案'}}</button>
+  </block>
+</view>

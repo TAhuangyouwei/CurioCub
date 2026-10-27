@@ -12,7 +12,7 @@
     </view>
     <button class="practice-primary" bindtap="playCharacter">🔊 听一听</button>
     <button class="practice-primary warm" bindtap="finish" data-learned="yes">记住了，下一字</button>
-    <button class="practice-secondary" bindtap="finish" data-learned="no">还想再练 · 收进生字本</button>
+    <button class="practice-secondary" bindtap="finish" data-learned="no">未学会，下一字</button>
   </block>
   <view wx:else class="practice-finish">
     <text class="finish-icon">🌟</text>
@@ -23,6 +23,6 @@
       <button class="practice-primary" bindtap="openReading">{{readingDone ? '再读一遍' : '读今天这一句'}}</button>
     </block>
     <text wx:else class="practice-note">先把认识的字记牢，凑齐一句的字后，就能读短句啦。</text>
-    <button class="practice-secondary" bindtap="goHome">今天到这里 · 回首页</button>
+    <button class="practice-secondary" bindtap="goHome">回到首页</button>
   </view>
 </view>

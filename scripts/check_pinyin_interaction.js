@@ -36,7 +36,7 @@ const page = {
 }
 
 async function main() {
-  page.onLoad({})
+  page.onLoad({ tone: '3' })
   page.readAloud()
   assert.strictEqual(player.src, '/assets/audio/pinyin-basic/initial-h.mp3', '两拼应先播放声母')
   player.finish()
@@ -55,7 +55,7 @@ async function main() {
   page.selectFinal({ currentTarget: { dataset: { value: 'a' } } })
   await new Promise((resolve) => setImmediate(resolve))
   assert.strictEqual(page.data.selectedFinal, 'a', '点击韵母后应更新选中状态')
-  assert.strictEqual(player.src, '/assets/audio/pinyin-basic/final-a-3.mp3', '点击韵母应播放当前声调的对应音频')
+  assert.strictEqual(player.src, '/assets/audio/pinyin-basic/final-a.mp3', '点击韵母固定播放一声基础音，拼读时再带所选声调')
   assert.strictEqual(player.playCount, 5, '点击韵母应实际调用播放器')
 
   page.readAloud()
@@ -101,7 +101,13 @@ async function main() {
   player.finish()
   assert.strictEqual(player.src, `/packages/pinyin-04/audio/${threePage.data.example.key}.mp3`, '三拼最后应播放完整音节')
 
-  console.log('拼音按键交互检查通过：两拼、三拼分步发音和跨分包续播均正常。')
+  const beforeD = player.playCount
+  page.selectInitial({ currentTarget: { dataset: { value: 'd' } } })
+  assert.strictEqual(page.data.selectedInitial, 'd')
+  assert.strictEqual(player.src, '/assets/audio/pinyin-basic/initial-d.mp3', 'd 按键应播放修复后的本地录音')
+  assert.strictEqual(player.playCount, beforeD + 1)
+
+  console.log('拼音按键交互检查通过：d 按键、两拼/三拼分步发音和跨分包续播均正常。')
 }
 
 main().catch((error) => {

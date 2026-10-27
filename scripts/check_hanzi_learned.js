@@ -17,7 +17,7 @@ const routes = []
 const toasts = []
 global.getApp = () => app
 global.wx = {
-  getStorageSync: () => JSON.parse(JSON.stringify(stored)),
+  getStorageSync: (key) => key === 'curiocub-hanzi-settings-v1' ? { autoRead: false } : JSON.parse(JSON.stringify(stored)),
   setStorageSync(key, value) { stored = JSON.parse(JSON.stringify(value)) },
   navigateTo(options) { routes.push(options.url) },
   showToast(options) { toasts.push(options) },
@@ -80,7 +80,7 @@ assert.strictEqual(groupEnd.data.unit.id, 'hanzi-11', '组末仍可直接滑到�
 page.showHint({ currentTarget: { dataset: { unitId: 'hanzi-04' } } })
 page.markLearned()
 const afterFirstLearning = stored.stars
-page.showHint({ currentTarget: { dataset: { unitId: 'hanzi-04' } } })
+page.markUnlearned()
 page.markLearned()
 assert.strictEqual(stored.stars, afterFirstLearning, '重新学会只提示，不重复奖励')
 assert(!stored.unlearnedIds['hanzi-04'], '重新学会仍须移出生字本')
@@ -95,6 +95,8 @@ for (const moduleId of ['pinyin', 'math', 'english']) {
   assert.strictEqual(routes[routes.length - 1], `/pages/challenge/challenge?moduleId=${moduleId}&unitId=${moduleId}-01`)
 }
 const template = fs.readFileSync(path.join(__dirname, '../pages/lesson/lesson.wxml'), 'utf8')
-assert(/<button wx:if="\{\{isHanzi\}\}"[^>]*bindtap="markLearned"/.test(template))
+assert(/<view wx:if="\{\{isHanzi\}\}" class="learning-status"/.test(template))
+assert(template.includes('bindtap="markLearned"'))
+assert(template.includes('bindtap="markUnstudied"'))
 assert(/<button wx:else[^>]*bindtap="startChallenge"/.test(template))
 console.log('已学会检查通过：458 个拼音、原页轻提示、不阻挡滑动、组末/最后一字、奖励防重复、贴纸、生字本及其他模块闯关均正常。')

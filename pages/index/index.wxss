@@ -84,17 +84,18 @@
   width: calc(280 * var(--ui-unit));
 }
 
-.continue-button {
+.hero .continue-button {
+  width: auto;
+  min-height: 44px;
   display: inline-flex;
   align-items: center;
   margin: calc(26 * var(--ui-unit)) 0 0;
-  padding: 0 calc(26 * var(--ui-unit));
-  height: calc(66 * var(--ui-unit));
+  padding: 10px calc(26 * var(--ui-unit));
   border-radius: calc(34 * var(--ui-unit));
   color: #fff;
   background: #577fdd;
   font-size: calc(25 * var(--ui-unit));
-  line-height: calc(66 * var(--ui-unit));
+  line-height: 1.5;
   font-weight: 700;
 }
 
@@ -105,7 +106,7 @@
 }
 
 .home-quick-actions { position: relative; z-index: 1; display: flex; gap: 12px; margin-top: 18px; }
-.home-quick-actions button { flex: 1; min-height: 44px; margin: 0; padding: 0 8px; border-radius: 16px; color: #526f9a; background: #fffdf7; font-size: 15px; line-height: 44px; }
+.home-quick-actions button { flex: 1; width: 0; min-width: 0; min-height: 44px; margin: 0; padding: 11px 8px; border-radius: 16px; color: #526f9a; background: #fffdf7; font-size: 15px; line-height: 1.5; }
 
 .reward-card {
   display: flex;

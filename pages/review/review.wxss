@@ -12,11 +12,14 @@
 .drag-tip, .success-tip { margin: calc(27 * var(--ui-unit)) 0; padding: calc(20 * var(--ui-unit)); border-radius: calc(22 * var(--ui-unit)); color: #6a7e93; background: #edf6fb; text-align: center; font-size: calc(23 * var(--ui-unit)); line-height: 1.45; }
 .success-tip { color: #3e7e6b; background: #e1f5ea; }
 .pair-button { border-radius: calc(30 * var(--ui-unit)); color: #fff; background: #ec9a6e; font-size: calc(29 * var(--ui-unit)); font-weight: 800; }
+.review-screen .pair-button { width: 100%; min-height: 44px; padding: 11px 14px; line-height: 1.5; }
 .hanzi-review { padding-top: calc(24 * var(--ui-unit)); }
 .hanzi-review .review-title { font-size: calc(34 * var(--ui-unit)); }
 .hanzi-review .progress-line { margin-top: calc(16 * var(--ui-unit)); }
 .hanzi-review .match-card { margin-top: calc(16 * var(--ui-unit)); padding-top: calc(20 * var(--ui-unit)); padding-bottom: calc(20 * var(--ui-unit)); }
 .hanzi-review .drag-chip { font-size: 26px; }
 .target-pinyin { font-size: 20px; font-weight: 600; }
+.target-audio-icon { font-size: 12px; }
+.drop-target.target-listening { background: #e3efff; }
 .paired-character { color: #43816d; font-size: 22px; }
 .hanzi-chip-paired { visibility: hidden; }

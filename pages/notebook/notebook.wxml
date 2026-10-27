@@ -11,6 +11,7 @@
       <text class="tip-icon">🐻</text>
       <text>点一个字开始练习，标记“已学会”后会自动移出生字本。</text>
     </view>
+    <button wx:if="{{items.length}}" class="clear-notebook" bindtap="clearNotebook">一键清空生字本</button>
     <view wx:if="{{items.length}}" class="group-card">
       <view class="unit-list">
         <view wx:for="{{items}}" wx:key="id" class="unit-row tap-card" bindtap="openLesson" data-unit-id="{{item.id}}">
@@ -25,7 +26,7 @@
     </view>
     <view wx:else class="group-card empty-notebook">
       <text class="group-title">生字本里还没有字</text>
-      <text class="module-hero-subtitle">学习时点“未学会”或“提示”，这个字就会收进来。</text>
+      <text class="module-hero-subtitle">学习时标记“未学会”，这个字就会收进来。</text>
     </view>
   </view>
 </scroll-view>

@@ -1,3 +1,4 @@
 @import "../module/module.wxss";
 
 .empty-notebook { padding: calc(48 * var(--ui-unit)) calc(28 * var(--ui-unit)); text-align: center; line-height: 1.7; }
+.module-page .clear-notebook { width: 100%; min-height: 44px; margin: 0 0 calc(24 * var(--ui-unit)); padding: 11px 14px; border-radius: calc(20 * var(--ui-unit)); color: #99613c; background: #fff0db; font-size: calc(25 * var(--ui-unit)); line-height: 1.5; }

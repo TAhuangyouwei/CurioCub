@@ -1,0 +1,29 @@
+.arithmetic-screen { max-width: 840px; box-sizing: border-box; margin: 0 auto; padding: 20px 16px calc(28px + env(safe-area-inset-bottom)); }
+.practice-heading { display: block; color: #304c62; font-size: 26px; font-weight: 700; }
+.practice-description { display: block; margin: 8px 0 16px; color: #71849a; font-size: 14px; }
+.practice-settings { padding: 16px; border-radius: 22px; background: #fff; }
+.operation-tabs { display: flex; gap: 10px; }
+.operation-tabs .operation-option { flex: 1; width: 0; min-width: 0; min-height: 44px; margin: 0; padding: 10px 8px; border-radius: 14px; color: #557087; background: #edf3fa; font-size: 17px; line-height: 1.5; }
+.operation-option.selected { color: #fff; background: #4cab92; }
+.limit-setting, .limit-value { display: flex; align-items: center; gap: 10px; }
+.limit-setting { justify-content: space-between; margin-top: 16px; color: #557087; font-size: 16px; }
+.limit-value input { box-sizing: border-box; width: 68px; height: 44px; border: 1px solid #c6d9e7; border-radius: 10px; color: #304c62; background: #f7fbff; font-size: 21px; text-align: center; }
+.settings-note { display: block; margin-top: 10px; color: #8191a1; font-size: 12px; line-height: 1.6; }
+.arithmetic-screen .generate-button, .arithmetic-screen .check-button { width: 100%; min-height: 48px; margin: 14px 0 0; padding: 11px 10px; border-radius: 14px; color: #fff; background: #4cab92; font-size: 17px; font-weight: 700; line-height: 1.5; }
+.worksheet-heading { display: flex; justify-content: space-between; gap: 12px; margin: 20px 0 12px; color: #557087; font-size: 14px; }
+.question-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.question-card { padding: 10px; border: 1px solid transparent; border-radius: 16px; background: #fff; }
+.question-row { display: flex; min-height: 44px; align-items: center; gap: 8px; }
+.question-number { flex: none; width: 20px; color: #8191a1; font-size: 13px; }
+.equation { flex: 1; min-width: 0; color: #304c62; font-size: 23px; font-weight: 600; text-align: right; white-space: nowrap; }
+.answer-input { flex: none; box-sizing: border-box; width: 64px; height: 44px; border: 1px solid #c6d9e7; border-radius: 10px; color: #304c62; background: #f7fbff; font-size: 23px; text-align: center; }
+.answer-mark { flex: none; color: #278765; font-size: 13px; }
+.question-card.correct { border-color: #b4dfcd; background: #f2fbf6; }
+.question-card.incorrect { border-color: #edcfaa; background: #fff9ee; }
+.incorrect .answer-mark, .correction { color: #aa7138; }
+.correction { display: block; margin: 6px 0 0 28px; font-size: 13px; }
+.round-result { margin-top: 16px; padding: 16px; border-radius: 16px; color: #557087; background: #e3f5ec; font-size: 14px; line-height: 1.7; text-align: center; }
+.result-score { display: block; color: #278765; font-size: 20px; font-weight: 700; }
+.arithmetic-screen .check-button { background: #5f83dd; }
+@media (max-width: 360px) { .arithmetic-screen { padding-left: 12px; padding-right: 12px; } .equation { font-size: 20px; } .question-row { gap: 6px; } .answer-input { width: 54px; } }
+@media (min-width: 768px) { .question-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

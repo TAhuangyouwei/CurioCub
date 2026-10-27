@@ -14,21 +14,31 @@
       <text>想学哪里就点哪里，也可以随时玩配对复习！</text>
     </view>
 
+    <view wx:if="{{module.id === 'hanzi'}}" class="range-card">
+      <text class="range-title">家长设置 · 学习范围</text>
+      <text class="range-summary">{{rangeSummary}}</text>
+      <view class="learning-counts"><text class="state-unseen">未学习 {{unseenCount}}</text><text class="state-learned">已学会 {{learnedCount}}</text><text class="state-unlearned">未学会 {{unlearnedCount}}</text></view>
+      <label class="range-audio"><text>换字自动朗读</text><switch checked="{{autoRead}}" bindchange="changeAutoRead" color="#5f83dd" /></label>
+      <button wx:if="{{rangeEnabled}}" class="range-primary" bindtap="startRangeLearning">开始学习</button>
+      <button class="range-secondary" bindtap="editRange">{{rangeEnabled ? '修改范围' : '选择学习范围'}}</button>
+      <button wx:if="{{rangeEnabled}}" class="range-exit" bindtap="exitLearningRange">退出范围，学习全部汉字</button>
+    </view>
+
     <button wx:if="{{module.id === 'hanzi'}}" class="workshop-button" bindtap="openNotebook">
-      <text class="workshop-title">📖 生字本 · {{unlearnedCount}} 个字</text>
-      <text class="workshop-subtitle">未学会或点过提示的字，收在这里再练一练</text>
+      <view class="workshop-heading"><text class="workshop-title">📖 生字本</text><text class="workshop-count">{{unlearnedCount}} 字</text></view>
+      <text class="workshop-subtitle">把还没学会的字，集中练一练</text>
       <text class="workshop-arrow">›</text>
     </button>
 
     <button wx:if="{{module.id === 'pinyin'}}" class="workshop-button" bindtap="openPinyinWorkshop">
       <text class="workshop-title">♪ 拼读小工坊</text>
-      <text class="workshop-subtitle">自己选声母、韵母和声调，拼出新声音</text>
+      <text class="workshop-subtitle">选声母、韵母和声调，听一听怎么拼</text>
       <text class="workshop-arrow">›</text>
     </button>
 
     <button wx:if="{{module.id === 'math'}}" class="workshop-button math-workshop" bindtap="openMathWorkshop">
       <text class="workshop-title">火柴棍小工坊</text>
-      <text class="workshop-subtitle">亲手拖一拖，数数、加一加、减一减</text>
+      <text class="workshop-subtitle">拖一拖，练习数数和加减法</text>
       <text class="workshop-arrow">›</text>
     </button>
 
@@ -54,8 +64,10 @@
           <view class="unit-symbol">{{unit.title}}</view>
           <view class="unit-copy">
             <text class="unit-phrase">{{unit.phrase}}</text>
-            <text class="unit-helper" wx:if="{{unit.completed}}">已收集星星 ✓</text>
-            <text class="unit-helper" wx:elif="{{module.id === 'hanzi' && unit.unlearned}}">未学会 · 已加入生字本</text>
+            <text class="unit-helper state-learned" wx:if="{{module.id === 'hanzi' && unit.completed}}">已学会 ✓</text>
+            <text class="unit-helper state-unlearned" wx:elif="{{module.id === 'hanzi' && unit.unlearned}}">未学会 · 已加入生字本</text>
+            <text class="unit-helper state-unseen" wx:elif="{{module.id === 'hanzi'}}">未学习</text>
+            <text class="unit-helper" wx:elif="{{unit.completed}}">已收集星星 ✓</text>
             <text class="unit-helper" wx:else>点击开始</text>
           </view>
           <text class="unit-check" wx:if="{{unit.completed}}">⭐</text>
@@ -63,7 +75,12 @@
         </view>
       </view>
 
-      <button class="review-button" bindtap="openReview" data-group-index="{{item.index}}">拖一拖，配对复习</button>
+      <button class="review-button" bindtap="openReview" data-group-index="{{item.index}}">配对复习</button>
+    </view>
+    <view wx:if="{{module.id === 'math'}}" class="group-card">
+      <view class="group-header"><text class="group-title">第 3 站 · 随机计算</text><text class="group-state">10题一组</text></view>
+      <text class="group-progress">选择加法或减法、设置范围，一页填写后统一检查。</text>
+      <button class="review-button" bindtap="openMathPractice">开始随机练习</button>
     </view>
   </view>
 </scroll-view>

@@ -8,9 +8,9 @@
 .practice-card { display: flex; position: relative; min-height: 230px; box-sizing: border-box; padding: 16px 8px; flex-direction: column; align-items: center; justify-content: center; border-radius: 24px; background: #fffefa; }
 .practice-character { color: #304c62; font-family: "CurioCubKai"; font-size: 136px; line-height: 1.15; font-weight: 400; }
 .practice-pinyin { color: #68819a; font-size: 24px; }
-.practice-hint { position: absolute; top: 12px; right: 12px; min-height: 44px; margin: 0; padding: 0 12px; border-radius: 14px; color: #8b7299; background: #f4edff; font-size: 15px; line-height: 44px; }
+.practice-card .practice-hint { position: absolute; top: 12px; right: 12px; width: auto; min-height: 44px; margin: 0; padding: 0 12px; border-radius: 14px; color: #8b7299; background: #f4edff; font-size: 15px; line-height: 44px; }
 .practice-meaning { margin-top: 16px; color: #557087; font-size: 20px; }
-.practice-primary, .practice-secondary { width: 100%; margin-top: 14px; border-radius: 18px; font-size: 18px; line-height: 2.7; font-weight: 600; }
+.practice-screen .practice-primary, .practice-screen .practice-secondary { width: 100%; min-height: 48px; margin-top: 14px; padding: 11px 12px; border-radius: 18px; font-size: 18px; line-height: 1.5; font-weight: 600; }
 .practice-primary { color: #fff; background: #5f83dd; }
 .practice-primary.warm { color: #83502e; background: #ffdec1; }
 .practice-secondary { color: #637e96; background: #e3edf7; }

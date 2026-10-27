@@ -19,15 +19,15 @@
     </view>
 
     <block wx:if="{{activeMode !== 'whole'}}">
-      <view class="result-card result-ready" wx:if="{{example}}">
-        <text class="result-label">当前拼读</text>
+      <view class="result-card result-ready" wx:if="{{hasCombination}}">
+        <text class="result-label">{{selectedTone ? '当前拼读' : '选一个声调，听完整音节'}}</text>
         <view class="spelling-row" wx:if="{{activeMode === 'two'}}">
           <text>{{selectedInitial}}</text><text class="plus">+</text><text>{{selectedFinal}}</text><text class="arrow">→</text><text class="result-pinyin">{{pinyin}}</text>
         </view>
         <view class="spelling-row" wx:else>
           <text>{{selectedInitial}}</text><text class="plus">+</text><text>{{selectedMedial}}</text><text class="plus">+</text><text>{{selectedEnding}}</text><text class="arrow">→</text><text class="result-pinyin">{{pinyin}}</text>
         </view>
-        <text class="result-character">{{example.character}}</text>
+        <text wx:if="{{example}}" class="result-character">{{example.character}}</text>
       </view>
 
       <view class="result-card result-empty" wx:else>
@@ -55,7 +55,7 @@
         <view class="key-section final-section" wx:if="{{activeMode === 'two'}}">
           <view class="section-heading">
             <text class="section-title">韵母</text>
-            <text class="section-count">完整 24 个</text>
+            <text class="section-count">24 个 · 按键读一声</text>
           </view>
           <view class="option-grid finals-grid">
             <button
@@ -125,7 +125,7 @@
         </view>
       </view>
 
-      <button class="read-button" bindtap="readAloud" disabled="{{!example}}">🔊 听分步拼读</button>
+      <button class="read-button" bindtap="readAloud" disabled="{{!example}}">{{hasCombination && !selectedTone ? '先选声调，再听拼读' : '🔊 听分步拼读'}}</button>
       <text class="spelling-tip">小提示：j、q、x 和 ü 相拼时，ü 上两点要省略。</text>
     </block>
 

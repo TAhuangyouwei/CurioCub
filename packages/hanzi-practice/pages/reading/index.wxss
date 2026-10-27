@@ -12,11 +12,11 @@
 .reader-character { color: #304c62; font-family: "CurioCubKai"; font-size: 52px; line-height: 1.25; font-weight: 400; }
 .reader-pinyin { min-height: 28px; color: #68819a; font-size: 16px; line-height: 28px; }
 .reader-tip { display: block; margin-top: 24px; color: #8191a1; font-size: 14px; }
-.reader-primary, .reader-secondary { width: 100%; margin-top: 14px; border-radius: 18px; font-size: 18px; line-height: 2.7; font-weight: 600; }
+.reader-screen .reader-primary, .reader-screen .reader-secondary { width: 100%; min-height: 48px; margin-top: 14px; padding: 11px 12px; border-radius: 18px; font-size: 18px; line-height: 1.5; font-weight: 600; }
 .reader-primary { color: #fff; background: #5f83dd; }
 .reader-primary.warm { color: #83502e; background: #ffdec1; }
 .reader-secondary { color: #637e96; background: #e3edf7; }
 .reader-navigation { display: flex; gap: 12px; }
-.reader-navigation button { flex: 1; }
+.reader-navigation .reader-secondary { flex: 1; width: 0; min-width: 0; padding-left: 6px; padding-right: 6px; }
 .reader-empty { padding-top: 60px; text-align: center; }
 @media (min-width: 600px) { .reader-screen { padding-top: 36px; } .reader-card { padding: 48px 20px; } .reader-character { font-size: 72px; } .reader-pinyin { font-size: 21px; } }
