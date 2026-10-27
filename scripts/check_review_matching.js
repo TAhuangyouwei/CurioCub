@@ -70,7 +70,11 @@ const player = {
 }
 global.getApp = () => ({ globalData: { audio: player } })
 global.Page = (page) => { definition = page }
-global.wx = { getWindowInfo: () => ({ windowWidth: 375 }), setNavigationBarTitle() {}, showToast() {} }
+global.wx = {
+  getStorageSync() {}, getWindowInfo: () => ({ windowWidth: 375 }), setNavigationBarTitle() {}, showToast() {},
+  env: { USER_DATA_PATH: 'wxfile://usr' },
+  getFileSystemManager: () => ({ readFile(options) { options.success({ data: new ArrayBuffer(1) }) }, writeFile(options) { options.success() } })
+}
 require('../pages/review/review')
 for (const groupIndex of [0, 7, 45]) {
   const page = {
@@ -91,7 +95,7 @@ for (const groupIndex of [0, 7, 45]) {
   for (const target of page.data.targets) {
     page.playTargetAudio({ currentTarget: { dataset: { id: target.id } } })
     const unit = page.reviewUnits.find(unit => unit.id === target.id)
-    const expected = unit.characterAudioFile.startsWith('/') ? unit.characterAudioFile : `/assets/audio/${unit.characterAudioFile}`
+    const expected = `wxfile://usr/curiocub-${unit.id}.mp3`
     assert.strictEqual(played.at(-1), expected, '应读点击的拼音对应汉字，不能按打乱后的下标取声音')
   }
   assert.strictEqual(JSON.stringify(page.data), beforeListening, '听读音不能改变配对进度和位置')
@@ -120,6 +124,6 @@ for (const groupIndex of [0, 7, 45]) {
   const beforeHide = stops
   page.onHide()
   page.onUnload()
-  assert.strictEqual(stops, beforeHide + 2, '离开页面时停止读音')
+  assert.strictEqual(stops, beforeHide + 2, '离开页面时停止读音并取消迟到的加载')
 }
 console.log('拖拽配对检查通过：拼音点读、主包/分包音频、配对前后播放、离页停止，以及拖动/吸附/进度均正常。')

@@ -1,6 +1,5 @@
 const assert = require('assert')
-const { getModule } = require('../data/learning')
-const { getHanziSettings, saveRange, setAutoRead } = require('../utils/hanzi-settings')
+const { getHanziSettings, saveRange, setAutoRead, orderedHanzi } = require('../utils/hanzi-settings')
 const { completeUnit, markUnitUnlearned } = require('../utils/progress')
 let definition
 let navigation
@@ -20,7 +19,7 @@ function page() {
   instance.onLoad()
   return instance
 }
-const units = getModule('hanzi').items
+const units = orderedHanzi()
 const select = (page, index) => page.selectCharacter({ currentTarget: { dataset: { index } } })
 let selection = page()
 assert.strictEqual(selection.data.units.length, units.length)
@@ -53,7 +52,7 @@ select(selection, 100)
 select(selection, 100)
 assert.strictEqual(selection.data.rangeCount, 1)
 selection.saveAndStart()
-assert(navigation.includes('/packages/hanzi-reading-1/pages/lesson/index'))
+assert(navigation.includes(`/packages/${units[100].packageName}/pages/lesson/index`))
 assert.strictEqual(getHanziSettings().startId, units[100].id)
 const beforeInvalid = JSON.stringify(selection.data)
 select(selection, -1)

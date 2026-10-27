@@ -1,7 +1,7 @@
 const { getModule } = require('../../data/learning')
 const { getProgress, getUnitStatus } = require('../../utils/progress')
 const { getLearningPage } = require('../../utils/learning-navigation')
-const { getHanziSettings, exitRange, studyUnits, setAutoRead } = require('../../utils/hanzi-settings')
+const { getHanziSettings, exitRange, studyUnits, setAutoRead, orderedHanzi } = require('../../utils/hanzi-settings')
 
 Page({
   data: {
@@ -17,13 +17,14 @@ Page({
   },
 
   onShow() {
-    const module = getModule(this.moduleId)
+    let module = getModule(this.moduleId)
     if (!module) {
       wx.navigateBack()
       return
     }
 
     const progress = getProgress()
+    if (module.id === 'hanzi') module = { ...module, items: orderedHanzi() }
     const groups = []
     const visibleItems = module.id === 'math' ? module.items.slice(0, 10) : module.items
     for (let start = 0; start < visibleItems.length; start += module.groupSize) {
@@ -58,6 +59,7 @@ Page({
       rangeSummary: settings.rangeEnabled ? `${start + 1} · ${units[start].title} 至 ${end + 1} · ${units[end].title}，共 ${end - start + 1} 个字` : '未限定，可以学习全部汉字' })
   },
   editRange() { wx.navigateTo({ url: '/pages/learning-range/learning-range' }) },
+  editOrder() { wx.navigateTo({ url: '/pages/learning-order/learning-order' }) },
   exitLearningRange() { exitRange(); this.refreshRange() },
   startRangeLearning() {
     const unit = studyUnits(this.data.module.items)[0]
@@ -95,5 +97,9 @@ Page({
 
   openMathPractice() {
     wx.navigateTo({ url: '/packages/math-sticks/pages/practice/index' })
+  },
+
+  openNumberBonds() {
+    wx.navigateTo({ url: '/packages/math-sticks/pages/bonds/index' })
   }
 })

@@ -1,0 +1,21 @@
+.order-page { display: flex; flex-direction: column; box-sizing: border-box; height: 100vh; padding: 12px 12px 0; color: #27445d; }
+.order-header, .order-footer { flex: none; }
+.order-title { display: block; font-size: 18px; font-weight: 700; }
+.order-help { display: block; margin: 6px 0; color: #71849a; font-size: 12px; line-height: 1.5; }
+.order-search { height: 44px; margin: 10px 0; padding: 0 12px; border-radius: 12px; background: #fff; font-size: 15px; }
+.order-list { flex: 1; height: 0; min-height: 0; }
+.order-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; padding-bottom: 12px; }
+.order-page .order-cell { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 60px; min-height: 0; margin: 0; padding: 0; border: 2px solid transparent; border-radius: 10px; color: #304c62; background: #fff; font-size: 24px; line-height: 28px; }
+.order-number { color: #8391a0; font-size: 10px; line-height: 14px; }
+.order-page .order-cell.selected { border-color: #5f83dd; background: #d4e2ff; }
+.order-footer { padding: 6px 0 calc(8px + env(safe-area-inset-bottom)); }
+.order-selection { display: flex; align-items: center; justify-content: space-between; font-size: 14px; }
+.order-page .order-selection button { width: auto; min-height: 44px; margin: 0; padding: 0 10px; color: #526f9a; background: transparent; font-size: 13px; line-height: 44px; }
+.selected-list { height: 36px; white-space: nowrap; color: #71849a; font-size: 14px; line-height: 36px; }
+.selected-character { display: inline-block; margin-right: 8px; padding: 0 8px; border-radius: 8px; color: #526f9a; background: #e0eaff; }
+.order-destination { min-height: 44px; box-sizing: border-box; padding: 12px; border-radius: 12px; background: #fff; font-size: 14px; }
+.order-page .order-save, .order-page .order-restore { width: 100%; min-height: 44px; margin: 8px 0 0; padding: 10px; border-radius: 12px; font-size: 16px; line-height: 24px; }
+.order-save { color: #fff; background: #5f83dd; }
+.order-save[disabled] { color: #96a3b1; background: #e0e6ee; }
+.order-restore { color: #526f9a; background: #e0eaff; }
+@media (min-width: 600px) { .order-page { max-width: 900px; margin: 0 auto; }.order-grid { grid-template-columns: repeat(10, minmax(0, 1fr)); } }

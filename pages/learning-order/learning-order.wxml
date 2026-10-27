@@ -1,0 +1,22 @@
+<view class="order-page">
+  <view class="order-header">
+    <text class="order-title">先选字，再选放到哪里</text>
+    <text class="order-help">按点选的先后排列这一批字；其他字保留原顺序。</text>
+    <input class="order-search" placeholder="输入汉字快速查找，例如：竹叶草" value="{{query}}" bindinput="search" />
+  </view>
+  <scroll-view class="order-list" scroll-y>
+    <view class="order-grid">
+      <block wx:for="{{units}}" wx:key="id"><button wx:if="{{!item.hidden}}" class="order-cell {{item.selected ? 'selected' : ''}}" bindtap="toggleCharacter" data-id="{{item.id}}" aria-label="{{item.number}}，{{item.title}}，{{item.selected ? '已选择' : '未选择'}}">
+        <text class="order-number">{{item.number}}</text><text>{{item.title}}</text>
+      </button></block>
+    </view>
+  </scroll-view>
+  <view class="order-footer">
+    <view class="order-selection"><text>已选 {{selected.length}} 字</text><button bindtap="clearSelection">清空选择</button></view>
+    <scroll-view class="selected-list" scroll-x><text wx:if="{{!selected.length}}">在上方点选要移动的字</text><text wx:for="{{selected}}" wx:key="id" class="selected-character" bindtap="toggleCharacter" data-id="{{item.id}}">{{index + 1}}.{{item.title}} ×</text></scroll-view>
+    <picker range="{{destinations}}" range-key="label" value="{{destinationIndex}}" bindchange="changeDestination"><view class="order-destination">放到：{{destinations[destinationIndex].label}} ▾</view></picker>
+    <button class="order-save" disabled="{{!selected.length}}" bindtap="save">保存顺序</button>
+    <button class="order-restore" bindtap="restoreDefault">恢复默认顺序</button>
+    <text class="order-help">只保存在当前设备，学习记录不会清空。已选学习范围仍然生效。</text>
+  </view>
+</view>

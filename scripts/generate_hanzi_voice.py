@@ -30,7 +30,7 @@ def asset_path(unit, field):
     return Path(filename.lstrip('/') if filename.startswith('/') else f'assets/audio/{filename}')
 
 
-async def generate_clip(unit, field, output_dir, ffmpeg):
+async def generate_clip(unit, field, output_dir, ffmpeg, bitrate='32k'):
     import edge_tts
 
     character = field == 'characterAudioFile'
@@ -62,7 +62,7 @@ async def generate_clip(unit, field, output_dir, ffmpeg):
                         '-i', str(source), '-ss', str(start), '-t', str(duration), str(cropped)
                     ], check=True)
                     source = cropped
-                convert(ffmpeg, source, target)
+                convert(ffmpeg, source, target, bitrate)
             print(f"Ready {unit['id']} {'character' if character else 'phrase'}", flush=True)
             return
         except Exception:

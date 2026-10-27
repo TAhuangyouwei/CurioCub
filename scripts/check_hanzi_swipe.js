@@ -2,8 +2,9 @@ const assert = require('assert')
 const { getModule } = require('../data/learning')
 const { createLessonPage } = require('../pages/lesson/lesson-page')
 const { getLearningPage } = require('../utils/learning-navigation')
+const { orderedHanzi } = require('../utils/hanzi-settings')
 
-const hanzi = getModule('hanzi')
+const hanzi = { ...getModule('hanzi'), items: [] }
 let saved = { completedIds: { 'hanzi-10': true }, stars: 1, stickerCount: 0, lastModuleId: 'hanzi' }
 const app = { globalData: { audio: { stop() {} }, lessonRequest: null } }
 let redirect = null
@@ -13,6 +14,7 @@ global.wx = {
   setStorageSync(key, value) { saved = JSON.parse(JSON.stringify(value)) },
   redirectTo(options) { redirect = options.url }
 }
+hanzi.items = orderedHanzi()
 
 function lessonAt(unitId, moduleId = 'hanzi') {
   const definition = createLessonPage()

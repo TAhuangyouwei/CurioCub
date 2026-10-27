@@ -2,6 +2,7 @@ const extraHanziSeed = require('./hanzi-extra')
 const readingHanziSeed = require('./hanzi-readings')
 const readingHanziSeed3 = require('./hanzi-readings-3')
 const hanziPinyin = require('./hanzi-pinyin')
+const schoolHanzi = require('./hanzi-school').added
 
 const hanziSeed = [
   ['土', '泥土', '🌱', 'hanzi-01-tu.png'], ['五', '五颗星', '⭐', 'hanzi-02-wu.png'], ['中', '中间', '🎯', 'hanzi-03-zhong.png'], ['上', '树上', '🌳', 'hanzi-04-shang.png'], ['天', '蓝天', '☁️', 'hanzi-05-tian.png'],
@@ -14,7 +15,7 @@ const hanziSeed = [
   ['几', '几块饼干', '🍪', 'hanzi-36-ji.png'], ['九', '九颗糖果', '🍬', 'hanzi-37-jiu.png'], ['与', '你与我', '🤝', 'hanzi-38-yu.png'], ['马', '小马', '🐴', 'hanzi-39-ma.png'], ['鸟', '小鸟', '🐦', 'hanzi-40-niao.png']
 ]
 
-const allHanziSeed = hanziSeed.concat(extraHanziSeed, readingHanziSeed, readingHanziSeed3)
+const allHanziSeed = hanziSeed.concat(extraHanziSeed, readingHanziSeed, readingHanziSeed3, schoolHanzi)
 
 const pinyinSeed = [
   ['a', '张开嘴巴 a', '😮'], ['o', '圆圆嘴巴 o', '🟡'], ['e', '白鹅 e', '🐤'], ['i', '衣服 i', '👕'], ['u', '乌鸦 u', '🐦'], ['ü', '小鱼 ü', '🐟'],

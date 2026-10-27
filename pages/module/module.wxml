@@ -21,6 +21,7 @@
       <label class="range-audio"><text>换字自动朗读</text><switch checked="{{autoRead}}" bindchange="changeAutoRead" color="#5f83dd" /></label>
       <button wx:if="{{rangeEnabled}}" class="range-primary" bindtap="startRangeLearning">开始学习</button>
       <button class="range-secondary" bindtap="editRange">{{rangeEnabled ? '修改范围' : '选择学习范围'}}</button>
+      <button class="range-secondary" bindtap="editOrder">调整识字顺序</button>
       <button wx:if="{{rangeEnabled}}" class="range-exit" bindtap="exitLearningRange">退出范围，学习全部汉字</button>
     </view>
 
@@ -81,6 +82,11 @@
       <view class="group-header"><text class="group-title">第 3 站 · 随机计算</text><text class="group-state">10题一组</text></view>
       <text class="group-progress">选择加法或减法、设置范围，一页填写后统一检查。</text>
       <button class="review-button" bindtap="openMathPractice">开始随机练习</button>
+    </view>
+    <view wx:if="{{module.id === 'math'}}" class="group-card">
+      <view class="group-header"><text class="group-title">第 4 站 · 分一分，凑一凑</text></view>
+      <text class="group-progress">把星星拖进篮子，试着补齐指定数量。</text>
+      <button class="review-button" bindtap="openNumberBonds">开始补星星</button>
     </view>
   </view>
 </scroll-view>

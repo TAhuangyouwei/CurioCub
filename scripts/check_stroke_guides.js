@@ -11,7 +11,7 @@ for (const unit of getModule('hanzi').items) {
   assert.deepStrictEqual(pointAlong(guide.points, 0), guide.points[0])
   assert.deepStrictEqual(pointAlong(guide.points, 1), guide.points.at(-1))
 }
-assert.strictEqual(Object.keys(guides).length, 458)
+assert.strictEqual(Object.keys(guides).length, 475)
 assert.strictEqual(guideFor('虫').count, 6)
 assert(guideFor('虫').points.at(-1)[1] > guideFor('虫').points[0][1], '虫的第一笔应向下，不能从中间长竖开始')
 assert(guideFor('虫').angle > 45 && guideFor('虫').angle < 90, '虫的起笔箭头不能被笔锋误导为横向')

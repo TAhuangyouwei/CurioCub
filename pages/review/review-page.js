@@ -1,6 +1,8 @@
 const { getModule } = require('../../data/learning')
 const { createReviewLayout, isInsideTarget, snappedPosition } = require('../../utils/review-matching')
 const { playAudio, stopAudio } = require('../../utils/audio')
+const { orderedHanzi } = require('../../utils/hanzi-settings')
+const { createHanziAudio } = require('../../utils/hanzi-audio')
 
 function createReviewPage() {
   return {
@@ -24,7 +26,8 @@ function createReviewPage() {
 
     const start = groupIndex * module.groupSize
     const isHanzi = module.id === 'hanzi'
-    this.reviewUnits = module.items.slice(start, start + module.groupSize).slice(0, isHanzi ? 10 : 4)
+    this.reviewUnits = (isHanzi ? orderedHanzi() : module.items).slice(start, start + module.groupSize).slice(0, isHanzi ? 10 : 4)
+    if (isHanzi) this.hanziAudio = createHanziAudio(true)
     this.setData({ module, isHanzi })
     this.updateLayout()
     wx.setNavigationBarTitle({ title: '拖拽配对' })
@@ -51,7 +54,10 @@ function createReviewPage() {
   playTargetAudio(event) {
     if (!this.data.isHanzi) return
     const unit = this.reviewUnits.find(item => item.id === event.currentTarget.dataset.id)
-    if (unit) playAudio(unit.characterAudioFile)
+    if (unit) {
+      if (this.hanziAudio) this.hanziAudio.play(unit)
+      else playAudio(unit.characterAudioFile)
+    }
   },
 
   onDragChange(event) {
@@ -105,11 +111,12 @@ function createReviewPage() {
   },
 
   onHide() {
-    stopAudio()
+    if (this.hanziAudio) this.hanziAudio.stop()
+    else stopAudio()
   },
 
   onUnload() {
-    stopAudio()
+    this.onHide()
   }
   }
 }

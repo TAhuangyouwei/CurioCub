@@ -8,12 +8,19 @@ function flush() { const ready = [...timers.values()]; timers.clear(); ready.for
 const played = []
 const requests = []
 const toasts = []
+const fileReads = []
+const fileWrites = []
 const player = { stop() {}, play() { played.push(this.src) }, onError() {}, offError() {}, onCanplay() {}, offCanplay() {}, onEnded() {}, offEnded() {} }
 global.getApp = () => ({ globalData: { audio: player } })
 global.wx = {
   getStorageSync: key => store.get(key),
   setStorageSync: (key, value) => store.set(key, value),
   loadSubpackage: request => requests.push(request),
+  env: { USER_DATA_PATH: 'wxfile://usr' },
+  getFileSystemManager: () => ({
+    readFile: request => fileReads.push(request),
+    writeFile: request => fileWrites.push(request)
+  }),
   showToast: toast => toasts.push(toast)
 }
 const { getModule } = require('../data/learning')
@@ -54,7 +61,32 @@ practice.schedule(units[457])
 flush()
 assert.strictEqual(requests[0].name, 'hanzi-practice')
 requests.shift().success()
-assert.strictEqual(played.at(-1), '/packages/hanzi-practice/audio/hanzi-458.mp3')
+assert.strictEqual(fileReads[0].filePath, '/packages/hanzi-practice/audio/hanzi-458.mp3')
+const bytes = new ArrayBuffer(8)
+fileReads.shift().success({ data: bytes })
+assert.strictEqual(fileWrites[0].data, bytes)
+fileWrites.shift().success()
+assert.strictEqual(played.at(-1), 'wxfile://usr/curiocub-hanzi-458.mp3', '真机应播放本地文件，避免跨分包音频路径失效')
+practice.play(units[61])
+requests.shift().success()
+assert.strictEqual(fileReads[0].filePath, '/packages/hanzi-practice/audio/hanzi-62.mp3', '电的音频应能从练习包读取')
+fileReads.shift().success({ data: bytes })
+fileWrites.shift().success()
+assert.strictEqual(played.at(-1), 'wxfile://usr/curiocub-hanzi-62.mp3')
+practice.play(units[0])
+requests.shift().success()
+const lateRead = fileReads.shift()
+practice.stop()
+lateRead.success({ data: bytes })
+assert.strictEqual(fileWrites.length, 0, '退出后的读取回调不得写入或播放旧字')
+practice.play(units[0])
+requests.shift().success()
+fileReads.shift().success({ data: bytes })
+const lateWrite = fileWrites.shift()
+practice.stop()
+const beforeLateWrite = played.length
+lateWrite.success()
+assert.strictEqual(played.length, beforeLateWrite, '退出后的文件写入不得触发播放')
 practice.schedule(units[0])
 flush()
 practice.stop()

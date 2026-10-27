@@ -1,12 +1,11 @@
 const assert = require('assert')
-const { getModule } = require('../data/learning')
 const store = new Map()
 global.wx = {
   getStorageSync: (key) => store.get(key),
   setStorageSync: (key, value) => store.set(key, JSON.parse(JSON.stringify(value)))
 }
-const { getHanziSettings, saveRange, exitRange, setAutoRead, studyUnits } = require('../utils/hanzi-settings')
-const units = getModule('hanzi').items
+const { getHanziSettings, saveRange, exitRange, setAutoRead, studyUnits, orderedHanzi } = require('../utils/hanzi-settings')
+const units = orderedHanzi()
 assert.strictEqual(getHanziSettings().autoRead, true)
 assert.deepStrictEqual(studyUnits(units), units)
 assert.strictEqual(saveRange(units[9].id, units[2].id), false, '倒序范围不得保存')

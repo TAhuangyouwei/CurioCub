@@ -36,7 +36,7 @@ function loadPage(file) {
 const modulePage = loadPage('../pages/module/module')
 modulePage.onLoad({ moduleId: 'hanzi' })
 modulePage.onShow()
-assert.deepStrictEqual(modulePage.data.groups.map((group) => group.total), Array.from({ length: 46 }, (_, i) => i === 45 ? 8 : 10))
+assert.deepStrictEqual(modulePage.data.groups.map((group) => group.total), Array.from({ length: 48 }, (_, i) => i === 47 ? 5 : 10))
 assert.strictEqual(modulePage.data.groups[0].items[0].completed, true, '旧字学习记录应保留')
 modulePage.data.groups.forEach((group) => assert(!group.locked, '所有识字小组应直接开放'))
 modulePage.openLesson({ currentTarget: { dataset: { unitId: 'hanzi-41', locked: false } } })

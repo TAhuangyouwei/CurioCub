@@ -1,5 +1,6 @@
 const { getModule } = require('../../../data/learning')
 const { sentences, sentenceUnits, eligibleSentences } = require('../data/reading')
+const { getHanziSettings, orderedHanzi } = require('../../../utils/hanzi-settings')
 const KEY = 'curiocub-practice-v1'
 const units = getModule('hanzi').items
 function todayKey(date = new Date()) {
@@ -19,7 +20,9 @@ function getToday(progress, day = todayKey()) {
     })
     const firstNew = target ? sentenceUnits(target).filter((unit) => !progress.completedIds[unit.id]) : []
     const foundation = [...'人上山下小鸟飞我有手水天日月一二三口'].map((char) => units.find((unit) => unit.title === char))
-    const newUnits = [...new Set(firstNew.concat(foundation, units))].filter((unit) => !progress.completedIds[unit.id] && !progress.unlearnedIds[unit.id]).slice(0, 3)
+    const settings = getHanziSettings()
+    const candidates = settings.orderIds.length ? orderedHanzi(settings) : [...new Set(firstNew.concat(foundation, units))]
+    const newUnits = candidates.filter((unit) => !progress.completedIds[unit.id] && !progress.unlearnedIds[unit.id]).slice(0, 3)
     const review = units.filter((unit) => progress.unlearnedIds[unit.id] || progress.completedIds[unit.id])
       .sort((a, b) => Number(Boolean(progress.unlearnedIds[b.id])) - Number(Boolean(progress.unlearnedIds[a.id])) ||
         (state.reviews[a.id] || '').localeCompare(state.reviews[b.id] || '')).slice(0, 2)

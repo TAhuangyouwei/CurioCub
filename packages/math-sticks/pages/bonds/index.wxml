@@ -1,0 +1,27 @@
+<view class="number-screen">
+  <view class="number-header"><text class="number-title">分一分，凑一凑</text><text class="question-count">第 {{questionNumber}} 题</text></view>
+  <view class="limit-tabs">
+    <button class="limit-option {{limit === 5 ? 'selected' : ''}}" bindtap="changeLimit" data-limit="5">5以内</button>
+    <button class="limit-option {{limit === 10 ? 'selected' : ''}}" bindtap="changeLimit" data-limit="10">10以内</button>
+  </view>
+  <view class="goal-card"><text class="goal-title">请把篮子补到 {{target}} 颗星</text><text class="goal-description">原来已有 {{initialCount}} 颗，再放一些，刚好凑齐。</text></view>
+  <text class="number-instruction">把下面的星星拖进篮子，放多了也能拖回去。</text>
+  <view class="number-board" style="height: {{boardHeight}}px;">
+    <view class="basket-zone" style="height: {{zoneHeight}}px;"><text class="zone-label">篮子 · 现在有 {{basketCount}} 颗</text></view>
+    <view class="tray-zone" style="top: {{trayTop}}px; height: {{zoneHeight}}px;"><text class="zone-label">从这里拿星星</text></view>
+    <view wx:for="{{slots}}" wx:key="id" class="star-slot" style="left: {{item.x}}px; top: {{item.y}}px;"></view>
+    <view wx:for="{{fixedStars}}" wx:key="id" class="fixed-star" style="left: {{item.x}}px; top: {{item.y}}px;" aria-label="原有的星星">★</view>
+    <view wx:for="{{stars}}" wx:key="id" class="star-token {{item.zone === 'basket' ? 'added-star' : ''}} {{activeId === item.id ? 'dragging' : ''}}"
+      style="left: {{item.x}}px; top: {{item.y}}px;" data-id="{{item.id}}"
+      catchtouchstart="onDragStart" catchtouchmove="onDragMove" catchtouchend="onDragEnd" catchtouchcancel="onDragCancel" aria-label="可拖动的星星">
+      <text class="star-symbol">★</text>
+    </view>
+  </view>
+  <view class="number-feedback {{complete ? 'success' : basketCount > target ? 'try-again' : ''}}" aria-live="polite">
+    <text wx:if="{{complete}}" class="number-equation">{{equation}}</text><text>{{feedback}}</text>
+  </view>
+  <view class="number-actions">
+    <button class="reset-button" bindtap="resetBoard">重新摆</button>
+    <button class="next-button" bindtap="nextQuestion" disabled="{{!complete}}">下一题 ›</button>
+  </view>
+</view>

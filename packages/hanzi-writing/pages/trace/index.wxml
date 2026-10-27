@@ -15,7 +15,7 @@
   </view>
   <text class="trace-feedback {{complete ? 'success' : ''}}" aria-live="polite">{{feedback}}</text>
   <view class="trace-stage">
-    <view class="trace-board" style="width: {{boardSize}}px; height: {{boardSize}}px;">
+    <view wx:if="{{!hintVisible}}" class="trace-board" style="width: {{boardSize}}px; height: {{boardSize}}px;">
       <view class="grid-horizontal"></view><view class="grid-vertical"></view>
       <canvas id="trace-canvas" class="trace-canvas" type="2d" disable-scroll="{{true}}"
         catchtouchstart="onTouchStart" catchtouchmove="onTouchMove" catchtouchend="onTouchEnd" catchtouchcancel="onTouchCancel"

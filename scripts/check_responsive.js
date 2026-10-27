@@ -21,7 +21,7 @@ for (const width of [320, 375, 390, 430, 507, 600, 768, 834, 1024, 1366]) {
 let definition
 let width = 375
 global.Page = (page) => { definition = page }
-global.wx = { getWindowInfo: () => ({ windowWidth: width }), setNavigationBarTitle() {}, showToast() {} }
+global.wx = { getStorageSync() {}, getWindowInfo: () => ({ windowWidth: width }), setNavigationBarTitle() {}, showToast() {} }
 require('../pages/review/review')
 const page = { ...definition, data: JSON.parse(JSON.stringify(definition.data)),
   setData(changes, callback) {

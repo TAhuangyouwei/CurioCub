@@ -1,9 +1,8 @@
 const assert = require('assert')
 const fs = require('fs')
-const { getModule } = require('../data/learning')
 const { createLessonPage } = require('../pages/lesson/lesson-page')
 const { guideFor } = require('../packages/hanzi-writing/utils/stroke-guide')
-const { saveRange, exitRange, setAutoRead } = require('../utils/hanzi-settings')
+const { saveRange, exitRange, setAutoRead, orderedHanzi } = require('../utils/hanzi-settings')
 
 let definition
 let navigation
@@ -52,7 +51,7 @@ function write(page, points) {
   points.slice(1, -1).forEach(p => page.onTouchMove({ touches: [touch(p, page)] }))
   page.onTouchEnd({ changedTouches: [touch(points.at(-1), page)] })
 }
-const units = getModule('hanzi').items
+const units = orderedHanzi()
 for (const unit of units) {
   const lesson = createLessonPage()
   Object.assign(lesson, { data: { isHanzi: true, unit } })
@@ -84,9 +83,12 @@ write(page, guide.strokes[2].points)
 assert.strictEqual(JSON.stringify(page.strokes), accepted, '跳笔应清掉当前笔，保留已通过笔画')
 page.showHint()
 assert(page.data.hintVisible)
+assert.strictEqual(page.context, null, '打开提示时应释放画布，避免真机笔迹穿透弹窗')
 assert.strictEqual(page.data.hintImage, page.data.unit.imageFile)
 assert.strictEqual(JSON.stringify(page.strokes), accepted, '查看配图不丢失正确笔迹')
 page.closeHint()
+assert(page.context, '关闭提示后应重新连接画布并恢复笔迹')
+assert.strictEqual(JSON.stringify(page.strokes), accepted)
 page.demonstrateAll()
 assert(page.data.demonstrating)
 now += 1450
@@ -179,6 +181,7 @@ for (const unit of units) {
 }
 const template = fs.readFileSync(require.resolve('../packages/hanzi-writing/pages/trace/index.wxml'), 'utf8')
 assert(template.includes('catchtouchmove="onTouchMove"'))
+assert(template.includes('wx:if="{{!hintVisible}}"'), '提示弹出时不应保留原生画布')
 assert(template.includes('type="2d"') && template.includes('bindtap="showHint"') && template.includes('bindtap="demonstrateAll"'))
 assert.strictEqual(require('../packages/hanzi-writing/pages/trace/index.json').disableScroll, true)
 for (const route of ['../pages/trace/trace', '../packages/hanzi-practice/pages/trace/index']) {

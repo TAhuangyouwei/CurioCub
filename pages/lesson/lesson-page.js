@@ -37,9 +37,9 @@ function createLessonPage() {
     const rangeEnabled = module.id === 'hanzi' && settings.rangeEnabled
     const isNotebook = module.id === 'hanzi' && options.source === 'notebook' && !rangeEnabled
     const progress = getProgress()
-    this.lessonItems = rangeEnabled ? studyUnits(module.items, settings) : isNotebook
-      ? module.items.filter((item) => progress.unlearnedIds[item.id])
-      : (module.id === 'hanzi' ? module.items : module.items.slice(groupStart, groupStart + module.groupSize))
+    this.lessonItems = module.id === 'hanzi'
+      ? studyUnits(isNotebook ? module.items.filter((item) => progress.unlearnedIds[item.id]) : module.items, settings)
+      : module.items.slice(groupStart, groupStart + module.groupSize)
     let currentIndex = this.lessonItems.findIndex((item) => item.id === options.unitId)
     if (currentIndex === -1 && rangeEnabled) currentIndex = 0
     if (currentIndex === -1) {

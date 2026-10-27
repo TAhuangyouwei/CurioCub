@@ -1,13 +1,12 @@
-const { getModule } = require('../../data/learning')
 const { getProgress, getUnitStatus } = require('../../utils/progress')
-const { getHanziSettings, saveRange } = require('../../utils/hanzi-settings')
+const { getHanziSettings, saveRange, orderedHanzi } = require('../../utils/hanzi-settings')
 const { getLearningPage } = require('../../utils/learning-navigation')
 
 Page({
   data: { units: [], rangeStart: 0, rangeEnd: 0, rangeCount: 0, rangeReady: false, selecting: 'start', initialAnchor: '' },
 
   onLoad() {
-    this.units = getModule('hanzi').items
+    this.units = orderedHanzi()
     const progress = getProgress()
     const settings = getHanziSettings()
     const rangeStart = this.units.findIndex(unit => unit.id === settings.startId)

@@ -49,8 +49,9 @@ Page({
   },
 
   prepareCanvas() {
+    if (this.destroyed || this.data.hintVisible) return
     wx.createSelectorQuery().in(this).select('#trace-canvas').fields({ node: true, size: true }).exec(results => {
-      if (this.destroyed || !results[0]) return
+      if (this.destroyed || this.data.hintVisible || !results[0]) return
       const { node, width, height } = results[0]
       this.canvas = node
       this.size = width
@@ -199,10 +200,13 @@ Page({
     this.index = index
     this.strokes = []
     this.characterGuide = guideFor(this.units[index].title)
+    const restoreCanvas = this.data.hintVisible
     this.setData({ unit: this.units[index], currentNumber: index + 1, total: this.units.length,
       hasPrevious: this.data.rangeEnabled ? this.units.length > 1 : index > 0,
       hasNext: this.data.rangeEnabled ? this.units.length > 1 : index < this.units.length - 1,
-      hintVisible: false, hintImage: '', hintLoading: false })
+      hintVisible: false, hintImage: '', hintLoading: false }, () => {
+      if (restoreCanvas) this.prepareCanvas()
+    })
     this.refreshWriting()
     this.audio.schedule(this.data.unit)
   },
@@ -249,6 +253,8 @@ Page({
   showHint() {
     this.stopDemonstration()
     this.discardStroke()
+    this.context = null
+    this.canvas = null
     const unit = this.data.unit
     this.setData({ hintVisible: true, hintLoading: true, hintImage: '' })
     loadHanziPackage(unit.packageName, () => {
@@ -258,7 +264,7 @@ Page({
       if (!this.destroyed && this.data.unit.id === unit.id) this.setData({ hintLoading: false })
     })
   },
-  closeHint() { this.setData({ hintVisible: false }) },
+  closeHint() { this.setData({ hintVisible: false }, () => this.prepareCanvas()) },
   onHintImageError() { this.setData({ hintImage: '' }) },
   ignoreTouch() {},
   playCharacter() { this.audio.play(this.data.unit) },
