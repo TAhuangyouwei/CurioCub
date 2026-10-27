@@ -1,18 +1,20 @@
 const extraHanziSeed = require('./hanzi-extra')
+const readingHanziSeed = require('./hanzi-readings')
+const readingHanziSeed3 = require('./hanzi-readings-3')
 const hanziPinyin = require('./hanzi-pinyin')
 
 const hanziSeed = [
   ['土', '泥土', '🌱', 'hanzi-01-tu.png'], ['五', '五颗星', '⭐', 'hanzi-02-wu.png'], ['中', '中间', '🎯', 'hanzi-03-zhong.png'], ['上', '树上', '🌳', 'hanzi-04-shang.png'], ['天', '蓝天', '☁️', 'hanzi-05-tian.png'],
   ['禾', '禾苗', '🌾', 'hanzi-06-he.png'], ['人', '一个人', '👦', 'hanzi-07-ren.png'], ['尺', '尺子', '📏', 'hanzi-08-chi.png'], ['头', '头顶', '🙂', 'hanzi-09-tou.png'], ['下', '树下', '🌲', 'hanzi-10-xia.png'],
   ['虫', '小虫', '🐛', 'hanzi-11-chong.png'], ['把', '一把伞', '☂️', 'hanzi-12-ba.png'], ['口', '张开口', '👄', 'hanzi-13-kou.png'], ['子', '孩子', '👦', 'hanzi-14-zi.png'], ['水', '水滴', '💧', 'hanzi-15-shui.png'],
-  ['你', '你和我', '🤝', 'hanzi-16-ni.png'], ['山', '大山', '⛰️', 'hanzi-17-shan.png'], ['牙', '牙齿', '😁', 'hanzi-18-ya.png'], ['长', '长长的', '🦒', 'hanzi-19-chang.png'], ['比', '比一比', '⚖️', 'hanzi-20-bi.png'],
-  ['四', '四朵花', '🌷', 'hanzi-21-si.png'], ['西', '西瓜', '🍉', 'hanzi-22-xi.png'], ['小', '小小的', '🐞', 'hanzi-23-xiao.png'], ['了', '天黑了', '🌙', 'hanzi-24-le.png'], ['手', '小手', '🖐️', 'hanzi-25-shou.png'],
+  ['你', '你好', '👋', 'hanzi-16-ni.png'], ['山', '大山', '⛰️', 'hanzi-17-shan.png'], ['牙', '牙齿', '😁', 'hanzi-18-ya.png'], ['长', '长长的', '🦒', 'hanzi-19-chang.png'], ['比', '比一比', '⚖️', 'hanzi-20-bi.png'],
+  ['四', '四朵花', '🌷', 'hanzi-21-si.png'], ['西', '西边', '🧭', 'hanzi-22-xi.png'], ['小', '小小的', '🐞', 'hanzi-23-xiao.png'], ['了', '天黑了', '🌙', 'hanzi-24-le.png'], ['手', '小手', '🖐️', 'hanzi-25-shou.png'],
   ['我', '我自己', '🙋', 'hanzi-26-wo.png'], ['去', '去公园', '🌳', 'hanzi-27-qu.png'], ['东', '东边', '🌅', 'hanzi-28-dong.png'], ['心', '爱心', '❤️', 'hanzi-29-xin.png'], ['必', '必须洗手', '💧', 'hanzi-30-bi.png'],
   ['女', '女孩', '👧', 'hanzi-31-nv.png'], ['力', '力气', '💪', 'hanzi-32-li.png'], ['月', '月亮', '🌜', 'hanzi-33-yue.png'], ['儿', '花儿', '🌸', 'hanzi-34-er.png'], ['巴', '尾巴', '🐕', 'hanzi-35-ba.png'],
-  ['几', '几只鸟', '🐦', 'hanzi-36-ji.png'], ['九', '九颗星', '✨', 'hanzi-37-jiu.png'], ['与', '你与我', '🤝', 'hanzi-38-yu.png'], ['马', '小马', '🐴', 'hanzi-39-ma.png'], ['鸟', '小鸟', '🐦', 'hanzi-40-niao.png']
+  ['几', '几块饼干', '🍪', 'hanzi-36-ji.png'], ['九', '九颗糖果', '🍬', 'hanzi-37-jiu.png'], ['与', '你与我', '🤝', 'hanzi-38-yu.png'], ['马', '小马', '🐴', 'hanzi-39-ma.png'], ['鸟', '小鸟', '🐦', 'hanzi-40-niao.png']
 ]
 
-const allHanziSeed = hanziSeed.concat(extraHanziSeed)
+const allHanziSeed = hanziSeed.concat(extraHanziSeed, readingHanziSeed, readingHanziSeed3)
 
 const pinyinSeed = [
   ['a', '张开嘴巴 a', '😮'], ['o', '圆圆嘴巴 o', '🟡'], ['e', '白鹅 e', '🐤'], ['i', '衣服 i', '👕'], ['u', '乌鸦 u', '🐦'], ['ü', '小鱼 ü', '🐟'],
@@ -38,17 +40,19 @@ function choicesFor(answer, pool) {
 }
 
 function createItems(moduleId, seed, pool, questionPrefix) {
-  return seed.map(([title, phrase, icon, imageFile], index) => {
+  return seed.map(([title, phrase, icon, imageFile, pinyin], index) => {
     const number = String(index + 1).padStart(2, '0')
     const isHanzi = moduleId === 'hanzi'
     const isMath = moduleId === 'math'
-    const packageName = isHanzi && index >= hanziSeed.length ? 'hanzi-extra' : ''
+    const packageName = isHanzi && index >= hanziSeed.length
+      ? (index < 80 ? 'hanzi-extra' : `hanzi-reading-${Math.floor((index - 80) / 60) + 1}`)
+      : ''
     const resourceRoot = packageName ? `/packages/${packageName}` : '/assets'
 
     return {
       id: `${moduleId}-${number}`,
       title,
-      pinyin: isHanzi ? hanziPinyin[title] : '',
+      pinyin: isHanzi ? (hanziPinyin[title] || pinyin) : '',
       phrase,
       icon,
       packageName,

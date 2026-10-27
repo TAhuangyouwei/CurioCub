@@ -1,0 +1,45 @@
+<view wx:if="{{unit}}" class="trace-screen" style="height: {{windowHeight}}px; padding-bottom: {{bottomInset}}px;">
+  <view class="trace-meta">
+    <text class="trace-pinyin">{{unit.pinyin}}</text>
+    <text class="trace-phrase">{{unit.phrase}}</text>
+    <text class="trace-count">{{currentNumber}} / {{total}}</text>
+  </view>
+  <view class="trace-guide-help">
+    <text>绿点起笔，沿箭头方向描</text>
+    <button class="guide-play" bindtap="demonstrateFirstStroke">▶ 看首笔</button>
+  </view>
+  <view class="trace-stage">
+    <view class="trace-board" style="width: {{boardSize}}px; height: {{boardSize}}px;">
+      <text class="stroke-note">首笔提示 · 共 {{guide.count}} 笔</text>
+      <view class="grid-horizontal"></view>
+      <view class="grid-vertical"></view>
+      <text class="trace-character" style="font-size: {{boardSize * 0.84}}px; line-height: {{boardSize}}px; -webkit-text-stroke: {{boardSize * 0.008}}px currentColor;">{{unit.title}}</text>
+      <view wx:if="{{guide}}" class="stroke-origin" style="left: {{guide.start[0] / 10}}%; top: {{guide.start[1] / 10}}%;">
+        <view class="stroke-arrow" style="transform: rotate({{guide.angle}}deg);"></view>
+        <text class="stroke-dot">1</text>
+      </view>
+      <view wx:if="{{demonstrating}}" class="stroke-demo" style="left: {{demoPoint[0] / 10}}%; top: {{demoPoint[1] / 10}}%;"></view>
+      <canvas
+        id="trace-canvas"
+        class="trace-canvas"
+        type="2d"
+        disable-scroll="{{true}}"
+        catchtouchstart="onTouchStart"
+        catchtouchmove="onTouchMove"
+        catchtouchend="onTouchEnd"
+        catchtouchcancel="onTouchCancel"
+        aria-label="在大字{{unit.title}}上临摹"
+      ></canvas>
+    </view>
+  </view>
+  <view class="trace-controls">
+    <view class="trace-actions">
+      <button class="trace-action secondary" bindtap="undoStroke" disabled="{{!hasInk}}">撤销一笔</button>
+      <button class="trace-action restart" bindtap="clearWriting" disabled="{{!hasInk}}">重新写</button>
+    </view>
+    <view class="trace-actions character-actions">
+      <button class="trace-action secondary" bindtap="previousCharacter" disabled="{{!hasPrevious}}">‹ 上一字</button>
+      <button class="trace-action primary" bindtap="nextCharacter" disabled="{{!hasNext}}">下一字 ›</button>
+    </view>
+  </view>
+</view>

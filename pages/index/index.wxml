@@ -8,11 +8,15 @@
         <text class="eyebrow">CurioCub · 星光森林</text>
         <text class="hero-title">和 Cubi 一起</text>
         <text class="hero-title">发现新知识</text>
-        <button class="continue-button" bindtap="continueLearning">继续探险</button>
+        <button class="continue-button" bindtap="startToday">今天开始</button>
       </view>
       <image class="mascot" src="../../assets/images/cubi-mascot-light.png" mode="widthFix" />
     </view>
 
+    <view class="home-quick-actions">
+      <button bindtap="openReading">📖 已学字阅读</button>
+      <button bindtap="continueLearning">自由探险 ›</button>
+    </view>
     <view class="reward-row">
       <view class="reward-card star-card">
         <text class="reward-icon">⭐</text>

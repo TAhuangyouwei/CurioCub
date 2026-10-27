@@ -2,15 +2,25 @@
   "pages": [
     "pages/index/index",
     "pages/module/module",
+    "pages/notebook/notebook",
     "pages/lesson/lesson",
+    "pages/trace/trace",
     "pages/challenge/challenge",
     "pages/reward/reward",
     "pages/review/review",
     "pages/stickers/stickers"
   ],
   "subpackages": [
+    { "root": "packages/hanzi-practice", "name": "hanzi-practice", "pages": ["pages/today/index", "pages/reading/index", "pages/trace/index"] },
     { "root": "packages/math-sticks", "name": "math-sticks", "pages": ["pages/workshop/index"] },
     { "root": "packages/hanzi-extra", "name": "hanzi-extra", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/hanzi-reading-1", "name": "hanzi-reading-1", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/hanzi-reading-2", "name": "hanzi-reading-2", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/hanzi-reading-3", "name": "hanzi-reading-3", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/hanzi-reading-4", "name": "hanzi-reading-4", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/hanzi-reading-5", "name": "hanzi-reading-5", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/hanzi-reading-6", "name": "hanzi-reading-6", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
+    { "root": "packages/hanzi-reading-7", "name": "hanzi-reading-7", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
     { "root": "packages/pinyin-basic-v2", "name": "pinyin-basic-v2", "pages": ["pages/loader/index"] },
     { "root": "packages/pinyin-01", "name": "pinyin-01", "pages": ["pages/loader/index", "pages/builder/index"] },
     { "root": "packages/pinyin-02", "name": "pinyin-02", "pages": ["pages/loader/index", "pages/builder/index"] },
@@ -31,6 +41,7 @@
     "navigationBarBackgroundColor": "#eaf5ff",
     "backgroundColor": "#eaf5ff"
   },
+  "resizable": true,
   "style": "v2",
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",

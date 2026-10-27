@@ -1,0 +1,5740 @@
+[
+  {
+    "id": "hanzi-01",
+    "title": "土",
+    "pinyin": "tǔ",
+    "phrase": "泥土",
+    "icon": "🌱",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-01-tu.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-01-character.mp3",
+    "phraseAudioFile": "hanzi-01-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "土",
+      "五",
+      "中"
+    ],
+    "answer": "土"
+  },
+  {
+    "id": "hanzi-02",
+    "title": "五",
+    "pinyin": "wǔ",
+    "phrase": "五颗星",
+    "icon": "⭐",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-02-wu.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-02-character.mp3",
+    "phraseAudioFile": "hanzi-02-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "上",
+      "五",
+      "中"
+    ],
+    "answer": "五"
+  },
+  {
+    "id": "hanzi-03",
+    "title": "中",
+    "pinyin": "zhōng",
+    "phrase": "中间",
+    "icon": "🎯",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-03-zhong.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-03-character.mp3",
+    "phraseAudioFile": "hanzi-03-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "上",
+      "天",
+      "中"
+    ],
+    "answer": "中"
+  },
+  {
+    "id": "hanzi-04",
+    "title": "上",
+    "pinyin": "shàng",
+    "phrase": "树上",
+    "icon": "🌳",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-04-shang.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-04-character.mp3",
+    "phraseAudioFile": "hanzi-04-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "禾",
+      "上",
+      "天"
+    ],
+    "answer": "上"
+  },
+  {
+    "id": "hanzi-05",
+    "title": "天",
+    "pinyin": "tiān",
+    "phrase": "蓝天",
+    "icon": "☁️",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-05-tian.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-05-character.mp3",
+    "phraseAudioFile": "hanzi-05-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "禾",
+      "人",
+      "天"
+    ],
+    "answer": "天"
+  },
+  {
+    "id": "hanzi-06",
+    "title": "禾",
+    "pinyin": "hé",
+    "phrase": "禾苗",
+    "icon": "🌾",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-06-he.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-06-character.mp3",
+    "phraseAudioFile": "hanzi-06-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "尺",
+      "禾",
+      "人"
+    ],
+    "answer": "禾"
+  },
+  {
+    "id": "hanzi-07",
+    "title": "人",
+    "pinyin": "rén",
+    "phrase": "一个人",
+    "icon": "👦",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-07-ren.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-07-character.mp3",
+    "phraseAudioFile": "hanzi-07-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "尺",
+      "人",
+      "头"
+    ],
+    "answer": "人"
+  },
+  {
+    "id": "hanzi-08",
+    "title": "尺",
+    "pinyin": "chǐ",
+    "phrase": "尺子",
+    "icon": "📏",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-08-chi.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-08-character.mp3",
+    "phraseAudioFile": "hanzi-08-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "尺",
+      "头",
+      "下"
+    ],
+    "answer": "尺"
+  },
+  {
+    "id": "hanzi-09",
+    "title": "头",
+    "pinyin": "tóu",
+    "phrase": "头顶",
+    "icon": "🙂",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-09-tou.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-09-character.mp3",
+    "phraseAudioFile": "hanzi-09-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "虫",
+      "头",
+      "下"
+    ],
+    "answer": "头"
+  },
+  {
+    "id": "hanzi-10",
+    "title": "下",
+    "pinyin": "xià",
+    "phrase": "树下",
+    "icon": "🌲",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-10-xia.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-10-character.mp3",
+    "phraseAudioFile": "hanzi-10-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "把",
+      "虫",
+      "下"
+    ],
+    "answer": "下"
+  },
+  {
+    "id": "hanzi-11",
+    "title": "虫",
+    "pinyin": "chóng",
+    "phrase": "小虫",
+    "icon": "🐛",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-11-chong.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-11-character.mp3",
+    "phraseAudioFile": "hanzi-11-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "把",
+      "虫",
+      "口"
+    ],
+    "answer": "虫"
+  },
+  {
+    "id": "hanzi-12",
+    "title": "把",
+    "pinyin": "bǎ",
+    "phrase": "一把伞",
+    "icon": "☂️",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-12-ba.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-12-character.mp3",
+    "phraseAudioFile": "hanzi-12-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "把",
+      "口",
+      "子"
+    ],
+    "answer": "把"
+  },
+  {
+    "id": "hanzi-13",
+    "title": "口",
+    "pinyin": "kǒu",
+    "phrase": "张开口",
+    "icon": "👄",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-13-kou.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-13-character.mp3",
+    "phraseAudioFile": "hanzi-13-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "口",
+      "水",
+      "子"
+    ],
+    "answer": "口"
+  },
+  {
+    "id": "hanzi-14",
+    "title": "子",
+    "pinyin": "zǐ",
+    "phrase": "孩子",
+    "icon": "👦",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-14-zi.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-14-character.mp3",
+    "phraseAudioFile": "hanzi-14-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "你",
+      "水",
+      "子"
+    ],
+    "answer": "子"
+  },
+  {
+    "id": "hanzi-15",
+    "title": "水",
+    "pinyin": "shuǐ",
+    "phrase": "水滴",
+    "icon": "💧",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-15-shui.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-15-character.mp3",
+    "phraseAudioFile": "hanzi-15-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "你",
+      "山",
+      "水"
+    ],
+    "answer": "水"
+  },
+  {
+    "id": "hanzi-16",
+    "title": "你",
+    "pinyin": "nǐ",
+    "phrase": "你好",
+    "icon": "👋",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-16-ni.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-16-character.mp3",
+    "phraseAudioFile": "hanzi-16-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "你",
+      "山",
+      "牙"
+    ],
+    "answer": "你"
+  },
+  {
+    "id": "hanzi-17",
+    "title": "山",
+    "pinyin": "shān",
+    "phrase": "大山",
+    "icon": "⛰️",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-17-shan.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-17-character.mp3",
+    "phraseAudioFile": "hanzi-17-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "山",
+      "牙",
+      "长"
+    ],
+    "answer": "山"
+  },
+  {
+    "id": "hanzi-18",
+    "title": "牙",
+    "pinyin": "yá",
+    "phrase": "牙齿",
+    "icon": "😁",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-18-ya.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-18-character.mp3",
+    "phraseAudioFile": "hanzi-18-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "比",
+      "牙",
+      "长"
+    ],
+    "answer": "牙"
+  },
+  {
+    "id": "hanzi-19",
+    "title": "长",
+    "pinyin": "cháng",
+    "phrase": "长长的",
+    "icon": "🦒",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-19-chang.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-19-character.mp3",
+    "phraseAudioFile": "hanzi-19-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "比",
+      "四",
+      "长"
+    ],
+    "answer": "长"
+  },
+  {
+    "id": "hanzi-20",
+    "title": "比",
+    "pinyin": "bǐ",
+    "phrase": "比一比",
+    "icon": "⚖️",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-20-bi.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-20-character.mp3",
+    "phraseAudioFile": "hanzi-20-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "比",
+      "四",
+      "西"
+    ],
+    "answer": "比"
+  },
+  {
+    "id": "hanzi-21",
+    "title": "四",
+    "pinyin": "sì",
+    "phrase": "四朵花",
+    "icon": "🌷",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-21-si.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-21-character.mp3",
+    "phraseAudioFile": "hanzi-21-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "四",
+      "西",
+      "小"
+    ],
+    "answer": "四"
+  },
+  {
+    "id": "hanzi-22",
+    "title": "西",
+    "pinyin": "xī",
+    "phrase": "西边",
+    "icon": "🧭",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-22-xi.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-22-character.mp3",
+    "phraseAudioFile": "hanzi-22-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "了",
+      "西",
+      "小"
+    ],
+    "answer": "西"
+  },
+  {
+    "id": "hanzi-23",
+    "title": "小",
+    "pinyin": "xiǎo",
+    "phrase": "小小的",
+    "icon": "🐞",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-23-xiao.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-23-character.mp3",
+    "phraseAudioFile": "hanzi-23-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "了",
+      "手",
+      "小"
+    ],
+    "answer": "小"
+  },
+  {
+    "id": "hanzi-24",
+    "title": "了",
+    "pinyin": "le",
+    "phrase": "天黑了",
+    "icon": "🌙",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-24-le.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-24-character.mp3",
+    "phraseAudioFile": "hanzi-24-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "了",
+      "手",
+      "我"
+    ],
+    "answer": "了"
+  },
+  {
+    "id": "hanzi-25",
+    "title": "手",
+    "pinyin": "shǒu",
+    "phrase": "小手",
+    "icon": "🖐️",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-25-shou.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-25-character.mp3",
+    "phraseAudioFile": "hanzi-25-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "去",
+      "手",
+      "我"
+    ],
+    "answer": "手"
+  },
+  {
+    "id": "hanzi-26",
+    "title": "我",
+    "pinyin": "wǒ",
+    "phrase": "我自己",
+    "icon": "🙋",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-26-wo.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-26-character.mp3",
+    "phraseAudioFile": "hanzi-26-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "东",
+      "去",
+      "我"
+    ],
+    "answer": "我"
+  },
+  {
+    "id": "hanzi-27",
+    "title": "去",
+    "pinyin": "qù",
+    "phrase": "去公园",
+    "icon": "🌳",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-27-qu.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-27-character.mp3",
+    "phraseAudioFile": "hanzi-27-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "东",
+      "去",
+      "心"
+    ],
+    "answer": "去"
+  },
+  {
+    "id": "hanzi-28",
+    "title": "东",
+    "pinyin": "dōng",
+    "phrase": "东边",
+    "icon": "🌅",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-28-dong.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-28-character.mp3",
+    "phraseAudioFile": "hanzi-28-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "必",
+      "东",
+      "心"
+    ],
+    "answer": "东"
+  },
+  {
+    "id": "hanzi-29",
+    "title": "心",
+    "pinyin": "xīn",
+    "phrase": "爱心",
+    "icon": "❤️",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-29-xin.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-29-character.mp3",
+    "phraseAudioFile": "hanzi-29-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "必",
+      "女",
+      "心"
+    ],
+    "answer": "心"
+  },
+  {
+    "id": "hanzi-30",
+    "title": "必",
+    "pinyin": "bì",
+    "phrase": "必须洗手",
+    "icon": "💧",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-30-bi.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-30-character.mp3",
+    "phraseAudioFile": "hanzi-30-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "必",
+      "力",
+      "女"
+    ],
+    "answer": "必"
+  },
+  {
+    "id": "hanzi-31",
+    "title": "女",
+    "pinyin": "nǚ",
+    "phrase": "女孩",
+    "icon": "👧",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-31-nv.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-31-character.mp3",
+    "phraseAudioFile": "hanzi-31-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "力",
+      "女",
+      "月"
+    ],
+    "answer": "女"
+  },
+  {
+    "id": "hanzi-32",
+    "title": "力",
+    "pinyin": "lì",
+    "phrase": "力气",
+    "icon": "💪",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-32-li.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-32-character.mp3",
+    "phraseAudioFile": "hanzi-32-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "儿",
+      "力",
+      "月"
+    ],
+    "answer": "力"
+  },
+  {
+    "id": "hanzi-33",
+    "title": "月",
+    "pinyin": "yuè",
+    "phrase": "月亮",
+    "icon": "🌜",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-33-yue.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-33-character.mp3",
+    "phraseAudioFile": "hanzi-33-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "巴",
+      "儿",
+      "月"
+    ],
+    "answer": "月"
+  },
+  {
+    "id": "hanzi-34",
+    "title": "儿",
+    "pinyin": "ér",
+    "phrase": "花儿",
+    "icon": "🌸",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-34-er.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-34-character.mp3",
+    "phraseAudioFile": "hanzi-34-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "巴",
+      "儿",
+      "几"
+    ],
+    "answer": "儿"
+  },
+  {
+    "id": "hanzi-35",
+    "title": "巴",
+    "pinyin": "bā",
+    "phrase": "尾巴",
+    "icon": "🐕",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-35-ba.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-35-character.mp3",
+    "phraseAudioFile": "hanzi-35-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "巴",
+      "几",
+      "九"
+    ],
+    "answer": "巴"
+  },
+  {
+    "id": "hanzi-36",
+    "title": "几",
+    "pinyin": "jǐ",
+    "phrase": "几块饼干",
+    "icon": "🍪",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-36-ji.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-36-character.mp3",
+    "phraseAudioFile": "hanzi-36-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "几",
+      "九",
+      "与"
+    ],
+    "answer": "几"
+  },
+  {
+    "id": "hanzi-37",
+    "title": "九",
+    "pinyin": "jiǔ",
+    "phrase": "九颗糖果",
+    "icon": "🍬",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-37-jiu.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-37-character.mp3",
+    "phraseAudioFile": "hanzi-37-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "九",
+      "马",
+      "与"
+    ],
+    "answer": "九"
+  },
+  {
+    "id": "hanzi-38",
+    "title": "与",
+    "pinyin": "yǔ",
+    "phrase": "你与我",
+    "icon": "🤝",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-38-yu.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-38-character.mp3",
+    "phraseAudioFile": "hanzi-38-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "马",
+      "鸟",
+      "与"
+    ],
+    "answer": "与"
+  },
+  {
+    "id": "hanzi-39",
+    "title": "马",
+    "pinyin": "mǎ",
+    "phrase": "小马",
+    "icon": "🐴",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-39-ma.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-39-character.mp3",
+    "phraseAudioFile": "hanzi-39-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "马",
+      "鸟",
+      "一"
+    ],
+    "answer": "马"
+  },
+  {
+    "id": "hanzi-40",
+    "title": "鸟",
+    "pinyin": "niǎo",
+    "phrase": "小鸟",
+    "icon": "🐦",
+    "packageName": "",
+    "imageFile": "/assets/images/hanzi/hanzi-40-niao.png",
+    "audioFile": "",
+    "characterAudioFile": "hanzi-40-character.mp3",
+    "phraseAudioFile": "hanzi-40-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "泪",
+      "鸟",
+      "一"
+    ],
+    "answer": "鸟"
+  },
+  {
+    "id": "hanzi-41",
+    "title": "一",
+    "pinyin": "yī",
+    "phrase": "一个苹果",
+    "icon": "🍎",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-41-yi.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-41-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-41-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "泪",
+      "眉",
+      "一"
+    ],
+    "answer": "一"
+  },
+  {
+    "id": "hanzi-42",
+    "title": "泪",
+    "pinyin": "lèi",
+    "phrase": "眼泪",
+    "icon": "💧",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-42-lei.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-42-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-42-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "耳",
+      "泪",
+      "眉"
+    ],
+    "answer": "泪"
+  },
+  {
+    "id": "hanzi-43",
+    "title": "眉",
+    "pinyin": "méi",
+    "phrase": "眉毛",
+    "icon": "🙂",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-43-mei.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-43-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-43-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "耳",
+      "眉",
+      "三"
+    ],
+    "answer": "眉"
+  },
+  {
+    "id": "hanzi-44",
+    "title": "耳",
+    "pinyin": "ěr",
+    "phrase": "耳朵",
+    "icon": "👂",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-44-er.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-44-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-44-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "耳",
+      "三",
+      "舌"
+    ],
+    "answer": "耳"
+  },
+  {
+    "id": "hanzi-45",
+    "title": "三",
+    "pinyin": "sān",
+    "phrase": "三辆小车",
+    "icon": "🚗",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-45-san.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-45-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-45-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "三",
+      "舌",
+      "足"
+    ],
+    "answer": "三"
+  },
+  {
+    "id": "hanzi-46",
+    "title": "舌",
+    "pinyin": "shé",
+    "phrase": "舌头",
+    "icon": "👄",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-46-she.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-46-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-46-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "舌",
+      "身",
+      "足"
+    ],
+    "answer": "舌"
+  },
+  {
+    "id": "hanzi-47",
+    "title": "足",
+    "pinyin": "zú",
+    "phrase": "双足",
+    "icon": "👣",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-47-zu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-47-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-47-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "二",
+      "身",
+      "足"
+    ],
+    "answer": "足"
+  },
+  {
+    "id": "hanzi-48",
+    "title": "身",
+    "pinyin": "shēn",
+    "phrase": "身体",
+    "icon": "👦",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-48-shen.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-48-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-48-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "二",
+      "牛",
+      "身"
+    ],
+    "answer": "身"
+  },
+  {
+    "id": "hanzi-49",
+    "title": "二",
+    "pinyin": "èr",
+    "phrase": "两只小鸟",
+    "icon": "🐦",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-49-er.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-49-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-49-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "二",
+      "牛",
+      "羊"
+    ],
+    "answer": "二"
+  },
+  {
+    "id": "hanzi-50",
+    "title": "牛",
+    "pinyin": "niú",
+    "phrase": "小牛",
+    "icon": "🐮",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-50-niu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-50-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-50-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "六",
+      "牛",
+      "羊"
+    ],
+    "answer": "牛"
+  },
+  {
+    "id": "hanzi-51",
+    "title": "羊",
+    "pinyin": "yáng",
+    "phrase": "小羊",
+    "icon": "🐑",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-51-yang.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-51-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-51-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "六",
+      "羊",
+      "鱼"
+    ],
+    "answer": "羊"
+  },
+  {
+    "id": "hanzi-52",
+    "title": "六",
+    "pinyin": "liù",
+    "phrase": "六只风筝",
+    "icon": "🪁",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-52-liu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-52-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-52-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "六",
+      "七",
+      "鱼"
+    ],
+    "answer": "六"
+  },
+  {
+    "id": "hanzi-53",
+    "title": "鱼",
+    "pinyin": "yú",
+    "phrase": "小鱼",
+    "icon": "🐟",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-53-yu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-53-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-53-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "七",
+      "日",
+      "鱼"
+    ],
+    "answer": "鱼"
+  },
+  {
+    "id": "hanzi-54",
+    "title": "七",
+    "pinyin": "qī",
+    "phrase": "七支彩笔",
+    "icon": "🖍️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-54-qi.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-54-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-54-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "七",
+      "日",
+      "云"
+    ],
+    "answer": "七"
+  },
+  {
+    "id": "hanzi-55",
+    "title": "日",
+    "pinyin": "rì",
+    "phrase": "日出",
+    "icon": "🌅",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-55-ri.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-55-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-55-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "风",
+      "日",
+      "云"
+    ],
+    "answer": "日"
+  },
+  {
+    "id": "hanzi-56",
+    "title": "云",
+    "pinyin": "yún",
+    "phrase": "白云",
+    "icon": "☁️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-56-yun.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-56-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-56-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "八",
+      "风",
+      "云"
+    ],
+    "answer": "云"
+  },
+  {
+    "id": "hanzi-57",
+    "title": "风",
+    "pinyin": "fēng",
+    "phrase": "吹风",
+    "icon": "🍃",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-57-feng.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-57-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-57-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "八",
+      "风",
+      "雨"
+    ],
+    "answer": "风"
+  },
+  {
+    "id": "hanzi-58",
+    "title": "八",
+    "pinyin": "bā",
+    "phrase": "八个气球",
+    "icon": "🎈",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-58-ba.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-58-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-58-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "八",
+      "雪",
+      "雨"
+    ],
+    "answer": "八"
+  },
+  {
+    "id": "hanzi-59",
+    "title": "雨",
+    "pinyin": "yǔ",
+    "phrase": "下雨",
+    "icon": "🌧️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-59-yu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-59-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-59-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "雷",
+      "雪",
+      "雨"
+    ],
+    "answer": "雨"
+  },
+  {
+    "id": "hanzi-60",
+    "title": "雪",
+    "pinyin": "xuě",
+    "phrase": "下雪",
+    "icon": "❄️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-60-xue.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-60-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-60-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "电",
+      "雷",
+      "雪"
+    ],
+    "answer": "雪"
+  },
+  {
+    "id": "hanzi-61",
+    "title": "雷",
+    "pinyin": "léi",
+    "phrase": "打雷",
+    "icon": "⛈️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-61-lei.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-61-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-61-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "电",
+      "雷",
+      "田"
+    ],
+    "answer": "雷"
+  },
+  {
+    "id": "hanzi-62",
+    "title": "电",
+    "pinyin": "diàn",
+    "phrase": "闪电",
+    "icon": "⚡",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-62-dian.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-62-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-62-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "电",
+      "木",
+      "田"
+    ],
+    "answer": "电"
+  },
+  {
+    "id": "hanzi-63",
+    "title": "田",
+    "pinyin": "tián",
+    "phrase": "水田",
+    "icon": "🌾",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-63-tian.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-63-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-63-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "米",
+      "木",
+      "田"
+    ],
+    "answer": "田"
+  },
+  {
+    "id": "hanzi-64",
+    "title": "木",
+    "pinyin": "mù",
+    "phrase": "木头",
+    "icon": "🌳",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-64-mu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-64-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-64-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "果",
+      "米",
+      "木"
+    ],
+    "answer": "木"
+  },
+  {
+    "id": "hanzi-65",
+    "title": "米",
+    "pinyin": "mǐ",
+    "phrase": "大米",
+    "icon": "🍚",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-65-mi.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-65-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-65-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "果",
+      "米",
+      "十"
+    ],
+    "answer": "米"
+  },
+  {
+    "id": "hanzi-66",
+    "title": "果",
+    "pinyin": "guǒ",
+    "phrase": "水果",
+    "icon": "🍎",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-66-guo.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-66-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-66-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "瓜",
+      "果",
+      "十"
+    ],
+    "answer": "果"
+  },
+  {
+    "id": "hanzi-67",
+    "title": "十",
+    "pinyin": "shí",
+    "phrase": "十块积木",
+    "icon": "🧱",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-67-shi.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-67-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-67-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "瓜",
+      "苗",
+      "十"
+    ],
+    "answer": "十"
+  },
+  {
+    "id": "hanzi-68",
+    "title": "瓜",
+    "pinyin": "guā",
+    "phrase": "西瓜",
+    "icon": "🍉",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-68-gua.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-68-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-68-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "瓜",
+      "苗",
+      "明"
+    ],
+    "answer": "瓜"
+  },
+  {
+    "id": "hanzi-69",
+    "title": "苗",
+    "pinyin": "miáo",
+    "phrase": "树苗",
+    "icon": "🌱",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-69-miao.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-69-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-69-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "尖",
+      "苗",
+      "明"
+    ],
+    "answer": "苗"
+  },
+  {
+    "id": "hanzi-70",
+    "title": "明",
+    "pinyin": "míng",
+    "phrase": "明亮",
+    "icon": "☀️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-70-ming.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-70-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-70-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "尖",
+      "李",
+      "明"
+    ],
+    "answer": "明"
+  },
+  {
+    "id": "hanzi-71",
+    "title": "尖",
+    "pinyin": "jiān",
+    "phrase": "笔尖",
+    "icon": "✏️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-71-jian.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-71-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-71-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "尖",
+      "姜",
+      "李"
+    ],
+    "answer": "尖"
+  },
+  {
+    "id": "hanzi-72",
+    "title": "李",
+    "pinyin": "lǐ",
+    "phrase": "李子",
+    "icon": "🍑",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-72-li.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-72-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-72-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "姜",
+      "李",
+      "言"
+    ],
+    "answer": "李"
+  },
+  {
+    "id": "hanzi-73",
+    "title": "姜",
+    "pinyin": "jiāng",
+    "phrase": "生姜",
+    "icon": "🌱",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-73-jiang.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-73-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-73-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "姜",
+      "午",
+      "言"
+    ],
+    "answer": "姜"
+  },
+  {
+    "id": "hanzi-74",
+    "title": "言",
+    "pinyin": "yán",
+    "phrase": "发言",
+    "icon": "💬",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-74-yan.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-74-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-74-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "弓",
+      "午",
+      "言"
+    ],
+    "answer": "言"
+  },
+  {
+    "id": "hanzi-75",
+    "title": "午",
+    "pinyin": "wǔ",
+    "phrase": "中午",
+    "icon": "☀️",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-75-wu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-75-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-75-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "弓",
+      "午",
+      "张"
+    ],
+    "answer": "午"
+  },
+  {
+    "id": "hanzi-76",
+    "title": "弓",
+    "pinyin": "gōng",
+    "phrase": "弓箭",
+    "icon": "🏹",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-76-gong.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-76-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-76-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "弓",
+      "许",
+      "张"
+    ],
+    "answer": "弓"
+  },
+  {
+    "id": "hanzi-77",
+    "title": "张",
+    "pinyin": "zhāng",
+    "phrase": "一张纸",
+    "icon": "📄",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-77-zhang.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-77-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-77-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "数",
+      "许",
+      "张"
+    ],
+    "answer": "张"
+  },
+  {
+    "id": "hanzi-78",
+    "title": "许",
+    "pinyin": "xǔ",
+    "phrase": "许愿",
+    "icon": "✨",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/hanzi-78-xu.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-78-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-78-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "数",
+      "许",
+      "字"
+    ],
+    "answer": "许"
+  },
+  {
+    "id": "hanzi-79",
+    "title": "数",
+    "pinyin": "shǔ",
+    "phrase": "数一数",
+    "icon": "🔢",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/reading-counting.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-79-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-79-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "歌",
+      "数",
+      "字"
+    ],
+    "answer": "数"
+  },
+  {
+    "id": "hanzi-80",
+    "title": "字",
+    "pinyin": "zì",
+    "phrase": "认汉字",
+    "icon": "📖",
+    "packageName": "hanzi-extra",
+    "imageFile": "/packages/hanzi-extra/images/hanzi/reading-reading.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-extra/audio/hanzi-80-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-extra/audio/hanzi-80-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "歌",
+      "爬",
+      "字"
+    ],
+    "answer": "字"
+  },
+  {
+    "id": "hanzi-81",
+    "title": "歌",
+    "pinyin": "gē",
+    "phrase": "唱歌",
+    "icon": "🎵",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-singing.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-81-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-81-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "翻",
+      "歌",
+      "爬"
+    ],
+    "answer": "歌"
+  },
+  {
+    "id": "hanzi-82",
+    "title": "爬",
+    "pinyin": "pá",
+    "phrase": "爬上山",
+    "icon": "⛰️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-climb.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-82-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-82-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "翻",
+      "筋",
+      "爬"
+    ],
+    "answer": "爬"
+  },
+  {
+    "id": "hanzi-83",
+    "title": "翻",
+    "pinyin": "fān",
+    "phrase": "翻筋斗",
+    "icon": "🤸",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-somersault.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-83-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-83-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "斗",
+      "翻",
+      "筋"
+    ],
+    "answer": "翻"
+  },
+  {
+    "id": "hanzi-84",
+    "title": "筋",
+    "pinyin": "jīn",
+    "phrase": "翻筋斗",
+    "icon": "🤸",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-somersault.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-84-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-84-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "斗",
+      "筋",
+      "拍"
+    ],
+    "answer": "筋"
+  },
+  {
+    "id": "hanzi-85",
+    "title": "斗",
+    "pinyin": "dǒu",
+    "phrase": "翻筋斗",
+    "icon": "🤸",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-somersault.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-85-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-85-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "斗",
+      "拍",
+      "皮"
+    ],
+    "answer": "斗"
+  },
+  {
+    "id": "hanzi-86",
+    "title": "拍",
+    "pinyin": "pāi",
+    "phrase": "拍皮球",
+    "icon": "🏀",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-ball.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-86-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-86-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "拍",
+      "皮",
+      "球"
+    ],
+    "answer": "拍"
+  },
+  {
+    "id": "hanzi-87",
+    "title": "皮",
+    "pinyin": "pí",
+    "phrase": "皮球",
+    "icon": "🏀",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-ball.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-87-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-87-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "个",
+      "皮",
+      "球"
+    ],
+    "answer": "皮"
+  },
+  {
+    "id": "hanzi-88",
+    "title": "球",
+    "pinyin": "qiú",
+    "phrase": "拍皮球",
+    "icon": "🏀",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-ball.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-88-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-88-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "个",
+      "球",
+      "指"
+    ],
+    "answer": "球"
+  },
+  {
+    "id": "hanzi-89",
+    "title": "个",
+    "pinyin": "gè",
+    "phrase": "一个苹果",
+    "icon": "🍎",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-reuse-一.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-89-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-89-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "个",
+      "就",
+      "指"
+    ],
+    "answer": "个"
+  },
+  {
+    "id": "hanzi-90",
+    "title": "指",
+    "pinyin": "zhǐ",
+    "phrase": "手指",
+    "icon": "🖐️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-reuse-手.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-90-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-90-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "就",
+      "是",
+      "指"
+    ],
+    "answer": "指"
+  },
+  {
+    "id": "hanzi-91",
+    "title": "就",
+    "pinyin": "jiù",
+    "phrase": "就是小鸟",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-reuse-鸟.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-91-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-91-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "就",
+      "两",
+      "是"
+    ],
+    "answer": "就"
+  },
+  {
+    "id": "hanzi-92",
+    "title": "是",
+    "pinyin": "shì",
+    "phrase": "是小鸟",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-reuse-鸟.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-92-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-92-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "两",
+      "是",
+      "只"
+    ],
+    "answer": "是"
+  },
+  {
+    "id": "hanzi-93",
+    "title": "两",
+    "pinyin": "liǎng",
+    "phrase": "两只小鸟",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-reuse-二.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-93-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-93-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "过",
+      "两",
+      "只"
+    ],
+    "answer": "两"
+  },
+  {
+    "id": "hanzi-94",
+    "title": "只",
+    "pinyin": "zhī",
+    "phrase": "一只小鸟",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-reuse-鸟.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-94-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-94-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "车",
+      "过",
+      "只"
+    ],
+    "answer": "只"
+  },
+  {
+    "id": "hanzi-95",
+    "title": "过",
+    "pinyin": "guò",
+    "phrase": "坐过山车",
+    "icon": "🎢",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-coaster.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-95-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-95-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "车",
+      "过",
+      "入"
+    ],
+    "answer": "过"
+  },
+  {
+    "id": "hanzi-96",
+    "title": "车",
+    "pinyin": "chē",
+    "phrase": "小猫拉车",
+    "icon": "🚗",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-catcart.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-96-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-96-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "车",
+      "地",
+      "入"
+    ],
+    "answer": "车"
+  },
+  {
+    "id": "hanzi-97",
+    "title": "入",
+    "pinyin": "rù",
+    "phrase": "走入家门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-entry.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-97-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-97-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "地",
+      "入",
+      "腾"
+    ],
+    "answer": "入"
+  },
+  {
+    "id": "hanzi-98",
+    "title": "地",
+    "pinyin": "dì",
+    "phrase": "土地",
+    "icon": "🌱",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-reuse-土.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-98-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-98-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "地",
+      "驾",
+      "腾"
+    ],
+    "answer": "地"
+  },
+  {
+    "id": "hanzi-99",
+    "title": "腾",
+    "pinyin": "téng",
+    "phrase": "腾云",
+    "icon": "☁️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-fog.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-99-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-99-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "驾",
+      "腾",
+      "雾"
+    ],
+    "answer": "腾"
+  },
+  {
+    "id": "hanzi-100",
+    "title": "驾",
+    "pinyin": "jià",
+    "phrase": "腾云驾雾",
+    "icon": "☁️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-fog.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-100-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-100-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "变",
+      "驾",
+      "雾"
+    ],
+    "answer": "驾"
+  },
+  {
+    "id": "hanzi-101",
+    "title": "雾",
+    "pinyin": "wù",
+    "phrase": "云雾",
+    "icon": "🌫️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-fog.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-101-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-101-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "变",
+      "成",
+      "雾"
+    ],
+    "answer": "雾"
+  },
+  {
+    "id": "hanzi-102",
+    "title": "变",
+    "pinyin": "biàn",
+    "phrase": "毛虫变蝴蝶",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-transform.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-102-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-102-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "变",
+      "成",
+      "流"
+    ],
+    "answer": "变"
+  },
+  {
+    "id": "hanzi-103",
+    "title": "成",
+    "pinyin": "chéng",
+    "phrase": "变成蝴蝶",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-transform.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-103-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-103-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "成",
+      "流",
+      "星"
+    ],
+    "answer": "成"
+  },
+  {
+    "id": "hanzi-104",
+    "title": "流",
+    "pinyin": "liú",
+    "phrase": "流星",
+    "icon": "🌠",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-meteor.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-104-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-104-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "飞",
+      "流",
+      "星"
+    ],
+    "answer": "流"
+  },
+  {
+    "id": "hanzi-105",
+    "title": "星",
+    "pinyin": "xīng",
+    "phrase": "流星",
+    "icon": "🌠",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-meteor.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-105-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-105-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "飞",
+      "跳",
+      "星"
+    ],
+    "answer": "星"
+  },
+  {
+    "id": "hanzi-106",
+    "title": "飞",
+    "pinyin": "fēi",
+    "phrase": "蜻蜓飞",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-dragonfly.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-106-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-106-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "飞",
+      "蜻",
+      "跳"
+    ],
+    "answer": "飞"
+  },
+  {
+    "id": "hanzi-107",
+    "title": "跳",
+    "pinyin": "tiào",
+    "phrase": "跳一跳",
+    "icon": "👦",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-jump.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-107-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-107-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蜻",
+      "跳",
+      "蜓"
+    ],
+    "answer": "跳"
+  },
+  {
+    "id": "hanzi-108",
+    "title": "蜻",
+    "pinyin": "qīng",
+    "phrase": "小蜻蜓",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-dragonfly.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-108-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-108-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "会",
+      "蜻",
+      "蜓"
+    ],
+    "answer": "蜻"
+  },
+  {
+    "id": "hanzi-109",
+    "title": "蜓",
+    "pinyin": "tíng",
+    "phrase": "小蜻蜓",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-dragonfly.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-109-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-109-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "会",
+      "蜓",
+      "蚱"
+    ],
+    "answer": "蜓"
+  },
+  {
+    "id": "hanzi-110",
+    "title": "会",
+    "pinyin": "huì",
+    "phrase": "我会跳",
+    "icon": "👦",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-jump.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-110-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-110-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "会",
+      "蜢",
+      "蚱"
+    ],
+    "answer": "会"
+  },
+  {
+    "id": "hanzi-111",
+    "title": "蚱",
+    "pinyin": "zhà",
+    "phrase": "小蚱蜢",
+    "icon": "🦗",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-grasshopper.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-111-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-111-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "弟",
+      "蜢",
+      "蚱"
+    ],
+    "answer": "蚱"
+  },
+  {
+    "id": "hanzi-112",
+    "title": "蜢",
+    "pinyin": "měng",
+    "phrase": "小蚱蜢",
+    "icon": "🦗",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-grasshopper.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-112-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-112-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "弟",
+      "高",
+      "蜢"
+    ],
+    "answer": "蜢"
+  },
+  {
+    "id": "hanzi-113",
+    "title": "弟",
+    "pinyin": "dì",
+    "phrase": "小弟弟",
+    "icon": "👦",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-jump.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-113-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-113-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "弟",
+      "高",
+      "猫"
+    ],
+    "answer": "弟"
+  },
+  {
+    "id": "hanzi-114",
+    "title": "高",
+    "pinyin": "gāo",
+    "phrase": "长高了",
+    "icon": "📏",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-grow.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-114-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-114-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "高",
+      "拉",
+      "猫"
+    ],
+    "answer": "高"
+  },
+  {
+    "id": "hanzi-115",
+    "title": "猫",
+    "pinyin": "māo",
+    "phrase": "小猫拉车",
+    "icon": "🐱",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-catcart.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-115-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-115-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "拉",
+      "老",
+      "猫"
+    ],
+    "answer": "猫"
+  },
+  {
+    "id": "hanzi-116",
+    "title": "拉",
+    "pinyin": "lā",
+    "phrase": "小猫拉车",
+    "icon": "🚗",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-catcart.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-116-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-116-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "拉",
+      "老",
+      "鼠"
+    ],
+    "answer": "拉"
+  },
+  {
+    "id": "hanzi-117",
+    "title": "老",
+    "pinyin": "lǎo",
+    "phrase": "老鼠",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-mouse.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-117-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-117-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "不",
+      "老",
+      "鼠"
+    ],
+    "answer": "老"
+  },
+  {
+    "id": "hanzi-118",
+    "title": "鼠",
+    "pinyin": "shǔ",
+    "phrase": "小老鼠",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-mouse.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-118-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-118-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "不",
+      "鼠",
+      "坐"
+    ],
+    "answer": "鼠"
+  },
+  {
+    "id": "hanzi-119",
+    "title": "不",
+    "pinyin": "bù",
+    "phrase": "不肯吃",
+    "icon": "🙅",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-refuse.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-119-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-119-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "不",
+      "黄",
+      "坐"
+    ],
+    "answer": "不"
+  },
+  {
+    "id": "hanzi-120",
+    "title": "坐",
+    "pinyin": "zuò",
+    "phrase": "坐过山车",
+    "icon": "🎢",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-coaster.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-120-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-120-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "黄",
+      "狼",
+      "坐"
+    ],
+    "answer": "坐"
+  },
+  {
+    "id": "hanzi-121",
+    "title": "黄",
+    "pinyin": "huáng",
+    "phrase": "黄色的小鸡",
+    "icon": "🐤",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-chicken.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-121-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-121-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "黄",
+      "鸡",
+      "狼"
+    ],
+    "answer": "黄"
+  },
+  {
+    "id": "hanzi-122",
+    "title": "狼",
+    "pinyin": "láng",
+    "phrase": "灰狼跑",
+    "icon": "🐺",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-wolf.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-122-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-122-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "灰",
+      "鸡",
+      "狼"
+    ],
+    "answer": "狼"
+  },
+  {
+    "id": "hanzi-123",
+    "title": "鸡",
+    "pinyin": "jī",
+    "phrase": "小鸡",
+    "icon": "🐤",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-chicken.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-123-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-123-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "虎",
+      "灰",
+      "鸡"
+    ],
+    "answer": "鸡"
+  },
+  {
+    "id": "hanzi-124",
+    "title": "灰",
+    "pinyin": "huī",
+    "phrase": "灰狼",
+    "icon": "🐺",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-wolf.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-124-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-124-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "虎",
+      "灰",
+      "谁"
+    ],
+    "answer": "灰"
+  },
+  {
+    "id": "hanzi-125",
+    "title": "虎",
+    "pinyin": "hǔ",
+    "phrase": "大老虎",
+    "icon": "🐯",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-tiger.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-125-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-125-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "虎",
+      "谁",
+      "也"
+    ],
+    "answer": "虎"
+  },
+  {
+    "id": "hanzi-126",
+    "title": "谁",
+    "pinyin": "shéi",
+    "phrase": "谁在拉车",
+    "icon": "🐱",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-catcart.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-126-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-126-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "海",
+      "谁",
+      "也"
+    ],
+    "answer": "谁"
+  },
+  {
+    "id": "hanzi-127",
+    "title": "也",
+    "pinyin": "yě",
+    "phrase": "我也来吃",
+    "icon": "👧",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-eat.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-127-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-127-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "龟",
+      "海",
+      "也"
+    ],
+    "answer": "也"
+  },
+  {
+    "id": "hanzi-128",
+    "title": "海",
+    "pinyin": "hǎi",
+    "phrase": "海龟回大海",
+    "icon": "🌊",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-turtle.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-128-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-128-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "龟",
+      "海",
+      "妈"
+    ],
+    "answer": "海"
+  },
+  {
+    "id": "hanzi-129",
+    "title": "龟",
+    "pinyin": "guī",
+    "phrase": "海龟",
+    "icon": "🐢",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-turtle.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-129-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-129-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "龟",
+      "妈",
+      "沙"
+    ],
+    "answer": "龟"
+  },
+  {
+    "id": "hanzi-130",
+    "title": "妈",
+    "pinyin": "mā",
+    "phrase": "找妈妈",
+    "icon": "👩",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-mother.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-130-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-130-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "妈",
+      "沙",
+      "滩"
+    ],
+    "answer": "妈"
+  },
+  {
+    "id": "hanzi-131",
+    "title": "沙",
+    "pinyin": "shā",
+    "phrase": "挖沙",
+    "icon": "🏖️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-sand.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-131-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-131-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "扒",
+      "沙",
+      "滩"
+    ],
+    "answer": "沙"
+  },
+  {
+    "id": "hanzi-132",
+    "title": "滩",
+    "pinyin": "tān",
+    "phrase": "沙滩",
+    "icon": "🏖️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-sand.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-132-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-132-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "扒",
+      "生",
+      "滩"
+    ],
+    "answer": "滩"
+  },
+  {
+    "id": "hanzi-133",
+    "title": "扒",
+    "pinyin": "bā",
+    "phrase": "扒沙子",
+    "icon": "🏖️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-sand.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-133-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-133-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "扒",
+      "蛋",
+      "生"
+    ],
+    "answer": "扒"
+  },
+  {
+    "id": "hanzi-134",
+    "title": "生",
+    "pinyin": "shēng",
+    "phrase": "海龟生蛋",
+    "icon": "🥚",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-eggs.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-134-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-134-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蛋",
+      "盖",
+      "生"
+    ],
+    "answer": "生"
+  },
+  {
+    "id": "hanzi-135",
+    "title": "蛋",
+    "pinyin": "dàn",
+    "phrase": "海龟蛋",
+    "icon": "🥚",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-eggs.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-135-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-135-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蛋",
+      "盖",
+      "太"
+    ],
+    "answer": "蛋"
+  },
+  {
+    "id": "hanzi-136",
+    "title": "盖",
+    "pinyin": "gài",
+    "phrase": "盖上沙子",
+    "icon": "🏖️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-cover.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-136-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-136-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "盖",
+      "太",
+      "阳"
+    ],
+    "answer": "盖"
+  },
+  {
+    "id": "hanzi-137",
+    "title": "太",
+    "pinyin": "tài",
+    "phrase": "太阳",
+    "icon": "☀️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-sun.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-137-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-137-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "晒",
+      "太",
+      "阳"
+    ],
+    "answer": "太"
+  },
+  {
+    "id": "hanzi-138",
+    "title": "阳",
+    "pinyin": "yáng",
+    "phrase": "太阳",
+    "icon": "☀️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-sun.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-138-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-138-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "孵",
+      "晒",
+      "阳"
+    ],
+    "answer": "阳"
+  },
+  {
+    "id": "hanzi-139",
+    "title": "晒",
+    "pinyin": "shài",
+    "phrase": "晒太阳",
+    "icon": "☀️",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-turtle.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-139-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-139-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "出",
+      "孵",
+      "晒"
+    ],
+    "answer": "晒"
+  },
+  {
+    "id": "hanzi-140",
+    "title": "孵",
+    "pinyin": "fū",
+    "phrase": "孵出小海龟",
+    "icon": "🐢",
+    "packageName": "hanzi-reading-1",
+    "imageFile": "/packages/hanzi-reading-1/images/hanzi/reading-hatch.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-1/audio/hanzi-140-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-1/audio/hanzi-140-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "出",
+      "孵",
+      "娃"
+    ],
+    "answer": "孵"
+  },
+  {
+    "id": "hanzi-141",
+    "title": "出",
+    "pinyin": "chū",
+    "phrase": "爬出蛋壳",
+    "icon": "🥚",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-hatch.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-141-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-141-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "出",
+      "进",
+      "娃"
+    ],
+    "answer": "出"
+  },
+  {
+    "id": "hanzi-142",
+    "title": "娃",
+    "pinyin": "wá",
+    "phrase": "小娃娃",
+    "icon": "👶",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-baby.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-142-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-142-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "大",
+      "进",
+      "娃"
+    ],
+    "answer": "娃"
+  },
+  {
+    "id": "hanzi-143",
+    "title": "进",
+    "pinyin": "jìn",
+    "phrase": "走进家门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-entry.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-143-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-143-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "大",
+      "进",
+      "找"
+    ],
+    "answer": "进"
+  },
+  {
+    "id": "hanzi-144",
+    "title": "大",
+    "pinyin": "dà",
+    "phrase": "大老虎",
+    "icon": "🐯",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-tiger.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-144-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-144-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "大",
+      "找",
+      "做"
+    ],
+    "answer": "大"
+  },
+  {
+    "id": "hanzi-145",
+    "title": "找",
+    "pinyin": "zhǎo",
+    "phrase": "找妈妈",
+    "icon": "👩",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-mother.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-145-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-145-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "影",
+      "找",
+      "做"
+    ],
+    "answer": "找"
+  },
+  {
+    "id": "hanzi-146",
+    "title": "做",
+    "pinyin": "zuò",
+    "phrase": "做手影",
+    "icon": "🖐️",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-shadow.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-146-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-146-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "兔",
+      "影",
+      "做"
+    ],
+    "answer": "做"
+  },
+  {
+    "id": "hanzi-147",
+    "title": "影",
+    "pinyin": "yǐng",
+    "phrase": "手影",
+    "icon": "🐇",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-shadow.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-147-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-147-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "来",
+      "兔",
+      "影"
+    ],
+    "answer": "影"
+  },
+  {
+    "id": "hanzi-148",
+    "title": "兔",
+    "pinyin": "tù",
+    "phrase": "兔子",
+    "icon": "🐇",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-rabbit.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-148-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-148-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "来",
+      "螃",
+      "兔"
+    ],
+    "answer": "兔"
+  },
+  {
+    "id": "hanzi-149",
+    "title": "来",
+    "pinyin": "lái",
+    "phrase": "来到家门口",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-entry.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-149-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-149-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "来",
+      "螃",
+      "蟹"
+    ],
+    "answer": "来"
+  },
+  {
+    "id": "hanzi-150",
+    "title": "螃",
+    "pinyin": "páng",
+    "phrase": "螃蟹",
+    "icon": "🦀",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-crab.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-150-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-150-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "螃",
+      "墙",
+      "蟹"
+    ],
+    "answer": "螃"
+  },
+  {
+    "id": "hanzi-151",
+    "title": "蟹",
+    "pinyin": "xiè",
+    "phrase": "螃蟹",
+    "icon": "🦀",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-crab.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-151-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-151-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "灯",
+      "墙",
+      "蟹"
+    ],
+    "answer": "蟹"
+  },
+  {
+    "id": "hanzi-152",
+    "title": "墙",
+    "pinyin": "qiáng",
+    "phrase": "砖墙",
+    "icon": "🧱",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-wall.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-152-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-152-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "灯",
+      "关",
+      "墙"
+    ],
+    "answer": "墙"
+  },
+  {
+    "id": "hanzi-153",
+    "title": "灯",
+    "pinyin": "dēng",
+    "phrase": "小台灯",
+    "icon": "💡",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-lamp.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-153-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-153-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "灯",
+      "都",
+      "关"
+    ],
+    "answer": "灯"
+  },
+  {
+    "id": "hanzi-154",
+    "title": "关",
+    "pinyin": "guān",
+    "phrase": "关门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-closedoor.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-154-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-154-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "都",
+      "关",
+      "跑"
+    ],
+    "answer": "关"
+  },
+  {
+    "id": "hanzi-155",
+    "title": "都",
+    "pinyin": "dōu",
+    "phrase": "都是小鸟",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-reuse-二.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-155-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-155-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "都",
+      "开",
+      "跑"
+    ],
+    "answer": "都"
+  },
+  {
+    "id": "hanzi-156",
+    "title": "跑",
+    "pinyin": "pǎo",
+    "phrase": "灰狼跑",
+    "icon": "🐺",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-wolf.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-156-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-156-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "开",
+      "跑",
+      "又"
+    ],
+    "answer": "跑"
+  },
+  {
+    "id": "hanzi-157",
+    "title": "开",
+    "pinyin": "kāi",
+    "phrase": "开门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-entry.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-157-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-157-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "开",
+      "门",
+      "又"
+    ],
+    "answer": "开"
+  },
+  {
+    "id": "hanzi-158",
+    "title": "又",
+    "pinyin": "yòu",
+    "phrase": "又来一只鸟",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-reuse-二.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-158-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-158-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "宝",
+      "门",
+      "又"
+    ],
+    "answer": "又"
+  },
+  {
+    "id": "hanzi-159",
+    "title": "门",
+    "pinyin": "mén",
+    "phrase": "家门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-entry.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-159-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-159-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "宝",
+      "门",
+      "认"
+    ],
+    "answer": "门"
+  },
+  {
+    "id": "hanzi-160",
+    "title": "宝",
+    "pinyin": "bǎo",
+    "phrase": "小宝宝",
+    "icon": "👶",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-baby.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-160-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-160-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "宝",
+      "红",
+      "认"
+    ],
+    "answer": "宝"
+  },
+  {
+    "id": "hanzi-161",
+    "title": "认",
+    "pinyin": "rèn",
+    "phrase": "认识汉字",
+    "icon": "📖",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-reading.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-161-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-161-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "黑",
+      "红",
+      "认"
+    ],
+    "answer": "认"
+  },
+  {
+    "id": "hanzi-162",
+    "title": "红",
+    "pinyin": "hóng",
+    "phrase": "红门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-red-door.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-162-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-162-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "黑",
+      "红",
+      "蓝"
+    ],
+    "answer": "红"
+  },
+  {
+    "id": "hanzi-163",
+    "title": "黑",
+    "pinyin": "hēi",
+    "phrase": "黑门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-black-door.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-163-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-163-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "黑",
+      "蓝",
+      "铁"
+    ],
+    "answer": "黑"
+  },
+  {
+    "id": "hanzi-164",
+    "title": "蓝",
+    "pinyin": "lán",
+    "phrase": "蓝门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-blue-door.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-164-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-164-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蓝",
+      "铁",
+      "铜"
+    ],
+    "answer": "蓝"
+  },
+  {
+    "id": "hanzi-165",
+    "title": "铁",
+    "pinyin": "tiě",
+    "phrase": "铁门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-iron-door.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-165-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-165-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "锁",
+      "铁",
+      "铜"
+    ],
+    "answer": "铁"
+  },
+  {
+    "id": "hanzi-166",
+    "title": "铜",
+    "pinyin": "tóng",
+    "phrase": "铜门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-copper-door.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-166-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-166-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "锁",
+      "铜",
+      "先"
+    ],
+    "answer": "铜"
+  },
+  {
+    "id": "hanzi-167",
+    "title": "锁",
+    "pinyin": "suǒ",
+    "phrase": "锁门",
+    "icon": "🔒",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-lock.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-167-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-167-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "得",
+      "锁",
+      "先"
+    ],
+    "answer": "锁"
+  },
+  {
+    "id": "hanzi-168",
+    "title": "先",
+    "pinyin": "xiān",
+    "phrase": "先敲门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-knock.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-168-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-168-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "得",
+      "清",
+      "先"
+    ],
+    "answer": "先"
+  },
+  {
+    "id": "hanzi-169",
+    "title": "得",
+    "pinyin": "děi",
+    "phrase": "得先敲门",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-knock.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-169-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-169-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "得",
+      "清",
+      "自"
+    ],
+    "answer": "得"
+  },
+  {
+    "id": "hanzi-170",
+    "title": "清",
+    "pinyin": "qīng",
+    "phrase": "看清汉字",
+    "icon": "📖",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-reading.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-170-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-170-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "家",
+      "清",
+      "自"
+    ],
+    "answer": "清"
+  },
+  {
+    "id": "hanzi-171",
+    "title": "自",
+    "pinyin": "zì",
+    "phrase": "自己的家",
+    "icon": "🏠",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-home.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-171-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-171-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "家",
+      "台",
+      "自"
+    ],
+    "answer": "自"
+  },
+  {
+    "id": "hanzi-172",
+    "title": "家",
+    "pinyin": "jiā",
+    "phrase": "自己的家",
+    "icon": "🏠",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-home.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-172-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-172-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "家",
+      "台",
+      "偷"
+    ],
+    "answer": "家"
+  },
+  {
+    "id": "hanzi-173",
+    "title": "台",
+    "pinyin": "tái",
+    "phrase": "小台灯",
+    "icon": "💡",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-lamp.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-173-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-173-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "台",
+      "偷",
+      "油"
+    ],
+    "answer": "台"
+  },
+  {
+    "id": "hanzi-174",
+    "title": "偷",
+    "pinyin": "tōu",
+    "phrase": "老鼠偷油",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-steal.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-174-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-174-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "吃",
+      "偷",
+      "油"
+    ],
+    "answer": "偷"
+  },
+  {
+    "id": "hanzi-175",
+    "title": "油",
+    "pinyin": "yóu",
+    "phrase": "老鼠偷油",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-steal.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-175-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-175-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "吃",
+      "油",
+      "吱"
+    ],
+    "answer": "油"
+  },
+  {
+    "id": "hanzi-176",
+    "title": "吃",
+    "pinyin": "chī",
+    "phrase": "一起吃饭",
+    "icon": "🍚",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-eat.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-176-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-176-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "吃",
+      "喊",
+      "吱"
+    ],
+    "answer": "吃"
+  },
+  {
+    "id": "hanzi-177",
+    "title": "吱",
+    "pinyin": "zī",
+    "phrase": "老鼠吱吱叫",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-mouse.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-177-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-177-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "喊",
+      "奶",
+      "吱"
+    ],
+    "answer": "吱"
+  },
+  {
+    "id": "hanzi-178",
+    "title": "喊",
+    "pinyin": "hǎn",
+    "phrase": "喊奶奶",
+    "icon": "👵",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-granny.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-178-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-178-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "喊",
+      "肯",
+      "奶"
+    ],
+    "answer": "喊"
+  },
+  {
+    "id": "hanzi-179",
+    "title": "奶",
+    "pinyin": "nǎi",
+    "phrase": "奶奶",
+    "icon": "👵",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-granny.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-179-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-179-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "叽",
+      "肯",
+      "奶"
+    ],
+    "answer": "奶"
+  },
+  {
+    "id": "hanzi-180",
+    "title": "肯",
+    "pinyin": "kěn",
+    "phrase": "不肯吃",
+    "icon": "🙅",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-refuse.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-180-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-180-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "叽",
+      "肯",
+      "里"
+    ],
+    "answer": "肯"
+  },
+  {
+    "id": "hanzi-181",
+    "title": "叽",
+    "pinyin": "jī",
+    "phrase": "叽里咕噜滚下来",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-rolling.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-181-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-181-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "咕",
+      "叽",
+      "里"
+    ],
+    "answer": "叽"
+  },
+  {
+    "id": "hanzi-182",
+    "title": "里",
+    "pinyin": "lǐ",
+    "phrase": "盒子里",
+    "icon": "📦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-inside.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-182-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-182-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "咕",
+      "里",
+      "噜"
+    ],
+    "answer": "里"
+  },
+  {
+    "id": "hanzi-183",
+    "title": "咕",
+    "pinyin": "gū",
+    "phrase": "叽里咕噜滚下来",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-rolling.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-183-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-183-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "咕",
+      "滚",
+      "噜"
+    ],
+    "answer": "咕"
+  },
+  {
+    "id": "hanzi-184",
+    "title": "噜",
+    "pinyin": "lū",
+    "phrase": "叽里咕噜滚下来",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-rolling.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-184-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-184-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "多",
+      "滚",
+      "噜"
+    ],
+    "answer": "噜"
+  },
+  {
+    "id": "hanzi-185",
+    "title": "滚",
+    "pinyin": "gǔn",
+    "phrase": "滚下来",
+    "icon": "🐭",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-rolling.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-185-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-185-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "多",
+      "滚",
+      "少"
+    ],
+    "answer": "滚"
+  },
+  {
+    "id": "hanzi-186",
+    "title": "多",
+    "pinyin": "duō",
+    "phrase": "小鸟多",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-moreless.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-186-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-186-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "边",
+      "多",
+      "少"
+    ],
+    "answer": "多"
+  },
+  {
+    "id": "hanzi-187",
+    "title": "少",
+    "pinyin": "shǎo",
+    "phrase": "小鸟少",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-moreless.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-187-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-187-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "边",
+      "群",
+      "少"
+    ],
+    "answer": "少"
+  },
+  {
+    "id": "hanzi-188",
+    "title": "边",
+    "pinyin": "biān",
+    "phrase": "一边多一边少",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-moreless.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-188-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-188-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "边",
+      "群",
+      "雁"
+    ],
+    "answer": "边"
+  },
+  {
+    "id": "hanzi-189",
+    "title": "群",
+    "pinyin": "qún",
+    "phrase": "一群大雁",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-geese.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-189-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-189-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "瞧",
+      "群",
+      "雁"
+    ],
+    "answer": "群"
+  },
+  {
+    "id": "hanzi-190",
+    "title": "雁",
+    "pinyin": "yàn",
+    "phrase": "大雁",
+    "icon": "🐦",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-geese.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-190-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-190-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "记",
+      "瞧",
+      "雁"
+    ],
+    "answer": "雁"
+  },
+  {
+    "id": "hanzi-191",
+    "title": "瞧",
+    "pinyin": "qiáo",
+    "phrase": "仔细瞧",
+    "icon": "👀",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-look.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-191-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-191-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "记",
+      "牢",
+      "瞧"
+    ],
+    "answer": "瞧"
+  },
+  {
+    "id": "hanzi-192",
+    "title": "记",
+    "pinyin": "jì",
+    "phrase": "记住大小多少",
+    "icon": "🧠",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-counting.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-192-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-192-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "记",
+      "牢",
+      "牵"
+    ],
+    "answer": "记"
+  },
+  {
+    "id": "hanzi-193",
+    "title": "牢",
+    "pinyin": "láo",
+    "phrase": "记得牢",
+    "icon": "🧠",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-counting.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-193-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-193-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "花",
+      "牢",
+      "牵"
+    ],
+    "answer": "牢"
+  },
+  {
+    "id": "hanzi-194",
+    "title": "牵",
+    "pinyin": "qiān",
+    "phrase": "牵牛花",
+    "icon": "🌸",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-morningglory.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-194-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-194-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "花",
+      "牵",
+      "往"
+    ],
+    "answer": "牵"
+  },
+  {
+    "id": "hanzi-195",
+    "title": "花",
+    "pinyin": "huā",
+    "phrase": "牵牛花",
+    "icon": "🌸",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-morningglory.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-195-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-195-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "到",
+      "花",
+      "往"
+    ],
+    "answer": "花"
+  },
+  {
+    "id": "hanzi-196",
+    "title": "往",
+    "pinyin": "wǎng",
+    "phrase": "往上爬",
+    "icon": "⛰️",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-climb.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-196-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-196-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "到",
+      "瓦",
+      "往"
+    ],
+    "answer": "往"
+  },
+  {
+    "id": "hanzi-197",
+    "title": "到",
+    "pinyin": "dào",
+    "phrase": "到家门口",
+    "icon": "🚪",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-entry.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-197-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-197-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "到",
+      "顶",
+      "瓦"
+    ],
+    "answer": "到"
+  },
+  {
+    "id": "hanzi-198",
+    "title": "瓦",
+    "pinyin": "wǎ",
+    "phrase": "屋顶的瓦",
+    "icon": "🏠",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-roof.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-198-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-198-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "吹",
+      "顶",
+      "瓦"
+    ],
+    "answer": "瓦"
+  },
+  {
+    "id": "hanzi-199",
+    "title": "顶",
+    "pinyin": "dǐng",
+    "phrase": "屋顶",
+    "icon": "🏠",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-roof.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-199-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-199-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "吹",
+      "顶",
+      "喇"
+    ],
+    "answer": "顶"
+  },
+  {
+    "id": "hanzi-200",
+    "title": "吹",
+    "pinyin": "chuī",
+    "phrase": "吹喇叭",
+    "icon": "🎺",
+    "packageName": "hanzi-reading-2",
+    "imageFile": "/packages/hanzi-reading-2/images/hanzi/reading-trumpet.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-2/audio/hanzi-200-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-2/audio/hanzi-200-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "叭",
+      "吹",
+      "喇"
+    ],
+    "answer": "吹"
+  },
+  {
+    "id": "hanzi-201",
+    "title": "喇",
+    "pinyin": "lǎ",
+    "phrase": "吹喇叭",
+    "icon": "🎺",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-trumpet.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-201-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-201-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "叭",
+      "嘀",
+      "喇"
+    ],
+    "answer": "喇"
+  },
+  {
+    "id": "hanzi-202",
+    "title": "叭",
+    "pinyin": "bā",
+    "phrase": "吹喇叭",
+    "icon": "🎺",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-trumpet.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-202-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-202-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "叭",
+      "嗒",
+      "嘀"
+    ],
+    "answer": "叭"
+  },
+  {
+    "id": "hanzi-203",
+    "title": "嘀",
+    "pinyin": "dī",
+    "phrase": "喇叭嘀嘀嗒",
+    "icon": "🎺",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-trumpet.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-203-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-203-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "嗒",
+      "嘀",
+      "愿"
+    ],
+    "answer": "嘀"
+  },
+  {
+    "id": "hanzi-204",
+    "title": "嗒",
+    "pinyin": "dā",
+    "phrase": "喇叭嘀嘀嗒",
+    "icon": "🎺",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-trumpet.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-204-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-204-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "嗒",
+      "跟",
+      "愿"
+    ],
+    "answer": "嗒"
+  },
+  {
+    "id": "hanzi-205",
+    "title": "愿",
+    "pinyin": "yuàn",
+    "phrase": "许愿",
+    "icon": "✨",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-reuse-许.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-205-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-205-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "跟",
+      "耍",
+      "愿"
+    ],
+    "answer": "愿"
+  },
+  {
+    "id": "hanzi-206",
+    "title": "跟",
+    "pinyin": "gēn",
+    "phrase": "跟妈妈一起玩",
+    "icon": "👩",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-mother.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-206-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-206-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "跟",
+      "落",
+      "耍"
+    ],
+    "answer": "跟"
+  },
+  {
+    "id": "hanzi-207",
+    "title": "耍",
+    "pinyin": "shuǎ",
+    "phrase": "玩耍",
+    "icon": "👦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-jump.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-207-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-207-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "落",
+      "耍",
+      "叶"
+    ],
+    "answer": "耍"
+  },
+  {
+    "id": "hanzi-208",
+    "title": "落",
+    "pinyin": "luò",
+    "phrase": "落叶",
+    "icon": "🍂",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-autumn.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-208-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-208-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "落",
+      "秋",
+      "叶"
+    ],
+    "answer": "落"
+  },
+  {
+    "id": "hanzi-209",
+    "title": "叶",
+    "pinyin": "yè",
+    "phrase": "树叶",
+    "icon": "🍂",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-autumn.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-209-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-209-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "秋",
+      "树",
+      "叶"
+    ],
+    "answer": "叶"
+  },
+  {
+    "id": "hanzi-210",
+    "title": "秋",
+    "pinyin": "qiū",
+    "phrase": "秋天",
+    "icon": "🍂",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-autumn.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-210-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-210-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "秋",
+      "树",
+      "像"
+    ],
+    "answer": "秋"
+  },
+  {
+    "id": "hanzi-211",
+    "title": "树",
+    "pinyin": "shù",
+    "phrase": "秋天的树",
+    "icon": "🌳",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-autumn.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-211-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-211-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蝴",
+      "树",
+      "像"
+    ],
+    "answer": "树"
+  },
+  {
+    "id": "hanzi-212",
+    "title": "像",
+    "pinyin": "xiàng",
+    "phrase": "像一只蝴蝶",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-transform.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-212-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-212-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蝶",
+      "蝴",
+      "像"
+    ],
+    "answer": "像"
+  },
+  {
+    "id": "hanzi-213",
+    "title": "蝴",
+    "pinyin": "hú",
+    "phrase": "蝴蝶",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-butterfly.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-213-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-213-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "翅",
+      "蝶",
+      "蝴"
+    ],
+    "answer": "蝴"
+  },
+  {
+    "id": "hanzi-214",
+    "title": "蝶",
+    "pinyin": "dié",
+    "phrase": "蝴蝶",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-butterfly.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-214-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-214-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "膀",
+      "翅",
+      "蝶"
+    ],
+    "answer": "蝶"
+  },
+  {
+    "id": "hanzi-215",
+    "title": "翅",
+    "pinyin": "chì",
+    "phrase": "蝴蝶的翅膀",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-butterfly.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-215-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-215-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "膀",
+      "翅",
+      "追"
+    ],
+    "answer": "翅"
+  },
+  {
+    "id": "hanzi-216",
+    "title": "膀",
+    "pinyin": "bǎng",
+    "phrase": "蝴蝶的翅膀",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-butterfly.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-216-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-216-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "膀",
+      "豆",
+      "追"
+    ],
+    "answer": "膀"
+  },
+  {
+    "id": "hanzi-217",
+    "title": "追",
+    "pinyin": "zhuī",
+    "phrase": "追蝴蝶",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-chase.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-217-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-217-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "豆",
+      "荚",
+      "追"
+    ],
+    "answer": "追"
+  },
+  {
+    "id": "hanzi-218",
+    "title": "豆",
+    "pinyin": "dòu",
+    "phrase": "黄豆",
+    "icon": "🌱",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-beanpod.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-218-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-218-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "豆",
+      "荚",
+      "真"
+    ],
+    "answer": "豆"
+  },
+  {
+    "id": "hanzi-219",
+    "title": "荚",
+    "pinyin": "jiá",
+    "phrase": "黄豆荚",
+    "icon": "🌱",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-beanpod.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-219-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-219-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "荚",
+      "可",
+      "真"
+    ],
+    "answer": "荚"
+  },
+  {
+    "id": "hanzi-220",
+    "title": "真",
+    "pinyin": "zhēn",
+    "phrase": "真可爱",
+    "icon": "🐇",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-rabbit.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-220-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-220-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "爱",
+      "可",
+      "真"
+    ],
+    "answer": "真"
+  },
+  {
+    "id": "hanzi-221",
+    "title": "可",
+    "pinyin": "kě",
+    "phrase": "可爱的小兔",
+    "icon": "🐇",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-rabbit.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-221-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-221-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "爱",
+      "可",
+      "面"
+    ],
+    "answer": "可"
+  },
+  {
+    "id": "hanzi-222",
+    "title": "爱",
+    "pinyin": "ài",
+    "phrase": "爱妈妈",
+    "icon": "👩",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-mother.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-222-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-222-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "爱",
+      "面",
+      "住"
+    ],
+    "answer": "爱"
+  },
+  {
+    "id": "hanzi-223",
+    "title": "面",
+    "pinyin": "miàn",
+    "phrase": "盒子里面",
+    "icon": "📦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-inside.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-223-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-223-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "满",
+      "面",
+      "住"
+    ],
+    "answer": "面"
+  },
+  {
+    "id": "hanzi-224",
+    "title": "住",
+    "pinyin": "zhù",
+    "phrase": "住在家里",
+    "icon": "🏠",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-home.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-224-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-224-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "乖",
+      "满",
+      "住"
+    ],
+    "answer": "住"
+  },
+  {
+    "id": "hanzi-225",
+    "title": "满",
+    "pinyin": "mǎn",
+    "phrase": "装满豆子的袋子",
+    "icon": "🌾",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-beanbag.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-225-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-225-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "房",
+      "乖",
+      "满"
+    ],
+    "answer": "满"
+  },
+  {
+    "id": "hanzi-226",
+    "title": "乖",
+    "pinyin": "guāi",
+    "phrase": "乖宝宝",
+    "icon": "👶",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-baby.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-226-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-226-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "房",
+      "乖",
+      "呀"
+    ],
+    "answer": "乖"
+  },
+  {
+    "id": "hanzi-227",
+    "title": "房",
+    "pinyin": "fáng",
+    "phrase": "小房子",
+    "icon": "🏠",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-home.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-227-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-227-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "房",
+      "排",
+      "呀"
+    ],
+    "answer": "房"
+  },
+  {
+    "id": "hanzi-228",
+    "title": "呀",
+    "pinyin": "yā",
+    "phrase": "小兔呀",
+    "icon": "🐇",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-rabbit.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-228-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-228-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "排",
+      "呀",
+      "着"
+    ],
+    "answer": "呀"
+  },
+  {
+    "id": "hanzi-229",
+    "title": "排",
+    "pinyin": "pái",
+    "phrase": "排队",
+    "icon": "👦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-queue.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-229-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-229-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "队",
+      "排",
+      "着"
+    ],
+    "answer": "排"
+  },
+  {
+    "id": "hanzi-230",
+    "title": "着",
+    "pinyin": "zhe",
+    "phrase": "排着队",
+    "icon": "👦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-queue.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-230-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-230-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "队",
+      "着",
+      "走"
+    ],
+    "answer": "着"
+  },
+  {
+    "id": "hanzi-231",
+    "title": "队",
+    "pinyin": "duì",
+    "phrase": "排队",
+    "icon": "👦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-queue.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-231-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-231-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "队",
+      "农",
+      "走"
+    ],
+    "answer": "队"
+  },
+  {
+    "id": "hanzi-232",
+    "title": "走",
+    "pinyin": "zǒu",
+    "phrase": "向前走",
+    "icon": "👦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-queue.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-232-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-232-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "民",
+      "农",
+      "走"
+    ],
+    "answer": "走"
+  },
+  {
+    "id": "hanzi-233",
+    "title": "农",
+    "pinyin": "nóng",
+    "phrase": "农民收豆子",
+    "icon": "🌾",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-farmer.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-233-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-233-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "袋",
+      "民",
+      "农"
+    ],
+    "answer": "农"
+  },
+  {
+    "id": "hanzi-234",
+    "title": "民",
+    "pinyin": "mín",
+    "phrase": "农民",
+    "icon": "🌾",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-farmer.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-234-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-234-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "草",
+      "袋",
+      "民"
+    ],
+    "answer": "民"
+  },
+  {
+    "id": "hanzi-235",
+    "title": "袋",
+    "pinyin": "dài",
+    "phrase": "一袋黄豆",
+    "icon": "🌾",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-beanbag.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-235-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-235-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "草",
+      "袋",
+      "倒"
+    ],
+    "answer": "袋"
+  },
+  {
+    "id": "hanzi-236",
+    "title": "草",
+    "pinyin": "cǎo",
+    "phrase": "小草",
+    "icon": "🌿",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-grass.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-236-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-236-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "草",
+      "倒",
+      "扶"
+    ],
+    "answer": "草"
+  },
+  {
+    "id": "hanzi-237",
+    "title": "倒",
+    "pinyin": "dǎo",
+    "phrase": "风吹草倒",
+    "icon": "🍃",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-grass.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-237-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-237-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "倒",
+      "扶",
+      "狗"
+    ],
+    "answer": "倒"
+  },
+  {
+    "id": "hanzi-238",
+    "title": "扶",
+    "pinyin": "fú",
+    "phrase": "扶好小树",
+    "icon": "🌱",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-support.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-238-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-238-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "扶",
+      "狗",
+      "咬"
+    ],
+    "answer": "扶"
+  },
+  {
+    "id": "hanzi-239",
+    "title": "狗",
+    "pinyin": "gǒu",
+    "phrase": "小狗",
+    "icon": "🐶",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-dog.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-239-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-239-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "狗",
+      "枯",
+      "咬"
+    ],
+    "answer": "狗"
+  },
+  {
+    "id": "hanzi-240",
+    "title": "咬",
+    "pinyin": "yǎo",
+    "phrase": "小狗咬玩具",
+    "icon": "🐶",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-dog.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-240-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-240-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "枯",
+      "能",
+      "咬"
+    ],
+    "answer": "咬"
+  },
+  {
+    "id": "hanzi-241",
+    "title": "枯",
+    "pinyin": "kū",
+    "phrase": "枯草",
+    "icon": "🍂",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-drygrass.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-241-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-241-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "当",
+      "枯",
+      "能"
+    ],
+    "answer": "枯"
+  },
+  {
+    "id": "hanzi-242",
+    "title": "能",
+    "pinyin": "néng",
+    "phrase": "我能跳",
+    "icon": "👦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-jump.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-242-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-242-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "柴",
+      "当",
+      "能"
+    ],
+    "answer": "能"
+  },
+  {
+    "id": "hanzi-243",
+    "title": "当",
+    "pinyin": "dāng",
+    "phrase": "当妈妈的小宝贝",
+    "icon": "👩",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-mother.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-243-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-243-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "柴",
+      "当",
+      "烧"
+    ],
+    "answer": "当"
+  },
+  {
+    "id": "hanzi-244",
+    "title": "柴",
+    "pinyin": "chái",
+    "phrase": "木柴",
+    "icon": "🪵",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-firewood.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-244-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-244-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "半",
+      "柴",
+      "烧"
+    ],
+    "answer": "柴"
+  },
+  {
+    "id": "hanzi-245",
+    "title": "烧",
+    "pinyin": "shāo",
+    "phrase": "烧柴",
+    "icon": "🔥",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-firewood.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-245-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-245-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "半",
+      "烧",
+      "有"
+    ],
+    "answer": "烧"
+  },
+  {
+    "id": "hanzi-246",
+    "title": "半",
+    "pinyin": "bàn",
+    "phrase": "半个苹果",
+    "icon": "🍎",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-halfapple.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-246-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-246-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "半",
+      "孩",
+      "有"
+    ],
+    "answer": "半"
+  },
+  {
+    "id": "hanzi-247",
+    "title": "有",
+    "pinyin": "yǒu",
+    "phrase": "有个苹果",
+    "icon": "🍎",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-reuse-一.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-247-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-247-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "孩",
+      "叫",
+      "有"
+    ],
+    "answer": "有"
+  },
+  {
+    "id": "hanzi-248",
+    "title": "孩",
+    "pinyin": "hái",
+    "phrase": "小孩子",
+    "icon": "👦",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-jump.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-248-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-248-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "孩",
+      "叫",
+      "起"
+    ],
+    "answer": "孩"
+  },
+  {
+    "id": "hanzi-249",
+    "title": "叫",
+    "pinyin": "jiào",
+    "phrase": "叫奶奶",
+    "icon": "👵",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-granny.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-249-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-249-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "床",
+      "叫",
+      "起"
+    ],
+    "answer": "叫"
+  },
+  {
+    "id": "hanzi-250",
+    "title": "起",
+    "pinyin": "qǐ",
+    "phrase": "起床",
+    "icon": "🛏️",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-wakeup.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-250-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-250-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "床",
+      "起",
+      "已"
+    ],
+    "answer": "起"
+  },
+  {
+    "id": "hanzi-251",
+    "title": "床",
+    "pinyin": "chuáng",
+    "phrase": "小床",
+    "icon": "🛏️",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-wakeup.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-251-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-251-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "床",
+      "经",
+      "已"
+    ],
+    "answer": "床"
+  },
+  {
+    "id": "hanzi-252",
+    "title": "已",
+    "pinyin": "yǐ",
+    "phrase": "已经起床了",
+    "icon": "🛏️",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-wakeup.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-252-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-252-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "点",
+      "经",
+      "已"
+    ],
+    "answer": "已"
+  },
+  {
+    "id": "hanzi-253",
+    "title": "经",
+    "pinyin": "jīng",
+    "phrase": "已经起床了",
+    "icon": "🛏️",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-wakeup.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-253-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-253-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "点",
+      "经",
+      "鞋"
+    ],
+    "answer": "经"
+  },
+  {
+    "id": "hanzi-254",
+    "title": "点",
+    "pinyin": "diǎn",
+    "phrase": "七点半",
+    "icon": "🕢",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-clock.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-254-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-254-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "穿",
+      "点",
+      "鞋"
+    ],
+    "answer": "点"
+  },
+  {
+    "id": "hanzi-255",
+    "title": "鞋",
+    "pinyin": "xié",
+    "phrase": "穿鞋",
+    "icon": "👟",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-shoes.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-255-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-255-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "穿",
+      "脸",
+      "鞋"
+    ],
+    "answer": "鞋"
+  },
+  {
+    "id": "hanzi-256",
+    "title": "穿",
+    "pinyin": "chuān",
+    "phrase": "穿鞋",
+    "icon": "👟",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-shoes.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-256-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-256-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "穿",
+      "脸",
+      "洗"
+    ],
+    "answer": "穿"
+  },
+  {
+    "id": "hanzi-257",
+    "title": "脸",
+    "pinyin": "liǎn",
+    "phrase": "洗脸",
+    "icon": "🙂",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-washface.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-257-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-257-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "脸",
+      "洗",
+      "早"
+    ],
+    "answer": "脸"
+  },
+  {
+    "id": "hanzi-258",
+    "title": "洗",
+    "pinyin": "xǐ",
+    "phrase": "洗脸",
+    "icon": "💧",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-washface.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-258-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-258-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "饭",
+      "洗",
+      "早"
+    ],
+    "answer": "洗"
+  },
+  {
+    "id": "hanzi-259",
+    "title": "早",
+    "pinyin": "zǎo",
+    "phrase": "早饭",
+    "icon": "🍚",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-breakfast.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-259-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-259-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "饭",
+      "课",
+      "早"
+    ],
+    "answer": "早"
+  },
+  {
+    "id": "hanzi-260",
+    "title": "饭",
+    "pinyin": "fàn",
+    "phrase": "吃早饭",
+    "icon": "🍚",
+    "packageName": "hanzi-reading-3",
+    "imageFile": "/packages/hanzi-reading-3/images/hanzi/reading-breakfast.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-3/audio/hanzi-260-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-3/audio/hanzi-260-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "本",
+      "饭",
+      "课"
+    ],
+    "answer": "饭"
+  },
+  {
+    "id": "hanzi-261",
+    "title": "课",
+    "pinyin": "kè",
+    "phrase": "带课本上学",
+    "icon": "📖",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-school.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-261-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-261-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "本",
+      "带",
+      "课"
+    ],
+    "answer": "课"
+  },
+  {
+    "id": "hanzi-262",
+    "title": "本",
+    "pinyin": "běn",
+    "phrase": "课本",
+    "icon": "📖",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-school.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-262-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-262-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "本",
+      "带",
+      "学"
+    ],
+    "answer": "本"
+  },
+  {
+    "id": "hanzi-263",
+    "title": "带",
+    "pinyin": "dài",
+    "phrase": "带课本上学",
+    "icon": "🎒",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-school.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-263-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-263-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "带",
+      "路",
+      "学"
+    ],
+    "answer": "带"
+  },
+  {
+    "id": "hanzi-264",
+    "title": "学",
+    "pinyin": "xué",
+    "phrase": "上学",
+    "icon": "🎒",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-school.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-264-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-264-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "光",
+      "路",
+      "学"
+    ],
+    "answer": "学"
+  },
+  {
+    "id": "hanzi-265",
+    "title": "路",
+    "pinyin": "lù",
+    "phrase": "上学路上",
+    "icon": "🎒",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-school.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-265-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-265-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "光",
+      "脚",
+      "路"
+    ],
+    "answer": "路"
+  },
+  {
+    "id": "hanzi-266",
+    "title": "光",
+    "pinyin": "guāng",
+    "phrase": "光着小脚",
+    "icon": "👣",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-reuse-足.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-266-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-266-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "板",
+      "光",
+      "脚"
+    ],
+    "answer": "光"
+  },
+  {
+    "id": "hanzi-267",
+    "title": "脚",
+    "pinyin": "jiǎo",
+    "phrase": "小脚",
+    "icon": "👣",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-reuse-足.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-267-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-267-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "板",
+      "脚",
+      "金"
+    ],
+    "answer": "脚"
+  },
+  {
+    "id": "hanzi-268",
+    "title": "板",
+    "pinyin": "bǎn",
+    "phrase": "小脚板",
+    "icon": "👣",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-reuse-足.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-268-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-268-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "板",
+      "金",
+      "银"
+    ],
+    "answer": "板"
+  },
+  {
+    "id": "hanzi-269",
+    "title": "金",
+    "pinyin": "jīn",
+    "phrase": "金色的花",
+    "icon": "🌼",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-goldflower.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-269-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-269-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "躲",
+      "金",
+      "银"
+    ],
+    "answer": "金"
+  },
+  {
+    "id": "hanzi-270",
+    "title": "银",
+    "pinyin": "yín",
+    "phrase": "银色的花",
+    "icon": "🌼",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-silverflower.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-270-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-270-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "躲",
+      "银",
+      "在"
+    ],
+    "answer": "银"
+  },
+  {
+    "id": "hanzi-271",
+    "title": "躲",
+    "pinyin": "duǒ",
+    "phrase": "躲在叶子下",
+    "icon": "🍃",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-hide.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-271-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-271-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "躲",
+      "梦",
+      "在"
+    ],
+    "answer": "躲"
+  },
+  {
+    "id": "hanzi-272",
+    "title": "在",
+    "pinyin": "zài",
+    "phrase": "在叶子下",
+    "icon": "🍃",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-hide.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-272-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-272-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "梦",
+      "胖",
+      "在"
+    ],
+    "answer": "在"
+  },
+  {
+    "id": "hanzi-273",
+    "title": "梦",
+    "pinyin": "mèng",
+    "phrase": "做个梦",
+    "icon": "💭",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-dream.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-273-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-273-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "梦",
+      "南",
+      "胖"
+    ],
+    "answer": "梦"
+  },
+  {
+    "id": "hanzi-274",
+    "title": "胖",
+    "pinyin": "pàng",
+    "phrase": "胖娃娃",
+    "icon": "👶",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-baby.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-274-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-274-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "冬",
+      "南",
+      "胖"
+    ],
+    "answer": "胖"
+  },
+  {
+    "id": "hanzi-275",
+    "title": "南",
+    "pinyin": "nán",
+    "phrase": "南瓜",
+    "icon": "🎃",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-pumpkin.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-275-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-275-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "冬",
+      "看",
+      "南"
+    ],
+    "answer": "南"
+  },
+  {
+    "id": "hanzi-276",
+    "title": "冬",
+    "pinyin": "dōng",
+    "phrase": "冬瓜",
+    "icon": "🥒",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-wintermelon.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-276-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-276-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "冬",
+      "看",
+      "亮"
+    ],
+    "answer": "冬"
+  },
+  {
+    "id": "hanzi-277",
+    "title": "看",
+    "pinyin": "kàn",
+    "phrase": "看月亮",
+    "icon": "🌙",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-reuse-月.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-277-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-277-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "初",
+      "看",
+      "亮"
+    ],
+    "answer": "看"
+  },
+  {
+    "id": "hanzi-278",
+    "title": "亮",
+    "pinyin": "liàng",
+    "phrase": "月亮",
+    "icon": "🌙",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-reuse-月.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-278-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-278-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "初",
+      "根",
+      "亮"
+    ],
+    "answer": "亮"
+  },
+  {
+    "id": "hanzi-279",
+    "title": "初",
+    "pinyin": "chū",
+    "phrase": "初一的月亮",
+    "icon": "🌑",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-newmoon.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-279-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-279-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "初",
+      "根",
+      "线"
+    ],
+    "answer": "初"
+  },
+  {
+    "id": "hanzi-280",
+    "title": "根",
+    "pinyin": "gēn",
+    "phrase": "一根线",
+    "icon": "🧵",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-thread.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-280-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-280-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "根",
+      "见",
+      "线"
+    ],
+    "answer": "根"
+  },
+  {
+    "id": "hanzi-281",
+    "title": "线",
+    "pinyin": "xiàn",
+    "phrase": "一根线",
+    "icon": "🧵",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-thread.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-281-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-281-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蛾",
+      "见",
+      "线"
+    ],
+    "answer": "线"
+  },
+  {
+    "id": "hanzi-282",
+    "title": "见",
+    "pinyin": "jiàn",
+    "phrase": "看见月亮",
+    "icon": "🌙",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-reuse-月.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-282-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-282-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蛾",
+      "见",
+      "团"
+    ],
+    "answer": "见"
+  },
+  {
+    "id": "hanzi-283",
+    "title": "蛾",
+    "pinyin": "é",
+    "phrase": "飞蛾",
+    "icon": "🦋",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-moth.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-283-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-283-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蛾",
+      "团",
+      "圆"
+    ],
+    "answer": "蛾"
+  },
+  {
+    "id": "hanzi-284",
+    "title": "团",
+    "pinyin": "tuán",
+    "phrase": "团团圆圆",
+    "icon": "🌕",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-fullmoon.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-284-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-284-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "拿",
+      "团",
+      "圆"
+    ],
+    "answer": "团"
+  },
+  {
+    "id": "hanzi-285",
+    "title": "圆",
+    "pinyin": "yuán",
+    "phrase": "圆月亮",
+    "icon": "🌕",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-fullmoon.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-285-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-285-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "剪",
+      "拿",
+      "圆"
+    ],
+    "answer": "圆"
+  },
+  {
+    "id": "hanzi-286",
+    "title": "拿",
+    "pinyin": "ná",
+    "phrase": "拿剪刀",
+    "icon": "✂️",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-scissors.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-286-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-286-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "刀",
+      "剪",
+      "拿"
+    ],
+    "answer": "拿"
+  },
+  {
+    "id": "hanzi-287",
+    "title": "剪",
+    "pinyin": "jiǎn",
+    "phrase": "大剪刀",
+    "icon": "✂️",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-scissors.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-287-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-287-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "刀",
+      "甲",
+      "剪"
+    ],
+    "answer": "剪"
+  },
+  {
+    "id": "hanzi-288",
+    "title": "刀",
+    "pinyin": "dāo",
+    "phrase": "大剪刀",
+    "icon": "✂️",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-scissors.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-288-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-288-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "刀",
+      "甲",
+      "袍"
+    ],
+    "answer": "刀"
+  },
+  {
+    "id": "hanzi-289",
+    "title": "甲",
+    "pinyin": "jiǎ",
+    "phrase": "铁甲",
+    "icon": "🛡️",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-armor.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-289-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-289-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "甲",
+      "袍",
+      "要"
+    ],
+    "answer": "甲"
+  },
+  {
+    "id": "hanzi-290",
+    "title": "袍",
+    "pinyin": "páo",
+    "phrase": "长袍",
+    "icon": "👘",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-robe.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-290-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-290-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "袍",
+      "惹",
+      "要"
+    ],
+    "answer": "袍"
+  },
+  {
+    "id": "hanzi-291",
+    "title": "要",
+    "pinyin": "yào",
+    "phrase": "我要吃饭",
+    "icon": "🍚",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-eat.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-291-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-291-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "请",
+      "惹",
+      "要"
+    ],
+    "answer": "要"
+  },
+  {
+    "id": "hanzi-292",
+    "title": "惹",
+    "pinyin": "rě",
+    "phrase": "别惹螃蟹",
+    "icon": "🦀",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-crab.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-292-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-292-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "请",
+      "惹",
+      "他"
+    ],
+    "answer": "惹"
+  },
+  {
+    "id": "hanzi-293",
+    "title": "请",
+    "pinyin": "qǐng",
+    "phrase": "请坐",
+    "icon": "🪑",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-please.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-293-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-293-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "蘑",
+      "请",
+      "他"
+    ],
+    "answer": "请"
+  },
+  {
+    "id": "hanzi-294",
+    "title": "他",
+    "pinyin": "tā",
+    "phrase": "他在跳",
+    "icon": "👦",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-jump.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-294-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-294-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "菇",
+      "蘑",
+      "他"
+    ],
+    "answer": "他"
+  },
+  {
+    "id": "hanzi-295",
+    "title": "蘑",
+    "pinyin": "mó",
+    "phrase": "小蘑菇",
+    "icon": "🍄",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-mushroom.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-295-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-295-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "菇",
+      "蘑",
+      "傻"
+    ],
+    "answer": "蘑"
+  },
+  {
+    "id": "hanzi-296",
+    "title": "菇",
+    "pinyin": "gū",
+    "phrase": "小蘑菇",
+    "icon": "🍄",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-mushroom.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-296-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-296-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "菇",
+      "没",
+      "傻"
+    ],
+    "answer": "菇"
+  },
+  {
+    "id": "hanzi-297",
+    "title": "傻",
+    "pinyin": "shǎ",
+    "phrase": "傻乎乎的小熊",
+    "icon": "🐻",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-bear.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-297-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-297-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "撑",
+      "没",
+      "傻"
+    ],
+    "answer": "傻"
+  },
+  {
+    "id": "hanzi-298",
+    "title": "没",
+    "pinyin": "méi",
+    "phrase": "没有下雨",
+    "icon": "☀️",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-sun.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-298-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-298-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "撑",
+      "没",
+      "伞"
+    ],
+    "answer": "没"
+  },
+  {
+    "id": "hanzi-299",
+    "title": "撑",
+    "pinyin": "chēng",
+    "phrase": "撑小伞",
+    "icon": "☂️",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-umbrella.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-299-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-299-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "撑",
+      "干",
+      "伞"
+    ],
+    "answer": "撑"
+  },
+  {
+    "id": "hanzi-300",
+    "title": "伞",
+    "pinyin": "sǎn",
+    "phrase": "小雨伞",
+    "icon": "☂️",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-umbrella.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-300-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-300-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "干",
+      "伞",
+      "啥"
+    ],
+    "answer": "伞"
+  },
+  {
+    "id": "hanzi-301",
+    "title": "干",
+    "pinyin": "gàn",
+    "phrase": "干什么",
+    "icon": "👀",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-look.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-301-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-301-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "干",
+      "啥",
+      "土"
+    ],
+    "answer": "干"
+  },
+  {
+    "id": "hanzi-302",
+    "title": "啥",
+    "pinyin": "shá",
+    "phrase": "这是啥",
+    "icon": "🍄",
+    "packageName": "hanzi-reading-4",
+    "imageFile": "/packages/hanzi-reading-4/images/hanzi/reading-mushroom.png",
+    "audioFile": "",
+    "characterAudioFile": "/packages/hanzi-reading-4/audio/hanzi-302-character.mp3",
+    "phraseAudioFile": "/packages/hanzi-reading-4/audio/hanzi-302-phrase.mp3",
+    "question": "哪一个是",
+    "options": [
+      "啥",
+      "土",
+      "五"
+    ],
+    "answer": "啥"
+  }
+]

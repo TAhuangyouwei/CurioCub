@@ -1,4 +1,5 @@
 const { LIMIT, createLayout, createSticks, arrangeSticks, dragPosition, dropStick, getSummary } = require('../../sticks')
+const { getUiScale } = require('../../../../utils/ui-scale')
 
 const INSTRUCTIONS = {
   count: '把火柴从收纳盒拖到数数区，也能拖回去。',
@@ -24,7 +25,7 @@ Page({
 
   onLoad() {
     const info = wx.getWindowInfo ? wx.getWindowInfo() : wx.getSystemInfoSync()
-    this.layout = createLayout(info.windowWidth * 694 / 750, this.data.mode)
+    this.layout = createLayout(info.windowWidth - 56 * getUiScale(info.windowWidth), this.data.mode)
     this.resetBoard()
   },
 

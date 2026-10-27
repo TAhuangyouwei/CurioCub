@@ -6,7 +6,8 @@ Page({
   data: {
     module: null,
     groups: [],
-    stars: 0
+    stars: 0,
+    unlearnedCount: 0
   },
 
   onLoad(options) {
@@ -25,7 +26,8 @@ Page({
     for (let start = 0; start < module.items.length; start += module.groupSize) {
       const items = module.items.slice(start, start + module.groupSize).map((item) => ({
         ...item,
-        completed: Boolean(progress.completedIds[item.id])
+        completed: Boolean(progress.completedIds[item.id]),
+        unlearned: Boolean(progress.unlearnedIds[item.id])
       }))
       groups.push({
         index: groups.length,
@@ -38,7 +40,8 @@ Page({
     }
 
     wx.setNavigationBarTitle({ title: module.title })
-    this.setData({ module, groups, stars: progress.stars })
+    const unlearnedCount = module.items.filter((item) => progress.unlearnedIds[item.id]).length
+    this.setData({ module, groups, stars: progress.stars, unlearnedCount })
   },
 
   openLesson(event) {
@@ -55,6 +58,10 @@ Page({
 
   openPinyinWorkshop() {
     wx.navigateTo({ url: '/packages/pinyin-04/pages/builder/index' })
+  },
+
+  openNotebook() {
+    wx.navigateTo({ url: '/pages/notebook/notebook' })
   },
 
   openMathWorkshop() {

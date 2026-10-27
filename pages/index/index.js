@@ -40,6 +40,14 @@ Page({
     wx.navigateTo({ url: `/pages/module/module?moduleId=${this.data.continueModuleId}` })
   },
 
+  startToday() {
+    wx.navigateTo({ url: '/packages/hanzi-practice/pages/today/index' })
+  },
+
+  openReading() {
+    wx.navigateTo({ url: '/packages/hanzi-practice/pages/reading/index' })
+  },
+
   openStickers() {
     wx.navigateTo({ url: '/pages/stickers/stickers' })
   }

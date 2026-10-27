@@ -1,15 +1,15 @@
 .sticker-page { height: 100vh; }
-.stickers-screen { padding: 32rpx 28rpx 72rpx; }
-.sticker-hero { display: flex; align-items: center; gap: 20rpx; padding: 28rpx 25rpx; border-radius: 32rpx; background: linear-gradient(135deg, #ffe8e9, #f5eaff); box-shadow: 0 12rpx 27rpx rgba(80, 105, 140, 0.11); }
-.sticker-hero-icon { font-size: 65rpx; }
+.stickers-screen { padding: calc(32 * var(--ui-unit)) calc(28 * var(--ui-unit)) calc(72 * var(--ui-unit)); }
+.sticker-hero { display: flex; align-items: center; gap: calc(20 * var(--ui-unit)); padding: calc(28 * var(--ui-unit)) calc(25 * var(--ui-unit)); border-radius: calc(32 * var(--ui-unit)); background: linear-gradient(135deg, #ffe8e9, #f5eaff); box-shadow: 0 calc(12 * var(--ui-unit)) calc(27 * var(--ui-unit)) rgba(80, 105, 140, 0.11); }
+.sticker-hero-icon { font-size: calc(65 * var(--ui-unit)); }
 .sticker-hero-title, .sticker-hero-subtitle { display: block; }
-.sticker-hero-title { color: #4f557e; font-size: 32rpx; font-weight: 800; }
-.sticker-hero-subtitle { margin-top: 7rpx; color: #7c7896; font-size: 21rpx; }
-.count-banner { margin: 22rpx 0; padding: 18rpx 22rpx; border-radius: 22rpx; color: #826e32; background: #fff6d7; font-size: 25rpx; font-weight: 700; }
-.sticker-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17rpx; }
-.sticker-cell { display: flex; min-height: 171rpx; flex-direction: column; align-items: center; justify-content: center; border-radius: 25rpx; background: #fff; box-shadow: 0 8rpx 17rpx rgba(80, 105, 140, 0.09); }
-.sticker-cell.unlocked { border: 3rpx solid #f5d87d; background: #fffdf5; }
+.sticker-hero-title { color: #4f557e; font-size: calc(32 * var(--ui-unit)); font-weight: 800; }
+.sticker-hero-subtitle { margin-top: calc(7 * var(--ui-unit)); color: #7c7896; font-size: calc(21 * var(--ui-unit)); }
+.count-banner { margin: calc(22 * var(--ui-unit)) 0; padding: calc(18 * var(--ui-unit)) calc(22 * var(--ui-unit)); border-radius: calc(22 * var(--ui-unit)); color: #826e32; background: #fff6d7; font-size: calc(25 * var(--ui-unit)); font-weight: 700; }
+.sticker-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(17 * var(--ui-unit)); }
+.sticker-cell { display: flex; min-height: calc(171 * var(--ui-unit)); flex-direction: column; align-items: center; justify-content: center; border-radius: calc(25 * var(--ui-unit)); background: #fff; box-shadow: 0 calc(8 * var(--ui-unit)) calc(17 * var(--ui-unit)) rgba(80, 105, 140, 0.09); }
+.sticker-cell.unlocked { border: calc(3 * var(--ui-unit)) solid #f5d87d; background: #fffdf5; }
 .sticker-cell.locked { opacity: 0.55; background: #f3f6f8; }
-.sticker-icon { font-size: 53rpx; }
-.sticker-name { margin-top: 8rpx; color: #4c6278; font-size: 22rpx; font-weight: 700; }
-.sticker-number { margin-top: 2rpx; color: #94a2b1; font-size: 18rpx; }
+.sticker-icon { font-size: calc(53 * var(--ui-unit)); }
+.sticker-name { margin-top: calc(8 * var(--ui-unit)); color: #4c6278; font-size: calc(22 * var(--ui-unit)); font-weight: 700; }
+.sticker-number { margin-top: calc(2 * var(--ui-unit)); color: #94a2b1; font-size: calc(18 * var(--ui-unit)); }

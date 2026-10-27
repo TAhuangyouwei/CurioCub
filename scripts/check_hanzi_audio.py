@@ -3,6 +3,7 @@
 import argparse
 from array import array
 import json
+from pathlib import Path
 import subprocess
 
 from generate_hanzi_extra_audio import ROOT
@@ -36,7 +37,7 @@ def check_internal_pause(ffmpeg):
         assert duration >= minimum, f'{name}: audio truncated to {duration:.3f}s'
 
 
-def check_assets(ffmpeg):
+def check_assets(ffmpeg, audio_root=ROOT):
     result = subprocess.run(['node', '-e', "process.stdout.write(JSON.stringify(require('./data/learning').getModule('hanzi').items))"],
                             cwd=ROOT, check=True, capture_output=True)
     units = json.loads(result.stdout.decode('utf-8'))
@@ -44,7 +45,7 @@ def check_assets(ffmpeg):
     for unit in units:
         for field, text in [('characterAudioFile', unit['title']), ('phraseAudioFile', unit['phrase'])]:
             filename = unit[field]
-            source = ROOT / (filename.lstrip('/') if filename.startswith('/') else f'assets/audio/{filename}')
+            source = audio_root / (filename.lstrip('/') if filename.startswith('/') else f'assets/audio/{filename}')
             duration, audible = decode(ffmpeg, source)
             if duration < 0.18 * len(text) or audible < 0.06 * len(text):
                 failures.append(f'{unit["id"]} {text}: duration={duration:.3f}s, audible={audible:.3f}s')
@@ -56,8 +57,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--ffmpeg', required=True)
     parser.add_argument('--assets-only', action='store_true')
+    parser.add_argument('--audio-root', type=Path, default=ROOT, help='Optional staged audio root to validate before replacement')
     args = parser.parse_args()
     if not args.assets_only:
         check_internal_pause(args.ffmpeg)
         print('Internal-pause regression checks passed for character and phrase generation.')
-    check_assets(args.ffmpeg)
+    check_assets(args.ffmpeg, args.audio_root)

@@ -1,18 +1,18 @@
-.reward-screen { position: relative; overflow: hidden; padding: 88rpx 42rpx 70rpx; text-align: center; background: linear-gradient(180deg, #e7f8ff, #f8f0ff); }
-.sparkle { position: absolute; color: #eab85b; font-size: 53rpx; }
-.sparkle.one { top: 88rpx; left: 90rpx; }
-.sparkle.two { top: 230rpx; right: 80rpx; color: #9f8add; }
-.reward-bear { font-size: 104rpx; }
-.reward-title { display: block; margin-top: 11rpx; color: #355570; font-size: 51rpx; font-weight: 800; }
-.reward-subtitle { display: block; margin-top: 8rpx; color: #70869a; font-size: 26rpx; }
-.star-badge { display: flex; align-items: center; justify-content: center; width: 158rpx; height: 158rpx; margin: 55rpx auto 20rpx; border-radius: 50%; background: #fff5c7; box-shadow: 0 14rpx 26rpx rgba(214, 171, 64, 0.22); font-size: 82rpx; }
-.star-copy { color: #49677e; font-size: 29rpx; font-weight: 700; }
-.sticker-message { display: flex; align-items: center; gap: 15rpx; margin-top: 48rpx; padding: 21rpx; border-radius: 27rpx; text-align: left; background: #fff; box-shadow: 0 10rpx 22rpx rgba(80, 105, 140, 0.1); }
-.sticker-big { font-size: 54rpx; }
+.reward-screen { position: relative; overflow: hidden; padding: calc(88 * var(--ui-unit)) calc(42 * var(--ui-unit)) calc(70 * var(--ui-unit)); text-align: center; background: linear-gradient(180deg, #e7f8ff, #f8f0ff); }
+.sparkle { position: absolute; color: #eab85b; font-size: calc(53 * var(--ui-unit)); }
+.sparkle.one { top: calc(88 * var(--ui-unit)); left: calc(90 * var(--ui-unit)); }
+.sparkle.two { top: calc(230 * var(--ui-unit)); right: calc(80 * var(--ui-unit)); color: #9f8add; }
+.reward-bear { font-size: calc(104 * var(--ui-unit)); }
+.reward-title { display: block; margin-top: calc(11 * var(--ui-unit)); color: #355570; font-size: calc(51 * var(--ui-unit)); font-weight: 800; }
+.reward-subtitle { display: block; margin-top: calc(8 * var(--ui-unit)); color: #70869a; font-size: calc(26 * var(--ui-unit)); }
+.star-badge { display: flex; align-items: center; justify-content: center; width: calc(158 * var(--ui-unit)); height: calc(158 * var(--ui-unit)); margin: calc(55 * var(--ui-unit)) auto calc(20 * var(--ui-unit)); border-radius: 50%; background: #fff5c7; box-shadow: 0 calc(14 * var(--ui-unit)) calc(26 * var(--ui-unit)) rgba(214, 171, 64, 0.22); font-size: calc(82 * var(--ui-unit)); }
+.star-copy { color: #49677e; font-size: calc(29 * var(--ui-unit)); font-weight: 700; }
+.sticker-message { display: flex; align-items: center; gap: calc(15 * var(--ui-unit)); margin-top: calc(48 * var(--ui-unit)); padding: calc(21 * var(--ui-unit)); border-radius: calc(27 * var(--ui-unit)); text-align: left; background: #fff; box-shadow: 0 calc(10 * var(--ui-unit)) calc(22 * var(--ui-unit)) rgba(80, 105, 140, 0.1); }
+.sticker-big { font-size: calc(54 * var(--ui-unit)); }
 .sticker-title, .sticker-subtitle { display: block; }
-.sticker-title { color: #4d5b87; font-size: 25rpx; font-weight: 800; }
-.sticker-subtitle { margin-top: 4rpx; color: #8290a5; font-size: 19rpx; }
-.see-sticker { margin-left: auto; padding: 0 15rpx; border-radius: 19rpx; color: #5d75c0; background: #eaf0ff; font-size: 21rpx; }
-.kind-message { margin-top: 46rpx; color: #71849a; font-size: 25rpx; }
-.next-button { margin-top: 55rpx; border-radius: 30rpx; color: #fff; background: #ec9a6e; font-size: 29rpx; font-weight: 800; }
-.map-button { margin-top: 15rpx; color: #607a91; background: transparent; font-size: 25rpx; }
+.sticker-title { color: #4d5b87; font-size: calc(25 * var(--ui-unit)); font-weight: 800; }
+.sticker-subtitle { margin-top: calc(4 * var(--ui-unit)); color: #8290a5; font-size: calc(19 * var(--ui-unit)); }
+.see-sticker { margin-left: auto; padding: 0 calc(15 * var(--ui-unit)); border-radius: calc(19 * var(--ui-unit)); color: #5d75c0; background: #eaf0ff; font-size: calc(21 * var(--ui-unit)); }
+.kind-message { margin-top: calc(46 * var(--ui-unit)); color: #71849a; font-size: calc(25 * var(--ui-unit)); }
+.next-button { margin-top: calc(55 * var(--ui-unit)); border-radius: calc(30 * var(--ui-unit)); color: #fff; background: #ec9a6e; font-size: calc(29 * var(--ui-unit)); font-weight: 800; }
+.map-button { margin-top: calc(15 * var(--ui-unit)); color: #607a91; background: transparent; font-size: calc(25 * var(--ui-unit)); }

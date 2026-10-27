@@ -12,6 +12,7 @@ global.getApp = () => ({ globalData: { audio: { stop() {} }, lessonRequest: null
 let navigation = null
 global.wx = {
   getStorageSync() { return null },
+  setStorageSync() {},
   showToast() {},
   reLaunch() {},
   navigateTo() {},

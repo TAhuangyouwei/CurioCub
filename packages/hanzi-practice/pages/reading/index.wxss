@@ -1,0 +1,22 @@
+@import "../../fonts/hanzi-kai.wxss";
+
+.reader-screen { max-width: 900px; box-sizing: border-box; margin: 0 auto; padding: 24px 20px calc(24px + env(safe-area-inset-bottom)); }
+.reader-title { display: block; color: #304c62; font-size: 26px; font-weight: 700; }
+.reader-note { display: block; margin: 12px 0; color: #71849a; font-size: 15px; line-height: 1.7; }
+.reader-card { margin: 24px 0 18px; padding: 28px 12px; border-radius: 24px; background: #fffefa; text-align: center; }
+.reader-scene { display: block; margin-bottom: 20px; font-size: 60px; }
+.reader-sentence { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: center; gap: 4px; }
+.reader-cell { display: flex; min-width: 44px; flex-direction: column; align-items: center; border-radius: 10px; }
+.reader-cell.selected { background: #e2f1ff; }
+.reader-cell.punctuation { min-width: 18px; }
+.reader-character { color: #304c62; font-family: "CurioCubKai"; font-size: 52px; line-height: 1.25; font-weight: 400; }
+.reader-pinyin { min-height: 28px; color: #68819a; font-size: 16px; line-height: 28px; }
+.reader-tip { display: block; margin-top: 24px; color: #8191a1; font-size: 14px; }
+.reader-primary, .reader-secondary { width: 100%; margin-top: 14px; border-radius: 18px; font-size: 18px; line-height: 2.7; font-weight: 600; }
+.reader-primary { color: #fff; background: #5f83dd; }
+.reader-primary.warm { color: #83502e; background: #ffdec1; }
+.reader-secondary { color: #637e96; background: #e3edf7; }
+.reader-navigation { display: flex; gap: 12px; }
+.reader-navigation button { flex: 1; }
+.reader-empty { padding-top: 60px; text-align: center; }
+@media (min-width: 600px) { .reader-screen { padding-top: 36px; } .reader-card { padding: 48px 20px; } .reader-character { font-size: 72px; } .reader-pinyin { font-size: 21px; } }

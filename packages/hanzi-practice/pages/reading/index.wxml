@@ -1,0 +1,30 @@
+<view class="reader-screen">
+  <text class="reader-title">{{isToday ? '今天读一句' : '读读已学的字'}}</text>
+  <block wx:if="{{sentence}}">
+    <text class="reader-note">这里的字你都学过。先试着读，再听一听。</text>
+    <view class="reader-card">
+      <text class="reader-scene">{{sentence.icon}}</text>
+      <view class="reader-sentence">
+        <view wx:for="{{characters}}" wx:key="index" class="reader-cell {{item.punctuation ? 'punctuation' : ''}} {{index === selectedIndex ? 'selected' : ''}}" bindtap="playCharacter" data-index="{{index}}">
+          <text wx:if="{{showPinyin}}" class="reader-pinyin">{{item.pinyin}}</text>
+          <text class="reader-character">{{item.char}}</text>
+        </view>
+      </view>
+      <text class="reader-tip">点一个字，可以单独听它的读音</text>
+    </view>
+    <button class="reader-primary" bindtap="playSentence">🔊 听整句</button>
+    <button class="reader-secondary" bindtap="togglePinyin">{{showPinyin ? '收起拼音' : '需要帮忙 · 显示拼音'}}</button>
+    <button class="reader-primary warm" bindtap="finish">我读过啦</button>
+    <view wx:if="{{!isToday}}" class="reader-navigation">
+      <button class="reader-secondary" bindtap="previous" disabled="{{!hasPrevious}}">‹ 上一句</button>
+      <button class="reader-secondary" bindtap="next" disabled="{{!hasNext}}">下一句 ›</button>
+    </view>
+    <text class="reader-note">每天推荐一句新短句，喜欢的句子随时可以重读。</text>
+  </block>
+  <view wx:else class="reader-empty">
+    <text class="reader-scene">🌱</text>
+    <text class="reader-title">先认识几个字</text>
+    <text class="reader-note">句子里的字都学过后，就能在这里读啦。</text>
+    <button class="reader-primary" bindtap="startToday">去今天的小任务</button>
+  </view>
+</view>

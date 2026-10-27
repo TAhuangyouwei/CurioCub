@@ -1,3 +1,5 @@
+const { getUiScale } = require('./ui-scale')
+
 const LAYOUT = {
   horizontalPaddingRpx: 120,
   chipWidthRpx: 150,
@@ -8,7 +10,7 @@ const LAYOUT = {
 }
 
 function createReviewLayout(units, windowWidth, isHanzi = false) {
-  const scale = windowWidth / 750
+  const scale = getUiScale(windowWidth)
   const boardWidth = windowWidth - LAYOUT.horizontalPaddingRpx * scale
   const chipWidth = isHanzi ? (boardWidth - 32) / 5 : LAYOUT.chipWidthRpx * scale
   const chipHeight = isHanzi ? 44 : LAYOUT.chipHeightRpx * scale

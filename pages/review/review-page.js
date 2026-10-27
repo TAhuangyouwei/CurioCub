@@ -23,17 +23,28 @@ function createReviewPage() {
 
     const start = groupIndex * module.groupSize
     const isHanzi = module.id === 'hanzi'
-    const units = module.items.slice(start, start + module.groupSize).slice(0, isHanzi ? 10 : 4)
+    this.reviewUnits = module.items.slice(start, start + module.groupSize).slice(0, isHanzi ? 10 : 4)
+    this.setData({ module, isHanzi })
+    this.updateLayout()
+    wx.setNavigationBarTitle({ title: '拖拽配对' })
+  },
+
+  updateLayout() {
     const windowInfo = wx.getWindowInfo ? wx.getWindowInfo() : wx.getSystemInfoSync()
-    const layout = createReviewLayout(units, windowInfo.windowWidth, isHanzi)
+    const layout = createReviewLayout(this.reviewUnits, windowInfo.windowWidth, this.data.isHanzi)
+    const pairedIds = new Set(this.data.matches.filter((item) => item.paired).map((item) => item.id))
     this.layoutMetrics = layout.metrics
     this.dragPositions = {}
     layout.matches.forEach((item) => {
+      if (pairedIds.has(item.id)) Object.assign(item, snappedPosition(item, layout.metrics), { paired: true })
       this.dragPositions[item.id] = { x: item.x, y: item.y }
     })
+    layout.targets.forEach((item) => { item.paired = pairedIds.has(item.id) })
+    this.setData(layout)
+  },
 
-    this.setData({ module, isHanzi, ...layout })
-    wx.setNavigationBarTitle({ title: '拖拽配对' })
+  onResize() {
+    if (this.reviewUnits) this.updateLayout()
   },
 
   onDragChange(event) {
@@ -48,11 +59,13 @@ function createReviewPage() {
     if (!match || match.paired) return
 
     const current = this.dragPositions[id] || { x: match.startX, y: match.startY }
+    const metrics = this.layoutMetrics
     const path = `matches[${index}]`
     this.setData({
       [`${path}.x`]: current.x,
       [`${path}.y`]: current.y
     }, () => {
+      if (metrics !== this.layoutMetrics) return
       if (!isInsideTarget(current, match, this.layoutMetrics)) {
         this.setData({
           [`${path}.x`]: match.startX,

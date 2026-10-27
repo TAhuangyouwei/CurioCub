@@ -3,6 +3,8 @@ const STORAGE_KEY = 'curiocub-progress-v1'
 function freshState() {
   return {
     completedIds: {},
+    unlearnedIds: {},
+    rewardedIds: {},
     stars: 0,
     stickerCount: 0,
     lastModuleId: 'hanzi'
@@ -11,7 +13,12 @@ function freshState() {
 
 function getProgress() {
   const saved = wx.getStorageSync(STORAGE_KEY)
-  return saved && saved.completedIds ? saved : freshState()
+  if (!saved || !saved.completedIds) return freshState()
+  return {
+    ...saved,
+    unlearnedIds: saved.unlearnedIds || {},
+    rewardedIds: saved.rewardedIds || { ...saved.completedIds }
+  }
 }
 
 function saveProgress(progress) {
@@ -23,12 +30,22 @@ function completeUnit(unitId, moduleId) {
   const progress = getProgress()
   progress.lastModuleId = moduleId
 
-  if (!progress.completedIds[unitId]) {
-    progress.completedIds[unitId] = true
+  progress.completedIds[unitId] = true
+  delete progress.unlearnedIds[unitId]
+  if (!progress.rewardedIds[unitId]) {
+    progress.rewardedIds[unitId] = true
     progress.stars += 1
     progress.stickerCount = Math.floor(progress.stars / 4)
   }
 
+  return saveProgress(progress)
+}
+
+function markUnitUnlearned(unitId, moduleId) {
+  const progress = getProgress()
+  progress.lastModuleId = moduleId
+  delete progress.completedIds[unitId]
+  progress.unlearnedIds[unitId] = true
   return saveProgress(progress)
 }
 
@@ -44,6 +61,7 @@ function resetProgress() {
 module.exports = {
   getProgress,
   completeUnit,
+  markUnitUnlearned,
   getModuleCompletion,
   resetProgress
 }

@@ -1,0 +1,3 @@
+@import "../module/module.wxss";
+
+.empty-notebook { padding: calc(48 * var(--ui-unit)) calc(28 * var(--ui-unit)); text-align: center; line-height: 1.7; }

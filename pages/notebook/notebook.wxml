@@ -1,0 +1,31 @@
+<scroll-view class="module-page" scroll-y>
+  <view class="screen module-content">
+    <view class="module-hero" style="--module-color: #f4a85a">
+      <view class="module-hero-icon">📖</view>
+      <view>
+        <text class="module-hero-title">我的生字本</text>
+        <text class="module-hero-subtitle">还有 {{items.length}} 个字，再练一练</text>
+      </view>
+    </view>
+    <view class="tip-card">
+      <text class="tip-icon">🐻</text>
+      <text>点一个字开始练习，标记“已学会”后会自动移出生字本。</text>
+    </view>
+    <view wx:if="{{items.length}}" class="group-card">
+      <view class="unit-list">
+        <view wx:for="{{items}}" wx:key="id" class="unit-row tap-card" bindtap="openLesson" data-unit-id="{{item.id}}">
+          <view class="unit-symbol">{{item.title}}</view>
+          <view class="unit-copy">
+            <text class="unit-phrase">{{item.pinyin}} · {{item.phrase}}</text>
+            <text class="unit-helper">未学会 · 点这里再练习</text>
+          </view>
+          <text class="unit-arrow">›</text>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="group-card empty-notebook">
+      <text class="group-title">生字本里还没有字</text>
+      <text class="module-hero-subtitle">学习时点“未学会”或“提示”，这个字就会收进来。</text>
+    </view>
+  </view>
+</scroll-view>

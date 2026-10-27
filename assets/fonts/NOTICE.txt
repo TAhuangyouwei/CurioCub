@@ -1,0 +1,7 @@
+CurioCubKai: character subsets of FandolKai-Regular, by the Fandol team (Clerk Ma and Jie Su).
+Source: https://ctan.org/pkg/fandol
+License: GNU GPL version 3 or later, with font embedding exception; see LICENSE.txt.
+Modification: character subsets, no hint data, WOFF2 compression; outlines unchanged.
+The embedding exception also applies to these subsets.
+Main-package glyphs are shared; subpackages include only the additional glyphs they use.
+Source and reproducible tool: scripts/font-source and scripts/build_hanzi_font.py.

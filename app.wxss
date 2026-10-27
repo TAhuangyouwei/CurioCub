@@ -1,4 +1,7 @@
+@import "./assets/fonts/hanzi-kai.wxss";
+
 page {
+  --ui-unit: min(1rpx, 0.65px);
   min-height: 100vh;
   color: #27445d;
   background: #eaf5ff;
@@ -20,4 +23,24 @@ button::after {
 
 .tap-card:active {
   transform: scale(0.98);
+}
+
+@media (min-width: 600px) {
+  button { min-height: 44px; }
+  .home .home-content, .module-page .module-content, .sticker-page .stickers-screen,
+  .builder-page .builder-content { max-width: 1000px; box-sizing: border-box; margin: 0 auto; }
+  .screen.lesson { max-width: 1100px; margin: 0 auto; }
+  .screen.challenge { max-width: 760px; margin: 0 auto; }
+  .screen.reward-screen { max-width: 620px; margin: 0 auto; }
+  .module-page .unit-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; }
+  .sticker-page .sticker-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+
+@media (min-width: 900px) {
+  .home .module-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .screen.lesson { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(240px, 0.8fr); align-content: start; gap: 24px; }
+  .lesson .custom-header { grid-column: 1 / -1; }
+  .lesson .lesson-swiper { height: 360px; margin-top: 0; }
+  .lesson .lesson-card { height: 340px; }
+  .lesson .big-symbol { font-size: 160px; }
 }

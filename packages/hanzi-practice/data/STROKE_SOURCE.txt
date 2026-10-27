@@ -1,0 +1,4 @@
+First-stroke guides derived from hanzi-writer-data 2.0.1 (Make Me a Hanzi / Arphic fonts).
+License: ARPHICPL.txt.
+Modified: first stroke only, coordinates aligned to FandolKai outlines.
+Source: https://github.com/chanind/hanzi-writer-data

@@ -14,6 +14,12 @@
       <text>想学哪里就点哪里，也可以随时玩配对复习！</text>
     </view>
 
+    <button wx:if="{{module.id === 'hanzi'}}" class="workshop-button" bindtap="openNotebook">
+      <text class="workshop-title">📖 生字本 · {{unlearnedCount}} 个字</text>
+      <text class="workshop-subtitle">未学会或点过提示的字，收在这里再练一练</text>
+      <text class="workshop-arrow">›</text>
+    </button>
+
     <button wx:if="{{module.id === 'pinyin'}}" class="workshop-button" bindtap="openPinyinWorkshop">
       <text class="workshop-title">♪ 拼读小工坊</text>
       <text class="workshop-subtitle">自己选声母、韵母和声调，拼出新声音</text>
@@ -49,6 +55,7 @@
           <view class="unit-copy">
             <text class="unit-phrase">{{unit.phrase}}</text>
             <text class="unit-helper" wx:if="{{unit.completed}}">已收集星星 ✓</text>
+            <text class="unit-helper" wx:elif="{{module.id === 'hanzi' && unit.unlearned}}">未学会 · 已加入生字本</text>
             <text class="unit-helper" wx:else>点击开始</text>
           </view>
           <text class="unit-check" wx:if="{{unit.completed}}">⭐</text>

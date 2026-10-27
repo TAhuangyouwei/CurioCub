@@ -42,12 +42,12 @@
   {
     "id": 45,
     "character": "三",
-    "phrase": "三颗星",
+    "phrase": "三辆小车",
     "filename": "hanzi-45-san.png",
-    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-33234234-1870-4992-b33c-27889d72b9d6.png",
+    "source": "D:\\Codex\\generated_images\\01a16c7f-fbf6-7282-a0e7-bc011bf9fa4e\\exec-f3f0cedc-3044-4faf-9b6d-00a97f526fdc.png",
     "transparentBackground": true,
     "generator": "built-in image_gen",
-    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, for display at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. Truly transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY THREE five-point golden stars, separate and non-overlapping, arranged as one at top and two below. No extra stars or sparkles."
+    "prompt": "Use case: scientific-educational. Asset type: ONE square transparent PNG preschool Chinese literacy hint illustration, readable at 56 pixels. Style: cute polished flat children's textbook illustration, soft cheerful colors, thick smooth dark-brown rounded outlines, restrained simple shading, clean bold silhouette. Subject fills about 85 percent of canvas with a small clear margin. Truly transparent background, no white rectangle. No watermark, border, logo, decorative extras, or written words unless explicitly requested. Make the intended concept immediately readable. Subject: EXACTLY THREE small toy CARS, separated and arranged vertically in three spacious rows: one red car, one blue car, one yellow car. Each car in simple side view with exactly two visible wheels. All three complete and distinct. No roadway, people, spare wheels, extra cars, stars, numbers or text. Count exactly 3."
   },
   {
     "id": 46,
@@ -74,10 +74,10 @@
     "character": "身",
     "phrase": "身体",
     "filename": "hanzi-48-shen.png",
-    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-c10c2361-604c-4dff-a389-6033537bd73f.png",
+    "source": "D:\\Codex\\generated_images\\01a16c7f-fbf6-7282-a0e7-bc011bf9fa4e\\exec-6a20beef-e9d0-4e3a-98c9-ca34afa26e36.png",
     "transparentBackground": true,
     "generator": "built-in image_gen",
-    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One fully clothed smiling preschool child standing facing forward, entire body visible from head to feet, wearing a simple blue t-shirt and shorts, arms slightly spread to make the body silhouette clear."
+    "prompt": "Use case: scientific-educational. Asset type: ONE square transparent PNG preschool Chinese literacy hint illustration, readable at 56 pixels. Style: cute polished flat children's textbook illustration, soft cheerful colors, thick smooth dark-brown rounded outlines, restrained simple shading, clean bold silhouette. Subject fills about 85 percent of canvas with a small clear margin. Truly transparent background, no white rectangle. No watermark, border, logo, decorative extras, or written words unless explicitly requested. Make the intended concept immediately readable. Subject: ONE simple neutral front-facing BODY diagram, anatomically correct, clothed torso and two arms and two legs rendered in vivid teal, small simple head in pale low-contrast peach. Entire body visible with arms slightly spread. Torso and limbs are the teaching focus, no face detail, hair, anatomy organs, another person or written words. Smooth friendly mannequin silhouette rather than a detailed cartoon boy."
   },
   {
     "id": 49,
@@ -112,12 +112,12 @@
   {
     "id": 52,
     "character": "六",
-    "phrase": "六朵花",
+    "phrase": "六只风筝",
     "filename": "hanzi-52-liu.png",
-    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-27b07f29-6283-4a12-ba73-2899574abdb9.png",
+    "source": "D:\\Codex\\generated_images\\01a16c7f-fbf6-7282-a0e7-bc011bf9fa4e\\exec-b1c33bf6-cf16-462e-97fa-daecf68c7b50.png",
     "transparentBackground": true,
     "generator": "built-in image_gen",
-    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY SIX simple pink tulip blossoms with small stems and leaves, neatly separated in TWO ROWS OF THREE. Every flower easy to count. No extra blossoms or decoration."
+    "prompt": "Use case: scientific-educational. Asset type: ONE square transparent PNG preschool Chinese literacy hint illustration, readable at 56 pixels. Style: cute polished flat children's textbook illustration, soft cheerful colors, thick smooth dark-brown rounded outlines, restrained simple shading, clean bold silhouette. Subject fills about 85 percent of canvas with a small clear margin. Truly transparent background, no white rectangle. No watermark, border, logo, decorative extras, or written words unless explicitly requested. Make the intended concept immediately readable. Subject: EXACTLY SIX simple diamond-shaped KITES arranged as TWO ROWS of THREE kites. Top row red orange yellow; bottom row green blue purple. Each has one short simple tail with one tiny bow, no extra flying shapes. Six separate unmistakable kite silhouettes, generous gaps, no people, flowers, stars, text or numerals. Count exactly 6."
   },
   {
     "id": 53,
@@ -132,12 +132,12 @@
   {
     "id": 54,
     "character": "七",
-    "phrase": "七颗星",
+    "phrase": "七支彩笔",
     "filename": "hanzi-54-qi.png",
-    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-4e3a4a0a-981f-47a3-a595-a1ea6a5558a0.png",
+    "source": "D:\\Codex\\generated_images\\01a16c7f-fbf6-7282-a0e7-bc011bf9fa4e\\exec-4f6329b8-7e36-4512-81c9-3d21a23c3feb.png",
     "transparentBackground": true,
     "generator": "built-in image_gen",
-    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY SEVEN golden five-point stars, separated and non-overlapping, arranged as FOUR stars in top row and THREE below. No extra stars or sparkles. Clear count."
+    "prompt": "Use case: scientific-educational. Asset type: ONE square transparent PNG preschool Chinese literacy hint illustration, readable at 56 pixels. Style: cute polished flat children's textbook illustration, soft cheerful colors, thick smooth dark-brown rounded outlines, restrained simple shading, clean bold silhouette. Subject fills about 85 percent of canvas with a small clear margin. Truly transparent background, no white rectangle. No watermark, border, logo, decorative extras, or written words unless explicitly requested. Make the intended concept immediately readable. Subject: EXACTLY SEVEN thick capped felt-tip COLOR MARKERS standing parallel upright side by side: red, orange, yellow, green, cyan, blue, purple. Seven complete independent silhouettes with generous clear gaps; caps are rounded, NOT pointed pencil tips. No container, extra pen, swatches, stars, numerals or text. Count exactly 7."
   },
   {
     "id": 55,
@@ -262,12 +262,12 @@
   {
     "id": 67,
     "character": "十",
-    "phrase": "十颗星",
+    "phrase": "十块积木",
     "filename": "hanzi-67-shi.png",
-    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-0af34232-dc20-402c-9b12-4a5610cc4504.png",
+    "source": "D:\\Codex\\generated_images\\01a16c7f-fbf6-7282-a0e7-bc011bf9fa4e\\exec-c1e77a5a-3037-493b-bef7-115d0dad4d90.png",
     "transparentBackground": true,
     "generator": "built-in image_gen",
-    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: EXACTLY TEN simple golden five-point stars in TWO perfectly neat rows of FIVE stars, each separate and equal size. No extra stars or sparkles. Count accurately: 5 in top row, 5 in bottom row."
+    "prompt": "Use case: scientific-educational. Asset type: ONE square transparent PNG preschool Chinese literacy hint illustration, readable at 56 pixels. Style: cute polished flat children's textbook illustration, soft cheerful colors, thick smooth dark-brown rounded outlines, restrained simple shading, clean bold silhouette. Subject fills about 85 percent of canvas with a small clear margin. Truly transparent background, no white rectangle. No watermark, border, logo, decorative extras, or written words unless explicitly requested. Make the intended concept immediately readable. Subject: EXACTLY TEN simple wooden toy CUBES arranged as TWO ROWS of FIVE separate blocks. Top row red orange yellow green blue; bottom row blue green yellow orange red. All blocks equal size, visible gaps, simple front and small top face. No stacking, overlap, extra shapes, lettering, numbers, stars or scenery. Count exactly 10."
   },
   {
     "id": 68,
@@ -294,10 +294,10 @@
     "character": "明",
     "phrase": "明亮",
     "filename": "hanzi-70-ming.png",
-    "source": "D:\\Codex\\generated_images\\01a13d7f-a430-7e63-aec5-9b9f722de078\\exec-89b38f65-a469-461a-83ba-85fdb870cde5.png",
+    "source": "D:\\Codex\\generated_images\\01a16c7f-fbf6-7282-a0e7-bc011bf9fa4e\\exec-314d8e12-d268-409d-935a-98844eb3c9b9.png",
     "transparentBackground": true,
     "generator": "built-in image_gen",
-    "prompt": "Use case: scientific-educational. Asset type: ONE square preschool Chinese literacy hint pictogram, readable at 56px. Style: cute simple flat children's textbook illustration, soft cheerful colors, thick dark-brown rounded outlines, minimal simple shading, bold clear silhouette. Center subject filling 80% of canvas. True transparent background. No text, no letters, no numerals, no border, no watermark, no decorative scenery. Subject: One bright golden sun with simple short thick orange rays evenly surrounding a round yellow center, warm cheerful light, no face, no cloud or landscape."
+    "prompt": "Use case: scientific-educational. Asset type: ONE square transparent PNG preschool Chinese literacy hint illustration, readable at 56 pixels. Style: cute polished flat children's textbook illustration, soft cheerful colors, thick smooth dark-brown rounded outlines, restrained simple shading, clean bold silhouette. Subject fills about 85 percent of canvas with a small clear margin. Truly transparent background, no white rectangle. No watermark, border, logo, decorative extras, or written words unless explicitly requested. Make the intended concept immediately readable. Subject: ONE cheerful yellow desk LAMP switched on, side view, on a short simple brown tabletop. A clear warm triangular cone of light illuminates a small pale patch on the tabletop. The lamp shade, visible bulb and glowing beam are the focus. Simple dark blue shadow patch adjacent to lit area establishes brightness. Otherwise transparent. No sun, moon, sky, words, person or extra furniture."
   },
   {
     "id": 71,

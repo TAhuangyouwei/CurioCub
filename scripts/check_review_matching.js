@@ -37,7 +37,7 @@ for (const width of [320, 375, 430]) {
   for (let start = 0; start < hanzi.items.length; start += hanzi.groupSize) {
     const group = hanzi.items.slice(start, start + hanzi.groupSize)
     const layout = createReviewLayout(group, width, true)
-    assert.strictEqual(layout.matches.length, start === 70 ? 8 : 10)
+    assert.strictEqual(layout.matches.length, group.length)
     assert.strictEqual(layout.targets.length, layout.matches.length)
     assert.strictEqual(new Set(layout.targets.map((target) => target.pinyin)).size, group.length, '一轮内拼音应能唯一对应汉字')
     assert(layout.boardHeight <= 380, '十组配对应采用紧凑布局，避免拖动到屏幕外')
@@ -96,4 +96,4 @@ for (const groupIndex of [0, 7]) {
     assert.strictEqual(page.data.allPaired, index === page.data.matches.length - 1)
   })
 }
-console.log('拖拽配对检查通过：识字整组 10/8 个字与拼音、多屏宽、错误回位、正确吸附和完成整轮均正常。')
+console.log('拖拽配对检查通过：识字整组 最多 10 个字与拼音、多屏宽、错误回位、正确吸附和完成整轮均正常。')
