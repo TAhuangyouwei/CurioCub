@@ -1,0 +1,19 @@
+{
+  "text": "啊？怎么会这样？",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1000000,
+      "duration": 4000000,
+      "text": "啊"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10625000,
+      "duration": 9250000,
+      "text": "怎么会这样"
+    }
+  ],
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%"
+}

@@ -1,0 +1,11 @@
+{
+  "target": "a1",
+  "text": "mā",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-25%",
+  "start": 0.28,
+  "vowelExtracted": true,
+  "pitchShift": false,
+  "timeStretch": false,
+  "listeningReview": "pending"
+}

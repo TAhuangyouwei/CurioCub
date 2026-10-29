@@ -11,7 +11,8 @@
 
     <view class="tip-card">
       <text class="tip-icon">🐻</text>
-      <text>想学哪里就点哪里，也可以随时玩配对复习！</text>
+      <text wx:if="{{module.id === 'hanzi'}}">点站点就能开始学，也可以点“展开”选字；灰色站点不在本次学习范围内。</text>
+      <text wx:else>想学哪里就点哪里，也可以随时玩配对复习！</text>
     </view>
 
     <view wx:if="{{module.id === 'hanzi'}}" class="range-card">
@@ -43,17 +44,22 @@
       <text class="workshop-arrow">›</text>
     </button>
 
-    <view wx:for="{{groups}}" wx:key="index" class="group-card">
-      <view class="group-header">
+    <view wx:for="{{groups}}" wx:key="index" class="group-card {{item.outsideRange ? 'outside-range' : ''}}">
+      <view class="group-header {{module.id === 'hanzi' ? 'collapsible-header' : ''}}" bindtap="openGroup" data-group-index="{{item.index}}" role="{{module.id === 'hanzi' ? 'button' : ''}}" aria-disabled="{{item.outsideRange}}" aria-label="{{module.id === 'hanzi' ? '第' + item.number + '站，' + (item.outsideRange ? '不在学习范围内' : '开始学习') : ''}}">
         <view>
           <text class="group-title">第 {{item.number}} 站</text>
           <text class="group-progress">{{item.completed}} / {{item.total}} 已完成</text>
         </view>
-        <text class="group-state" wx:if="{{item.complete}}">完成</text>
-        <text class="group-state" wx:else>{{item.completed ? '进行中' : '随时开始'}}</text>
+        <view class="group-heading-actions">
+          <text class="group-state" wx:if="{{item.complete}}">完成</text>
+          <text class="group-state group-start" wx:elif="{{module.id === 'hanzi' && item.stateLabel === '进行中'}}" catchtap="openLesson" data-unit-id="{{item.startUnitId}}" role="button" aria-label="从第{{item.number}}站的可学字开始学习">进行中 ›</text>
+          <text class="group-state" wx:else>{{module.id === 'hanzi' ? item.stateLabel : item.completed ? '进行中' : '随时开始'}}</text>
+          <text wx:if="{{module.id === 'hanzi' && !item.outsideRange}}" class="group-toggle" catchtap="toggleGroup" data-group-index="{{item.index}}" role="button" aria-expanded="{{!item.collapsed}}" aria-label="{{item.collapsed ? '展开字表' : '收起字表'}}">{{item.collapsed ? '展开 ▾' : '收起 ▴'}}</text>
+        </view>
       </view>
 
-      <view class="unit-list">
+      <text wx:if="{{module.id === 'hanzi' && item.collapsed}}" class="group-preview" bindtap="openGroup" data-group-index="{{item.index}}" role="button" aria-disabled="{{item.outsideRange}}" aria-label="从第{{item.number}}站的可学字开始学习">{{item.preview}}</text>
+      <view wx:if="{{!item.collapsed}}" class="unit-list">
         <view
           wx:for="{{item.items}}"
           wx:for-item="unit"
@@ -76,7 +82,11 @@
         </view>
       </view>
 
-      <button class="review-button" bindtap="openReview" data-group-index="{{item.index}}">配对复习</button>
+      <view wx:if="{{module.id === 'hanzi' && !item.outsideRange}}" class="station-actions">
+        <button class="station-learn-all" bindtap="markGroupLearned" data-group-index="{{item.index}}" disabled="{{item.complete}}" aria-label="将第{{item.number}}站的{{item.total}}个字全部标记为已学会">{{item.complete ? '本站已全部学会 ✓' : '全部学会'}}</button>
+        <button wx:if="{{!item.collapsed}}" class="review-button" bindtap="openReview" data-group-index="{{item.index}}">配对复习</button>
+      </view>
+      <button wx:elif="{{module.id !== 'hanzi'}}" class="review-button" bindtap="openReview" data-group-index="{{item.index}}">配对复习</button>
     </view>
     <view wx:if="{{module.id === 'math'}}" class="group-card">
       <view class="group-header"><text class="group-title">第 3 站 · 随机计算</text><text class="group-state">10题一组</text></view>

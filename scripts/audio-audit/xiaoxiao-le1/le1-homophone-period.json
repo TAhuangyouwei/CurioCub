@@ -1,0 +1,12 @@
+{
+  "text": "嘞。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "targetPinyin": "lē",
+  "targetSyllable": "le1",
+  "contextExtracted": false,
+  "postProcessing": false,
+  "listeningReview": "pending",
+  "duration": 1.056,
+  "audible": 0.269
+}

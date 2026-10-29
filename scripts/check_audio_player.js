@@ -19,6 +19,7 @@ const player = {
 }
 
 global.getApp = () => ({ globalData: { audio: player } })
+require('./lesson-test-fixture').readyAudio(player)
 global.wx = { showToast() {} }
 
 const { playAudio, playAudioPath, playAudioSequence, stopAudio } = require('../utils/audio')

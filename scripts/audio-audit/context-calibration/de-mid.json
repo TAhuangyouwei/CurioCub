@@ -1,0 +1,11 @@
+{
+  "text": "我的书。",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1026250,
+      "duration": 7368330,
+      "text": "我的书"
+    }
+  ]
+}

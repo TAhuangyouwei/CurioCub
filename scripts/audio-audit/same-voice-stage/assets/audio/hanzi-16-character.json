@@ -1,0 +1,10 @@
+{
+  "id": "hanzi-16",
+  "title": "你",
+  "pinyin": "nǐ",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "你",
+  "singleCharacter": true,
+  "contextExtracted": false
+}

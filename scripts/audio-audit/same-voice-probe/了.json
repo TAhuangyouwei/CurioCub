@@ -1,0 +1,14 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1026250,
+    "duration": 5394580,
+    "text": "天黑"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6421250,
+    "duration": 2763330,
+    "text": "了"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "hanzi-325",
+  "title": "啦",
+  "pinyin": "la",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "再见啦。",
+  "singleCharacter": true,
+  "contextExtracted": true,
+  "start": 0.62,
+  "duration": 0.3594375000000001,
+  "boundaryText": "啦",
+  "alignmentMethod": "acoustic-v1"
+}

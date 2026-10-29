@@ -1,0 +1,10 @@
+{
+  "id": "hanzi-15",
+  "title": "水",
+  "pinyin": "shuǐ",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "水",
+  "singleCharacter": true,
+  "contextExtracted": false
+}

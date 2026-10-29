@@ -13,9 +13,19 @@
 .order-page .order-selection button { width: auto; min-height: 44px; margin: 0; padding: 0 10px; color: #526f9a; background: transparent; font-size: 13px; line-height: 44px; }
 .selected-list { height: 36px; white-space: nowrap; color: #71849a; font-size: 14px; line-height: 36px; }
 .selected-character { display: inline-block; margin-right: 8px; padding: 0 8px; border-radius: 8px; color: #526f9a; background: #e0eaff; }
-.order-destination { min-height: 44px; box-sizing: border-box; padding: 12px; border-radius: 12px; background: #fff; font-size: 14px; }
+.order-page .order-destination { width: 100%; min-height: 44px; box-sizing: border-box; margin: 0; padding: 12px; border-radius: 12px; color: #526f9a; background: #fff; font-size: 14px; line-height: 20px; text-align: left; }
+.order-destination[disabled] { color: #96a3b1; background: #e0e6ee; }
 .order-page .order-save, .order-page .order-restore { width: 100%; min-height: 44px; margin: 8px 0 0; padding: 10px; border-radius: 12px; font-size: 16px; line-height: 24px; }
 .order-save { color: #fff; background: #5f83dd; }
 .order-save[disabled] { color: #96a3b1; background: #e0e6ee; }
 .order-restore { color: #526f9a; background: #e0eaff; }
+.destination-backdrop { position: fixed; inset: 0; z-index: 20; display: flex; align-items: flex-end; justify-content: center; background: #27445d88; }
+.destination-panel { display: flex; flex-direction: column; box-sizing: border-box; width: 100%; max-width: 900px; height: 100%; padding: 12px 12px calc(12px + env(safe-area-inset-bottom)); background: #eaf5ff; }
+.destination-heading { display: flex; flex: none; align-items: center; justify-content: space-between; font-size: 18px; font-weight: 700; }
+.order-page .destination-close { width: auto; min-height: 44px; margin: 0; padding: 0 12px; color: #526f9a; background: transparent; font-size: 14px; line-height: 44px; }
+.destination-panel .order-search { flex: none; }
+.destination-shortcuts { display: flex; flex: none; gap: 8px; }
+.order-page .destination-shortcuts button { flex: 1; width: 0; min-width: 0; min-height: 44px; margin: 0; padding: 10px; border-radius: 12px; color: #526f9a; background: #d4e2ff; font-size: 15px; line-height: 24px; }
+.destination-panel .order-help { flex: none; }
+.destination-empty { padding: 20px 12px; color: #71849a; font-size: 14px; line-height: 1.5; text-align: center; }
 @media (min-width: 600px) { .order-page { max-width: 900px; margin: 0 auto; }.order-grid { grid-template-columns: repeat(10, minmax(0, 1fr)); } }

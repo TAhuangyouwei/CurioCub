@@ -1,5 +1,5 @@
-Page({
-  onLoad(options) {
-    wx.redirectTo({ url: '/packages/hanzi-writing/pages/trace/index?unitId=' + encodeURIComponent(options.unitId || '') })
-  }
-})
+const { createTracePage } = require('../../../../pages/trace/trace-page')
+
+Page(createTracePage((success, fail) => {
+  require('../../../hanzi-writing/utils/stroke-guide.js', success, fail)
+}))

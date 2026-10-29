@@ -69,11 +69,11 @@ const player = {
   onError() {}, offError() {}, onCanplay() {}, offCanplay() {}, onEnded() {}, offEnded() {}
 }
 global.getApp = () => ({ globalData: { audio: player } })
+require('./lesson-test-fixture').readyAudio(player)
 global.Page = (page) => { definition = page }
 global.wx = {
   getStorageSync() {}, getWindowInfo: () => ({ windowWidth: 375 }), setNavigationBarTitle() {}, showToast() {},
-  env: { USER_DATA_PATH: 'wxfile://usr' },
-  getFileSystemManager: () => ({ readFile(options) { options.success({ data: new ArrayBuffer(1) }) }, writeFile(options) { options.success() } })
+  getFileSystemManager() { throw new Error('不应读取代码包录音') }
 }
 require('../pages/review/review')
 for (const groupIndex of [0, 7, 45]) {
@@ -95,7 +95,7 @@ for (const groupIndex of [0, 7, 45]) {
   for (const target of page.data.targets) {
     page.playTargetAudio({ currentTarget: { dataset: { id: target.id } } })
     const unit = page.reviewUnits.find(unit => unit.id === target.id)
-    const expected = `wxfile://usr/curiocub-${unit.id}.mp3`
+    const expected = `/packages/hanzi-practice/audio/${unit.id}.mp3`
     assert.strictEqual(played.at(-1), expected, '应读点击的拼音对应汉字，不能按打乱后的下标取声音')
   }
   assert.strictEqual(JSON.stringify(page.data), beforeListening, '听读音不能改变配对进度和位置')

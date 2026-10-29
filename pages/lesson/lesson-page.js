@@ -1,16 +1,23 @@
 const { getModule } = require('../../data/learning')
 const { getProgress, completeUnit, markUnitUnlearned, markUnitUnstudied } = require('../../utils/progress')
-const { playAudio, stopAudio } = require('../../utils/audio')
+const { playAudio, stopAudio, preloadAudioPath, clearPreloadedAudio } = require('../../utils/audio')
 const { getLearningPage } = require('../../utils/learning-navigation')
 const { getHanziSettings, studyUnits, setAutoRead } = require('../../utils/hanzi-settings')
 const { createHanziAudio } = require('../../utils/hanzi-audio')
 
+const { prepareUnit, prepareAhead, getPreparedUnit } = require('../../utils/lesson-resources')
+
 function createLessonPage() {
   return {
   data: {
+    fontReady: false,
+    fontError: false,
     module: null,
     unit: null,
     lessonItems: [],
+    swiperIndex: 0,
+    swiperCircular: false,
+    swiperDuration: 260,
     currentIndex: 0,
     currentNumber: 1,
     cardTotal: 0,
@@ -34,8 +41,9 @@ function createLessonPage() {
 
     const groupStart = module.id === 'hanzi' ? 0 : Math.floor(unitIndex / module.groupSize) * module.groupSize
     const settings = getHanziSettings()
+    const isNotebook = module.id === 'hanzi' && options.source === 'notebook'
+    if (isNotebook) settings.rangeEnabled = false
     const rangeEnabled = module.id === 'hanzi' && settings.rangeEnabled
-    const isNotebook = module.id === 'hanzi' && options.source === 'notebook' && !rangeEnabled
     const progress = getProgress()
     this.lessonItems = module.id === 'hanzi'
       ? studyUnits(isNotebook ? module.items.filter((item) => progress.unlearnedIds[item.id]) : module.items, settings)
@@ -47,20 +55,57 @@ function createLessonPage() {
       return
     }
     this.setData({
-      module,
-      lessonItems: this.lessonItems,
+      module: { id: module.id, title: module.title, icon: module.icon, color: module.color, groupSize: module.groupSize },
       isNotebook,
       rangeEnabled,
       autoRead: settings.autoRead,
       isHanzi: module.id === 'hanzi'
     })
     if (module.id === 'hanzi') this.hanziAudio = createHanziAudio()
-    const selected = this.lessonItems[currentIndex]
-    if (rangeEnabled && selected.packageName !== module.items[unitIndex].packageName) {
-      wx.redirectTo({ url: `${getLearningPage('lesson', selected)}?moduleId=hanzi&unitId=${selected.id}` })
-      return
-    }
     this.setCurrentCard(currentIndex)
+  },
+
+  onReady() {
+    if (this.data.isHanzi) this.loadFont()
+  },
+
+  loadFont() {
+    const unit = this.data.unit
+    if (!unit) return Promise.resolve()
+    const wasReady = Boolean(getPreparedUnit(unit))
+    if (this.data.fontError) this.setData({ fontError: false })
+    return prepareUnit(unit).then(() => {
+      if (this.fontUnloaded || this.data.unit.id !== unit.id) return
+      this.refreshPreparedCards()
+      this.preloadPhraseAudio()
+      if (!wasReady && this.hanziAudio && !this.wasHidden) this.hanziAudio.schedule(this.data.unit)
+      // One already-prepared next word plus three new reserve words.
+      return prepareAhead(this.lessonItems, this.data.currentIndex, 5, this.data.rangeEnabled || this.data.isNotebook)
+        .then(() => { if (!this.fontUnloaded) this.refreshPreparedCards() })
+        .catch(error => console.warn('后续字卡预备失败，下次换字时重试', error))
+    }).catch(error => {
+      if (this.fontUnloaded || this.data.unit.id !== unit.id) return
+      console.error('当前字卡准备失败', error)
+      this.setData({ fontError: true })
+    })
+  },
+
+  refreshPreparedCards() {
+    const changes = {}
+    this.cardIndices.forEach((index, slot) => {
+      const ready = getPreparedUnit(this.lessonItems[index])
+      if (ready && !this.data.lessonItems[slot].resourceReady) changes[`lessonItems[${slot}]`] = ready
+    })
+    const current = getPreparedUnit(this.data.unit)
+    if (current && (!this.data.fontReady || this.data.unit !== current)) { changes.fontReady = true; changes.unit = current }
+    if (Object.keys(changes).length) this.setData(changes)
+  },
+
+  preloadPhraseAudio() {
+    const unit = this.data.unit
+    if (!this.data.isHanzi || this.fontUnloaded || this.wasHidden || !getPreparedUnit(unit)) return
+    const file = unit.phraseAudioFile
+    preloadAudioPath(file[0] === '/' ? file : `/assets/audio/${file}`)
   },
 
   onShow() {
@@ -75,18 +120,22 @@ function createLessonPage() {
 
       const nextIndex = this.lessonItems.findIndex((item) => item.id === request.unitId)
       if (nextIndex !== -1) {
+        this.wasHidden = false
         this.setCurrentCard(nextIndex)
+        if (this.data.isHanzi) this.loadFont()
         return
       }
     }
 
     this.refreshCompletion()
-    if (this.wasHidden && this.hanziAudio && this.data.unit) this.hanziAudio.schedule(this.data.unit)
+    if (this.wasHidden && this.hanziAudio && getPreparedUnit(this.data.unit)) this.hanziAudio.schedule(this.data.unit)
     this.wasHidden = false
+    this.preloadPhraseAudio()
   },
 
   setCurrentCard(index) {
-    const unit = this.lessonItems[index]
+    const source = this.lessonItems[index]
+    const unit = getPreparedUnit(source) || source
     if (!unit) return
     const groupSize = this.data.module.groupSize
     const groupStart = this.data.isHanzi && !this.data.isNotebook && !this.data.rangeEnabled ? Math.floor(index / groupSize) * groupSize : 0
@@ -97,11 +146,53 @@ function createLessonPage() {
       currentNumber: index - groupStart + 1,
       cardTotal: this.data.isNotebook || this.data.rangeEnabled ? this.lessonItems.length : Math.min(groupSize, this.lessonItems.length - groupStart),
       unit,
+      fontReady: !this.data.isHanzi || Boolean(getPreparedUnit(unit)),
+      fontError: false,
       hintVisible: false,
       completed: Boolean(progress.completedIds[unit.id]),
       unlearned: Boolean(progress.unlearnedIds[unit.id])
     })
-    if (this.hanziAudio) this.hanziAudio.schedule(unit)
+    if (!this.swiping) this.refreshCardWindow()
+    if (this.hanziAudio) {
+      this.hanziAudio.stop()
+      if (getPreparedUnit(unit)) this.hanziAudio.schedule(unit)
+    }
+    this.preloadPhraseAudio()
+  },
+
+  refreshCardWindow() {
+    const index = this.data.currentIndex
+    const count = this.lessonItems.length
+    const circular = (this.data.rangeEnabled || this.data.isNotebook) && count > 1
+    const indices = !this.data.isHanzi || count <= 3 ? this.lessonItems.map((unit, i) => i)
+      : [index - 1, index, index + 1]
+        .filter(i => circular || (i >= 0 && i < count))
+        .map(i => (i + count) % count)
+    const swiperIndex = indices.indexOf(index)
+    if (this.cardIndices && indices.join() === this.cardIndices.join() && this.data.swiperIndex === swiperIndex) return
+    this.cardIndices = indices
+    this.setData({
+      lessonItems: this.cardIndices.map(i => getPreparedUnit(this.lessonItems[i]) || this.lessonItems[i]),
+      swiperIndex,
+      swiperCircular: circular && count <= 3,
+      swiperDuration: 0
+    }, () => this.setData({ swiperDuration: 260 }))
+  },
+
+  onSwiperChange(event) {
+    // Resetting the small window also emits change events; only gestures change the lesson.
+    if (event.detail.source !== 'touch') return
+    const index = this.cardIndices[event.detail.current]
+    if (index === undefined || index === this.data.currentIndex) return
+    this.setData({ swiperIndex: event.detail.current })
+    this.swiping = true
+    this.onCardChange({ detail: { current: index } })
+    this.swiping = false
+  },
+
+  onSwiperAnimationFinish(event) {
+    if (event && event.detail.source !== 'touch') return
+    this.refreshCardWindow()
   },
 
   refreshCompletion() {
@@ -115,13 +206,8 @@ function createLessonPage() {
   },
 
   onCardChange(event) {
-    const unit = this.lessonItems[event.detail.current]
-    if (this.data.isHanzi && unit && unit.packageName !== this.data.unit.packageName) {
-      this.hanziAudio.stop()
-      wx.redirectTo({ url: `${getLearningPage('lesson', unit)}?moduleId=${this.moduleId}&unitId=${unit.id}${this.data.isNotebook ? '&source=notebook' : ''}` })
-      return
-    }
     this.setCurrentCard(event.detail.current)
+    if (this.data.isHanzi) return this.loadFont()
   },
 
   playMainAudio() {
@@ -129,19 +215,28 @@ function createLessonPage() {
   },
 
   playCharacterAudio() {
-    if (this.hanziAudio) this.hanziAudio.stop()
-    playAudio(this.data.unit.characterAudioFile)
+    return this.playHanziAudio('characterAudioFile')
   },
 
   playPhraseAudio() {
+    return this.playHanziAudio('phraseAudioFile')
+  },
+
+  playHanziAudio(field) {
     if (this.hanziAudio) this.hanziAudio.stop()
-    playAudio(this.data.unit.phraseAudioFile)
+    const unit = this.data.unit
+    const play = () => { if (!this.fontUnloaded && !this.wasHidden && this.data.unit.id === unit.id) playAudio(unit[field]) }
+    if (getPreparedUnit(unit)) return play()
+    return prepareUnit(unit).then(play).catch(() => {
+      if (!this.fontUnloaded && this.data.unit.id === unit.id) this.setData({ fontError: true })
+    })
   },
 
   playCardAudio() {
     const { unit, isHanzi } = this.data
+    if (isHanzi) return this.playCharacterAudio()
     if (this.hanziAudio) this.hanziAudio.stop()
-    playAudio(isHanzi ? unit.characterAudioFile : unit.audioFile)
+    playAudio(unit.audioFile)
   },
 
   changeAutoRead(event) {
@@ -166,7 +261,7 @@ function createLessonPage() {
     if (!this.data.isHanzi) return
     stopAudio()
     if (this.hanziAudio) this.hanziAudio.stop()
-    wx.navigateTo({ url: `/packages/hanzi-writing/pages/trace/index?unitId=${this.data.unit.id}` })
+    wx.navigateTo({ url: `/packages/hanzi-practice/pages/trace/index?unitId=${this.data.unit.id}${this.data.isNotebook ? '&source=notebook' : ''}` })
   },
 
   markLearned() {
@@ -212,9 +307,11 @@ function createLessonPage() {
     this.wasHidden = true
     if (this.hanziAudio) this.hanziAudio.stop()
     stopAudio()
+    clearPreloadedAudio()
   },
 
   onUnload() {
+    this.fontUnloaded = true
     this.onHide()
   }
   }

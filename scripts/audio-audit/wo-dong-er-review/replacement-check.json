@@ -1,0 +1,26 @@
+{
+  "published": [
+    {
+      "path": "assets/audio/hanzi-28-character.mp3",
+      "sha256": "290d3f4a947f547aa134fc279a745bd1668111d63be6c9d25bad51e846fc315f"
+    },
+    {
+      "path": "packages/hanzi-practice/audio/hanzi-28.mp3",
+      "sha256": "665b7e302f93f3dcbf54af2746dee18fb0b903eb4e6d6174b3bbcc2710630d29"
+    }
+  ],
+  "preserved": {
+    "assets/audio/hanzi-26-character.mp3": "f71cc51b6df7fc2f7476c237dec1b443f5c0310c33ad030c711aed9972a005e5",
+    "packages/hanzi-practice/audio/hanzi-26.mp3": "6e9c9b23e579c606f937dd1c88e07d111677a2818f3882a5aa8ae90e70c9092b",
+    "packages/hanzi-extra/audio/hanzi-44-character.mp3": "d712f23d975a0cb5b6a9ca378c67d300873a79aa4dcd0055cb02538c8887087b",
+    "packages/hanzi-practice/audio/hanzi-44.mp3": "bd12af174a8893d9c5b90ee3ffdbcd5e116c1e69c6f584c40ffe0e216a1e4ad6"
+  },
+  "rejectedCandidates": [
+    "wo3",
+    "er3"
+  ],
+  "pending": [
+    "我 wǒ 三声",
+    "耳 ěr 三声"
+  ]
+}

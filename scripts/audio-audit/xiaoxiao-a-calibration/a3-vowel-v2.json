@@ -1,0 +1,12 @@
+{
+  "target": "a3",
+  "text": "mǎ",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-25%",
+  "start": 0.295,
+  "vowelExtracted": true,
+  "pitchShift": false,
+  "timeStretch": false,
+  "listeningReview": "rejected",
+  "reviewReason": "用户反馈听着像二声"
+}

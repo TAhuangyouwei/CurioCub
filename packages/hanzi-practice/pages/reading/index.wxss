@@ -1,4 +1,3 @@
-@import "../../fonts/hanzi-kai.wxss";
 
 .reader-screen { max-width: 900px; box-sizing: border-box; margin: 0 auto; padding: 24px 20px calc(24px + env(safe-area-inset-bottom)); }
 .reader-title { display: block; color: #304c62; font-size: 26px; font-weight: 700; }
@@ -9,7 +8,7 @@
 .reader-cell { display: flex; min-width: 44px; flex-direction: column; align-items: center; border-radius: 10px; }
 .reader-cell.selected { background: #e2f1ff; }
 .reader-cell.punctuation { min-width: 18px; }
-.reader-character { color: #304c62; font-family: "CurioCubKai"; font-size: 52px; line-height: 1.25; font-weight: 400; }
+.reader-character { color: #304c62; font-family: "CurioCubKai", "CurioCubKaiBase"; font-size: 52px; line-height: 1.25; font-weight: 400; }
 .reader-pinyin { min-height: 28px; color: #68819a; font-size: 16px; line-height: 28px; }
 .reader-tip { display: block; margin-top: 24px; color: #8191a1; font-size: 14px; }
 .reader-screen .reader-primary, .reader-screen .reader-secondary { width: 100%; min-height: 48px; margin-top: 14px; padding: 11px 12px; border-radius: 18px; font-size: 18px; line-height: 1.5; font-weight: 600; }

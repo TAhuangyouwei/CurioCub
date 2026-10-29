@@ -1,4 +1,5 @@
 <view class="reader-screen">
+  <view wx:if="{{!fontReady}}" class="font-status"><text>{{fontError ? '汉字暂时没显示出来' : '正在准备汉字…'}}</text><button wx:if="{{fontError}}" bindtap="loadFont">点此重试</button></view>
   <text class="reader-title">{{isToday ? '今天读一句' : '读读已学的字'}}</text>
   <block wx:if="{{sentence}}">
     <text class="reader-note">这里的字你都学过。先试着读，再听一听。</text>
@@ -7,7 +8,7 @@
       <view class="reader-sentence">
         <view wx:for="{{characters}}" wx:key="index" class="reader-cell {{item.punctuation ? 'punctuation' : ''}} {{index === selectedIndex ? 'selected' : ''}}" bindtap="playCharacter" data-index="{{index}}">
           <text wx:if="{{showPinyin}}" class="reader-pinyin">{{item.pinyin}}</text>
-          <text class="reader-character">{{item.char}}</text>
+          <text style="visibility: {{fontReady ? 'visible' : 'hidden'}}" class="reader-character">{{item.char}}</text>
         </view>
       </view>
       <text class="reader-tip">点一个字，可以单独听它的读音</text>

@@ -14,7 +14,7 @@
   ],
   "subpackages": [
     { "root": "packages/hanzi-writing", "name": "hanzi-writing", "pages": ["pages/trace/index"] },
-    { "root": "packages/hanzi-practice", "name": "hanzi-practice", "pages": ["pages/today/index", "pages/reading/index", "pages/trace/index"] },
+    { "root": "packages/hanzi-practice", "name": "hanzi-practice", "pages": ["pages/today/index", "pages/reading/index", "pages/trace/index", "pages/review/index"] },
     { "root": "packages/math-sticks", "name": "math-sticks", "pages": ["pages/workshop/index", "pages/practice/index", "pages/bonds/index"] },
     { "root": "packages/hanzi-extra", "name": "hanzi-extra", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
     { "root": "packages/hanzi-reading-1", "name": "hanzi-reading-1", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },

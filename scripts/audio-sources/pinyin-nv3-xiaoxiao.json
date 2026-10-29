@@ -1,0 +1,11 @@
+{
+  "key": "nv3",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "text": "nǚ",
+  "listeningReview": "approved",
+  "reviewBasis": "用户在拼音试听中指出仅a一声和a三声有问题，其他试听音基本可用；当前仅采用该组已试听音",
+  "contextExtracted": false,
+  "postProcessing": false,
+  "sha256": "817e881184e51907bc6d0f5b6ebb18db952f6e68dc3c3d79d04b369e51c2671f"
+}

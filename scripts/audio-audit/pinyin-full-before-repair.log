@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "G:\CurioCub\scripts\check_pinyin_audio.py", line 59, in <module>
+    main()
+  File "G:\CurioCub\scripts\check_pinyin_audio.py", line 54, in main
+    assert not failures, 'Silent or truncated pinyin recordings:\n' + '\n'.join(failures)
+AssertionError: Silent or truncated pinyin recordings:
+packages\pinyin-01\audio\bi2.mp3: duration=0.076s, audible=0.022s
+packages\pinyin-03\audio\fang4.mp3: duration=0.076s, audible=0.026s
+packages\pinyin-04\audio\gong4.mp3: duration=0.080s, audible=0.028s
+packages\pinyin-04\audio\hu4.mp3: duration=0.076s, audible=0.021s
+packages\pinyin-04\audio\huan3.mp3: duration=0.072s, audible=0.028s
+packages\pinyin-04\audio\hui2.mp3: duration=0.079s, audible=0.030s
+packages\pinyin-05\audio\kang2.mp3: duration=0.078s, audible=0.034s
+packages\pinyin-05\audio\kua3.mp3: duration=0.076s, audible=0.027s
+packages\pinyin-06\audio\la2.mp3: duration=0.075s, audible=0.027s
+packages\pinyin-06\audio\leng3.mp3: duration=0.146s, audible=0.052s
+packages\pinyin-06\audio\liu4.mp3: duration=0.078s, audible=0.030s
+packages\pinyin-06\audio\long2.mp3: duration=0.077s, audible=0.029s
+packages\pinyin-06\audio\long3.mp3: duration=0.071s, audible=0.025s
+packages\pinyin-06\audio\lun2.mp3: duration=0.075s, audible=0.033s
+packages\pinyin-06\audio\lv3.mp3: duration=0.076s, audible=0.026s
+packages\pinyin-07\audio\nang4.mp3: duration=0.079s, audible=0.028s
+packages\pinyin-07\audio\nei3.mp3: duration=0.074s, audible=0.028s
+packages\pinyin-08\audio\qiao4.mp3: duration=0.194s, audible=0.059s
+packages\pinyin-08\audio\qin3.mp3: duration=0.074s, audible=0.028s
+packages\pinyin-09\audio\ran3.mp3: duration=0.071s, audible=0.026s
+packages\pinyin-09\audio\sao4.mp3: duration=0.079s, audible=0.019s
+packages\pinyin-09\audio\shao1.mp3: duration=0.078s, audible=0.048s
+packages\pinyin-09\audio\shuan1.mp3: duration=0.077s, audible=0.046s
+packages\pinyin-10\audio\ting3.mp3: duration=0.075s, audible=0.030s
+packages\pinyin-10\audio\wang3.mp3: duration=0.179s, audible=0.073s
+packages\pinyin-11\audio\xie3.mp3: duration=0.078s, audible=0.029s
+packages\pinyin-12\audio\zan2.mp3: duration=0.079s, audible=0.031s
+packages\pinyin-12\audio\zao3.mp3: duration=0.074s, audible=0.030s
+packages\pinyin-12\audio\zhou4.mp3: duration=0.074s, audible=0.018s
+packages\pinyin-12\audio\zui4.mp3: duration=0.076s, audible=0.023s

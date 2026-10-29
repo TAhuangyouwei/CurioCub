@@ -3,52 +3,52 @@
   "sourceSha256": "ea7e7fb4f9b3ac694a68d43946e04d21deed6e8c29a7c2d3081e1a4138f2f827",
   "files": [
     {
-      "file": "assets/fonts/hanzi-kai.wxss",
+      "file": "assets/fonts/hanzi-kai.js",
       "characters": "上下与东中九了五人你儿几力去口四土天头女子小尺山巴心必我手把月比水牙禾虫西长马鸟",
       "sha256": "bbfc520dff6432ad5a21d58a989c5bbb03ef19f12bf5d55bb6ca9aef8ae5621d"
     },
     {
-      "file": "packages/hanzi-extra/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-extra/fonts/hanzi-kai.js",
       "characters": "一七三二云八六十午姜字尖弓张数日明木李果泪牛瓜田电眉米羊耳舌苗言许足身雨雪雷风鱼",
       "sha256": "84184f513047f9857c507b529e7223e3be91636796b3f8fa634acfbca34d5730"
     },
     {
-      "file": "packages/hanzi-reading-1/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-reading-1/fonts/hanzi-kai.js",
       "characters": "不两个也会入变只地坐太妈孵就弟成扒拉拍指斗星是晒歌沙流海滩灰爬狼猫球生皮盖筋翻老腾虎蚱蛋蜓蜢蜻谁跳车过阳雾飞驾高鸡黄鼠龟",
       "sha256": "29fc8f48cda2f535de4dab905dd8e50314b70648479a81ceb9bb2345862f151f"
     },
     {
-      "file": "packages/hanzi-reading-2/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-reading-2/fonts/hanzi-kai.js",
       "characters": "做偷先兔关出到又台叽吃吱吹咕喊噜墙多大奶娃宝家少开影往得找来油清滚灯牢牵瓦瞧红群肯自花蓝螃蟹认记跑边进都里铁铜锁门雁顶黑",
       "sha256": "c4d56f12ae13fee18376d35861faa578582738eb1c8f0d5e396251405ed5bfa5"
     },
     {
-      "file": "packages/hanzi-reading-3/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-reading-3/fonts/hanzi-kai.js",
       "characters": "乖住倒像农半叫叭可叶呀咬喇嗒嘀孩已床当愿房扶排早有枯柴树民洗满点烧爱狗真着秋穿经翅耍能脸膀草荚落蝴蝶袋豆走起跟追队面鞋饭",
       "sha256": "442e8b68d5558635a5a48fa8cf7b574bfd1d0ba54cf0b1aed506349caed0b637"
     },
     {
-      "file": "packages/hanzi-reading-4/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-reading-4/fonts/hanzi-kai.js",
       "characters": "亮他伞傻光冬刀初剪单南友发啥团圆在孤学尾带干快惹愁拿握摇撑朋本条板根梦没活游甲的看答线胖脚菇蘑蛾袍要见话说请课路躲金银问",
       "sha256": "3e6acaa56e8ea33563bd1d2b8e69238967a979203e603ad2250a781d39b3c3a7"
     },
     {
-      "file": "packages/hanzi-reading-5/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-reading-5/fonts/hanzi-kai.js",
       "characters": "们伴公再同咱哪啊啦嗨处奇好它岁布帆帽弹懂戏戴披挂摆摔敲朵死母浪漂瀑爷玩痛白稀站竹笆篮篱绿缠脖腰腿船色蚁蚂衣跷踩远雀领麻鼓",
       "sha256": "e9c5617512e23ec9196ace99d477b98e44c451c8f0c9480e879490cebf2f650a"
     },
     {
-      "file": "packages/hanzi-reading-6/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-reading-6/fonts/hanzi-kai.js",
       "characters": "严包北卧句吧和咧咪唱啪嘴回害屁弯怕怪悄想打放样桌榴模歪河滑爸玉瓶盆眼睁睡知石砖砰碰稽笑等股胡莲蓬蕉街裹觉赛跌跤还钓青香鸭",
       "sha256": "70731b46165ee9dcfc944128a4a2466e5405d038d7280d54e17963f8e491161e"
     },
     {
-      "file": "packages/hanzi-reading-7/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-reading-7/fonts/hanzi-kai.js",
       "characters": "么亭什从分勺吐哭喝外年座擀支方杖林梅森棵欠欢气男直立纪背脊象财驼骆鹿鼻",
       "sha256": "96f4f1a9776f76830d92999af617e0754b1c5eb78312ee0fce96a0617efe2201"
     },
     {
-      "file": "packages/hanzi-practice/fonts/hanzi-kai.wxss",
+      "file": "packages/hanzi-practice/fonts/hanzi-kai.js",
       "characters": "一七三不两严个么乖也二云亭亮什从他们会伞伴住倒做偷傻像先光兔入八公六关再农冬出刀分初到剪勺包北十午半单南卧又友发变句只叫叭可台叶叽吃同吐吧吱吹呀和咕咧咪咬咱哪哭唱啊啥啦啪喇喊喝嗒嗨嘀嘴噜回团圆在地坐墙处外多大太奇奶好妈姜娃字孤学孩孵它宝害家少尖就尾屁岁已布帆带帽干年床座开弓弟张弯弹当影往得快怕怪悄想惹愁愿懂戏成戴房扒打扶找披拉拍拿挂指排握摆摇摔撑擀支放数敲斗方日早明星是晒有朋木本朵李杖条来板林果枯柴树样根桌梅梦森棵榴模欠欢歌歪死母民气沙没河油泪洗活流浪海清游滑滚满滩漂瀑灯灰点烧爬爱爷爸牛牢牵狗狼猫玉玩球瓜瓦瓶生田甲电男痛白的皮盆盖直眉看真眼着睁睡瞧知石砖砰碰秋稀稽穿立站竹笆笑等筋答篮篱米红纪线经绿缠羊群翅翻老耍耳股肯背胖胡能脊脖脚脸腰腾腿膀自舌船色花苗草荚莲菇落蓝蓬蕉蘑虎蚁蚂蚱蛋蛾蜓蜢蜻蝴蝶螃蟹街衣袋袍裹要见觉言认记许话说请课谁豆象财赛走起足跌跑跟跤路跳跷踩身躲车边过还进远追都里金钓铁铜银锁门问队阳雀雁雨雪雷雾青面鞋顶领风飞饭香驼驾骆高鱼鸡鸭鹿麻黄黑鼓鼠鼻龟",
       "sha256": "b907238e928b3cde2eb271180855f3c9c6c20cb3b46774feb52907207d3e841b"
     }

@@ -1,3 +1,5 @@
+;(async () => {
+require('./lesson-test-fixture')
 const assert = require('assert')
 const { getUnit } = require('../data/learning')
 const { getLearningPage } = require('../utils/learning-navigation')
@@ -39,12 +41,12 @@ modulePage.onShow()
 assert.deepStrictEqual(modulePage.data.groups.map((group) => group.total), Array.from({ length: 48 }, (_, i) => i === 47 ? 5 : 10))
 assert.strictEqual(modulePage.data.groups[0].items[0].completed, true, '旧字学习记录应保留')
 modulePage.data.groups.forEach((group) => assert(!group.locked, '所有识字小组应直接开放'))
-modulePage.openLesson({ currentTarget: { dataset: { unitId: 'hanzi-41', locked: false } } })
-assert.strictEqual(navigation, '/packages/hanzi-extra/pages/lesson/index?moduleId=hanzi&unitId=hanzi-41')
+await modulePage.openLesson({ currentTarget: { dataset: { unitId: 'hanzi-41', locked: false } } })
+assert.strictEqual(navigation, '/pages/lesson/lesson?moduleId=hanzi&unitId=hanzi-41')
 modulePage.openReview({ currentTarget: { dataset: { groupIndex: 7 } } })
-assert.strictEqual(navigation, '/packages/hanzi-extra/pages/review/index?moduleId=hanzi&groupIndex=7')
+assert.strictEqual(navigation, '/packages/hanzi-practice/pages/review/index?moduleId=hanzi&groupIndex=7')
 
-const lesson = loadPage('../packages/hanzi-extra/pages/lesson/index')
+const lesson = loadPage('../pages/lesson/lesson')
 lesson.onLoad({ moduleId: 'hanzi', unitId: 'hanzi-78' })
 assert.strictEqual(lesson.data.unit.title, '许')
 assert.strictEqual(lesson.data.cardTotal, 10, '原末组补满后应有十张卡')
@@ -55,7 +57,7 @@ lesson.playPhraseAudio()
 assert.strictEqual(audioSource, '/packages/hanzi-extra/audio/hanzi-78-phrase.mp3')
 lesson.showHint({ currentTarget: { dataset: { unitId: 'hanzi-78' } } })
 assert(lesson.data.hintVisible)
-lesson.onCardChange({ detail: { current: 70 } })
+await lesson.onCardChange({ detail: { current: 70 } })
 assert(!lesson.data.hintVisible)
 assert.strictEqual(lesson.data.unit.title, '尖')
 lesson.returnToModule()
@@ -75,19 +77,19 @@ assert(review.data.targets.every((target) => target.pinyin && !target.imageFile)
 assert.strictEqual(getLearningPage('lesson', getUnit('hanzi', 'hanzi-40')), '/pages/lesson/lesson')
 assert.strictEqual(getLearningPage('lesson', getUnit('english', 'english-01')), '/pages/lesson/lesson')
 
-modules.forEach((module) => {
+for (const module of modules) {
   modulePage.onLoad({ moduleId: module.id })
   modulePage.onShow()
-  modulePage.data.groups.forEach((group) => {
+  for (const group of modulePage.data.groups) {
     assert(!group.locked, `${module.title} 第 ${group.number} 组应直接开放`)
-    group.items.forEach((unit) => {
-      modulePage.openLesson({ currentTarget: { dataset: { unitId: unit.id, locked: group.locked } } })
+    for (const unit of group.items) {
+      await modulePage.openLesson({ currentTarget: { dataset: { unitId: unit.id, locked: group.locked } } })
       assert.strictEqual(navigation, `${getLearningPage('lesson', unit)}?moduleId=${module.id}&unitId=${unit.id}`)
-    })
+    }
     modulePage.openReview({ currentTarget: { dataset: { groupIndex: group.index } } })
     assert.strictEqual(navigation, `${getLearningPage('review', group.items[0])}?moduleId=${module.id}&groupIndex=${group.index}`)
-  })
-})
+  }
+}
 assert.deepStrictEqual(saved, { completedIds: { 'hanzi-01': true }, stars: 1, stickerCount: 0, lastModuleId: 'hanzi' }, '自由学习不应写入或覆盖旧进度')
 wx.getStorageSync = () => null
 modules.forEach((module) => {
@@ -101,3 +103,5 @@ modules.forEach((module) => {
 })
 
 console.log('学习地图检查通过：四个模块全部开放，458 字、分包路由、提示、音频路径和旧进度均正常。')
+
+})().catch(error => { console.error(error); process.exitCode = 1 })

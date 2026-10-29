@@ -1,6 +1,6 @@
 const { getModule } = require('../../data/learning')
 const { getProgress, clearNotebook } = require('../../utils/progress')
-const { getLearningPage } = require('../../utils/learning-navigation')
+const { startHanziLesson } = require('../../utils/start-lesson')
 
 Page({
   data: {
@@ -31,6 +31,6 @@ Page({
   openLesson(event) {
     const unit = this.data.items.find((item) => item.id === event.currentTarget.dataset.unitId)
     if (!unit) return
-    wx.navigateTo({ url: `${getLearningPage('lesson', unit)}?moduleId=hanzi&unitId=${unit.id}&source=notebook` })
+    return startHanziLesson(this, unit, 'notebook')
   }
 })

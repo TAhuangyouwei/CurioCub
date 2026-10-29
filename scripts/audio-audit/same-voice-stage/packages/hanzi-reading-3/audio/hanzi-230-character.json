@@ -1,0 +1,14 @@
+{
+  "id": "hanzi-230",
+  "title": "着",
+  "pinyin": "zhe",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "排着队。",
+  "singleCharacter": true,
+  "contextExtracted": true,
+  "start": 0.48,
+  "duration": 0.14500000000000002,
+  "boundaryText": "着",
+  "alignmentMethod": "acoustic-v1"
+}

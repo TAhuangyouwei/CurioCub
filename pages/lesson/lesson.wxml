@@ -11,7 +11,7 @@
   </view>
 
   <view class="lesson-practice">
-  <swiper class="lesson-swiper" current="{{currentIndex}}" circular="{{rangeEnabled && lessonItems.length > 1}}" duration="260" bindchange="onCardChange">
+  <swiper class="lesson-swiper" current="{{swiperIndex}}" circular="{{swiperCircular}}" duration="{{swiperDuration}}" bindchange="onSwiperChange" bindanimationfinish="onSwiperAnimationFinish">
     <swiper-item wx:for="{{lessonItems}}" wx:key="id">
       <view class="lesson-card">
         <block wx:if="{{isHanzi}}">
@@ -25,11 +25,12 @@
           <image wx:else class="hint-slot scene-image" src="{{item.imageFile}}" mode="aspectFit" />
         </block>
         <text wx:else class="scene-icon">{{item.icon}}</text>
-        <text class="big-symbol tap-card {{isHanzi ? 'hanzi-symbol' : ''}}" bindtap="playCardAudio">{{item.title}}</text>
+        <text style="visibility: {{isHanzi && !item.resourceReady ? 'hidden' : 'visible'}}; {{isHanzi ? 'font-family: ' + item.fontFamily : ''}}" class="big-symbol tap-card {{isHanzi ? 'hanzi-symbol' : ''}}" bindtap="playCardAudio">{{item.title}}</text>
         <text class="scene-phrase">{{item.phrase}}</text>
       </view>
     </swiper-item>
   </swiper>
+  <view wx:if="{{isHanzi && !fontReady}}" class="font-status"><text>{{fontError ? '这个字暂时没准备好' : '正在准备这个字…'}}</text><button wx:if="{{fontError}}" bindtap="loadFont">点此重试</button></view>
   <text class="swipe-hint">{{rangeEnabled ? '← 左右滑动，只在设定范围内循环 →' : isNotebook ? '← 左右滑动，查看生字本里的字 →' : '← 左右滑动，切换已学和新字 →'}}</text>
   <button wx:if="{{isHanzi}}" class="trace-button tap-card" bindtap="openTrace">✍️ 大字临摹</button>
   </view>

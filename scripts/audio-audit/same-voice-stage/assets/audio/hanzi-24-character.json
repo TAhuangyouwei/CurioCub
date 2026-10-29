@@ -1,0 +1,16 @@
+{
+  "id": "hanzi-24",
+  "title": "了",
+  "pinyin": "le",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "天黑了。",
+  "singleCharacter": true,
+  "contextExtracted": true,
+  "start": 0.72,
+  "duration": 0.2626875000000001,
+  "boundaryText": "了",
+  "alignmentMethod": "acoustic-v1",
+  "listeningReview": "rejected",
+  "reviewReason": "用户反馈：虽然是了，但音调、音准不好，十分短促"
+}

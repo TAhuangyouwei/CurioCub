@@ -1,0 +1,10 @@
+{
+  "id": "hanzi-128",
+  "title": "海",
+  "pinyin": "hǎi",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "海",
+  "singleCharacter": true,
+  "contextExtracted": false
+}

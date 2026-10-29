@@ -1,7 +1,7 @@
 <view class="range-page">
   <view class="range-header">
     <text class="range-heading">{{selecting === 'end' ? '再点结束字' : rangeReady ? '已选好范围，可保存或重新点选' : '先点起始字，再点结束字'}}</text>
-    <text class="range-description">按字表顺序，选中的整段都会高亮；同一个字点两次可单字练习。</text>
+    <text class="range-description">每排 10 个字，对应一站；选中的整段会高亮，同一个字点两次可单字练习。</text>
     <view class="status-legend"><text class="unseen">● 未学习</text><text class="learned">● 已学会</text><text class="unlearned">● 未学会</text></view>
   </view>
   <scroll-view class="range-scroll" scroll-y scroll-into-view="{{initialAnchor}}">

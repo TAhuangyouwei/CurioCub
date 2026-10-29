@@ -1,0 +1,13 @@
+{
+  "text": "啊？",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1000000,
+      "duration": 4000000,
+      "text": "啊"
+    }
+  ],
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%"
+}

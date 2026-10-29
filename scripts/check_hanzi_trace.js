@@ -2,6 +2,7 @@ const assert = require('assert')
 const fs = require('fs')
 const { createLessonPage } = require('../pages/lesson/lesson-page')
 const { guideFor } = require('../packages/hanzi-writing/utils/stroke-guide')
+const { createTracePage } = require('../pages/trace/trace-page')
 const { saveRange, exitRange, setAutoRead, orderedHanzi } = require('../utils/hanzi-settings')
 
 let definition
@@ -36,8 +37,7 @@ global.wx = {
   }
 }
 setAutoRead(false)
-require('../packages/hanzi-writing/pages/trace/index')
-const traceDefinition = definition
+const traceDefinition = createTracePage(success => success(require('../packages/hanzi-writing/utils/stroke-guide')))
 function traceAt(unitId = 'hanzi-01') {
   current = { ...traceDefinition, data: JSON.parse(JSON.stringify(traceDefinition.data)),
     setData(changes, callback) { Object.assign(this.data, changes); if (callback) callback() } }
@@ -56,7 +56,7 @@ for (const unit of units) {
   const lesson = createLessonPage()
   Object.assign(lesson, { data: { isHanzi: true, unit } })
   lesson.openTrace()
-  assert.strictEqual(navigation, `/packages/hanzi-writing/pages/trace/index?unitId=${unit.id}`)
+  assert.strictEqual(navigation, `/packages/hanzi-practice/pages/trace/index?unitId=${unit.id}`)
 }
 for (const [width, height, bottom, ratio] of [[320, 480, 0, 2], [375, 667, 34, 3], [768, 1024, 20, 2], [1024, 768, 20, 2]]) {
   info = { windowWidth: width, windowHeight: height, screenHeight: height, pixelRatio: ratio, safeArea: { bottom: height - bottom } }
@@ -179,14 +179,14 @@ for (const unit of units) {
   page.onUnload()
   calls.length = 0
 }
-const template = fs.readFileSync(require.resolve('../packages/hanzi-writing/pages/trace/index.wxml'), 'utf8')
+const template = fs.readFileSync(require.resolve('../packages/hanzi-practice/pages/trace/index.wxml'), 'utf8')
 assert(template.includes('catchtouchmove="onTouchMove"'))
 assert(template.includes('wx:if="{{!hintVisible}}"'), '提示弹出时不应保留原生画布')
 assert(template.includes('type="2d"') && template.includes('bindtap="showHint"') && template.includes('bindtap="demonstrateAll"'))
-assert.strictEqual(require('../packages/hanzi-writing/pages/trace/index.json').disableScroll, true)
-for (const route of ['../pages/trace/trace', '../packages/hanzi-practice/pages/trace/index']) {
+assert.strictEqual(require('../packages/hanzi-practice/pages/trace/index.json').disableScroll, true)
+for (const route of ['../pages/trace/trace', '../packages/hanzi-writing/pages/trace/index']) {
   require(route)
   definition.onLoad({ unitId: 'hanzi-40' })
-  assert.strictEqual(navigation, '/packages/hanzi-writing/pages/trace/index?unitId=hanzi-40', '旧入口应兼容转到新版')
+  assert.strictEqual(navigation, '/packages/hanzi-practice/pages/trace/index?unitId=hanzi-40', '旧入口应兼容转到音频所在分包')
 }
 console.log('练字页面检查通过：458 字完整书写、逐笔拦截与保留、配图提示、完整演示、撤销/重写、完成停留、屏幕适配、范围双向循环与旧入口。')

@@ -1,0 +1,10 @@
+{
+  "id": "hanzi-50",
+  "title": "牛",
+  "pinyin": "niú",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "牛",
+  "singleCharacter": true,
+  "contextExtracted": false
+}

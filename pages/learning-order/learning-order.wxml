@@ -14,9 +14,28 @@
   <view class="order-footer">
     <view class="order-selection"><text>已选 {{selected.length}} 字</text><button bindtap="clearSelection">清空选择</button></view>
     <scroll-view class="selected-list" scroll-x><text wx:if="{{!selected.length}}">在上方点选要移动的字</text><text wx:for="{{selected}}" wx:key="id" class="selected-character" bindtap="toggleCharacter" data-id="{{item.id}}">{{index + 1}}.{{item.title}} ×</text></scroll-view>
-    <picker range="{{destinations}}" range-key="label" value="{{destinationIndex}}" bindchange="changeDestination"><view class="order-destination">放到：{{destinations[destinationIndex].label}} ▾</view></picker>
-    <button class="order-save" disabled="{{!selected.length}}" bindtap="save">保存顺序</button>
+    <button class="order-destination" disabled="{{!selected.length}}" bindtap="openDestination">{{destinationLabel ? '放到：' + destinationLabel : '选择位置 · 搜索目标字或序号'}} ›</button>
+    <button class="order-save" disabled="{{!selected.length || !destinationId}}" bindtap="save">保存顺序</button>
     <button class="order-restore" bindtap="restoreDefault">恢复默认顺序</button>
     <text class="order-help">只保存在当前设备，学习记录不会清空。已选学习范围仍然生效。</text>
+  </view>
+  <view wx:if="{{destinationVisible}}" class="destination-backdrop" bindtap="closeDestination">
+    <view class="destination-panel" catchtap="ignoreTap" role="dialog" aria-label="选择放置位置">
+      <view class="destination-heading"><text>放到哪个字前面？</text><button class="destination-close" bindtap="closeDestination" aria-label="关闭位置选择">关闭</button></view>
+      <input class="order-search" placeholder="输入目标字或序号，例如：数、132" value="{{destinationQuery}}" bindinput="searchDestination" aria-label="搜索目标字或当前序号" />
+      <scroll-view class="order-list" scroll-y>
+        <view class="order-grid">
+          <button wx:for="{{destinationResults}}" wx:key="id" class="order-cell" bindtap="chooseDestination" data-id="{{item.id}}" aria-label="放到第{{item.number}}字{{item.title}}前面">
+            <text class="order-number">{{item.number}}</text><text>{{item.title}}</text>
+          </button>
+        </view>
+        <view wx:if="{{!destinationResults.length}}" class="destination-empty">没找到可放置的目标字，换个汉字或序号试试。</view>
+      </scroll-view>
+      <text class="order-help">搜索后点目标字即可选好位置；已选的字不会出现在这里。</text>
+      <view class="destination-shortcuts">
+        <button bindtap="chooseDestination" data-id="first">放到最前</button>
+        <button bindtap="chooseDestination" data-id="last">放到最后</button>
+      </view>
+    </view>
   </view>
 </view>

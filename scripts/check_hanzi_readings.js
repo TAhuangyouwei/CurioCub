@@ -30,7 +30,7 @@ vocabulary.forEach(([character, phrase, icon, image, pinyin], index) => {
     assert(unit[field].startsWith(`/packages/${unit.packageName}/`), `${character} 资源应位于自己的分包`)
     assert(fs.statSync(path.join(__dirname, '..', unit[field])).size > 0, `${character} 缺少 ${field}`)
   }
-  assert(getLearningPage('lesson', unit).includes(unit.packageName))
+  assert.strictEqual(getLearningPage('lesson', unit), '/pages/lesson/lesson')
 })
 assert.strictEqual(hanzi.items.find((unit) => unit.title === '斗').pinyin, 'dǒu')
 assert.strictEqual(hanzi.items.find((unit) => unit.title === '得').pinyin, 'děi')

@@ -16,6 +16,7 @@ const player = {
 
 let pageDefinition = null
 global.getApp = () => ({ globalData: { audio: player } })
+require('./lesson-test-fixture').readyAudio(player)
 let redirectedTo = ''
 global.wx = {
   redirectTo({ url }) { redirectedTo = url },

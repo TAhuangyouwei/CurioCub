@@ -147,7 +147,7 @@ for (const extension of ['js', 'json', 'wxml', 'wxss']) {
   assert(fs.existsSync(path.join(__dirname, '..', subpackage.root, subpackage.pages[0] + '.' + extension)))
 }
 const mapMarkup = fs.readFileSync(path.join(__dirname, '../pages/module/module.wxml'), 'utf8')
-assert(!mapMarkup.match(/<button[^>]*class="review-button"[^>]*>/)[0].includes('wx:if'), '复习入口也应随时可见')
+assert([...mapMarkup.matchAll(/<button[^>]*class="review-button"[^>]*>/g)].some(match => !match[0].includes('wx:if')), '数学复习入口也应随时可见')
 require('../pages/module/module')
 let route
 global.wx.navigateTo = (options) => { route = options.url }

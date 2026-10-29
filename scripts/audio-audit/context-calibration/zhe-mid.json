@@ -1,0 +1,23 @@
+{
+  "text": "排着队。",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1026250,
+      "duration": 2894580,
+      "text": "排"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3921250,
+      "duration": 1578750,
+      "text": "着"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 3421250,
+      "text": "队"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "text": "打",
+  "source": "a3-da.mp3",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-25%",
+  "start": 0.235,
+  "vowelExtracted": true,
+  "pitchShift": false,
+  "timeStretch": false,
+  "listeningReview": "rejected",
+  "duration": 1.133,
+  "audible": 0.343625,
+  "reviewReason": "用户确认三声，但还带d声母，听着像打"
+}

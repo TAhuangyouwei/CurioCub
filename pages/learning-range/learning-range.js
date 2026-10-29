@@ -1,6 +1,6 @@
 const { getProgress, getUnitStatus } = require('../../utils/progress')
 const { getHanziSettings, saveRange, orderedHanzi } = require('../../utils/hanzi-settings')
-const { getLearningPage } = require('../../utils/learning-navigation')
+const { startHanziLesson } = require('../../utils/start-lesson')
 
 Page({
   data: { units: [], rangeStart: 0, rangeEnd: 0, rangeCount: 0, rangeReady: false, selecting: 'start', initialAnchor: '' },
@@ -40,6 +40,6 @@ Page({
     const first = this.units[this.data.rangeStart]
     const last = this.units[this.data.rangeEnd]
     if (!saveRange(first.id, last.id)) return
-    wx.redirectTo({ url: `${getLearningPage('lesson', first)}?moduleId=hanzi&unitId=${first.id}` })
+    return startHanziLesson(this, first, '', true)
   }
 })

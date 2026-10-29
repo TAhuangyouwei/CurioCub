@@ -1,0 +1,10 @@
+{
+  "id": "hanzi-07",
+  "title": "人",
+  "pinyin": "rén",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "人",
+  "singleCharacter": true,
+  "contextExtracted": false
+}

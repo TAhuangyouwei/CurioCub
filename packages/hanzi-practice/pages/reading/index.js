@@ -1,10 +1,14 @@
+const { loadHanziFont } = require('../../../../utils/hanzi-font')
+const fontSource = () => require('../../fonts/hanzi-kai.js')
 const { getProgress } = require('../../../../utils/progress')
 const { playAudioPath, stopAudio } = require('../../../../utils/audio')
 const { eligibleSentences, sentenceUnits } = require('../../data/reading')
 const { selectReading, finishReading, todayKey } = require('../../utils/session')
 
 Page({
-  data: { sentence: null, characters: [], showPinyin: false, selectedIndex: -1, isToday: false, hasPrevious: false, hasNext: false },
+  onReady() { this.loadFont() },
+  loadFont() { loadHanziFont(this, fontSource) },
+  data: { fontReady: false, fontError: false, sentence: null, characters: [], showPinyin: false, selectedIndex: -1, isToday: false, hasPrevious: false, hasNext: false },
   onLoad(options) { this.isToday = options.today === '1'; this.requestedId = options.id; this.day = todayKey() },
   onShow() {
     this.day = todayKey()
@@ -48,5 +52,5 @@ Page({
   },
   startToday() { wx.redirectTo({ url: '/packages/hanzi-practice/pages/today/index' }) },
   onHide() { stopAudio() },
-  onUnload() { stopAudio() }
+  onUnload() { this.fontUnloaded = true; stopAudio() }
 })

@@ -3,6 +3,32 @@ let errorHandler = null
 let canPlayHandler = null
 let endedHandler = null
 let sequencePlayers = []
+const readySources = new WeakMap()
+let preloadedAudio = null
+
+function clearPreloadedAudio() {
+  if (!preloadedAudio) return
+  const { player, onCanplay, onError } = preloadedAudio
+  preloadedAudio = null
+  if (onCanplay && player.offCanplay) player.offCanplay(onCanplay)
+  if (onError && player.offError) player.offError(onError)
+  player.stop()
+  if (player.destroy) player.destroy()
+}
+
+function preloadAudioPath(filePath) {
+  if (!filePath || !wx.createInnerAudioContext) return
+  if ((preloadedAudio && preloadedAudio.player.src === filePath) || (getPlayer() && getPlayer().src === filePath)) return
+  clearPreloadedAudio()
+  const player = wx.createInnerAudioContext()
+  player.obeyMuteSwitch = false
+  const onCanplay = () => readySources.set(player, filePath)
+  const onError = () => { if (preloadedAudio && preloadedAudio.player === player) clearPreloadedAudio() }
+  preloadedAudio = { player, onCanplay, onError }
+  player.onCanplay(onCanplay)
+  player.onError(onError)
+  player.src = filePath
+}
 
 function getPlayer() {
   const app = getApp()
@@ -43,7 +69,7 @@ function stopAudio() {
   player.stop()
 }
 
-function playFile(player, source, currentVersion, onEnded) {
+function playFile(player, source, currentVersion, onEnded, retried = false) {
   const { filePath, fallbackFilePath } = normalizeAudioSource(source)
   let started = false
   removeListeners(player)
@@ -51,6 +77,15 @@ function playFile(player, source, currentVersion, onEnded) {
 
   errorHandler = (error) => {
     if (currentVersion !== playbackVersion) return
+    if (!retried && /audioInstance is not set/.test(error.errMsg || '') && wx.createInnerAudioContext) {
+      removeListeners(player)
+      const replacement = wx.createInnerAudioContext()
+      replacement.obeyMuteSwitch = false
+      getApp().globalData.audio = replacement
+      if (player.destroy) player.destroy()
+      playFile(replacement, source, currentVersion, onEnded, true)
+      return
+    }
     if (fallbackFilePath && fallbackFilePath !== filePath) {
       playFile(player, { filePath: fallbackFilePath }, currentVersion, onEnded)
       return
@@ -60,6 +95,7 @@ function playFile(player, source, currentVersion, onEnded) {
   }
   canPlayHandler = () => {
     if (started || currentVersion !== playbackVersion) return
+    readySources.set(player, filePath)
     started = true
     player.play()
   }
@@ -71,14 +107,15 @@ function playFile(player, source, currentVersion, onEnded) {
   player.onError(errorHandler)
   if (player.onCanplay) player.onCanplay(canPlayHandler)
   if (player.onEnded) player.onEnded(endedHandler)
-  player.src = filePath
-
-  started = true
-  player.play()
+  if (player.src === filePath && readySources.get(player) === filePath) canPlayHandler()
+  else {
+    if (player.src !== filePath) player.src = filePath
+    if (!player.onCanplay) canPlayHandler()
+  }
 }
 
 function playAudioPath(filePath, fallbackFilePath = '') {
-  const player = getPlayer()
+  let player = getPlayer()
   if (!player || !filePath) {
     wx.showToast({ title: '音频准备中，请稍后再试', icon: 'none' })
     return false
@@ -86,6 +123,17 @@ function playAudioPath(filePath, fallbackFilePath = '') {
 
   playbackVersion += 1
   destroySequencePlayers()
+  if (preloadedAudio && preloadedAudio.player.src === filePath) {
+    const warmed = preloadedAudio
+    if (warmed.onCanplay) warmed.player.offCanplay(warmed.onCanplay)
+    if (warmed.onError) warmed.player.offError(warmed.onError)
+    removeListeners(player)
+    player.stop()
+    // Retain the previous sound for switching between character and phrase.
+    preloadedAudio = { player }
+    player = warmed.player
+    getApp().globalData.audio = player
+  }
   playFile(player, { filePath, fallbackFilePath }, playbackVersion)
   return true
 }
@@ -182,4 +230,4 @@ function playAudio(audioSource) {
   return playAudioPath(audioFile ? (audioFile[0] === '/' ? audioFile : `/assets/audio/${audioFile}`) : '')
 }
 
-module.exports = { playAudio, playAudioPath, playAudioSequence, stopAudio }
+module.exports = { playAudio, playAudioPath, playAudioSequence, stopAudio, preloadAudioPath, clearPreloadedAudio }

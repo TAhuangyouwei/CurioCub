@@ -1,3 +1,5 @@
+;(async () => {
+require('./lesson-test-fixture')
 const assert = require('assert')
 const fs = require('fs')
 const path = require('path')
@@ -91,12 +93,12 @@ assert.strictEqual(navigation, '/pages/notebook/notebook')
 const notebook = loadPage('../pages/notebook/notebook')
 notebook.onShow()
 assert.deepStrictEqual(notebook.data.items.map((unit) => unit.id), ['hanzi-41'], '未标记的字不能进入生字本')
-notebook.openLesson({ currentTarget: { dataset: { unitId: 'hanzi-41' } } })
-assert.strictEqual(navigation, '/packages/hanzi-extra/pages/lesson/index?moduleId=hanzi&unitId=hanzi-41&source=notebook')
+await notebook.openLesson({ currentTarget: { dataset: { unitId: 'hanzi-41' } } })
+assert.strictEqual(navigation, '/pages/lesson/lesson?moduleId=hanzi&unitId=hanzi-41&source=notebook')
 markUnitUnlearned('hanzi-01', 'hanzi')
 notebook.onShow()
 assert.deepStrictEqual(notebook.data.items.map((unit) => unit.id), ['hanzi-01', 'hanzi-41'])
-notebook.openLesson({ currentTarget: { dataset: { unitId: 'hanzi-01' } } })
+await notebook.openLesson({ currentTarget: { dataset: { unitId: 'hanzi-01' } } })
 assert.strictEqual(navigation, '/pages/lesson/lesson?moduleId=hanzi&unitId=hanzi-01&source=notebook')
 completeUnit('hanzi-01', 'hanzi')
 completeUnit('hanzi-41', 'hanzi')
@@ -161,11 +163,11 @@ let notebookLesson = lessonAt('hanzi', 'hanzi-10', 'notebook')
 assert.deepStrictEqual(notebookLesson.lessonItems.map((unit) => unit.id), notebookIds, '只能滑动生字本实际收录的字')
 assert.strictEqual(notebookLesson.data.currentNumber, 2)
 assert.strictEqual(notebookLesson.data.cardTotal, notebookIds.length)
-notebookLesson.onCardChange({ detail: { current: 0 } })
+await notebookLesson.onCardChange({ detail: { current: 0 } })
 assert.strictEqual(notebookLesson.data.unit.id, 'hanzi-01', '反向滑动也应按生字本顺序')
 for (let index = 1; index < notebookIds.length; index++) {
   navigation = null
-  notebookLesson.onCardChange({ detail: { current: index } })
+  await notebookLesson.onCardChange({ detail: { current: index } })
   if (navigation) {
     const url = new URL(navigation, 'https://test.local')
     assert.strictEqual(url.searchParams.get('source'), 'notebook', '跨分包跳转必须保留生字本模式')
@@ -178,7 +180,7 @@ for (let index = 1; index < notebookIds.length; index++) {
 }
 for (let index = notebookIds.length - 2; index >= 0; index--) {
   navigation = null
-  notebookLesson.onCardChange({ detail: { current: index } })
+  await notebookLesson.onCardChange({ detail: { current: index } })
   if (navigation) {
     const url = new URL(navigation, 'https://test.local')
     assert.strictEqual(url.searchParams.get('source'), 'notebook')
@@ -203,7 +205,9 @@ getModule('hanzi').items.slice(0, 13).forEach((unit) => markUnitUnlearned(unit.i
 const longNotebook = lessonAt('hanzi', 'hanzi-13', 'notebook')
 assert.strictEqual(longNotebook.data.currentNumber, 13, '生字本计数不能按每站十字重置')
 assert.strictEqual(longNotebook.data.cardTotal, 13)
-longNotebook.onCardChange({ detail: { current: 0 } })
+await longNotebook.onCardChange({ detail: { current: 0 } })
 assert.strictEqual(longNotebook.data.unit.id, 'hanzi-01')
 assert.strictEqual(longNotebook.data.currentNumber, 1)
 console.log('生字本检查通过：实际字列表、双向滑动、跨分包续看、列表计数、学会移除、空列表和旧进度均正常。')
+
+})().catch(error => { console.error(error); process.exitCode = 1 })

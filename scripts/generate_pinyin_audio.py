@@ -1,28 +1,21 @@
 """Build the selected local pinyin voice pack for CurioCub.
 
-The resulting MP3 files are grouped into small mini-program subpackages.  This
-script is resumable: previously completed clips are left untouched.
+The resulting MP3 files are staged by mini-program subpackage for review.
+This script never writes unreviewed recordings into product packages.
 """
 
 import asyncio
 import json
+import shutil
 from pathlib import Path
 
 import edge_tts
+from xiaoxiao_pinyin import VOICE, RATE, PITCH, APPROVED_SOURCES, spoken_pinyin
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'data' / 'pinyin-syllables.js'
-PACKAGES = ROOT / 'packages'
-VOICE = 'zh-CN-YunxiaNeural'
-RATE = '-10%'
-PITCH = '+2Hz'
-SPEECH_OVERRIDES = {
-    # The direct reading "滚！" is rejected by the preview voice endpoint as
-    # an imperative. 辊 has the same gǔn pronunciation and keeps the lesson
-    # audio complete without changing the child-facing representative character.
-    'gun3': '辊'
-}
+PACKAGES = ROOT / 'scripts/audio-audit/pinyin-generation-stage/packages'
 
 PACKAGE_BY_INITIAL = {
     'a': 'pinyin-01', 'b': 'pinyin-01', 'c': 'pinyin-02',
@@ -56,7 +49,7 @@ def ensure_loader(package_name):
             target.write_text(content, encoding='utf-8')
 
 
-async def create_clip(key, character, semaphore):
+async def create_clip(key, semaphore):
     package_name = PACKAGE_BY_INITIAL[key[0]]
     ensure_loader(package_name)
     target = PACKAGES / package_name / 'audio' / f'{key}.mp3'
@@ -67,11 +60,12 @@ async def create_clip(key, character, semaphore):
     async with semaphore:
         for attempt in range(3):
             try:
-                # The exclamation mark gives each single-character reading a
-                # brighter, less flat ending while preserving its pronunciation.
-                speak_text = f'{SPEECH_OVERRIDES.get(key, character)}！'
-                communicate = edge_tts.Communicate(speak_text, voice=VOICE, rate=RATE, pitch=PITCH)
-                await communicate.save(str(target))
+                source = APPROVED_SOURCES.get(key)
+                if source:
+                    shutil.copyfile(source, target)
+                else:
+                    communicate = edge_tts.Communicate(spoken_pinyin(key), voice=VOICE, rate=RATE, pitch=PITCH)
+                    await communicate.save(str(target))
                 if target.stat().st_size <= 1000:
                     raise RuntimeError('generated file is unexpectedly small')
                 return 'created', key
@@ -86,7 +80,7 @@ async def create_clip(key, character, semaphore):
 async def main():
     examples = read_examples()
     semaphore = asyncio.Semaphore(4)
-    tasks = [create_clip(key, character, semaphore) for key, character in sorted(examples.items())]
+    tasks = [create_clip(key, semaphore) for key in sorted(examples)]
     created = skipped = 0
     failures = []
     for number, task in enumerate(asyncio.as_completed(tasks), start=1):

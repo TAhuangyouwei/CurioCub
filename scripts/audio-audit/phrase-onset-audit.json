@@ -1,0 +1,7602 @@
+[
+  {
+    "id": "hanzi-01",
+    "title": "土",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-01-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-01",
+    "title": "土",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-01-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-02",
+    "title": "五",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-02-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-02",
+    "title": "五",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-02-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-03",
+    "title": "中",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-03-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-03",
+    "title": "中",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-03-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-04",
+    "title": "上",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-04-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-04",
+    "title": "上",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-04-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-05",
+    "title": "天",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-05-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-05",
+    "title": "天",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-05-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-06",
+    "title": "禾",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-06-character.mp3",
+    "duration": 1.272,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-06",
+    "title": "禾",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-06-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-07",
+    "title": "人",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-07-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-07",
+    "title": "人",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-07-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-08",
+    "title": "尺",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-08-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-08",
+    "title": "尺",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-08-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-09",
+    "title": "头",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-09-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-09",
+    "title": "头",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-09-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-10",
+    "title": "下",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-10-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-10",
+    "title": "下",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-10-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-11",
+    "title": "虫",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-11-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-11",
+    "title": "虫",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-11-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-12",
+    "title": "把",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-12-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-12",
+    "title": "把",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-12-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-13",
+    "title": "口",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-13-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-13",
+    "title": "口",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-13-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-14",
+    "title": "子",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-14-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-14",
+    "title": "子",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-14-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-15",
+    "title": "水",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-15-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-15",
+    "title": "水",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-15-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-16",
+    "title": "你",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-16-character.mp3",
+    "duration": 1.176,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-16",
+    "title": "你",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-16-phrase.mp3",
+    "duration": 1.368,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-17",
+    "title": "山",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-17-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-17",
+    "title": "山",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-17-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-18",
+    "title": "牙",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-18-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-18",
+    "title": "牙",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-18-phrase.mp3",
+    "duration": 1.536,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-19",
+    "title": "长",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-19-character.mp3",
+    "duration": 1.056,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-19",
+    "title": "长",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-19-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-20",
+    "title": "比",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-20-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-20",
+    "title": "比",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-20-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-21",
+    "title": "四",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-21-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-21",
+    "title": "四",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-21-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-22",
+    "title": "西",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-22-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-22",
+    "title": "西",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-22-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-23",
+    "title": "小",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-23-character.mp3",
+    "duration": 1.272,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-23",
+    "title": "小",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-23-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-24",
+    "title": "了",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-24-character.mp3",
+    "duration": 1.056,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-24",
+    "title": "了",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-24-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-25",
+    "title": "手",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-25-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-25",
+    "title": "手",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-25-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-26",
+    "title": "我",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-26-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-26",
+    "title": "我",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-26-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-27",
+    "title": "去",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-27-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-27",
+    "title": "去",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-27-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-28",
+    "title": "东",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-28-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-28",
+    "title": "东",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-28-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-29",
+    "title": "心",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-29-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-29",
+    "title": "心",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-29-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-30",
+    "title": "必",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-30-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-30",
+    "title": "必",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-30-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-31",
+    "title": "女",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-31-character.mp3",
+    "duration": 1.2,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-31",
+    "title": "女",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-31-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-32",
+    "title": "力",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-32-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-32",
+    "title": "力",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-32-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-33",
+    "title": "月",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-33-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-33",
+    "title": "月",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-33-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-34",
+    "title": "儿",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-34-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-34",
+    "title": "儿",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-34-phrase.mp3",
+    "duration": 1.272,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-35",
+    "title": "巴",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-35-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-35",
+    "title": "巴",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-35-phrase.mp3",
+    "duration": 1.392,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-36",
+    "title": "几",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-36-character.mp3",
+    "duration": 1.056,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-36",
+    "title": "几",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-36-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-37",
+    "title": "九",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-37-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-37",
+    "title": "九",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-37-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-38",
+    "title": "与",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-38-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-38",
+    "title": "与",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-38-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-39",
+    "title": "马",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-39-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-39",
+    "title": "马",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-39-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-40",
+    "title": "鸟",
+    "field": "characterAudioFile",
+    "path": "assets/audio/hanzi-40-character.mp3",
+    "duration": 1.2,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-40",
+    "title": "鸟",
+    "field": "phraseAudioFile",
+    "path": "assets/audio/hanzi-40-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-41",
+    "title": "一",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-41-character.mp3",
+    "duration": 1.032,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-41",
+    "title": "一",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-41-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-42",
+    "title": "泪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-42-character.mp3",
+    "duration": 1.08,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-42",
+    "title": "泪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-42-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-43",
+    "title": "眉",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-43-character.mp3",
+    "duration": 1.008,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-43",
+    "title": "眉",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-43-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-44",
+    "title": "耳",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-44-character.mp3",
+    "duration": 1.032,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-44",
+    "title": "耳",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-44-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-45",
+    "title": "三",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-45-character.mp3",
+    "duration": 1.128,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-45",
+    "title": "三",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-45-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-46",
+    "title": "舌",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-46-character.mp3",
+    "duration": 1.152,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-46",
+    "title": "舌",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-46-phrase.mp3",
+    "duration": 1.536,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-47",
+    "title": "足",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-47-character.mp3",
+    "duration": 1.08,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-47",
+    "title": "足",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-47-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-48",
+    "title": "身",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-48-character.mp3",
+    "duration": 1.104,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-48",
+    "title": "身",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-48-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-49",
+    "title": "二",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-49-character.mp3",
+    "duration": 1.08,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-49",
+    "title": "二",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-49-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-50",
+    "title": "牛",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-50-character.mp3",
+    "duration": 1.032,
+    "onset": 0.16
+  },
+  {
+    "id": "hanzi-50",
+    "title": "牛",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-50-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-51",
+    "title": "羊",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-51-character.mp3",
+    "duration": 1.056,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-51",
+    "title": "羊",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-51-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-52",
+    "title": "六",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-52-character.mp3",
+    "duration": 1.08,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-52",
+    "title": "六",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-52-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-53",
+    "title": "鱼",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-53-character.mp3",
+    "duration": 1.008,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-53",
+    "title": "鱼",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-53-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-54",
+    "title": "七",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-54-character.mp3",
+    "duration": 1.104,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-54",
+    "title": "七",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-54-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-55",
+    "title": "日",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-55-character.mp3",
+    "duration": 1.056,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-55",
+    "title": "日",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-55-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-56",
+    "title": "云",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-56-character.mp3",
+    "duration": 1.032,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-56",
+    "title": "云",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-56-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-57",
+    "title": "风",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-57-character.mp3",
+    "duration": 1.104,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-57",
+    "title": "风",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-57-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-58",
+    "title": "八",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-58-character.mp3",
+    "duration": 1.056,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-58",
+    "title": "八",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-58-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-59",
+    "title": "雨",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-59-character.mp3",
+    "duration": 1.008,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-59",
+    "title": "雨",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-59-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-60",
+    "title": "雪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-60-character.mp3",
+    "duration": 1.152,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-60",
+    "title": "雪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-60-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-61",
+    "title": "雷",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-61-character.mp3",
+    "duration": 1.032,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-61",
+    "title": "雷",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-61-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-62",
+    "title": "电",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-62-character.mp3",
+    "duration": 1.056,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-62",
+    "title": "电",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-62-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-63",
+    "title": "田",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-63-character.mp3",
+    "duration": 1.104,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-63",
+    "title": "田",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-63-phrase.mp3",
+    "duration": 1.536,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-64",
+    "title": "木",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-64-character.mp3",
+    "duration": 1.032,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-64",
+    "title": "木",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-64-phrase.mp3",
+    "duration": 1.368,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-65",
+    "title": "米",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-65-character.mp3",
+    "duration": 1.008,
+    "onset": 0.16
+  },
+  {
+    "id": "hanzi-65",
+    "title": "米",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-65-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-66",
+    "title": "果",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-66-character.mp3",
+    "duration": 1.056,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-66",
+    "title": "果",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-66-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-67",
+    "title": "十",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-67-character.mp3",
+    "duration": 1.152,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-67",
+    "title": "十",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-67-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-68",
+    "title": "瓜",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-68-character.mp3",
+    "duration": 1.056,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-68",
+    "title": "瓜",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-68-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-69",
+    "title": "苗",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-69-character.mp3",
+    "duration": 1.032,
+    "onset": 0.16
+  },
+  {
+    "id": "hanzi-69",
+    "title": "苗",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-69-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-70",
+    "title": "明",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-70-character.mp3",
+    "duration": 1.008,
+    "onset": 0.16
+  },
+  {
+    "id": "hanzi-70",
+    "title": "明",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-70-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-71",
+    "title": "尖",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-71-character.mp3",
+    "duration": 1.056,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-71",
+    "title": "尖",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-71-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-72",
+    "title": "李",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-72-character.mp3",
+    "duration": 1.032,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-72",
+    "title": "李",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-72-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-73",
+    "title": "姜",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-73-character.mp3",
+    "duration": 1.056,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-73",
+    "title": "姜",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-73-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-74",
+    "title": "言",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-74-character.mp3",
+    "duration": 1.08,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-74",
+    "title": "言",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-74-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.24
+  },
+  {
+    "id": "hanzi-75",
+    "title": "午",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-75-character.mp3",
+    "duration": 1.032,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-75",
+    "title": "午",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-75-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-76",
+    "title": "弓",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-76-character.mp3",
+    "duration": 1.032,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-76",
+    "title": "弓",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-76-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-77",
+    "title": "张",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-77-character.mp3",
+    "duration": 1.032,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-77",
+    "title": "张",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-77-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-78",
+    "title": "许",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-78-character.mp3",
+    "duration": 1.128,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-78",
+    "title": "许",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-78-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-79",
+    "title": "数",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-79-character.mp3",
+    "duration": 1.152,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-79",
+    "title": "数",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-79-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-80",
+    "title": "字",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-80-character.mp3",
+    "duration": 1.056,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-80",
+    "title": "字",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-extra/audio/hanzi-80-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-81",
+    "title": "歌",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-81-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-81",
+    "title": "歌",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-81-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-82",
+    "title": "爬",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-82-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-82",
+    "title": "爬",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-82-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-83",
+    "title": "翻",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-83-character.mp3",
+    "duration": 1.248,
+    "onset": 0.25
+  },
+  {
+    "id": "hanzi-83",
+    "title": "翻",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-83-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-84",
+    "title": "筋",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-84-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-84",
+    "title": "筋",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-84-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-85",
+    "title": "斗",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-85-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-85",
+    "title": "斗",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-85-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-86",
+    "title": "拍",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-86-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-86",
+    "title": "拍",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-86-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-87",
+    "title": "皮",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-87-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-87",
+    "title": "皮",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-87-phrase.mp3",
+    "duration": 1.536,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-88",
+    "title": "球",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-88-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-88",
+    "title": "球",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-88-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-89",
+    "title": "个",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-89-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-89",
+    "title": "个",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-89-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-90",
+    "title": "指",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-90-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-90",
+    "title": "指",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-90-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-91",
+    "title": "就",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-91-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-91",
+    "title": "就",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-91-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-92",
+    "title": "是",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-92-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-92",
+    "title": "是",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-92-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-93",
+    "title": "两",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-93-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-93",
+    "title": "两",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-93-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-94",
+    "title": "只",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-94-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-94",
+    "title": "只",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-94-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-95",
+    "title": "过",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-95-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-95",
+    "title": "过",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-95-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-96",
+    "title": "车",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-96-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-96",
+    "title": "车",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-96-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-97",
+    "title": "入",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-97-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-97",
+    "title": "入",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-97-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-98",
+    "title": "地",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-98-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-98",
+    "title": "地",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-98-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-99",
+    "title": "腾",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-99-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-99",
+    "title": "腾",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-99-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-100",
+    "title": "驾",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-100-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-100",
+    "title": "驾",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-100-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-101",
+    "title": "雾",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-101-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-101",
+    "title": "雾",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-101-phrase.mp3",
+    "duration": 1.392,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-102",
+    "title": "变",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-102-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-102",
+    "title": "变",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-102-phrase.mp3",
+    "duration": 2.136,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-103",
+    "title": "成",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-103-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-103",
+    "title": "成",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-103-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-104",
+    "title": "流",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-104-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-104",
+    "title": "流",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-104-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-105",
+    "title": "星",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-105-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-105",
+    "title": "星",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-105-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-106",
+    "title": "飞",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-106-character.mp3",
+    "duration": 1.272,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-106",
+    "title": "飞",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-106-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-107",
+    "title": "跳",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-107-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-107",
+    "title": "跳",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-107-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-108",
+    "title": "蜻",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-108-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-108",
+    "title": "蜻",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-108-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-109",
+    "title": "蜓",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-109-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-109",
+    "title": "蜓",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-109-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-110",
+    "title": "会",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-110-character.mp3",
+    "duration": 1.296,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-110",
+    "title": "会",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-110-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-111",
+    "title": "蚱",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-111-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-111",
+    "title": "蚱",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-111-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-112",
+    "title": "蜢",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-112-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-112",
+    "title": "蜢",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-112-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-113",
+    "title": "弟",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-113-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-113",
+    "title": "弟",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-113-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-114",
+    "title": "高",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-114-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-114",
+    "title": "高",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-114-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-115",
+    "title": "猫",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-115-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-115",
+    "title": "猫",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-115-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-116",
+    "title": "拉",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-116-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-116",
+    "title": "拉",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-116-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-117",
+    "title": "老",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-117-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-117",
+    "title": "老",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-117-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-118",
+    "title": "鼠",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-118-character.mp3",
+    "duration": 1.344,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-118",
+    "title": "鼠",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-118-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-119",
+    "title": "不",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-119-character.mp3",
+    "duration": 1.2,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-119",
+    "title": "不",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-119-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-120",
+    "title": "坐",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-120-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-120",
+    "title": "坐",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-120-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-121",
+    "title": "黄",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-121-character.mp3",
+    "duration": 1.248,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-121",
+    "title": "黄",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-121-phrase.mp3",
+    "duration": 2.016,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-122",
+    "title": "狼",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-122-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-122",
+    "title": "狼",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-122-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-123",
+    "title": "鸡",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-123-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-123",
+    "title": "鸡",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-123-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-124",
+    "title": "灰",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-124-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-124",
+    "title": "灰",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-124-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-125",
+    "title": "虎",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-125-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-125",
+    "title": "虎",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-125-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-126",
+    "title": "谁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-126-character.mp3",
+    "duration": 1.104,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-126",
+    "title": "谁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-126-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-127",
+    "title": "也",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-127-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-127",
+    "title": "也",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-127-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-128",
+    "title": "海",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-128-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-128",
+    "title": "海",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-128-phrase.mp3",
+    "duration": 2.112,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-129",
+    "title": "龟",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-129-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-129",
+    "title": "龟",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-129-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-130",
+    "title": "妈",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-130-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-130",
+    "title": "妈",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-130-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-131",
+    "title": "沙",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-131-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-131",
+    "title": "沙",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-131-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-132",
+    "title": "滩",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-132-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-132",
+    "title": "滩",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-132-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-133",
+    "title": "扒",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-133-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-133",
+    "title": "扒",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-133-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-134",
+    "title": "生",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-134-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-134",
+    "title": "生",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-134-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-135",
+    "title": "蛋",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-135-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-135",
+    "title": "蛋",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-135-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-136",
+    "title": "盖",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-136-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-136",
+    "title": "盖",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-136-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-137",
+    "title": "太",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-137-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-137",
+    "title": "太",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-137-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-138",
+    "title": "阳",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-138-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-138",
+    "title": "阳",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-138-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-139",
+    "title": "晒",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-139-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-139",
+    "title": "晒",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-139-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-140",
+    "title": "孵",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-140-character.mp3",
+    "duration": 1.296,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-140",
+    "title": "孵",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-1/audio/hanzi-140-phrase.mp3",
+    "duration": 2.064,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-141",
+    "title": "出",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-141-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-141",
+    "title": "出",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-141-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-142",
+    "title": "娃",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-142-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-142",
+    "title": "娃",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-142-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-143",
+    "title": "进",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-143-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-143",
+    "title": "进",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-143-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-144",
+    "title": "大",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-144-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-144",
+    "title": "大",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-144-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-145",
+    "title": "找",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-145-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-145",
+    "title": "找",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-145-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-146",
+    "title": "做",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-146-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-146",
+    "title": "做",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-146-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-147",
+    "title": "影",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-147-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-147",
+    "title": "影",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-147-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-148",
+    "title": "兔",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-148-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-148",
+    "title": "兔",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-148-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-149",
+    "title": "来",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-149-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-149",
+    "title": "来",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-149-phrase.mp3",
+    "duration": 1.992,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-150",
+    "title": "螃",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-150-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-150",
+    "title": "螃",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-150-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-151",
+    "title": "蟹",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-151-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-151",
+    "title": "蟹",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-151-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-152",
+    "title": "墙",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-152-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-152",
+    "title": "墙",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-152-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-153",
+    "title": "灯",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-153-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-153",
+    "title": "灯",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-153-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-154",
+    "title": "关",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-154-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-154",
+    "title": "关",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-154-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-155",
+    "title": "都",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-155-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-155",
+    "title": "都",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-155-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-156",
+    "title": "跑",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-156-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-156",
+    "title": "跑",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-156-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-157",
+    "title": "开",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-157-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-157",
+    "title": "开",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-157-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-158",
+    "title": "又",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-158-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-158",
+    "title": "又",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-158-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-159",
+    "title": "门",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-159-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-159",
+    "title": "门",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-159-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-160",
+    "title": "宝",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-160-character.mp3",
+    "duration": 1.176,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-160",
+    "title": "宝",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-160-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-161",
+    "title": "认",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-161-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-161",
+    "title": "认",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-161-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-162",
+    "title": "红",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-162-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-162",
+    "title": "红",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-162-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-163",
+    "title": "黑",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-163-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-163",
+    "title": "黑",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-163-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-164",
+    "title": "蓝",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-164-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-164",
+    "title": "蓝",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-164-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-165",
+    "title": "铁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-165-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-165",
+    "title": "铁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-165-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-166",
+    "title": "铜",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-166-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-166",
+    "title": "铜",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-166-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-167",
+    "title": "锁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-167-character.mp3",
+    "duration": 1.296,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-167",
+    "title": "锁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-167-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-168",
+    "title": "先",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-168-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-168",
+    "title": "先",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-168-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-169",
+    "title": "得",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-169-character.mp3",
+    "duration": 0.266,
+    "onset": 0.0
+  },
+  {
+    "id": "hanzi-169",
+    "title": "得",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-169-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-170",
+    "title": "清",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-170-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-170",
+    "title": "清",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-170-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-171",
+    "title": "自",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-171-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-171",
+    "title": "自",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-171-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-172",
+    "title": "家",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-172-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-172",
+    "title": "家",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-172-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-173",
+    "title": "台",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-173-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-173",
+    "title": "台",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-173-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-174",
+    "title": "偷",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-174-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-174",
+    "title": "偷",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-174-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-175",
+    "title": "油",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-175-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-175",
+    "title": "油",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-175-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-176",
+    "title": "吃",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-176-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-176",
+    "title": "吃",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-176-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-177",
+    "title": "吱",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-177-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-177",
+    "title": "吱",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-177-phrase.mp3",
+    "duration": 2.04,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-178",
+    "title": "喊",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-178-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-178",
+    "title": "喊",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-178-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-179",
+    "title": "奶",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-179-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-179",
+    "title": "奶",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-179-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-180",
+    "title": "肯",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-180-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-180",
+    "title": "肯",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-180-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-181",
+    "title": "叽",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-181-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-181",
+    "title": "叽",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-181-phrase.mp3",
+    "duration": 2.304,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-182",
+    "title": "里",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-182-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-182",
+    "title": "里",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-182-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-183",
+    "title": "咕",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-183-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-183",
+    "title": "咕",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-183-phrase.mp3",
+    "duration": 2.304,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-184",
+    "title": "噜",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-184-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-184",
+    "title": "噜",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-184-phrase.mp3",
+    "duration": 2.304,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-185",
+    "title": "滚",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-185-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-185",
+    "title": "滚",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-185-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-186",
+    "title": "多",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-186-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-186",
+    "title": "多",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-186-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-187",
+    "title": "少",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-187-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-187",
+    "title": "少",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-187-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-188",
+    "title": "边",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-188-character.mp3",
+    "duration": 1.2,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-188",
+    "title": "边",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-188-phrase.mp3",
+    "duration": 2.16,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-189",
+    "title": "群",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-189-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-189",
+    "title": "群",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-189-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-190",
+    "title": "雁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-190-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-190",
+    "title": "雁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-190-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-191",
+    "title": "瞧",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-191-character.mp3",
+    "duration": 1.296,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-191",
+    "title": "瞧",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-191-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-192",
+    "title": "记",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-192-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-192",
+    "title": "记",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-192-phrase.mp3",
+    "duration": 2.28,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-193",
+    "title": "牢",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-193-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-193",
+    "title": "牢",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-193-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-194",
+    "title": "牵",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-194-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-194",
+    "title": "牵",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-194-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-195",
+    "title": "花",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-195-character.mp3",
+    "duration": 1.248,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-195",
+    "title": "花",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-195-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-196",
+    "title": "往",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-196-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-196",
+    "title": "往",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-196-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-197",
+    "title": "到",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-197-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-197",
+    "title": "到",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-197-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-198",
+    "title": "瓦",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-198-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-198",
+    "title": "瓦",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-198-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-199",
+    "title": "顶",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-199-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-199",
+    "title": "顶",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-199-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-200",
+    "title": "吹",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-200-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-200",
+    "title": "吹",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-2/audio/hanzi-200-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-201",
+    "title": "喇",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-201-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-201",
+    "title": "喇",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-201-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-202",
+    "title": "叭",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-202-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-202",
+    "title": "叭",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-202-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-203",
+    "title": "嘀",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-203-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-203",
+    "title": "嘀",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-203-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-204",
+    "title": "嗒",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-204-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-204",
+    "title": "嗒",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-204-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-205",
+    "title": "愿",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-205-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-205",
+    "title": "愿",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-205-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-206",
+    "title": "跟",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-206-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-206",
+    "title": "跟",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-206-phrase.mp3",
+    "duration": 2.16,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-207",
+    "title": "耍",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-207-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-207",
+    "title": "耍",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-207-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-208",
+    "title": "落",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-208-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-208",
+    "title": "落",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-208-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-209",
+    "title": "叶",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-209-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-209",
+    "title": "叶",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-209-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-210",
+    "title": "秋",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-210-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-210",
+    "title": "秋",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-210-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-211",
+    "title": "树",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-211-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-211",
+    "title": "树",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-211-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-212",
+    "title": "像",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-212-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-212",
+    "title": "像",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-212-phrase.mp3",
+    "duration": 2.088,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-213",
+    "title": "蝴",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-213-character.mp3",
+    "duration": 1.296,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-213",
+    "title": "蝴",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-213-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-214",
+    "title": "蝶",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-214-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-214",
+    "title": "蝶",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-214-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-215",
+    "title": "翅",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-215-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-215",
+    "title": "翅",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-215-phrase.mp3",
+    "duration": 2.016,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-216",
+    "title": "膀",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-216-character.mp3",
+    "duration": 1.176,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-216",
+    "title": "膀",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-216-phrase.mp3",
+    "duration": 2.016,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-217",
+    "title": "追",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-217-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-217",
+    "title": "追",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-217-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-218",
+    "title": "豆",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-218-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-218",
+    "title": "豆",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-218-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-219",
+    "title": "荚",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-219-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-219",
+    "title": "荚",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-219-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-220",
+    "title": "真",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-220-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-220",
+    "title": "真",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-220-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-221",
+    "title": "可",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-221-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-221",
+    "title": "可",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-221-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-222",
+    "title": "爱",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-222-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-222",
+    "title": "爱",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-222-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-223",
+    "title": "面",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-223-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-223",
+    "title": "面",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-223-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-224",
+    "title": "住",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-224-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-224",
+    "title": "住",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-224-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-225",
+    "title": "满",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-225-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-225",
+    "title": "满",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-225-phrase.mp3",
+    "duration": 2.328,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-226",
+    "title": "乖",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-226-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-226",
+    "title": "乖",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-226-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-227",
+    "title": "房",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-227-character.mp3",
+    "duration": 1.224,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-227",
+    "title": "房",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-227-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-228",
+    "title": "呀",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-228-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-228",
+    "title": "呀",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-228-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-229",
+    "title": "排",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-229-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-229",
+    "title": "排",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-229-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-230",
+    "title": "着",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-230-character.mp3",
+    "duration": 0.266,
+    "onset": 0.0
+  },
+  {
+    "id": "hanzi-230",
+    "title": "着",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-230-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-231",
+    "title": "队",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-231-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-231",
+    "title": "队",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-231-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-232",
+    "title": "走",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-232-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-232",
+    "title": "走",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-232-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-233",
+    "title": "农",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-233-character.mp3",
+    "duration": 1.2,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-233",
+    "title": "农",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-233-phrase.mp3",
+    "duration": 2.064,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-234",
+    "title": "民",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-234-character.mp3",
+    "duration": 1.176,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-234",
+    "title": "民",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-234-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-235",
+    "title": "袋",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-235-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-235",
+    "title": "袋",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-235-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-236",
+    "title": "草",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-236-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-236",
+    "title": "草",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-236-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-237",
+    "title": "倒",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-237-character.mp3",
+    "duration": 1.2,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-237",
+    "title": "倒",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-237-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-238",
+    "title": "扶",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-238-character.mp3",
+    "duration": 1.32,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-238",
+    "title": "扶",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-238-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-239",
+    "title": "狗",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-239-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-239",
+    "title": "狗",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-239-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-240",
+    "title": "咬",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-240-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-240",
+    "title": "咬",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-240-phrase.mp3",
+    "duration": 2.016,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-241",
+    "title": "枯",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-241-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-241",
+    "title": "枯",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-241-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-242",
+    "title": "能",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-242-character.mp3",
+    "duration": 1.176,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-242",
+    "title": "能",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-242-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-243",
+    "title": "当",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-243-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-243",
+    "title": "当",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-243-phrase.mp3",
+    "duration": 2.256,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-244",
+    "title": "柴",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-244-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-244",
+    "title": "柴",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-244-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-245",
+    "title": "烧",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-245-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-245",
+    "title": "烧",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-245-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-246",
+    "title": "半",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-246-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-246",
+    "title": "半",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-246-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-247",
+    "title": "有",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-247-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-247",
+    "title": "有",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-247-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-248",
+    "title": "孩",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-248-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-248",
+    "title": "孩",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-248-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-249",
+    "title": "叫",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-249-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-249",
+    "title": "叫",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-249-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-250",
+    "title": "起",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-250-character.mp3",
+    "duration": 1.272,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-250",
+    "title": "起",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-250-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-251",
+    "title": "床",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-251-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-251",
+    "title": "床",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-251-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-252",
+    "title": "已",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-252-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-252",
+    "title": "已",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-252-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-253",
+    "title": "经",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-253-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-253",
+    "title": "经",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-253-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-254",
+    "title": "点",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-254-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-254",
+    "title": "点",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-254-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-255",
+    "title": "鞋",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-255-character.mp3",
+    "duration": 1.272,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-255",
+    "title": "鞋",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-255-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-256",
+    "title": "穿",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-256-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-256",
+    "title": "穿",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-256-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-257",
+    "title": "脸",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-257-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-257",
+    "title": "脸",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-257-phrase.mp3",
+    "duration": 1.536,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-258",
+    "title": "洗",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-258-character.mp3",
+    "duration": 1.32,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-258",
+    "title": "洗",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-258-phrase.mp3",
+    "duration": 1.536,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-259",
+    "title": "早",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-259-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-259",
+    "title": "早",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-259-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-260",
+    "title": "饭",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-260-character.mp3",
+    "duration": 1.272,
+    "onset": 0.25
+  },
+  {
+    "id": "hanzi-260",
+    "title": "饭",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-3/audio/hanzi-260-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-261",
+    "title": "课",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-261-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-261",
+    "title": "课",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-261-phrase.mp3",
+    "duration": 2.112,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-262",
+    "title": "本",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-262-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-262",
+    "title": "本",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-262-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-263",
+    "title": "带",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-263-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-263",
+    "title": "带",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-263-phrase.mp3",
+    "duration": 2.112,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-264",
+    "title": "学",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-264-character.mp3",
+    "duration": 1.296,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-264",
+    "title": "学",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-264-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-265",
+    "title": "路",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-265-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-265",
+    "title": "路",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-265-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-266",
+    "title": "光",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-266-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-266",
+    "title": "光",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-266-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-267",
+    "title": "脚",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-267-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-267",
+    "title": "脚",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-267-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-268",
+    "title": "板",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-268-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-268",
+    "title": "板",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-268-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-269",
+    "title": "金",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-269-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-269",
+    "title": "金",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-269-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-270",
+    "title": "银",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-270-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-270",
+    "title": "银",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-270-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-271",
+    "title": "躲",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-271-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-271",
+    "title": "躲",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-271-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-272",
+    "title": "在",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-272-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-272",
+    "title": "在",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-272-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-273",
+    "title": "梦",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-273-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-273",
+    "title": "梦",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-273-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-274",
+    "title": "胖",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-274-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-274",
+    "title": "胖",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-274-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-275",
+    "title": "南",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-275-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-275",
+    "title": "南",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-275-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-276",
+    "title": "冬",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-276-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-276",
+    "title": "冬",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-276-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-277",
+    "title": "看",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-277-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-277",
+    "title": "看",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-277-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-278",
+    "title": "亮",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-278-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-278",
+    "title": "亮",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-278-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-279",
+    "title": "初",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-279-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-279",
+    "title": "初",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-279-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-280",
+    "title": "根",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-280-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-280",
+    "title": "根",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-280-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-281",
+    "title": "线",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-281-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-281",
+    "title": "线",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-281-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-282",
+    "title": "见",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-282-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-282",
+    "title": "见",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-282-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-283",
+    "title": "蛾",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-283-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-283",
+    "title": "蛾",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-283-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-284",
+    "title": "团",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-284-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-284",
+    "title": "团",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-284-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-285",
+    "title": "圆",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-285-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-285",
+    "title": "圆",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-285-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-286",
+    "title": "拿",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-286-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-286",
+    "title": "拿",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-286-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-287",
+    "title": "剪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-287-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-287",
+    "title": "剪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-287-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-288",
+    "title": "刀",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-288-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-288",
+    "title": "刀",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-288-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-289",
+    "title": "甲",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-289-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-289",
+    "title": "甲",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-289-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-290",
+    "title": "袍",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-290-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-290",
+    "title": "袍",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-290-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-291",
+    "title": "要",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-291-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-291",
+    "title": "要",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-291-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-292",
+    "title": "惹",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-292-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-292",
+    "title": "惹",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-292-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-293",
+    "title": "请",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-293-character.mp3",
+    "duration": 1.224,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-293",
+    "title": "请",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-293-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-294",
+    "title": "他",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-294-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-294",
+    "title": "他",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-294-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-295",
+    "title": "蘑",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-295-character.mp3",
+    "duration": 1.2,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-295",
+    "title": "蘑",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-295-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-296",
+    "title": "菇",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-296-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-296",
+    "title": "菇",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-296-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-297",
+    "title": "傻",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-297-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-297",
+    "title": "傻",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-297-phrase.mp3",
+    "duration": 2.256,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-298",
+    "title": "没",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-298-character.mp3",
+    "duration": 1.176,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-298",
+    "title": "没",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-298-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-299",
+    "title": "撑",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-299-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-299",
+    "title": "撑",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-299-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-300",
+    "title": "伞",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-300-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-300",
+    "title": "伞",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-300-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-301",
+    "title": "干",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-301-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-301",
+    "title": "干",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-301-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-302",
+    "title": "啥",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-302-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-302",
+    "title": "啥",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-302-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-303",
+    "title": "条",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-303-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-303",
+    "title": "条",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-303-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-304",
+    "title": "游",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-304-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-304",
+    "title": "游",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-304-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-305",
+    "title": "孤",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-305-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-305",
+    "title": "孤",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-305-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-306",
+    "title": "单",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-306-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-306",
+    "title": "单",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-306-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-307",
+    "title": "发",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-307-character.mp3",
+    "duration": 1.248,
+    "onset": 0.24
+  },
+  {
+    "id": "hanzi-307",
+    "title": "发",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-307-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-308",
+    "title": "愁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-308-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-308",
+    "title": "愁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-308-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-309",
+    "title": "摇",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-309-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-309",
+    "title": "摇",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-309-phrase.mp3",
+    "duration": 1.8,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-310",
+    "title": "尾",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-310-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-310",
+    "title": "尾",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-310-phrase.mp3",
+    "duration": 1.968,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-311",
+    "title": "快",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-311-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-311",
+    "title": "快",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-311-phrase.mp3",
+    "duration": 1.968,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-312",
+    "title": "活",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-312-character.mp3",
+    "duration": 1.272,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-312",
+    "title": "活",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-312-phrase.mp3",
+    "duration": 2.016,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-313",
+    "title": "朋",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-313-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-313",
+    "title": "朋",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-313-phrase.mp3",
+    "duration": 1.944,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-314",
+    "title": "友",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-314-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-314",
+    "title": "友",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-314-phrase.mp3",
+    "duration": 1.944,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-315",
+    "title": "的",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-315-character.mp3",
+    "duration": 0.44,
+    "onset": 0.0
+  },
+  {
+    "id": "hanzi-315",
+    "title": "的",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-315-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-316",
+    "title": "话",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-316-character.mp3",
+    "duration": 1.248,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-316",
+    "title": "话",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-316-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-317",
+    "title": "说",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-317-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-317",
+    "title": "说",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-317-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-318",
+    "title": "问",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-318-character.mp3",
+    "duration": 1.2,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-318",
+    "title": "问",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-318-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-319",
+    "title": "答",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-319-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-319",
+    "title": "答",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-319-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-320",
+    "title": "握",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-320-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-320",
+    "title": "握",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-4/audio/hanzi-320-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-321",
+    "title": "好",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-321-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-321",
+    "title": "好",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-321-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-322",
+    "title": "啊",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-322-character.mp3",
+    "duration": 0.434,
+    "onset": 0.0
+  },
+  {
+    "id": "hanzi-322",
+    "title": "啊",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-322-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-323",
+    "title": "摆",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-323-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-323",
+    "title": "摆",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-323-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-324",
+    "title": "再",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-324-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-324",
+    "title": "再",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-324-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-325",
+    "title": "啦",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-325-character.mp3",
+    "duration": 0.479,
+    "onset": 0.0
+  },
+  {
+    "id": "hanzi-325",
+    "title": "啦",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-325-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-326",
+    "title": "爷",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-326-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-326",
+    "title": "爷",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-326-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-327",
+    "title": "白",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-327-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-327",
+    "title": "白",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-327-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-328",
+    "title": "帽",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-328-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-328",
+    "title": "帽",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-328-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-329",
+    "title": "戴",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-329-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-329",
+    "title": "戴",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-329-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-330",
+    "title": "绿",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-330-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-330",
+    "title": "绿",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-330-phrase.mp3",
+    "duration": 1.992,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-331",
+    "title": "色",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-331-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-331",
+    "title": "色",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-331-phrase.mp3",
+    "duration": 1.992,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-332",
+    "title": "衣",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-332-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-332",
+    "title": "衣",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-332-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-333",
+    "title": "披",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-333-character.mp3",
+    "duration": 1.272,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-333",
+    "title": "披",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-333-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-334",
+    "title": "公",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-334-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-334",
+    "title": "公",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-334-phrase.mp3",
+    "duration": 1.368,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-335",
+    "title": "缠",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-335-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-335",
+    "title": "缠",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-335-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-336",
+    "title": "腰",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-336-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-336",
+    "title": "腰",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-336-phrase.mp3",
+    "duration": 1.968,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-337",
+    "title": "瀑",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-337-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-337",
+    "title": "瀑",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-337-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-338",
+    "title": "布",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-338-character.mp3",
+    "duration": 1.2,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-338",
+    "title": "布",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-338-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-339",
+    "title": "领",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-339-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-339",
+    "title": "领",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-339-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-340",
+    "title": "挂",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-340-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-340",
+    "title": "挂",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-340-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-341",
+    "title": "脖",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-341-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-341",
+    "title": "脖",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-341-phrase.mp3",
+    "duration": 2.184,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-342",
+    "title": "漂",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-342-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-342",
+    "title": "漂",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-342-phrase.mp3",
+    "duration": 1.728,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-343",
+    "title": "站",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-343-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-343",
+    "title": "站",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-343-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-344",
+    "title": "哪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-344-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-344",
+    "title": "哪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-344-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-345",
+    "title": "嗨",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-345-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-345",
+    "title": "嗨",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-345-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-346",
+    "title": "咱",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-346-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-346",
+    "title": "咱",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-346-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-347",
+    "title": "们",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-347-character.mp3",
+    "duration": 0.445,
+    "onset": 0.0
+  },
+  {
+    "id": "hanzi-347",
+    "title": "们",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-347-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-348",
+    "title": "同",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-348-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-348",
+    "title": "同",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-348-phrase.mp3",
+    "duration": 2.064,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-349",
+    "title": "戏",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-349-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-349",
+    "title": "戏",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-349-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-350",
+    "title": "鼓",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-350-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-350",
+    "title": "鼓",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-350-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-351",
+    "title": "敲",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-351-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-351",
+    "title": "敲",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-351-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-352",
+    "title": "它",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-352-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-352",
+    "title": "它",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-352-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-353",
+    "title": "痛",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-353-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-353",
+    "title": "痛",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-353-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-354",
+    "title": "懂",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-354-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-354",
+    "title": "懂",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-354-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-355",
+    "title": "篮",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-355-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-355",
+    "title": "篮",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-355-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-356",
+    "title": "船",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-356-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-356",
+    "title": "船",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-356-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-357",
+    "title": "浪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-357-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-357",
+    "title": "浪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-357-phrase.mp3",
+    "duration": 1.968,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-358",
+    "title": "伴",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-358-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-358",
+    "title": "伴",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-358-phrase.mp3",
+    "duration": 2.088,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-359",
+    "title": "帆",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-359-character.mp3",
+    "duration": 1.248,
+    "onset": 0.25
+  },
+  {
+    "id": "hanzi-359",
+    "title": "帆",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-359-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-360",
+    "title": "处",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-360-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-360",
+    "title": "处",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-360-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-361",
+    "title": "玩",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-361-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-361",
+    "title": "玩",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-361-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-362",
+    "title": "稀",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-362-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-362",
+    "title": "稀",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-362-phrase.mp3",
+    "duration": 2.064,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-363",
+    "title": "奇",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-363-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-363",
+    "title": "奇",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-363-phrase.mp3",
+    "duration": 2.112,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-364",
+    "title": "麻",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-364-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-364",
+    "title": "麻",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-364-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-365",
+    "title": "雀",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-365-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-365",
+    "title": "雀",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-365-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-366",
+    "title": "踩",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-366-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-366",
+    "title": "踩",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-366-phrase.mp3",
+    "duration": 2.112,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-367",
+    "title": "死",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-367-character.mp3",
+    "duration": 1.32,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-367",
+    "title": "死",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-367-phrase.mp3",
+    "duration": 1.992,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-368",
+    "title": "母",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-368-character.mp3",
+    "duration": 1.176,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-368",
+    "title": "母",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-368-phrase.mp3",
+    "duration": 2.04,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-369",
+    "title": "蚂",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-369-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-369",
+    "title": "蚂",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-369-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-370",
+    "title": "蚁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-370-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-370",
+    "title": "蚁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-370-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-371",
+    "title": "岁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-371-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-371",
+    "title": "岁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-371-phrase.mp3",
+    "duration": 2.112,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-372",
+    "title": "远",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-372-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-372",
+    "title": "远",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-372-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-373",
+    "title": "竹",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-373-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-373",
+    "title": "竹",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-373-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-374",
+    "title": "篱",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-374-character.mp3",
+    "duration": 1.176,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-374",
+    "title": "篱",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-374-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-375",
+    "title": "笆",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-375-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-375",
+    "title": "笆",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-375-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-376",
+    "title": "朵",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-376-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-376",
+    "title": "朵",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-376-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-377",
+    "title": "腿",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-377-character.mp3",
+    "duration": 1.272,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-377",
+    "title": "腿",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-377-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-378",
+    "title": "弹",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-378-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-378",
+    "title": "弹",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-378-phrase.mp3",
+    "duration": 2.136,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-379",
+    "title": "跷",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-379-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-379",
+    "title": "跷",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-379-phrase.mp3",
+    "duration": 1.968,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-380",
+    "title": "摔",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-380-character.mp3",
+    "duration": 1.344,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-380",
+    "title": "摔",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-5/audio/hanzi-380-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-381",
+    "title": "跤",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-381-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-381",
+    "title": "跤",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-381-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-382",
+    "title": "跌",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-382-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-382",
+    "title": "跌",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-382-phrase.mp3",
+    "duration": 1.584,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-383",
+    "title": "青",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-383-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-383",
+    "title": "青",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-383-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-384",
+    "title": "包",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-384-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-384",
+    "title": "包",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-384-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-385",
+    "title": "钓",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-385-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-385",
+    "title": "钓",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-385-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-386",
+    "title": "回",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-386-character.mp3",
+    "duration": 1.248,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-386",
+    "title": "回",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-386-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-387",
+    "title": "吧",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-387-character.mp3",
+    "duration": 0.43,
+    "onset": 0.01
+  },
+  {
+    "id": "hanzi-387",
+    "title": "吧",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-387-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-388",
+    "title": "等",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-388-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-388",
+    "title": "等",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-388-phrase.mp3",
+    "duration": 1.968,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-389",
+    "title": "睡",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-389-character.mp3",
+    "duration": 1.32,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-389",
+    "title": "睡",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-389-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-390",
+    "title": "觉",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-390-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-390",
+    "title": "觉",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-390-phrase.mp3",
+    "duration": 1.872,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-391",
+    "title": "香",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-391-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-391",
+    "title": "香",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-391-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-392",
+    "title": "蕉",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-392-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-392",
+    "title": "蕉",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-392-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-393",
+    "title": "弯",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-393-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-393",
+    "title": "弯",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-393-phrase.mp3",
+    "duration": 1.968,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-394",
+    "title": "莲",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-394-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-394",
+    "title": "莲",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-394-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-395",
+    "title": "蓬",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-395-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-395",
+    "title": "蓬",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-395-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-396",
+    "title": "睁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-396-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-396",
+    "title": "睁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-396-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-397",
+    "title": "眼",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-397-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-397",
+    "title": "眼",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-397-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-398",
+    "title": "石",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-398-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-398",
+    "title": "石",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-398-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-399",
+    "title": "榴",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-399-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-399",
+    "title": "榴",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-399-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-400",
+    "title": "咧",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-400-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-400",
+    "title": "咧",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-400-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-401",
+    "title": "嘴",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-401-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-401",
+    "title": "嘴",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-401-phrase.mp3",
+    "duration": 1.68,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-402",
+    "title": "玉",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-402-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-402",
+    "title": "玉",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-402-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-403",
+    "title": "裹",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-403-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-403",
+    "title": "裹",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-403-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-404",
+    "title": "严",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-404-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-404",
+    "title": "严",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-404-phrase.mp3",
+    "duration": 1.896,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-405",
+    "title": "鸭",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-405-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-405",
+    "title": "鸭",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-405-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-406",
+    "title": "模",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-406-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-406",
+    "title": "模",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-406-phrase.mp3",
+    "duration": 1.944,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-407",
+    "title": "样",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-407-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-407",
+    "title": "样",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-407-phrase.mp3",
+    "duration": 1.944,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-408",
+    "title": "怪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-408-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-408",
+    "title": "怪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-408-phrase.mp3",
+    "duration": 2.232,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-409",
+    "title": "屁",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-409-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-409",
+    "title": "屁",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-409-phrase.mp3",
+    "duration": 2.016,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-410",
+    "title": "股",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-410-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-410",
+    "title": "股",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-410-phrase.mp3",
+    "duration": 2.016,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-411",
+    "title": "歪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-411-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-411",
+    "title": "歪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-411-phrase.mp3",
+    "duration": 2.304,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-412",
+    "title": "滑",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-412-character.mp3",
+    "duration": 1.248,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-412",
+    "title": "滑",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-412-phrase.mp3",
+    "duration": 1.944,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-413",
+    "title": "稽",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-413-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-413",
+    "title": "稽",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-413-phrase.mp3",
+    "duration": 1.944,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-414",
+    "title": "赛",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-414-character.mp3",
+    "duration": 1.32,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-414",
+    "title": "赛",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-414-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-415",
+    "title": "咪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-415-character.mp3",
+    "duration": 1.2,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-415",
+    "title": "咪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-415-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-416",
+    "title": "胡",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-416-character.mp3",
+    "duration": 1.296,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-416",
+    "title": "胡",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-416-phrase.mp3",
+    "duration": 2.04,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-417",
+    "title": "笑",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-417-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-417",
+    "title": "笑",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-417-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-418",
+    "title": "想",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-418-character.mp3",
+    "duration": 1.296,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-418",
+    "title": "想",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-418-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-419",
+    "title": "爸",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-419-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-419",
+    "title": "爸",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-419-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-420",
+    "title": "卧",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-420-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-420",
+    "title": "卧",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-420-phrase.mp3",
+    "duration": 1.824,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-421",
+    "title": "句",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-421-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-421",
+    "title": "句",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-421-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-422",
+    "title": "悄",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-422-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-422",
+    "title": "悄",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-422-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-423",
+    "title": "害",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-423-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-423",
+    "title": "害",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-423-phrase.mp3",
+    "duration": 2.088,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-424",
+    "title": "怕",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-424-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-424",
+    "title": "怕",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-424-phrase.mp3",
+    "duration": 2.088,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-425",
+    "title": "街",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-425-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-425",
+    "title": "街",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-425-phrase.mp3",
+    "duration": 2.16,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-426",
+    "title": "北",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-426-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-426",
+    "title": "北",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-426-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-427",
+    "title": "打",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-427-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-427",
+    "title": "打",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-427-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-428",
+    "title": "砖",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-428-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-428",
+    "title": "砖",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-428-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-429",
+    "title": "盆",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-429-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-429",
+    "title": "盆",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-429-phrase.mp3",
+    "duration": 2.04,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-430",
+    "title": "和",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-430-character.mp3",
+    "duration": 1.272,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-430",
+    "title": "和",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-430-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-431",
+    "title": "瓶",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-431-character.mp3",
+    "duration": 1.272,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-431",
+    "title": "瓶",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-431-phrase.mp3",
+    "duration": 2.04,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-432",
+    "title": "桌",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-432-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-432",
+    "title": "桌",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-432-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-433",
+    "title": "放",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-433-character.mp3",
+    "duration": 1.248,
+    "onset": 0.24
+  },
+  {
+    "id": "hanzi-433",
+    "title": "放",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-433-phrase.mp3",
+    "duration": 2.28,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-434",
+    "title": "砰",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-434-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-434",
+    "title": "砰",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-434-phrase.mp3",
+    "duration": 1.704,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-435",
+    "title": "啪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-435-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-435",
+    "title": "啪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-435-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-436",
+    "title": "知",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-436-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-436",
+    "title": "知",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-436-phrase.mp3",
+    "duration": 2.064,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-437",
+    "title": "碰",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-437-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-437",
+    "title": "碰",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-437-phrase.mp3",
+    "duration": 2.112,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-438",
+    "title": "还",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-438-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-438",
+    "title": "还",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-438-phrase.mp3",
+    "duration": 2.088,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-439",
+    "title": "唱",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-439-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-439",
+    "title": "唱",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-439-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-440",
+    "title": "河",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-440-character.mp3",
+    "duration": 1.272,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-440",
+    "title": "河",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-6/audio/hanzi-440-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-441",
+    "title": "什",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-441-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-441",
+    "title": "什",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-441-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-442",
+    "title": "么",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-442-character.mp3",
+    "duration": 1.152,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-442",
+    "title": "么",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-442-phrase.mp3",
+    "duration": 1.776,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-443",
+    "title": "从",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-443-character.mp3",
+    "duration": 1.248,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-443",
+    "title": "从",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-443-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-444",
+    "title": "支",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-444-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-444",
+    "title": "支",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-444-phrase.mp3",
+    "duration": 1.752,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-445",
+    "title": "年",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-445-character.mp3",
+    "duration": 1.2,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-445",
+    "title": "年",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-445-phrase.mp3",
+    "duration": 2.52,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-446",
+    "title": "纪",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-446-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-446",
+    "title": "纪",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-446-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-447",
+    "title": "鹿",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-447-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-447",
+    "title": "鹿",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-447-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-448",
+    "title": "梅",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-448-character.mp3",
+    "duration": 1.176,
+    "onset": 0.17
+  },
+  {
+    "id": "hanzi-448",
+    "title": "梅",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-448-phrase.mp3",
+    "duration": 1.608,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-449",
+    "title": "棵",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-449-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-449",
+    "title": "棵",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-449-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-450",
+    "title": "象",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-450-character.mp3",
+    "duration": 1.32,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-450",
+    "title": "象",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-450-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-451",
+    "title": "鼻",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-451-character.mp3",
+    "duration": 1.2,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-451",
+    "title": "鼻",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-451-phrase.mp3",
+    "duration": 1.992,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-452",
+    "title": "擀",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-452-character.mp3",
+    "duration": 1.2,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-452",
+    "title": "擀",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-452-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-453",
+    "title": "杖",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-453-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-453",
+    "title": "杖",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-453-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-454",
+    "title": "驼",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-454-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-454",
+    "title": "驼",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-454-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-455",
+    "title": "骆",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-455-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-455",
+    "title": "骆",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-455-phrase.mp3",
+    "duration": 1.632,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-456",
+    "title": "脊",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-456-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-456",
+    "title": "脊",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-456-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-457",
+    "title": "背",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-457-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-457",
+    "title": "背",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-457-phrase.mp3",
+    "duration": 1.92,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-458",
+    "title": "座",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-458-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-458",
+    "title": "座",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-458-phrase.mp3",
+    "duration": 1.848,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-459",
+    "title": "分",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-459-character.mp3",
+    "duration": 1.248,
+    "onset": 0.27
+  },
+  {
+    "id": "hanzi-459",
+    "title": "分",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-459-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.24
+  },
+  {
+    "id": "hanzi-460",
+    "title": "气",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-460-character.mp3",
+    "duration": 1.296,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-460",
+    "title": "气",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-460-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-461",
+    "title": "勺",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-461-character.mp3",
+    "duration": 1.296,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-461",
+    "title": "勺",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-461-phrase.mp3",
+    "duration": 1.56,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-462",
+    "title": "方",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-462-character.mp3",
+    "duration": 1.248,
+    "onset": 0.26
+  },
+  {
+    "id": "hanzi-462",
+    "title": "方",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-462-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.23
+  },
+  {
+    "id": "hanzi-463",
+    "title": "亭",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-463-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-463",
+    "title": "亭",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-463-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-464",
+    "title": "林",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-464-character.mp3",
+    "duration": 1.224,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-464",
+    "title": "林",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-464-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-465",
+    "title": "森",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-465-character.mp3",
+    "duration": 1.296,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-465",
+    "title": "森",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-465-phrase.mp3",
+    "duration": 1.536,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-466",
+    "title": "外",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-466-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-466",
+    "title": "外",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-466-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-467",
+    "title": "立",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-467-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-467",
+    "title": "立",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-467-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-468",
+    "title": "吐",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-468-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-468",
+    "title": "吐",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-468-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-469",
+    "title": "喝",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-469-character.mp3",
+    "duration": 1.224,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-469",
+    "title": "喝",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-469-phrase.mp3",
+    "duration": 1.512,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-470",
+    "title": "哭",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-470-character.mp3",
+    "duration": 1.248,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-470",
+    "title": "哭",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-470-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-471",
+    "title": "直",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-471-character.mp3",
+    "duration": 1.224,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-471",
+    "title": "直",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-471-phrase.mp3",
+    "duration": 1.464,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-472",
+    "title": "财",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-472-character.mp3",
+    "duration": 1.248,
+    "onset": 0.2
+  },
+  {
+    "id": "hanzi-472",
+    "title": "财",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-472-phrase.mp3",
+    "duration": 1.488,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-473",
+    "title": "欠",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-473-character.mp3",
+    "duration": 1.272,
+    "onset": 0.21
+  },
+  {
+    "id": "hanzi-473",
+    "title": "欠",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-473-phrase.mp3",
+    "duration": 1.656,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-474",
+    "title": "男",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-474-character.mp3",
+    "duration": 1.2,
+    "onset": 0.18
+  },
+  {
+    "id": "hanzi-474",
+    "title": "男",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-474-phrase.mp3",
+    "duration": 1.416,
+    "onset": 0.19
+  },
+  {
+    "id": "hanzi-475",
+    "title": "欢",
+    "field": "characterAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-475-character.mp3",
+    "duration": 1.248,
+    "onset": 0.22
+  },
+  {
+    "id": "hanzi-475",
+    "title": "欢",
+    "field": "phraseAudioFile",
+    "path": "packages/hanzi-reading-7/audio/hanzi-475-phrase.mp3",
+    "duration": 1.44,
+    "onset": 0.21
+  }
+]

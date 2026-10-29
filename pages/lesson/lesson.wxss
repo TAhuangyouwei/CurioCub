@@ -34,7 +34,7 @@
 .scene-image { padding: calc(4 * var(--ui-unit)); }
 .hint-button { top: calc(40 * var(--ui-unit)); right: calc(40 * var(--ui-unit)); width: calc(92 * var(--ui-unit)); height: calc(92 * var(--ui-unit)); margin: 0; padding: 0; border: calc(2 * var(--ui-unit)) solid #e1d9f6; border-radius: calc(20 * var(--ui-unit)); color: #766399; background: #f5f0ff; font-size: calc(21 * var(--ui-unit)); font-weight: 700; line-height: 1.2; }
 .big-symbol { color: #304c62; font-size: calc(180 * var(--ui-unit)); line-height: 1.1; font-weight: 800; }
-.hanzi-symbol { font-family: "CurioCubKai"; font-weight: 400; }
+.hanzi-symbol { font-family: "CurioCubKai", "CurioCubKaiBase"; font-weight: 400; }
 .scene-phrase { margin-top: calc(18 * var(--ui-unit)); color: #557087; font-size: calc(35 * var(--ui-unit)); font-weight: 700; }
 .swipe-hint { display: block; margin: calc(-3 * var(--ui-unit)) 0 calc(22 * var(--ui-unit)); color: #8191a1; text-align: center; font-size: calc(21 * var(--ui-unit)); }
 .trace-button { margin: 0 0 calc(22 * var(--ui-unit)); border-radius: calc(28 * var(--ui-unit)); color: #99613c; background: #fff0d9; font-size: calc(29 * var(--ui-unit)); font-weight: 800; }

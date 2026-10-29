@@ -9,14 +9,14 @@ import edge_tts
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets" / "audio"
 ZH_VOICE = "zh-CN-XiaoxiaoNeural"
-EN_VOICE = "en-US-JennyNeural"
+EN_VOICE = ZH_VOICE
 
 HANZI = [
     ("土", "泥土"), ("五", "五颗星"), ("中", "中间"), ("上", "树上"), ("天", "蓝天"),
     ("禾", "禾苗"), ("人", "一个人"), ("尺", "尺子"), ("头", "头顶"), ("下", "树下"),
     ("虫", "小虫"), ("把", "一把伞"), ("口", "张开口"), ("子", "孩子"), ("水", "水滴"),
-    ("你", "你好"), ("山", "大山"), ("牙", "牙齿"), ("长，长短的长", "长长的"), ("比", "比一比"),
-    ("四", "四朵花"), ("西", "西边"), ("小", "小小的"), ("了，天黑了的了", "天黑了"), ("手", "小手"),
+    ("你", "你好"), ("山", "大山"), ("牙", "牙齿"), ("长", "长长的"), ("比", "比一比"),
+    ("四", "四朵花"), ("西", "西边"), ("小", "小小的"), ("了", "天黑了"), ("手", "小手"),
     ("我", "我自己"), ("去", "去公园"), ("东", "东边"), ("心", "爱心"), ("必", "必须洗手"),
     ("女", "女孩"), ("力", "力气"), ("月", "月亮"), ("儿", "花儿"), ("巴", "尾巴"),
     ("几", "几块饼干"), ("九", "九颗糖果"), ("与", "你与我"), ("马", "小马"), ("鸟", "小鸟"),
@@ -46,7 +46,7 @@ async def main() -> None:
     for index, (character, phrase) in enumerate(HANZI, start=1):
         number = f"{index:02d}"
         clips.extend([
-            (f"hanzi-{number}-character.mp3", character, ZH_VOICE),
+            (f"hanzi-{number}-character.mp3", {"长": "常", "了": "lē"}.get(character, character), ZH_VOICE),
             (f"hanzi-{number}-phrase.mp3", phrase, ZH_VOICE),
         ])
     clips.extend((f"pinyin-{index:02d}.mp3", text, ZH_VOICE) for index, text in enumerate(PINYIN, start=1))

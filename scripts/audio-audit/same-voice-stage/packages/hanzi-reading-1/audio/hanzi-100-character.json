@@ -1,0 +1,10 @@
+{
+  "id": "hanzi-100",
+  "title": "驾",
+  "pinyin": "jià",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "驾",
+  "singleCharacter": true,
+  "contextExtracted": false
+}

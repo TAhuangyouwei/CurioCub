@@ -1,0 +1,11 @@
+{
+  "key": "lv4",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "text": "lǜ",
+  "listeningReview": "approved",
+  "reviewBasis": "用户在拼音试听中指出仅a一声和a三声有问题，其他试听音基本可用；当前仅采用该组已试听音",
+  "contextExtracted": false,
+  "postProcessing": false,
+  "sha256": "f33b2275fe60f0ab4bb6ef44f08fc7141fa8b4e96cd261fd35e7da9934ea4ec7"
+}

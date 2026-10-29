@@ -1,0 +1,11 @@
+{
+  "text": "我们一起走。",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1026250,
+      "duration": 10921250,
+      "text": "我们一起走"
+    }
+  ]
+}

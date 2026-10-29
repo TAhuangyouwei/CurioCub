@@ -1,0 +1,14 @@
+{
+  "id": "hanzi-347",
+  "title": "们",
+  "pinyin": "men",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "朋友们，你好。",
+  "singleCharacter": true,
+  "contextExtracted": true,
+  "start": 0.62,
+  "duration": 0.32499999999999996,
+  "boundaryText": "们",
+  "alignmentMethod": "acoustic-v1"
+}

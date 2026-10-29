@@ -1,0 +1,14 @@
+{
+  "id": "hanzi-387",
+  "title": "吧",
+  "pinyin": "ba",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "回家吧。",
+  "singleCharacter": true,
+  "contextExtracted": true,
+  "start": 0.68,
+  "duration": 0.309875,
+  "boundaryText": "吧",
+  "alignmentMethod": "acoustic-v1"
+}

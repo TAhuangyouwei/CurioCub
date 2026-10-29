@@ -1,7 +1,8 @@
 const { orderedHanzi, saveOrder } = require('../../utils/hanzi-settings')
 
 Page({
-  data: { units: [], selected: [], query: '', destinations: [], destinationIndex: 0 },
+  data: { units: [], selected: [], query: '', destinationId: '', destinationLabel: '',
+    destinationVisible: false, destinationQuery: '', destinationResults: [] },
   onLoad() {
     this.units = orderedHanzi()
     this.selectedIds = []
@@ -9,14 +10,19 @@ Page({
   },
   refresh() {
     const selected = new Set(this.selectedIds)
-    const destinationId = this.data.destinations[this.data.destinationIndex] && this.data.destinations[this.data.destinationIndex].id
-    const destinations = this.units.map((unit, index) => ({ id: unit.id, label: `${index + 1} · ${unit.title} 前面` })).filter(unit => !selected.has(unit.id))
-    destinations.push({ id: '', label: '全部汉字最后面' })
+    let destinationId = this.data.destinationId
+    if (!selected.size || selected.has(destinationId)) destinationId = ''
+    const targetIndex = this.units.findIndex(unit => unit.id === destinationId)
+    const destinationLabel = destinationId === 'first' ? '最前面' : destinationId === 'last' ? '最后面'
+      : targetIndex >= 0 ? `第 ${targetIndex + 1} 字「${this.units[targetIndex].title}」前面` : ''
+    const query = this.data.destinationQuery
     this.setData({
       units: this.units.map((unit, index) => ({ id: unit.id, title: unit.title, number: index + 1,
         selected: selected.has(unit.id), hidden: Boolean(this.data.query && !this.data.query.includes(unit.title)) })),
       selected: this.selectedIds.map(id => this.units.find(unit => unit.id === id)),
-      destinations, destinationIndex: Math.max(0, destinations.findIndex(unit => unit.id === destinationId))
+      destinationId, destinationLabel,
+      destinationResults: this.units.map((unit, index) => ({ id: unit.id, title: unit.title, number: index + 1 }))
+        .filter(unit => !selected.has(unit.id) && (!query || query === String(unit.number) || query.includes(unit.title)))
     })
   },
   search(event) { this.setData({ query: event.detail.value.trim() }); this.refresh() },
@@ -27,13 +33,28 @@ Page({
     else this.selectedIds.push(id)
     this.refresh()
   },
-  changeDestination(event) { this.setData({ destinationIndex: Number(event.detail.value) }) },
+  openDestination() {
+    if (!this.selectedIds.length) return
+    this.setData({ destinationVisible: true, destinationQuery: '' })
+    this.refresh()
+  },
+  closeDestination() { this.setData({ destinationVisible: false }) },
+  ignoreTap() {},
+  searchDestination(event) { this.setData({ destinationQuery: event.detail.value.trim() }); this.refresh() },
+  chooseDestination(event) {
+    const id = event.currentTarget.dataset.id
+    if (!this.selectedIds.length || this.selectedIds.includes(id)) return
+    if (id !== 'first' && id !== 'last' && !this.units.some(unit => unit.id === id)) return
+    this.setData({ destinationId: id, destinationVisible: false })
+    this.refresh()
+  },
   clearSelection() { this.selectedIds = []; this.refresh() },
   save() {
-    if (!this.selectedIds.length) return
-    const destination = this.data.destinations[this.data.destinationIndex]
+    const destinationId = this.data.destinationId
+    if (!this.selectedIds.length || !destinationId) return
     const remaining = this.units.filter(unit => !this.selectedIds.includes(unit.id)).map(unit => unit.id)
-    const index = destination.id ? remaining.indexOf(destination.id) : remaining.length
+    const index = destinationId === 'first' ? 0 : destinationId === 'last' ? remaining.length : remaining.indexOf(destinationId)
+    if (index < 0) return
     remaining.splice(index, 0, ...this.selectedIds)
     if (saveOrder(remaining)) {
       wx.showToast({ title: '顺序已保存', icon: 'success' })

@@ -1,47 +1,33 @@
-"""Generate short, single-reading button sounds for the pinyin learning machine."""
+"""Stage short pinyin button sounds for review without changing product audio."""
 
 import asyncio
+import shutil
 from pathlib import Path
 
 import edge_tts
+from xiaoxiao_pinyin import VOICE, RATE, PITCH, APPROVED_SOURCES, FINAL_SYLLABLES, basic_key, spoken_pinyin
+from import_public_pinyin_audio import INITIAL_SOURCES
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / 'assets' / 'audio' / 'pinyin-basic'
-VOICE = 'zh-CN-YunxiaNeural'
-RATE = '-10%'
-PITCH = '+2Hz'
-
-INITIAL_READINGS = {
-    'b': '播', 'p': '坡', 'm': '摸', 'f': '佛',
-    'd': '得', 't': '特', 'n': '呢', 'l': '勒',
-    'g': '哥', 'k': '科', 'h': '喝',
-    'j': '鸡', 'q': '七', 'x': '西',
-    'zh': '知', 'ch': '吃', 'sh': '师', 'r': '日',
-    'z': '资', 'c': '雌', 's': '思', 'y': '衣', 'w': '乌'
-}
-
-FINAL_READINGS = {
-    'a': '啊', 'o': '喔', 'e': '鹅', 'i': '衣', 'u': '乌', 'ü': '迂',
-    'ai': '哀', 'ei': '诶', 'ui': '威', 'ao': '凹', 'ou': '欧',
-    'iu': '优', 'ie': '椰', 'üe': '约', 'er': '儿',
-    'an': '安', 'en': '恩', 'in': '因', 'un': '温', 'ün': '晕',
-    'ang': '肮', 'eng': '鞥', 'ing': '英', 'ong': '嗡'
-}
-
+OUTPUT = ROOT / 'scripts/audio-audit/pinyin-generation-stage/assets/audio/pinyin-basic'
 
 def filename(kind, value):
     return f'{kind}-{value.replace("ü", "v")}.mp3'
 
 
-async def create_clip(kind, value, reading, semaphore):
+async def create_clip(kind, value, semaphore):
     target = OUTPUT / filename(kind, value)
     async with semaphore:
         for attempt in range(3):
             try:
-                text = f'{reading}。'
-                communicate = edge_tts.Communicate(text, voice=VOICE, rate=RATE, pitch=PITCH)
-                await communicate.save(str(target))
+                key = basic_key(kind, value)
+                source = APPROVED_SOURCES.get(key)
+                if source:
+                    shutil.copyfile(source, target)
+                else:
+                    communicate = edge_tts.Communicate(spoken_pinyin(key), voice=VOICE, rate=RATE, pitch=PITCH)
+                    await communicate.save(str(target))
                 if target.stat().st_size <= 1000:
                     raise RuntimeError('generated file is unexpectedly small')
                 return
@@ -57,8 +43,8 @@ async def main():
     OUTPUT.mkdir(parents=True, exist_ok=True)
     semaphore = asyncio.Semaphore(4)
     clips = [
-        *(create_clip('initial', value, reading, semaphore) for value, reading in INITIAL_READINGS.items()),
-        *(create_clip('final', value, reading, semaphore) for value, reading in FINAL_READINGS.items())
+        *(create_clip('initial', value, semaphore) for value in INITIAL_SOURCES),
+        *(create_clip('final', value, semaphore) for value in FINAL_SYLLABLES)
     ]
     await asyncio.gather(*clips)
     print(f'Created {len(clips)} short pinyin button sounds with {VOICE}.')

@@ -1,0 +1,11 @@
+{
+  "key": "bo1",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "text": "bō",
+  "listeningReview": "approved",
+  "reviewBasis": "用户在拼音试听中指出仅a一声和a三声有问题，其他试听音基本可用；当前仅采用该组已试听音",
+  "contextExtracted": false,
+  "postProcessing": false,
+  "sha256": "a660a313f1a2c9ee5521474eb5704414abfb22aaba5f6bf36deafa68b1efe18a"
+}

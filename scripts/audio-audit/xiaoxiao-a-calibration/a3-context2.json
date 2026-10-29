@@ -1,0 +1,31 @@
+{
+  "text": "啊？你说什么？",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1000000,
+      "duration": 4000000,
+      "text": "啊"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10625000,
+      "duration": 1750000,
+      "text": "你"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12375000,
+      "duration": 2125000,
+      "text": "说"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14500000,
+      "duration": 4500000,
+      "text": "什么"
+    }
+  ],
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%"
+}

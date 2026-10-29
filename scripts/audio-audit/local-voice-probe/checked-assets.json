@@ -1,0 +1,178 @@
+[
+  {
+    "voice": "zf_001",
+    "title": "了",
+    "pinyin": "le",
+    "duration": 0.825,
+    "audible": 0.286,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "啦",
+    "pinyin": "la",
+    "duration": 0.825,
+    "audible": 0.282,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "长",
+    "pinyin": "cháng",
+    "duration": 0.85,
+    "audible": 0.263,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "掌",
+    "pinyin": "zhǎng",
+    "duration": 0.925,
+    "audible": 0.317,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "得",
+    "pinyin": "děi",
+    "duration": 0.85,
+    "audible": 0.271,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "着",
+    "pinyin": "zhe",
+    "duration": 0.85,
+    "audible": 0.287,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "的",
+    "pinyin": "de",
+    "duration": 0.825,
+    "audible": 0.274,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "几",
+    "pinyin": "jǐ",
+    "duration": 0.85,
+    "audible": 0.292,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "谁",
+    "pinyin": "shéi",
+    "duration": 0.85,
+    "audible": 0.272,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "竹",
+    "pinyin": "zhú",
+    "duration": 0.875,
+    "audible": 0.309,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_001",
+    "title": "土",
+    "pinyin": "tǔ",
+    "duration": 0.9,
+    "audible": 0.275,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "了",
+    "pinyin": "le",
+    "duration": 0.875,
+    "audible": 0.299,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "啦",
+    "pinyin": "la",
+    "duration": 0.9,
+    "audible": 0.325,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "长",
+    "pinyin": "cháng",
+    "duration": 0.95,
+    "audible": 0.355,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "掌",
+    "pinyin": "zhǎng",
+    "duration": 1.1,
+    "audible": 0.404,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "得",
+    "pinyin": "děi",
+    "duration": 1.0,
+    "audible": 0.337,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "着",
+    "pinyin": "zhe",
+    "duration": 0.95,
+    "audible": 0.335,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "的",
+    "pinyin": "de",
+    "duration": 0.975,
+    "audible": 0.328,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "几",
+    "pinyin": "jǐ",
+    "duration": 0.95,
+    "audible": 0.354,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "谁",
+    "pinyin": "shéi",
+    "duration": 0.975,
+    "audible": 0.376,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "竹",
+    "pinyin": "zhú",
+    "duration": 0.95,
+    "audible": 0.343,
+    "listeningReview": "rejected"
+  },
+  {
+    "voice": "zf_003",
+    "title": "土",
+    "pinyin": "tǔ",
+    "duration": 1.025,
+    "audible": 0.336,
+    "listeningReview": "rejected"
+  }
+]

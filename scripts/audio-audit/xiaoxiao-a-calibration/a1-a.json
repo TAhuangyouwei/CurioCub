@@ -1,0 +1,13 @@
+{
+  "text": "阿",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1000000,
+      "duration": 4125000,
+      "text": "阿"
+    }
+  ],
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%"
+}

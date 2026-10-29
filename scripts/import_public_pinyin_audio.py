@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import argparse
 import subprocess
 from pathlib import Path
 
@@ -93,17 +92,7 @@ def import_basics(source_dir: Path, ffmpeg: Path) -> tuple[int, int]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("source", type=Path, help="Path to the repository's mp3 folder")
-    parser.add_argument("ffmpeg", type=Path, help="Path to ffmpeg.exe")
-    args = parser.parse_args()
-
-    imported, retained = import_syllables(args.source, args.ffmpeg)
-    basics, toned_finals = import_basics(args.source, args.ffmpeg)
-    print(
-        f"Imported {imported} syllables; retained {retained} fallbacks; "
-        f"imported {basics} basics and {toned_finals} toned finals."
-    )
+    raise SystemExit('应用音频现统一使用晓晓；请用 scripts/unify_xiaoxiao_audio.py，避免重新导入其他音色。')
 
 
 if __name__ == "__main__":

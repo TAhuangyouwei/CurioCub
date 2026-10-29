@@ -1,0 +1,254 @@
+[
+  {
+    "id": "hanzi-19",
+    "title": "长",
+    "pinyin": "cháng",
+    "phrase": "长长的",
+    "syllable": "chang2",
+    "source": "scripts/audio-sources/chang-xiaoxiao-direct.mp3",
+    "origin": "Microsoft Edge TTS / Xiaoxiao direct homophone",
+    "sourceSha256": "aff9c530a1a1709fee54c96a4136d93697a3ce5b8f86aba22a010f38e02ae433",
+    "files": [
+      {
+        "path": "assets/audio/hanzi-19-character.mp3",
+        "sha256": "3d6dec5a699ce1512a99acc1c1ae88137344fecc880ed7ac7f292ffe24a50552"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-19.mp3",
+        "sha256": "0afc65ae5932af237dfbf91b27f48fb3945ae060acf8822fa3086e17f7899e72"
+      }
+    ],
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "text": "常",
+    "contextExtracted": false,
+    "postProcessing": false
+  },
+  {
+    "id": "hanzi-24",
+    "title": "了",
+    "pinyin": "le",
+    "phrase": "天黑了",
+    "syllable": "le1",
+    "source": "scripts/audio-sources/le1-xiaoxiao-direct.mp3",
+    "origin": "Microsoft Edge TTS / Xiaoxiao direct pinyin",
+    "sourceSha256": "9159af94c3b3c155828e744b07a760f1aafd973a29338934e2fb1f267b30ea5c",
+    "files": [
+      {
+        "path": "assets/audio/hanzi-24-character.mp3",
+        "sha256": "9020a50684c816af05adccd070ab5acbcbb8a61a5d2ea14ed14e7d91528b62c8"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-24.mp3",
+        "sha256": "908110f56882ced957dbb38978ea538af57ad3b579725b6a243d69b0a0561850"
+      }
+    ],
+    "spokenPinyin": "lē",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "text": "lē",
+    "contextExtracted": false,
+    "postProcessing": false,
+    "requestedPronunciation": "用户明确指定单字示范发 le 一声"
+  },
+  {
+    "id": "hanzi-36",
+    "title": "几",
+    "pinyin": "jǐ",
+    "phrase": "几块饼干",
+    "syllable": "ji3",
+    "source": "scripts/audio-sources/ji3.mp3",
+    "origin": "public-domain pinyin recording",
+    "sourceSha256": "d593d4cc61db078e89b171a0dfbfcae03d1d615b735d634e9b4b9045329cefe6",
+    "files": [
+      {
+        "path": "assets/audio/hanzi-36-character.mp3",
+        "sha256": "c9d021829f261c0327df5ff3519c018745f87a0bf00e92a956505f2d0ca47d65"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-36.mp3",
+        "sha256": "c9d021829f261c0327df5ff3519c018745f87a0bf00e92a956505f2d0ca47d65"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-126",
+    "title": "谁",
+    "pinyin": "shéi",
+    "phrase": "谁在拉车",
+    "syllable": "shei2",
+    "source": "scripts/audio-sources/shei2.mp3",
+    "origin": "public-domain pinyin recording",
+    "sourceSha256": "8a8acd4533c92d9206dbac862ca130400a68fc195610561ca188e40b42a1d1f9",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-1/audio/hanzi-126-character.mp3",
+        "sha256": "de40d7741edf0913f971564ae2c5fb18f6fcc83f9bd85b07060c480ea9e16060"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-126.mp3",
+        "sha256": "de40d7741edf0913f971564ae2c5fb18f6fcc83f9bd85b07060c480ea9e16060"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-169",
+    "title": "得",
+    "pinyin": "děi",
+    "phrase": "得先敲门",
+    "syllable": "dei3",
+    "source": "scripts/audio-sources/dei3.mp3",
+    "origin": "public-domain pinyin recording",
+    "sourceSha256": "bc8a498b5d6f6969ad1f039c55c51cad3ba07ec20db302c7303a92c7ce6f374b",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-2/audio/hanzi-169-character.mp3",
+        "sha256": "8d43e8630ef3b5ef2bab017f4db28b40243a4bd2b2723d5b6401df2bad33a461"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-169.mp3",
+        "sha256": "8d43e8630ef3b5ef2bab017f4db28b40243a4bd2b2723d5b6401df2bad33a461"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-230",
+    "title": "着",
+    "pinyin": "zhe",
+    "phrase": "排着队",
+    "syllable": "zhe5",
+    "source": "scripts/audio-sources/zhe5.mp3",
+    "origin": "single-character synthesis",
+    "sourceSha256": "d6c1eaca7309ae079ca2b86a4ef1b784266977093868185e52cdf6dfac5f7bee",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-3/audio/hanzi-230-character.mp3",
+        "sha256": "9cc661fb4fd446f929c1b7a96f50748d34f91d6960b0cef7cd5c2988afcea4e6"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-230.mp3",
+        "sha256": "9cc661fb4fd446f929c1b7a96f50748d34f91d6960b0cef7cd5c2988afcea4e6"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-315",
+    "title": "的",
+    "pinyin": "de",
+    "phrase": "我的小手",
+    "syllable": "de5",
+    "source": "scripts/audio-sources/de5.mp3",
+    "origin": "public-domain pinyin recording",
+    "sourceSha256": "abae2f5208b6a53e0ae56dd2ea09dbb08042a3950643c5c196c4afa6e973a9da",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-4/audio/hanzi-315-character.mp3",
+        "sha256": "774fdeecb7ac2960ecd24663ff4903d39048351c5fad6065fab9a1bf2c5210f3"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-315.mp3",
+        "sha256": "774fdeecb7ac2960ecd24663ff4903d39048351c5fad6065fab9a1bf2c5210f3"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-322",
+    "title": "啊",
+    "pinyin": "a",
+    "phrase": "你好啊",
+    "syllable": "a5",
+    "source": "scripts/audio-sources/a5.mp3",
+    "origin": "single-character synthesis",
+    "sourceSha256": "220dd39becf2bdb6cab9dea216265b8ff86410fbfc1d4dca0d8c066505d945cc",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-5/audio/hanzi-322-character.mp3",
+        "sha256": "c75ea817d9199c03758edeac352889a5751226ed06d86ef48017b18fe0fbc125"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-322.mp3",
+        "sha256": "c75ea817d9199c03758edeac352889a5751226ed06d86ef48017b18fe0fbc125"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-325",
+    "title": "啦",
+    "pinyin": "la",
+    "phrase": "再见啦",
+    "syllable": "la5",
+    "source": "scripts/audio-sources/la5.mp3",
+    "origin": "single-character synthesis",
+    "sourceSha256": "18c028a2a0c0fa3eab39a0b9e5258a3e09afff9c6e3263f029c1fa3d1c000092",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-5/audio/hanzi-325-character.mp3",
+        "sha256": "9b59e32ddfd31362f7bc16c3a957327c293707b84f7c02a9feb6cfd2ff636329"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-325.mp3",
+        "sha256": "9b59e32ddfd31362f7bc16c3a957327c293707b84f7c02a9feb6cfd2ff636329"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-347",
+    "title": "们",
+    "pinyin": "men",
+    "phrase": "我们一起走",
+    "syllable": "men5",
+    "source": "scripts/audio-sources/men5.mp3",
+    "origin": "single-character synthesis",
+    "sourceSha256": "8d0a31d7e6faead1b5f795b726e43511c56847502a86ecfa87354fd1b703ab2a",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-5/audio/hanzi-347-character.mp3",
+        "sha256": "375d0a0c5c8b2d2a26b91287674aacdbab7b6a67523e4d6e8e28fae86ca2405e"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-347.mp3",
+        "sha256": "375d0a0c5c8b2d2a26b91287674aacdbab7b6a67523e4d6e8e28fae86ca2405e"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-387",
+    "title": "吧",
+    "pinyin": "ba",
+    "phrase": "回家吧",
+    "syllable": "ba5",
+    "source": "scripts/audio-sources/ba5.mp3",
+    "origin": "single-character synthesis",
+    "sourceSha256": "2110e6b7d069760fd2fcc82a822dda93dbaa7e11c1e7b307d0046dac39bffdf3",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-6/audio/hanzi-387-character.mp3",
+        "sha256": "8fadc99a82f3ef5d3e59626c05de342aacffcdd459f1860df22d518f68dc9102"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-387.mp3",
+        "sha256": "8fadc99a82f3ef5d3e59626c05de342aacffcdd459f1860df22d518f68dc9102"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-442",
+    "title": "么",
+    "pinyin": "me",
+    "phrase": "什么东西",
+    "syllable": "me5",
+    "source": "scripts/audio-sources/me5.mp3",
+    "origin": "single-character synthesis",
+    "sourceSha256": "59f96bc00123b1fa404ccbcf9dcdd69d4e7959a50b6e5182385700a5061fd8a6",
+    "files": [
+      {
+        "path": "packages/hanzi-reading-7/audio/hanzi-442-character.mp3",
+        "sha256": "e50597a4547aa99b744d7f4c9d3a4d74c241a51f9df17dfb1ad7ca83cfc10f8c"
+      },
+      {
+        "path": "packages/hanzi-practice/audio/hanzi-442.mp3",
+        "sha256": "e50597a4547aa99b744d7f4c9d3a4d74c241a51f9df17dfb1ad7ca83cfc10f8c"
+      }
+    ]
+  }
+]

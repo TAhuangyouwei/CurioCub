@@ -3,19 +3,28 @@ const fs = require('fs')
 const path = require('path')
 
 const root = path.resolve(__dirname, '..')
+const stageIndex = process.argv.indexOf('--audio-stage')
+const audioStage = stageIndex >= 0 ? path.resolve(process.argv[stageIndex + 1]) : ''
 const packages = require('../app.json').subpackages
 const ignored = require('../project.config.json').packOptions.ignore
 const sizes = { main: 0 }
+function isIgnored(name) {
+  return ignored.some(item => item.type === 'suffix'
+    ? name.toLowerCase().endsWith(item.value.toLowerCase()) : name === item.value)
+}
+assert(isIgnored('packages/hanzi-reading-7/audio/hanzi-469-phrase.compact.mp3'), '临时压缩音频必须排除，避免预览读取已移除的中间文件')
+assert(!isIgnored('packages/hanzi-reading-7/audio/hanzi-469-phrase.mp3'), '正式录音必须保留在上传包中')
 function count(directory, relative = '') {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     const name = relative ? `${relative}/${entry.name}` : entry.name
-    if (entry.name.startsWith('.') || ignored.some((item) => name === item.value)) continue
+    if (entry.name.startsWith('.') || isIgnored(name)) continue
     const file = path.join(directory, entry.name)
     if (entry.isDirectory()) count(file, name)
     else {
       const owner = packages.find((item) => name.startsWith(`${item.root}/`))
       const key = owner ? owner.name : 'main'
-      sizes[key] = (sizes[key] || 0) + fs.statSync(file).size
+      const staged = audioStage && name.endsWith('.mp3') ? path.join(audioStage, name) : ''
+      sizes[key] = (sizes[key] || 0) + fs.statSync(staged && fs.existsSync(staged) ? staged : file).size
     }
   }
 }

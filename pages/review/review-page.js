@@ -23,6 +23,10 @@ function createReviewPage() {
       wx.navigateBack()
       return
     }
+    if (module.id === 'hanzi' && this.route && this.route !== 'packages/hanzi-practice/pages/review/index') {
+      wx.redirectTo({ url: `/packages/hanzi-practice/pages/review/index?moduleId=hanzi&groupIndex=${groupIndex}` })
+      return
+    }
 
     const start = groupIndex * module.groupSize
     const isHanzi = module.id === 'hanzi'

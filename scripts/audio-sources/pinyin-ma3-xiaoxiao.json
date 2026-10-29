@@ -1,0 +1,11 @@
+{
+  "key": "ma3",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "text": "mǎ",
+  "listeningReview": "approved",
+  "reviewBasis": "用户在拼音试听中指出仅a一声和a三声有问题，其他试听音基本可用；当前仅采用该组已试听音",
+  "contextExtracted": false,
+  "postProcessing": false,
+  "sha256": "3707f3d117e74a22a73497c7b0e002399f8c282700d70b99bb1d5b03194b0b48"
+}

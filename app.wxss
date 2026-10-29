@@ -1,4 +1,6 @@
-@import "./assets/fonts/hanzi-kai.wxss";
+
+.font-status { color: #71849a; text-align: center; font-size: 14px; }
+.font-status button { margin: 8px auto; width: 140px; font-size: 14px; }
 
 page {
   --ui-unit: min(1rpx, 0.65px);

@@ -1,0 +1,49 @@
+{
+  "text": "啊？你说的是真的吗？",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1000000,
+      "duration": 4000000,
+      "text": "啊"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10625000,
+      "duration": 1750000,
+      "text": "你"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12375000,
+      "duration": 2000000,
+      "text": "说"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14375000,
+      "duration": 1000000,
+      "text": "的"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15375000,
+      "duration": 1375000,
+      "text": "是"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16875000,
+      "duration": 3125000,
+      "text": "真的"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20000000,
+      "duration": 2875000,
+      "text": "吗"
+    }
+  ],
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%"
+}

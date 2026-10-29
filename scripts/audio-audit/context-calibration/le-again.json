@@ -1,0 +1,29 @@
+{
+  "text": "学了一遍。",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1026250,
+      "duration": 3552500,
+      "text": "学"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4578750,
+      "duration": 1052500,
+      "text": "了"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5763330,
+      "duration": 1447080,
+      "text": "一"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7210410,
+      "duration": 3157910,
+      "text": "遍"
+    }
+  ]
+}

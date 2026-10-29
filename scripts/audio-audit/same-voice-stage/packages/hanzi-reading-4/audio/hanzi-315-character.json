@@ -1,0 +1,14 @@
+{
+  "id": "hanzi-315",
+  "title": "的",
+  "pinyin": "de",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "我的。",
+  "singleCharacter": true,
+  "contextExtracted": true,
+  "start": 0.42,
+  "duration": 0.3198750000000001,
+  "boundaryText": "的",
+  "alignmentMethod": "acoustic-v1"
+}

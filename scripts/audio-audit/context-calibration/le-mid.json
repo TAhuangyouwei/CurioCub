@@ -1,0 +1,23 @@
+{
+  "text": "说了以后。",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1026250,
+      "duration": 3157910,
+      "text": "说"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4184160,
+      "duration": 1052500,
+      "text": "了"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5368330,
+      "duration": 5263330,
+      "text": "以后"
+    }
+  ]
+}

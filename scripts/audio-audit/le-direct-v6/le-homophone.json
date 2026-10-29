@@ -1,0 +1,11 @@
+{
+  "text": "嘞",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "postProcessing": false,
+  "contextExtracted": false,
+  "listeningReview": "rejected",
+  "duration": 1.056,
+  "audible": 0.269,
+  "reviewReason": "单独嘞存在 lei 与 le 不同读法；本地音素词典为 lei5，不满足可确认的 le5，不能作为了的正式来源"
+}

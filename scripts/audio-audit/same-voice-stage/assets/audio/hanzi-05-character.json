@@ -1,0 +1,10 @@
+{
+  "id": "hanzi-05",
+  "title": "天",
+  "pinyin": "tiān",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "天",
+  "singleCharacter": true,
+  "contextExtracted": false
+}

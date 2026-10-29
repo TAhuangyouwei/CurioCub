@@ -1,3 +1,2 @@
-@import "../../fonts/hanzi-kai.wxss";
 
 @import "../../../../pages/lesson/lesson.wxss";

@@ -64,7 +64,7 @@ function matchesStroke(ink, expected) {
   const drawnLength = pathLength(actual)
   if (drawnLength < length * 0.6 || drawnLength > Math.max(length * 1.8, length + 70)) return false
   const distance = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1])
-  const tolerance = Math.max(32, Math.min(65, length * 0.16))
+  const tolerance = Math.max(45, Math.min(100, length * 0.22))
   if (distance(actual[0], expected[0]) > tolerance || distance(actual[actual.length - 1], expected[expected.length - 1]) > tolerance * 1.2) return false
   // Compare equally spaced samples in writing order, so shortcuts and reversals fail.
   const a = Array.from({ length: 33 }, (_, i) => pointAlong(actual, i / 32))

@@ -95,6 +95,18 @@
 .group-title { font-size: calc(29 * var(--ui-unit)); }
 .group-progress { margin-top: calc(4 * var(--ui-unit)); font-size: calc(21 * var(--ui-unit)); }
 .group-state { padding: calc(8 * var(--ui-unit)) calc(13 * var(--ui-unit)); border-radius: calc(17 * var(--ui-unit)); color: #4b8979; background: #e5f5ed; font-size: calc(21 * var(--ui-unit)); font-weight: 700; }
+.group-start { display: flex; align-items: center; min-height: 44px; box-sizing: border-box; }
+.collapsible-header { min-height: 44px; }
+.group-heading-actions { display: flex; align-items: center; gap: calc(14 * var(--ui-unit)); }
+.group-toggle { flex: none; color: #526f9a; font-size: 13px; }
+.group-preview { display: block; color: #557087; font-size: calc(34 * var(--ui-unit)); line-height: 1.8; letter-spacing: 1px; }
+.group-card.outside-range { background: #e3e7ed; box-shadow: none; }
+.outside-range .group-title, .outside-range .group-progress, .outside-range .group-preview { color: #929ca9; }
+.outside-range .group-state { color: #8994a2; background: #d7dde6; }
+.station-actions { display: flex; gap: 10px; margin-top: calc(22 * var(--ui-unit)); }
+.module-page .station-learn-all, .module-page .station-actions .review-button { flex: 1; width: 0; min-width: 0; min-height: 44px; margin: 0; padding: 11px 8px; border-radius: calc(25 * var(--ui-unit)); font-size: calc(24 * var(--ui-unit)); font-weight: 700; line-height: 1.5; }
+.station-learn-all { color: #278765; background: #e5f5ed; }
+.station-learn-all[disabled] { color: #71849a; background: #edf3ef; }
 
 .unit-list { border-top: calc(1 * var(--ui-unit)) solid #edf0f5; }
 .unit-row { display: flex; align-items: center; min-height: calc(100 * var(--ui-unit)); border-bottom: calc(1 * var(--ui-unit)) solid #edf0f5; }

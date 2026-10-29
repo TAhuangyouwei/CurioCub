@@ -1,0 +1,14 @@
+{
+  "id": "hanzi-322",
+  "title": "啊",
+  "pinyin": "a",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "你好啊。",
+  "singleCharacter": true,
+  "contextExtracted": true,
+  "start": 0.54,
+  "duration": 0.31381250000000005,
+  "boundaryText": "啊",
+  "alignmentMethod": "acoustic-v1"
+}

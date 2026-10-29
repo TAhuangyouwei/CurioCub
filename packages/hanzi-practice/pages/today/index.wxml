@@ -1,11 +1,12 @@
 <view class="practice-screen">
+  <view wx:if="{{!fontReady}}" class="font-status"><text>{{fontError ? '汉字暂时没显示出来' : '正在准备汉字…'}}</text><button wx:if="{{fontError}}" bindtap="loadFont">点此重试</button></view>
   <text class="practice-eyebrow">和 Cubi 一起 · 今天的小任务</text>
   <text class="practice-title">先认字，再读一句</text>
   <text class="practice-note">最多复习 2 个字，认识 3 个新字，随时可以休息。</text>
   <block wx:if="{{unit}}">
     <view class="practice-progress"><text>{{review ? '复习老朋友' : '认识新朋友'}}</text><text>{{position}} / {{total}}</text></view>
     <view class="practice-card">
-      <text class="practice-character" bindtap="playCharacter">{{unit.title}}</text>
+      <text style="visibility: {{fontReady ? 'visible' : 'hidden'}}" class="practice-character" bindtap="playCharacter">{{unit.title}}</text>
       <text class="practice-pinyin">{{unit.pinyin}}</text>
       <button class="practice-hint" bindtap="showHint" wx:if="{{!hintVisible}}">💡 看看意思</button>
       <text wx:else class="practice-meaning">{{unit.icon}} {{unit.phrase}}</text>
@@ -19,7 +20,7 @@
     <text class="practice-title">今天的认字完成啦</text>
     <block wx:if="{{reading}}">
       <text class="practice-note">{{readingDone ? '今天的短句也读过啦，想读还能再读。' : '这些字你都学过，试着读一句吧。'}}</text>
-      <text class="reading-preview">{{reading.text}}</text>
+      <text style="visibility: {{fontReady ? 'visible' : 'hidden'}}" class="reading-preview">{{reading.text}}</text>
       <button class="practice-primary" bindtap="openReading">{{readingDone ? '再读一遍' : '读今天这一句'}}</button>
     </block>
     <text wx:else class="practice-note">先把认识的字记牢，凑齐一句的字后，就能读短句啦。</text>
