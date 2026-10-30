@@ -20,14 +20,17 @@ const cache = new Map()
 const runtimeCache = new Map()
 let application
 let definition
+let componentDefinition
 let compiledCount = 0
 let runtimeRequests = 0
 const audio = { stop() {}, play() {}, onError() {}, offError() {}, onCanplay() {}, offCanplay() {}, onEnded() {}, offEnded() {} }
 const context = vm.createContext({ console, setTimeout, clearTimeout,
   App: app => { application = app }, Page: page => { definition = page }, getApp: () => application,
+  Component: component => { componentDefinition = component },
   wx: { createInnerAudioContext: () => audio, showToast() {}, setNavigationBarTitle() {},
     getStorageSync: key => storage.has(key) ? JSON.parse(JSON.stringify(storage.get(key))) : null,
-    setStorageSync: (key, value) => storage.set(key, JSON.parse(JSON.stringify(value))) }
+    setStorageSync: (key, value) => storage.set(key, JSON.parse(JSON.stringify(value))),
+    getWindowInfo: () => ({ windowWidth: 375, windowHeight: 667, pixelRatio: 2 }) }
 })
 
 function execute(code, filename, localRequire, module) {
@@ -80,6 +83,9 @@ function page(file) {
 assert.doesNotThrow(() => {
   loadProject(path.join(root, 'app.js'))
   application.onLaunch()
+  loadProject(path.join(root, 'components/desktop-scroll/desktop-scroll.js'))
+  assert.strictEqual(componentDefinition.properties.target.value, '')
+  assert.strictEqual(typeof componentDefinition.methods.scroll, 'function')
   const home = page('pages/index/index.js')
   home.onShow()
   assert.strictEqual(home.data.modules.length, 4)
@@ -93,6 +99,19 @@ assert.doesNotThrow(() => {
   reading.onShow()
   assert.strictEqual(reading.data.tests.length, 10)
   assert.strictEqual(reading.data.sentence, null)
+  const pinyinLesson = page('pages/lesson/lesson.js')
+  pinyinLesson.onLoad({ moduleId: 'pinyin', unitId: 'pinyin-01' })
+  assert(pinyinLesson.data.isPinyin && pinyinLesson.data.isLiteracy)
+  const pinyinTrace = page('packages/pinyin-basic-v2/pages/trace/index.js')
+  pinyinTrace.onLoad({ unitId: 'pinyin-01' })
+  assert.strictEqual(pinyinTrace.data.strokeCount, 2)
+  const pinyinNotebook = page('pages/notebook/notebook.js')
+  pinyinNotebook.onLoad({ moduleId: 'pinyin' })
+  pinyinNotebook.onShow()
+  assert.strictEqual(pinyinNotebook.data.notebookTitle, '拼音复习本')
+  const pinyinReview = page('pages/review/review.js')
+  pinyinReview.onLoad({ moduleId: 'pinyin', groupIndex: 10 })
+  assert.strictEqual(pinyinReview.data.matches.length, 4)
   const modulePage = page('pages/module/module.js')
   for (const moduleId of ['hanzi', 'pinyin', 'math', 'english']) {
     modulePage.onLoad({ moduleId })

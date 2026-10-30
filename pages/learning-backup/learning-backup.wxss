@@ -2,6 +2,7 @@
 .backup-title { display: block; color: #304c62; font-size: 25px; font-weight: 700; }
 .backup-heading { display: block; color: #304c62; font-size: 20px; font-weight: 600; }
 .backup-note { display: block; margin: 12px 0; color: #637e96; font-size: 15px; line-height: 1.8; }
+.backup-error { color: #b94d50; word-break: break-all; }
 .backup-card { margin: 20px 0; padding: 20px; border-radius: 22px; background: #fffefa; }
 .backup-preview { border: 2px solid #e7bc87; }
 .backup-screen button { min-height: 48px; margin-top: 14px; padding: 12px; border-radius: 16px; font-size: 17px; line-height: 1.5; }

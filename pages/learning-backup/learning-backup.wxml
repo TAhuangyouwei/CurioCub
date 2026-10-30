@@ -5,6 +5,9 @@
     <text class="backup-heading">这台设备</text>
     <text class="backup-note">已学 {{summary.learned}} 字 · 生字本 {{summary.notebook}} 字 · {{summary.stars}} 颗星星</text>
     <button class="backup-primary" bindtap="sendFile" loading="{{busy}}" disabled="{{busy}}">发学习存档到微信</button>
+    <button wx:if="{{canSaveFile}}" class="backup-secondary" bindtap="saveFile" disabled="{{busy}}">保存存档到电脑，再用微信发文件</button>
+    <text wx:if="{{transferHint}}" class="backup-note">{{transferHint}}</text>
+    <text wx:if="{{exportError}}" class="backup-note backup-error" selectable="{{true}}">微信返回的具体原因：{{exportError}}</text>
     <text class="backup-note">建议发送到“文件传输助手”。在另一台设备收到后，打开同一个小程序，点下方按钮选择刚收到的文件。</text>
   </view>
   <view class="backup-card">
@@ -33,3 +36,5 @@
   </view>
   <button wx:if="{{canUndo}}" class="backup-secondary" bindtap="undo">撤销上次导入，恢复原记录</button>
 </view>
+
+<desktop-scroll />

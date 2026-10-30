@@ -1,4 +1,4 @@
-<scroll-view class="sticker-page" scroll-y>
+<scroll-view class="sticker-page" scroll-y enhanced="{{true}}" show-scrollbar="{{true}}">
   <view class="screen stickers-screen">
     <view class="sticker-hero">
       <text class="sticker-hero-icon">📒</text>
@@ -18,3 +18,5 @@
     </view>
   </view>
 </scroll-view>
+
+<desktop-scroll target=".sticker-page" />

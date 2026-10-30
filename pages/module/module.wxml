@@ -1,4 +1,4 @@
-<scroll-view class="module-page" scroll-y wx:if="{{module}}">
+<scroll-view class="module-page {{isPinyin ? 'pinyin-module' : ''}}" scroll-y wx:if="{{module}}" enhanced="{{true}}" show-scrollbar="{{true}}">
   <view class="screen module-content">
     <view class="module-hero" style="--module-color: {{module.color}}">
       <view class="module-hero-icon">{{module.icon}}</view>
@@ -12,6 +12,7 @@
     <view class="tip-card">
       <text class="tip-icon">🐻</text>
       <text wx:if="{{module.id === 'hanzi'}}">点站点就能开始学，也可以点“展开”选字；灰色站点不在本次学习范围内。</text>
+      <text wx:elif="{{isPinyin}}">点站点开始学，也可以展开选拼音；未学会的拼音会标红。</text>
       <text wx:else>想学哪里就点哪里，也可以随时玩配对复习！</text>
     </view>
 
@@ -31,6 +32,12 @@
       <text class="workshop-subtitle">把还没学会的字，集中练一练</text>
       <text class="workshop-arrow">›</text>
     </button>
+
+    <view wx:if="{{isPinyin}}" class="range-card">
+      <text class="range-title">声母 23 · 韵母 24 · 整体认读音节 16</text>
+      <view class="learning-counts"><text class="state-unseen">未学习 {{unseenCount}}</text><text class="state-learned">已学会 {{learnedCount}}</text><text class="state-unlearned">未学会 {{unlearnedCount}}</text></view>
+      <button class="range-secondary" bindtap="openNotebook">拼音复习本 · {{unlearnedCount}} 项</button>
+    </view>
 
     <button wx:if="{{module.id === 'pinyin'}}" class="workshop-button" bindtap="openPinyinWorkshop">
       <text class="workshop-title">♪ 拼读小工坊</text>
@@ -57,35 +64,36 @@
     </button>
 
     <view wx:for="{{groups}}" wx:key="index" class="group-card {{item.outsideRange ? 'outside-range' : ''}}">
-      <view class="group-header {{module.id === 'hanzi' ? 'collapsible-header' : ''}}" bindtap="openGroup" data-group-index="{{item.index}}" role="{{module.id === 'hanzi' ? 'button' : ''}}" aria-disabled="{{item.outsideRange}}" aria-label="{{module.id === 'hanzi' ? '第' + item.number + '站，' + (item.outsideRange ? '不在学习范围内' : '开始学习') : ''}}">
+      <view class="group-header {{isLiteracy ? 'collapsible-header' : ''}}" bindtap="openGroup" data-group-index="{{item.index}}" role="{{isLiteracy ? 'button' : ''}}" aria-disabled="{{item.outsideRange}}" aria-label="{{isLiteracy ? '第' + item.number + '站，' + (item.outsideRange ? '不在学习范围内' : '开始学习') : ''}}">
         <view>
-          <text class="group-title">第 {{item.number}} 站</text>
-          <text class="group-progress">{{item.completed}} / {{item.total}} 已完成</text>
+          <text class="group-title">第 {{item.number}} 站{{isPinyin ? ' · ' + item.category : ''}}</text>
+          <text class="group-progress">{{item.completed}} / {{item.total}} {{isLiteracy ? '已学会 · ' + item.percent + '%' : '已完成'}}</text>
+          <view wx:if="{{isLiteracy && !item.complete}}" class="group-status-counts"><text wx:if="{{item.unlearned}}" class="state-unlearned">未学会 {{item.unlearned}}</text><text wx:if="{{item.unseen}}">未学习 {{item.unseen}}</text></view>
         </view>
         <view class="group-heading-actions">
           <text class="group-state" wx:if="{{item.complete}}">完成</text>
-          <text class="group-state group-start" wx:elif="{{module.id === 'hanzi' && item.stateLabel === '进行中'}}" catchtap="openLesson" data-unit-id="{{item.startUnitId}}" role="button" aria-label="从第{{item.number}}站的可学字开始学习">进行中 ›</text>
-          <text class="group-state" wx:else>{{module.id === 'hanzi' ? item.stateLabel : item.completed ? '进行中' : '随时开始'}}</text>
-          <text wx:if="{{module.id === 'hanzi' && !item.outsideRange}}" class="group-toggle" catchtap="toggleGroup" data-group-index="{{item.index}}" role="button" aria-expanded="{{!item.collapsed}}" aria-label="{{item.collapsed ? '展开字表' : '收起字表'}}">{{item.collapsed ? '展开 ▾' : '收起 ▴'}}</text>
+          <text class="group-state group-start" wx:elif="{{isLiteracy && !item.outsideRange && item.stateLabel === '进行中'}}" catchtap="openLesson" data-unit-id="{{item.startUnitId}}" role="button" aria-label="从第{{item.number}}站的可学字开始学习">进行中 ›</text>
+          <text class="group-state" wx:else>{{isLiteracy ? item.stateLabel : item.completed ? '进行中' : '随时开始'}}</text>
+          <text wx:if="{{isLiteracy && !item.outsideRange}}" class="group-toggle" catchtap="toggleGroup" data-group-index="{{item.index}}" role="button" aria-expanded="{{!item.collapsed}}" aria-label="{{item.collapsed ? '展开字表' : '收起字表'}}">{{item.collapsed ? '展开 ▾' : '收起 ▴'}}</text>
         </view>
       </view>
 
-      <text wx:if="{{module.id === 'hanzi' && item.collapsed}}" class="group-preview" bindtap="openGroup" data-group-index="{{item.index}}" role="button" aria-disabled="{{item.outsideRange}}" aria-label="从第{{item.number}}站的可学字开始学习"><text wx:for="{{item.items}}" wx:for-item="unit" wx:key="id" class="preview-character {{unit.completed ? 'preview-learned' : ''}}">{{unit.title}} </text></text>
+      <text wx:if="{{isLiteracy && item.collapsed}}" class="group-preview" bindtap="openGroup" data-group-index="{{item.index}}" role="button" aria-disabled="{{item.outsideRange}}" aria-label="从第{{item.number}}站的可学字开始学习"><text wx:for="{{item.items}}" wx:for-item="unit" wx:key="id" class="preview-character {{unit.unlearned ? 'preview-unlearned' : ''}}">{{unit.displayTitle || unit.title}} </text></text>
       <view wx:if="{{!item.collapsed}}" class="unit-list">
         <view
           wx:for="{{item.items}}"
           wx:for-item="unit"
           wx:key="id"
-          class="unit-row tap-card {{unit.completed ? 'unit-done' : ''}}"
+          class="unit-row tap-card {{unit.completed && !isLiteracy ? 'unit-done' : unit.unlearned ? 'unit-unlearned' : ''}}"
           bindtap="openLesson"
           data-unit-id="{{unit.id}}"
         >
-          <view class="unit-symbol">{{unit.title}}</view>
+          <view class="unit-symbol">{{unit.displayTitle || unit.title}}</view>
           <view class="unit-copy">
             <text class="unit-phrase">{{unit.phrase}}</text>
-            <text class="unit-helper state-learned" wx:if="{{module.id === 'hanzi' && unit.completed}}">已学会 ✓</text>
-            <text class="unit-helper state-unlearned" wx:elif="{{module.id === 'hanzi' && unit.unlearned}}">未学会 · 已加入生字本</text>
-            <text class="unit-helper state-unseen" wx:elif="{{module.id === 'hanzi'}}">未学习</text>
+            <text class="unit-helper state-learned" wx:if="{{isLiteracy && unit.completed}}">已学会 ✓</text>
+            <text class="unit-helper state-unlearned" wx:elif="{{isLiteracy && unit.unlearned}}">未学会 · 已加入{{isPinyin ? '拼音复习本' : '生字本'}}</text>
+            <text class="unit-helper state-unseen" wx:elif="{{isLiteracy}}">未学习</text>
             <text class="unit-helper" wx:elif="{{unit.completed}}">已收集星星 ✓</text>
             <text class="unit-helper" wx:else>点击开始</text>
           </view>
@@ -94,11 +102,11 @@
         </view>
       </view>
 
-      <view wx:if="{{module.id === 'hanzi' && !item.outsideRange}}" class="station-actions">
+      <view wx:if="{{isLiteracy && !item.outsideRange}}" class="station-actions">
         <button class="station-learn-all" bindtap="markGroupLearned" data-group-index="{{item.index}}" disabled="{{item.complete}}" aria-label="将第{{item.number}}站的{{item.total}}个字全部标记为已学会">{{item.complete ? '本站已全部学会 ✓' : '全部学会'}}</button>
         <button wx:if="{{!item.collapsed}}" class="review-button" bindtap="openReview" data-group-index="{{item.index}}">配对复习</button>
       </view>
-      <button wx:elif="{{module.id !== 'hanzi'}}" class="review-button" bindtap="openReview" data-group-index="{{item.index}}">配对复习</button>
+      <button wx:elif="{{!isLiteracy}}" class="review-button" bindtap="openReview" data-group-index="{{item.index}}">配对复习</button>
     </view>
     <view wx:if="{{module.id === 'math'}}" class="group-card">
       <view class="group-header"><text class="group-title">第 3 站 · 随机计算</text><text class="group-state">10题一组</text></view>
@@ -112,3 +120,5 @@
     </view>
   </view>
 </scroll-view>
+
+<desktop-scroll target=".module-page" />

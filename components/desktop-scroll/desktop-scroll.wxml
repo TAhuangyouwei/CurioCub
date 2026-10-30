@@ -1,0 +1,4 @@
+<view wx:if="{{desktop}}" class="desktop-scroll-controls" role="group" aria-label="不用滚轮也能翻页">
+  <button class="desktop-scroll-button" bindtap="scroll" data-direction="-1" aria-label="向上滚动一屏">↑<text class="desktop-scroll-label">上一屏</text></button>
+  <button class="desktop-scroll-button" bindtap="scroll" data-direction="1" aria-label="向下滚动一屏">↓<text class="desktop-scroll-label">下一屏</text></button>
+</view>

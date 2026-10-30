@@ -89,7 +89,7 @@ assert.strictEqual(stored.stars, afterFirstLearning, '重新学会只提示，�
 assert(!stored.unlearnedIds['hanzi-04'], '重新学会仍须移出生字本')
 assert.strictEqual(routes.length, 0)
 
-for (const moduleId of ['pinyin', 'math', 'english']) {
+for (const moduleId of ['math', 'english']) {
   const other = lessonAt(moduleId, `${moduleId}-01`)
   const before = JSON.stringify(stored)
   other.markLearned()
@@ -98,7 +98,7 @@ for (const moduleId of ['pinyin', 'math', 'english']) {
   assert.strictEqual(routes[routes.length - 1], `/pages/challenge/challenge?moduleId=${moduleId}&unitId=${moduleId}-01`)
 }
 const template = fs.readFileSync(path.join(__dirname, '../pages/lesson/lesson.wxml'), 'utf8')
-assert(/<view wx:if="\{\{isHanzi\}\}" class="learning-status"/.test(template))
+assert(/<view wx:if="\{\{isLiteracy\}\}" class="learning-status"/.test(template))
 assert(template.includes('bindtap="markLearned"'))
 assert(template.includes('bindtap="markUnstudied"'))
 assert(/<button wx:else[^>]*bindtap="startChallenge"/.test(template))

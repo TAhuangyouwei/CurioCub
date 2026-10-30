@@ -1,0 +1,4 @@
+.desktop-scroll-controls { position: fixed; right: 12px; bottom: 22px; z-index: 21; display: flex; flex-direction: column; gap: 8px; }
+.desktop-scroll-button { width: 52px; min-height: 52px; margin: 0; padding: 4px; border: 1px solid #b9cbe2; border-radius: 12px; color: #3b5c8c; background: #f4f8ff; box-shadow: 0 2px 8px rgba(48, 76, 98, .12); font-size: 21px; line-height: 1.2; }
+.desktop-scroll-button::after { border: 0; }
+.desktop-scroll-label { display: block; font-size: 12px; line-height: 1.5; }

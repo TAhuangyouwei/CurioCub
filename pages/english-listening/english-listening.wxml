@@ -1,1 +1,3 @@
 <view>正在进入听音找图…</view>
+
+<desktop-scroll />

@@ -1,7 +1,7 @@
-<view class="screen review-screen {{isHanzi ? 'hanzi-review' : ''}}" wx:if="{{matches.length}}">
+<view class="screen review-screen {{isLiteracy ? 'hanzi-review' : ''}} {{isPinyin ? 'pinyin-review' : ''}}" wx:if="{{matches.length}}">
   <view class="review-header">
     <text class="review-title">拖一拖，配对复习</text>
-    <text class="review-subtitle">{{isHanzi ? '把汉字拖到对应拼音，点拼音可听读音' : '把左边的文字拖到右边对应的位置'}}</text>
+    <text class="review-subtitle">{{isPinyin ? '点喇叭听读音，把拼音拖到对应位置' : isHanzi ? '把汉字拖到对应拼音，点拼音可听读音' : '把左边的文字拖到右边对应的位置'}}</text>
   </view>
 
   <view class="progress-line">
@@ -26,6 +26,7 @@
           <text wx:else class="target-audio-icon">🔊</text>
           <text class="target-pinyin">{{item.pinyin}}</text>
         </block>
+        <block wx:elif="{{isPinyin}}"><text class="target-audio-icon">🔊</text><text wx:if="{{item.paired}}">{{item.title}}</text></block>
         <block wx:else>
           <text class="target-icon">{{item.icon}}</text>
           <text>{{item.phrase}}</text>

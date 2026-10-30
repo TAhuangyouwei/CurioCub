@@ -66,7 +66,7 @@ for (const index of [0, hanzi.items.length - 1]) {
   assert.strictEqual(page.lessonItems.length, hanzi.items.length, '仅在全部汉字的首尾停止滑动')
 }
 
-for (const moduleId of ['pinyin', 'math', 'english']) {
+for (const moduleId of ['math', 'english']) {
   const module = getModule(moduleId)
   const page = lessonAt(module.items[module.groupSize].id, moduleId)
   assert.strictEqual(page.lessonItems.length, module.groupSize, '其他模块仍按原有分站学习')

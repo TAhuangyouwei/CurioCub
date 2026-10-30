@@ -1,7 +1,8 @@
-const { getModule } = require('../../data/learning')
+const { getModule, getLearningGroups } = require('../../data/learning')
 const { getProgress, completeUnit, markUnitUnlearned, markUnitUnstudied } = require('../../utils/progress')
 const { playAudio, stopAudio, preloadAudioPath, clearPreloadedAudio } = require('../../utils/audio')
 const { getLearningPage } = require('../../utils/learning-navigation')
+const { loadPinyinFont } = require('../../utils/pinyin-font')
 const { getHanziSettings, studyUnits, setAutoRead } = require('../../utils/hanzi-settings')
 const { createHanziAudio } = require('../../utils/hanzi-audio')
 
@@ -22,6 +23,8 @@ function createLessonPage() {
     currentNumber: 1,
     cardTotal: 0,
     isHanzi: false,
+    isPinyin: false,
+    isLiteracy: false,
     isNotebook: false,
     rangeEnabled: false,
     autoRead: true,
@@ -39,19 +42,20 @@ function createLessonPage() {
       return
     }
 
-    const groupStart = module.id === 'hanzi' ? 0 : Math.floor(unitIndex / module.groupSize) * module.groupSize
+    const isLiteracy = module.id === 'hanzi' || module.id === 'pinyin'
+    const groupStart = isLiteracy ? 0 : Math.floor(unitIndex / module.groupSize) * module.groupSize
     const settings = getHanziSettings()
-    const isNotebook = module.id === 'hanzi' && options.source === 'notebook'
+    const isNotebook = isLiteracy && options.source === 'notebook'
     if (isNotebook) settings.rangeEnabled = false
     const rangeEnabled = module.id === 'hanzi' && settings.rangeEnabled
     const progress = getProgress()
     this.lessonItems = module.id === 'hanzi'
       ? studyUnits(isNotebook ? module.items.filter((item) => progress.unlearnedIds[item.id]) : module.items, settings)
-      : module.items.slice(groupStart, groupStart + module.groupSize)
+      : module.id === 'pinyin' ? module.items.filter(item => !isNotebook || progress.unlearnedIds[item.id]) : module.items.slice(groupStart, groupStart + module.groupSize)
     let currentIndex = this.lessonItems.findIndex((item) => item.id === options.unitId)
     if (currentIndex === -1 && rangeEnabled) currentIndex = 0
     if (currentIndex === -1) {
-      wx.redirectTo({ url: '/pages/notebook/notebook' })
+      wx.redirectTo({ url: this.notebookUrl() })
       return
     }
     this.setData({
@@ -59,9 +63,11 @@ function createLessonPage() {
       isNotebook,
       rangeEnabled,
       autoRead: settings.autoRead,
-      isHanzi: module.id === 'hanzi'
+      isHanzi: module.id === 'hanzi',
+      isPinyin: module.id === 'pinyin', isLiteracy
     })
     if (module.id === 'hanzi') this.hanziAudio = createHanziAudio()
+    if (module.id === 'pinyin') loadPinyinFont(this)
     this.setCurrentCard(currentIndex)
   },
 
@@ -140,11 +146,12 @@ function createLessonPage() {
     const groupSize = this.data.module.groupSize
     const groupStart = this.data.isHanzi && !this.data.isNotebook && !this.data.rangeEnabled ? Math.floor(index / groupSize) * groupSize : 0
     const progress = getProgress()
+    const pinyinGroup = this.data.isPinyin && !this.data.isNotebook ? getLearningGroups(getModule('pinyin')).find(group => group.some(item => item.id === unit.id)) : null
     stopAudio()
     this.setData({
       currentIndex: index,
-      currentNumber: index - groupStart + 1,
-      cardTotal: this.data.isNotebook || this.data.rangeEnabled ? this.lessonItems.length : Math.min(groupSize, this.lessonItems.length - groupStart),
+      currentNumber: pinyinGroup ? pinyinGroup.findIndex(item => item.id === unit.id) + 1 : index - groupStart + 1,
+      cardTotal: pinyinGroup ? pinyinGroup.length : this.data.isNotebook || this.data.rangeEnabled ? this.lessonItems.length : Math.min(groupSize, this.lessonItems.length - groupStart),
       unit,
       fontReady: !this.data.isHanzi || Boolean(getPreparedUnit(unit)),
       fontError: false,
@@ -174,7 +181,7 @@ function createLessonPage() {
     this.setData({
       lessonItems: this.cardIndices.map(i => getPreparedUnit(this.lessonItems[i]) || this.lessonItems[i]),
       swiperIndex,
-      swiperCircular: circular && count <= 3,
+      swiperCircular: circular && (!this.data.isHanzi || count <= 3),
       swiperDuration: 0
     }, () => this.setData({ swiperDuration: 260 }))
   },
@@ -258,15 +265,16 @@ function createLessonPage() {
   },
 
   openTrace() {
-    if (!this.data.isHanzi) return
+    if (!this.data.isHanzi && !this.data.isPinyin) return
     stopAudio()
     if (this.hanziAudio) this.hanziAudio.stop()
-    wx.navigateTo({ url: `/packages/hanzi-practice/pages/trace/index?unitId=${this.data.unit.id}${this.data.isNotebook ? '&source=notebook' : ''}` })
+    const route = this.data.isPinyin ? '/packages/pinyin-basic-v2/pages/trace/index' : '/packages/hanzi-practice/pages/trace/index'
+    wx.navigateTo({ url: `${route}?unitId=${this.data.unit.id}${this.data.isNotebook ? '&source=notebook' : ''}` })
   },
 
   markLearned() {
-    const { module, unit, isHanzi, completed } = this.data
-    if (!isHanzi || completed) return
+    const { module, unit, completed } = this.data
+    if (!this.data.isLiteracy || completed) return
     const previousStickerCount = getProgress().stickerCount
     const progress = completeUnit(unit.id, module.id)
     this.setData({ completed: true, unlearned: false })
@@ -279,15 +287,15 @@ function createLessonPage() {
   },
 
   markUnlearned() {
-    const { unit, isHanzi, unlearned } = this.data
-    if (!isHanzi || unlearned) return
+    const { unit, unlearned } = this.data
+    if (!this.data.isLiteracy || unlearned) return
     markUnitUnlearned(unit.id, this.moduleId)
     this.setData({ completed: false, unlearned: true })
   },
 
   markUnstudied() {
-    const { unit, isHanzi, completed, unlearned } = this.data
-    if (!isHanzi || (!completed && !unlearned)) return
+    const { unit, completed, unlearned } = this.data
+    if (!this.data.isLiteracy || (!completed && !unlearned)) return
     markUnitUnstudied(unit.id, this.moduleId)
     this.setData({ completed: false, unlearned: false })
   },
@@ -298,10 +306,12 @@ function createLessonPage() {
     wx.navigateBack({
       delta: 1,
       fail: () => {
-        wx.redirectTo({ url: this.data.isNotebook ? '/pages/notebook/notebook' : `/pages/module/module?moduleId=${this.moduleId}` })
+        wx.redirectTo({ url: this.data.isNotebook ? this.notebookUrl() : `/pages/module/module?moduleId=${this.moduleId}` })
       }
     })
   },
+
+  notebookUrl() { return this.moduleId === 'pinyin' ? '/pages/notebook/notebook?moduleId=pinyin' : '/pages/notebook/notebook' },
 
   onHide() {
     this.wasHidden = true

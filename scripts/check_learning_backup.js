@@ -66,7 +66,7 @@ let definition, shared, clipboard, modal, chosen
 global.Page = page => { definition = page }
 Object.assign(wx, {
   env: { USER_DATA_PATH: '/user' },
-  getFileSystemManager: () => ({ writeFile: options => { assert(decodeBackup(options.data)); options.success() },
+  getFileSystemManager: () => ({ writeFileSync: (path, content) => { assert(decodeBackup(content)) },
     readFile: options => options.success({ data: encoded }) }),
   shareFileMessage: options => { shared = options; options.complete() },
   chooseMessageFile: options => { chosen = options; options.success({ tempFiles: [{ path: '/received.txt', size: encoded.length }] }) },
@@ -101,6 +101,9 @@ assert.strictEqual(page.payload, null, '错误的新文件应清除旧预览，�
 assert.strictEqual(page.data.pending, null)
 assert(modal)
 wx.shareFileMessage = undefined
+clipboard = ''
 page.sendFile()
+assert.strictEqual(modal.confirmText, '复制存档')
+modal.success({ confirm: true })
 assert(decodeBackup(clipboard), '不支持发文件时应提供文字方式')
 console.log('存档检查通过：完整往返、未学会状态、顺序/阅读/英语记录、校验、替换、撤销、失败回滚、文件与文字入口。')

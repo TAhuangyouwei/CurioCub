@@ -1,4 +1,4 @@
-<scroll-view class="home" scroll-y>
+<scroll-view class="home" scroll-y enhanced="{{true}}" show-scrollbar="{{true}}">
   <view class="screen home-content">
     <view class="sky-orb orb-one"></view>
     <view class="sky-orb orb-two"></view>
@@ -66,3 +66,5 @@
     </view>
   </view>
 </scroll-view>
+
+<desktop-scroll target=".home" />

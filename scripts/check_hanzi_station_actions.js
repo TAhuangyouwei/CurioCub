@@ -136,7 +136,7 @@ for (const index of [-1, 9999, 0.5, 'bad']) {
   assert.strictEqual(JSON.stringify(map.data), beforeInvalid)
   assert.strictEqual(JSON.stringify(getProgress()), progress)
 }
-for (const moduleId of ['pinyin', 'math', 'english']) {
+for (const moduleId of ['math', 'english']) {
   const other = page(moduleId)
   assert(other.data.groups.every(group => !group.collapsed), '其他模块维持原有展示')
   const data = JSON.stringify(other.data)

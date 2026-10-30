@@ -1,7 +1,8 @@
-const { getModule } = require('../../data/learning')
+const { getModule, getLearningGroups } = require('../../data/learning')
 const { createReviewLayout, isInsideTarget, snappedPosition } = require('../../utils/review-matching')
 const { playAudio, stopAudio } = require('../../utils/audio')
 const { orderedHanzi } = require('../../utils/hanzi-settings')
+const { loadPinyinFont } = require('../../utils/pinyin-font')
 const { createHanziAudio } = require('../../utils/hanzi-audio')
 
 function createReviewPage() {
@@ -13,7 +14,7 @@ function createReviewPage() {
     boardHeight: 0,
     completedCount: 0,
     allPaired: false,
-    isHanzi: false
+    isHanzi: false, isPinyin: false, isLiteracy: false
   },
 
   onLoad(options) {
@@ -30,16 +31,19 @@ function createReviewPage() {
 
     const start = groupIndex * module.groupSize
     const isHanzi = module.id === 'hanzi'
-    this.reviewUnits = (isHanzi ? orderedHanzi() : module.items).slice(start, start + module.groupSize).slice(0, isHanzi ? 10 : 4)
+    const isPinyin = module.id === 'pinyin'
+    if (isPinyin) loadPinyinFont(this)
+    this.reviewUnits = isPinyin ? getLearningGroups(module)[groupIndex] : (isHanzi ? orderedHanzi() : module.items).slice(start, start + module.groupSize).slice(0, isHanzi ? 10 : 4)
+    if (!this.reviewUnits) { wx.navigateBack(); return }
     if (isHanzi) this.hanziAudio = createHanziAudio(true)
-    this.setData({ module, isHanzi })
+    this.setData({ module, isHanzi, isPinyin, isLiteracy: isHanzi || isPinyin })
     this.updateLayout()
     wx.setNavigationBarTitle({ title: '拖拽配对' })
   },
 
   updateLayout() {
     const windowInfo = wx.getWindowInfo ? wx.getWindowInfo() : wx.getSystemInfoSync()
-    const layout = createReviewLayout(this.reviewUnits, windowInfo.windowWidth, this.data.isHanzi)
+    const layout = createReviewLayout(this.reviewUnits, windowInfo.windowWidth, this.data.isLiteracy)
     const pairedIds = new Set(this.data.matches.filter((item) => item.paired).map((item) => item.id))
     this.layoutMetrics = layout.metrics
     this.dragPositions = {}
@@ -56,10 +60,11 @@ function createReviewPage() {
   },
 
   playTargetAudio(event) {
-    if (!this.data.isHanzi) return
+    if (!this.data.isLiteracy) return
     const unit = this.reviewUnits.find(item => item.id === event.currentTarget.dataset.id)
     if (unit) {
-      if (this.hanziAudio) this.hanziAudio.play(unit)
+      if (this.data.isPinyin) playAudio(unit.audioFile)
+      else if (this.hanziAudio) this.hanziAudio.play(unit)
       else playAudio(unit.characterAudioFile)
     }
   },

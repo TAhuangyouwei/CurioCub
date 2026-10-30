@@ -18,6 +18,7 @@
 .hanzi-review .progress-line { margin-top: calc(16 * var(--ui-unit)); }
 .hanzi-review .match-card { margin-top: calc(16 * var(--ui-unit)); padding-top: calc(20 * var(--ui-unit)); padding-bottom: calc(20 * var(--ui-unit)); }
 .hanzi-review .drag-chip { font-size: 26px; }
+.pinyin-review .drag-chip { font-size: 18px; font-family: "CurioCubPinyinHand", sans-serif; font-weight: 400; }
 .target-pinyin { font-size: 20px; font-weight: 600; }
 .target-audio-icon { font-size: 12px; }
 .drop-target.target-listening { background: #e3efff; }

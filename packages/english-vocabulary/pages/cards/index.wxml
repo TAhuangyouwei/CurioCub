@@ -14,3 +14,5 @@
   <view class="navigation"><button bindtap="previous" disabled="{{position === 1}}">‹ 上一个</button><button bindtap="next" disabled="{{position === total}}">下一个 ›</button></view>
   <text class="note">看看图片，说说它是什么。愿意的话，再一起说英文。</text>
 </view>
+
+<desktop-scroll />

@@ -27,7 +27,7 @@
     { "root": "packages/hanzi-reading-5", "name": "hanzi-reading-5", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
     { "root": "packages/hanzi-reading-6", "name": "hanzi-reading-6", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
     { "root": "packages/hanzi-reading-7", "name": "hanzi-reading-7", "pages": ["pages/lesson/index", "pages/challenge/index", "pages/review/index"] },
-    { "root": "packages/pinyin-basic-v2", "name": "pinyin-basic-v2", "pages": ["pages/loader/index"] },
+    { "root": "packages/pinyin-basic-v2", "name": "pinyin-basic-v2", "pages": ["pages/loader/index", "pages/trace/index"] },
     { "root": "packages/pinyin-01", "name": "pinyin-01", "pages": ["pages/loader/index", "pages/builder/index"] },
     { "root": "packages/pinyin-02", "name": "pinyin-02", "pages": ["pages/loader/index", "pages/builder/index"] },
     { "root": "packages/pinyin-03", "name": "pinyin-03", "pages": ["pages/loader/index", "pages/builder/index"] },
@@ -48,6 +48,7 @@
     "backgroundColor": "#eaf5ff"
   },
   "resizable": true,
+  "usingComponents": { "desktop-scroll": "/components/desktop-scroll/desktop-scroll" },
   "style": "v2",
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",

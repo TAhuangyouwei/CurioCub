@@ -1,0 +1,9 @@
+<view class="pinyin-trace" wx:if="{{unit}}">
+  <view class="trace-heading"><text class="trace-title">{{unit.displayTitle}} · 四线三格临摹</text><text class="trace-note">{{unit.category}} · {{index + 1}} / {{total}}</text></view>
+  <text class="trace-note">{{position}}</text>
+  <view class="trace-instruction {{complete ? 'trace-complete' : ''}}"><text>{{complete ? '全部描好啦！' : '第 ' + strokeNumber + ' / ' + strokeCount + ' 笔：' + strokeName}}</text><text class="trace-note">{{feedback}}</text></view>
+  <canvas type="2d" id="pinyin-canvas" class="trace-canvas" style="width: {{boardWidth}}px; height: {{boardHeight}}px" catchtouchstart="startInk" catchtouchmove="moveInk" catchtouchend="endInk" catchtouchcancel="cancelInk" disable-scroll="{{true}}" />
+  <view class="trace-actions"><button bindtap="undoStroke" disabled="{{!hasInk}}">撤销上一笔</button><button class="primary" bindtap="demonstrate" disabled="{{demonstrating || complete}}">看这一笔怎么写</button></view>
+  <view class="trace-actions"><button bindtap="clearInk" disabled="{{!hasInk}}">擦掉重写</button><button bindtap="play">🔊 听读音</button></view>
+  <view class="trace-actions"><button bindtap="previous" disabled="{{index === 0}}">‹ 上一个拼音</button><button bindtap="next" disabled="{{index === total - 1}}">下一个拼音 ›</button></view>
+</view>

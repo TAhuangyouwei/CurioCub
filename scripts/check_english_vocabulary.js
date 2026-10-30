@@ -16,7 +16,7 @@ for (const word of words) {
   assert(fs.statSync(path.join(__dirname, '..', word.audioFile)).size > 0, `${word.word} 缺少录音`)
 }
 for (const unit of getModule('english').items) assert(words.some(word => word.word === unit.title), `原英语内容 ${unit.title} 应保留`)
-assert.strictEqual(stickers.length, 128)
+assert.strictEqual(stickers.length, 141)
 assert(stickers.every(([icon, name]) => icon && name), '贴纸图标及名称不能为空')
 assert(stickers.length >= Math.floor(modules.reduce((sum, module) => sum + module.items.length, 0) / 4), '贴纸数量应覆盖全部现有学习奖励')
 const store = new Map()
@@ -57,4 +57,4 @@ assert(subpackage && subpackage.pages.includes('pages/cards/index') && subpackag
 for (const file of subpackage.pages) for (const extension of ['js', 'json', 'wxml', 'wxss']) {
   assert(fs.existsSync(path.join(__dirname, '..', subpackage.root, `${file}.${extension}`)))
 }
-console.log('词库检查通过：15 个主题、150 个不重复生活词及图片、词卡切换、原录音保留、听图跳转；128 张贴纸配置齐全并覆盖现有奖励。')
+console.log('词库检查通过：15 个主题、150 个不重复生活词及图片、词卡切换、原录音保留、听图跳转；141 张贴纸配置齐全并覆盖现有奖励。')

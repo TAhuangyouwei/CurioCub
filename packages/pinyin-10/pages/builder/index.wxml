@@ -1,4 +1,4 @@
-<scroll-view class="builder-page" scroll-y>
+<scroll-view class="builder-page" scroll-y enhanced="{{true}}" show-scrollbar="{{true}}">
   <view class="screen builder-content">
     <view class="builder-hero">
       <view class="builder-hero-icon">♫</view>
@@ -158,3 +158,5 @@
     <text class="privacy-note">23 个声母、24 个韵母、16 个整体认读音节全部收录；声音离线保存在 CurioCub 中。</text>
   </view>
 </scroll-view>
+
+<desktop-scroll target=".builder-page" />

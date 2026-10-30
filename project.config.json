@@ -12,6 +12,7 @@
       { "type": "file", "value": "pages/pinyin-builder/pinyin-builder.json" }
     ],
     "include": [
+      {"type":"file","value":"assets/fonts/pinyin-hand.js"},
       {"type":"file","value":"assets/fonts/hanzi-kai.js"},
       {"type":"file","value":"packages/hanzi-extra/fonts/hanzi-kai.js"},
       {"type":"file","value":"packages/hanzi-reading-1/fonts/hanzi-kai.js"},

@@ -3,6 +3,7 @@ const readingHanziSeed = require('./hanzi-readings')
 const readingHanziSeed3 = require('./hanzi-readings-3')
 const hanziPinyin = require('./hanzi-pinyin')
 const schoolHanzi = require('./hanzi-school').added
+const { seeds: pinyinSeed, preparePinyin } = require('./pinyin-lessons')
 
 const hanziSeed = [
   ['土', '泥土', '🌱', 'hanzi-01-tu.png'], ['五', '五颗星', '⭐', 'hanzi-02-wu.png'], ['中', '中间', '🎯', 'hanzi-03-zhong.png'], ['上', '树上', '🌳', 'hanzi-04-shang.png'], ['天', '蓝天', '☁️', 'hanzi-05-tian.png'],
@@ -16,11 +17,6 @@ const hanziSeed = [
 ]
 
 const allHanziSeed = hanziSeed.concat(extraHanziSeed, readingHanziSeed, readingHanziSeed3, schoolHanzi)
-
-const pinyinSeed = [
-  ['a', '张开嘴巴 a', '😮'], ['o', '圆圆嘴巴 o', '🟡'], ['e', '白鹅 e', '🐤'], ['i', '衣服 i', '👕'], ['u', '乌鸦 u', '🐦'], ['ü', '小鱼 ü', '🐟'],
-  ['b', '广播 b', '📻'], ['p', '泼水 p', '💦'], ['m', '两个门洞 m', '🚪'], ['f', '一根拐杖 f', '🏒'], ['d', '小鼓 d', '🥁'], ['t', '小雨伞 t', '☂️']
-]
 
 const mathSeed = [
   ['1', '1 颗星星', '⭐'], ['2', '2 只小鸟', '🐦🐦'], ['3', '3 朵花', '🌷🌷🌷'], ['4', '4 条小鱼', '🐟🐟🐟🐟'], ['5', '5 个苹果', '🍎🍎🍎🍎🍎'],
@@ -77,7 +73,7 @@ const modules = [
   },
   {
     id: 'pinyin', title: '拼音花园', subtitle: '听声音找拼音', icon: '🔤', color: '#9a83d9', groupSize: 6,
-    items: createItems('pinyin', pinyinSeed, pinyinSeed.map((item) => item[0]), '听一听，哪一个是')
+    items: preparePinyin(createItems('pinyin', pinyinSeed, pinyinSeed.map((item) => item[0]), '听一听，哪一个是'))
   },
   {
     id: 'math', title: '数学乐园', subtitle: '数一数，算一算', icon: '🔢', color: '#4cab92', groupSize: 5,
@@ -93,9 +89,19 @@ function getModule(moduleId) {
   return modules.find((item) => item.id === moduleId)
 }
 
+function getLearningGroups(module) {
+  const groups = []
+  for (const unit of module.items) {
+    const previous = groups[groups.length - 1]
+    if (!previous || previous.length === module.groupSize || (module.id === 'pinyin' && previous[0].category !== unit.category)) groups.push([])
+    groups[groups.length - 1].push(unit)
+  }
+  return groups
+}
+
 function getUnit(moduleId, unitId) {
   const module = getModule(moduleId)
   return module && module.items.find((item) => item.id === unitId)
 }
 
-module.exports = { modules, getModule, getUnit }
+module.exports = { modules, getModule, getUnit, getLearningGroups }

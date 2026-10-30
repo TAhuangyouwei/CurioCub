@@ -49,3 +49,5 @@
     <button class="reader-primary" bindtap="startToday">去今天的小任务</button>
   </view>
 </view>
+
+<desktop-scroll />

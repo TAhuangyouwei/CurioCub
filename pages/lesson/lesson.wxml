@@ -1,13 +1,13 @@
-<view class="screen lesson" wx:if="{{unit}}">
+<view class="screen lesson {{isPinyin ? 'pinyin-lesson' : ''}}" wx:if="{{unit}}">
   <view class="custom-header">
     <button class="home-button tap-card" bindtap="returnToModule" aria-label="返回{{isNotebook ? '生字本' : module.title}}">‹</button>
     <view class="header-copy">
-      <text class="module-chip" style="background: {{module.color}}">{{module.icon}} {{isNotebook ? '我的生字本' : module.title}}</text>
+      <text class="module-chip" style="background: {{module.color}}">{{module.icon}} {{isNotebook ? (isPinyin ? '拼音复习本' : '我的生字本') : module.title}}</text>
       <text class="card-count">第 {{currentNumber}} / {{cardTotal}} 张</text>
     </view>
-    <text class="done-chip" wx:if="{{completed}}">{{isHanzi ? '已学会 ✓' : '已完成 ✓'}}</text>
-    <text class="done-chip unlearned-chip" wx:elif="{{isHanzi && unlearned}}">未学会</text>
-    <text class="done-chip unseen-chip" wx:elif="{{isHanzi}}">未学习</text>
+    <text class="done-chip" wx:if="{{completed}}">{{isLiteracy ? '已学会 ✓' : '已完成 ✓'}}</text>
+    <text class="done-chip unlearned-chip" wx:elif="{{isLiteracy && unlearned}}">未学会</text>
+    <text class="done-chip unseen-chip" wx:elif="{{isLiteracy}}">未学习</text>
   </view>
 
   <view class="lesson-practice">
@@ -25,14 +25,14 @@
           <image wx:else class="hint-slot scene-image" src="{{item.imageFile}}" mode="aspectFit" />
         </block>
         <text wx:else class="scene-icon">{{item.icon}}</text>
-        <text style="visibility: {{isHanzi && !item.resourceReady ? 'hidden' : 'visible'}}; {{isHanzi ? 'font-family: ' + item.fontFamily : ''}}" class="big-symbol tap-card {{isHanzi ? 'hanzi-symbol' : ''}}" bindtap="playCardAudio">{{item.title}}</text>
+        <text style="visibility: {{isHanzi && !item.resourceReady ? 'hidden' : 'visible'}}; {{isHanzi ? 'font-family: ' + item.fontFamily : ''}}" class="big-symbol tap-card {{isHanzi ? 'hanzi-symbol' : ''}}" bindtap="playCardAudio">{{item.displayTitle || item.title}}</text>
         <text class="scene-phrase">{{item.phrase}}</text>
       </view>
     </swiper-item>
   </swiper>
   <view wx:if="{{isHanzi && !fontReady}}" class="font-status"><text>{{fontError ? '这个字暂时没准备好' : '正在准备这个字…'}}</text><button wx:if="{{fontError}}" bindtap="loadFont">点此重试</button></view>
   <text class="swipe-hint">{{rangeEnabled ? '← 左右滑动，只在设定范围内循环 →' : isNotebook ? '← 左右滑动，查看生字本里的字 →' : '← 左右滑动，切换已学和新字 →'}}</text>
-  <button wx:if="{{isHanzi}}" class="trace-button tap-card" bindtap="openTrace">✍️ 大字临摹</button>
+  <button wx:if="{{isLiteracy}}" class="trace-button tap-card" bindtap="openTrace">{{isPinyin ? '✍️ 四线三格临摹' : '✍️ 大字临摹'}}</button>
   </view>
 
   <view class="lesson-actions">
@@ -53,10 +53,10 @@
   <button wx:else class="audio-button main-audio tap-card" bindtap="playMainAudio">🔊 点这里听声音</button>
 
   <view class="lesson-tip">
-    <text wx:if="{{isHanzi}}">{{completed ? '已学会 · 复习时忘记了，可以改为未学会。' : unlearned ? '未学会 · 已收进生字本，认识后再改为已学会。' : '未学习 · 还未确认掌握情况，先听一听、试一试。'}}</text>
+    <text wx:if="{{isLiteracy}}">{{completed ? '已学会 · 复习时忘记了，可以改为未学会。' : unlearned ? '未学会 · 已收进复习本，认识后再改为已学会。' : '未学习 · 还未确认掌握情况，先听一听、试一试。'}}</text>
     <text wx:else>✨ 学会了吗？Cubi 准备了一个小挑战。</text>
   </view>
-  <view wx:if="{{isHanzi}}" class="learning-status" role="group" aria-label="当前学习状态">
+  <view wx:if="{{isLiteracy}}" class="learning-status" role="group" aria-label="当前学习状态">
     <button class="status-button unseen {{!completed && !unlearned ? 'selected' : ''}}" bindtap="markUnstudied" aria-pressed="{{!completed && !unlearned}}">未学习{{!completed && !unlearned ? ' ✓' : ''}}</button>
     <button class="status-button learned {{completed ? 'selected' : ''}}" bindtap="markLearned" aria-pressed="{{completed}}">已学会{{completed ? ' ✓' : ''}}</button>
     <button class="status-button unlearned {{unlearned ? 'selected' : ''}}" bindtap="markUnlearned" aria-pressed="{{unlearned}}">未学会{{unlearned ? ' ✓' : ''}}</button>
@@ -64,3 +64,5 @@
   <button wx:else class="challenge-button" bindtap="startChallenge">去闯关</button>
   </view>
 </view>
+
+<desktop-scroll />

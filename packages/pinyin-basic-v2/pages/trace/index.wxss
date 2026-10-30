@@ -1,0 +1,9 @@
+.pinyin-trace { max-width: 932px; margin: 0 auto; padding: 16px 16px calc(16px + env(safe-area-inset-bottom)); box-sizing: border-box; }
+.trace-title { display: block; color: #304c62; font-size: 24px; font-weight: 700; }
+.trace-note { display: block; color: #71849a; font-size: 14px; line-height: 1.6; margin: 8px 0; }
+.trace-instruction { margin: 12px 0; padding: 12px; border-radius: 16px; color: #a64448; background: #fff1ee; font-size: 17px; }
+.trace-instruction.trace-complete { color: #278765; background: #e5f5ed; }
+.trace-canvas { display: block; border-radius: 16px; overflow: hidden; }
+.trace-actions { display: flex; gap: 8px; margin-top: 10px; }
+.trace-actions button { flex: 1; width: 0; min-width: 0; min-height: 44px; padding: 10px 4px; border-radius: 14px; color: #526f9a; background: #e3edf7; font-size: 15px; line-height: 1.6; }
+.trace-actions .primary { color: white; background: #5f83dd; }

@@ -5,30 +5,74 @@ function localTime(value) {
   return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`
 }
 Page({
-  data: { summary: {}, pending: null, pendingTime: '', text: '', showText: false, canUndo: false, busy: false },
+  data: { summary: {}, pending: null, pendingTime: '', text: '', showText: false, canUndo: false, busy: false,
+    exportError: '', transferHint: '', canSaveFile: false },
   onShow() { this.refresh() },
   refresh() {
-    this.setData({ summary: describe(decodeBackup(encodeBackup()).data), canUndo: Boolean(wx.getStorageSync(UNDO_KEY)) })
+    const info = wx.getDeviceInfo ? wx.getDeviceInfo() : wx.getSystemInfoSync ? wx.getSystemInfoSync() : {}
+    this.setData({ summary: describe(decodeBackup(encodeBackup()).data), canUndo: Boolean(wx.getStorageSync(UNDO_KEY)),
+      canSaveFile: ['windows', 'mac'].includes(info.platform) && typeof wx.saveFileToDisk === 'function' })
   },
   error(error) { wx.showModal({ title: '暂时没能完成', content: error.message || '请重试，或使用下方的存档文字', showCancel: false }) },
+  writeBackupFile(content) {
+    const filePath = `${wx.env.USER_DATA_PATH}/CurioCub-save.txt`
+    // Keep the native send/save call in the button's own call stack. The backup is small.
+    wx.getFileSystemManager().writeFileSync(filePath, content, 'utf8')
+    return filePath
+  },
+  exportFailed(message, error, content) {
+    const detail = error.errMsg || error.message || '微信未返回具体原因'
+    const code = error.errno !== undefined ? error.errno : error.errCode
+    this.setData({ busy: false, exportError: `${detail}${code !== undefined ? `（错误码 ${code}）` : ''}`.slice(0, 800) })
+    wx.showModal({ title: '文件没能发出', content: `${message}可以复制存档文字，粘贴到微信“文件传输助手”继续传递。具体原因已显示在页面上。`,
+      confirmText: '复制存档', cancelText: '暂不复制',
+      success: result => { if (result.confirm) this.copyText(content) }
+    })
+  },
   sendFile() {
     if (this.data.busy) return
-    if (!wx.shareFileMessage) { this.copyText(); return }
-    this.setData({ busy: true })
+    this.setData({ busy: true, exportError: '', transferHint: '' })
+    let content
     try {
-      const filePath = `${wx.env.USER_DATA_PATH}/CurioCub-save.txt`
-      const content = encodeBackup()
-      const date = new Date().toISOString().replace(/[:.]/g, '-')
-      wx.getFileSystemManager().writeFile({ filePath, data: content, encoding: 'utf8',
-        success: () => wx.shareFileMessage({ filePath, fileName: `CurioCub-学习存档-${date}.txt`,
-          fail: error => { if (!/cancel/.test(error.errMsg || '')) this.error(new Error('当前微信无法发送文件，请使用“复制存档文字”')) },
-          complete: () => this.setData({ busy: false }) }),
-        fail: () => { this.setData({ busy: false }); this.error(new Error('文件保存失败，请使用“复制存档文字”')) }
+      content = encodeBackup()
+      if (typeof wx.shareFileMessage !== 'function') {
+        this.exportFailed('当前微信没有文件发送功能。', new Error('当前微信未提供 shareFileMessage'), content)
+        return
+      }
+      const filePath = this.writeBackupFile(content)
+      wx.shareFileMessage({ filePath, fileName: 'CurioCub-save.txt',
+        success: () => this.setData({ transferHint: '存档已发送，请在接收设备选择收到的存档文件并核对。' }),
+        fail: error => { if (!/cancel/i.test(error.errMsg || '')) this.exportFailed('微信未能完成文件发送。', error, content) },
+        complete: () => this.setData({ busy: false })
       })
-    } catch (error) { this.setData({ busy: false }); this.error(error) }
+    } catch (error) {
+      this.setData({ busy: false })
+      if (content) this.exportFailed('文件未能准备或发送。', error, content)
+      else this.error(error)
+    }
   },
-  copyText() {
-    try { wx.setClipboardData({ data: encodeBackup(), fail: () => this.error(new Error('复制失败，请重试')) }) }
+  saveFile() {
+    if (this.data.busy || !this.data.canSaveFile) return
+    this.setData({ busy: true, exportError: '', transferHint: '' })
+    let content
+    try {
+      content = encodeBackup()
+      const filePath = this.writeBackupFile(content)
+      wx.saveFileToDisk({ filePath,
+        success: () => this.setData({ transferHint: '存档已保存到电脑。请在微信中选择这个文件，发送到“文件传输助手”。' }),
+        fail: error => { if (!/cancel/i.test(error.errMsg || '')) this.exportFailed('文件未能保存到电脑。', error, content) },
+        complete: () => this.setData({ busy: false })
+      })
+    } catch (error) {
+      this.setData({ busy: false })
+      if (content) this.exportFailed('文件未能保存到电脑。', error, content)
+      else this.error(error)
+    }
+  },
+  copyText(text) {
+    try { wx.setClipboardData({ data: typeof text === 'string' ? text : encodeBackup(),
+      success: () => this.setData({ transferHint: '存档文字已复制。去微信粘贴并发送完整文字；另一台设备复制后，用“存档文字恢复”。' }),
+      fail: () => this.error(new Error('复制失败，请重试')) }) }
     catch (error) { this.error(error) }
   },
   chooseFile() {

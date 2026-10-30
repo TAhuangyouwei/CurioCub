@@ -4,7 +4,7 @@
     <text class="range-description">每排 10 个字，对应一站；选中的整段会高亮，同一个字点两次可单字练习。</text>
     <view class="status-legend"><text class="unseen">● 未学习</text><text class="learned">● 已学会</text><text class="unlearned">● 未学会</text></view>
   </view>
-  <scroll-view class="range-scroll" scroll-y scroll-into-view="{{initialAnchor}}">
+  <scroll-view class="range-scroll" scroll-y scroll-into-view="{{initialAnchor}}" enhanced="{{true}}" show-scrollbar="{{true}}">
     <view class="range-grid">
       <view wx:for="{{units}}" wx:key="id" id="char-{{index}}"
         class="range-cell {{item.status}} {{rangeCount && index >= rangeStart && index <= rangeEnd ? 'in-range' : ''}} {{rangeCount && (index === rangeStart || index === rangeEnd) ? 'endpoint' : ''}}"
@@ -25,3 +25,5 @@
     <button class="save-range" disabled="{{!rangeReady}}" bindtap="saveAndStart">保存并开始学习</button>
   </view>
 </view>
+
+<desktop-scroll target=".range-scroll" />
