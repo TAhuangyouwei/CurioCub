@@ -1,0 +1,20 @@
+{
+  "id": "bear",
+  "word": "bear",
+  "text": "bear",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/bear.mp3",
+  "target": "/packages/english-vocabulary/audio/bear.mp3",
+  "duration": 0.672,
+  "audible": 0.286,
+  "trimStart": 0.088708,
+  "trimEnd": 0.662917,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "6ed4bb5e7d119be571b0b29b6df83bbbcacfe28ab673fad96fb73fb041fa064a",
+  "sha256": "0845feded380c166a66c04924207ec8a7e7d43d74b8760d90785c7d98872cc14",
+  "bytes": 2016
+}

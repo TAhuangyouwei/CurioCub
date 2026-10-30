@@ -1,0 +1,20 @@
+{
+  "id": "gray",
+  "word": "gray",
+  "text": "gray",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/gray.mp3",
+  "target": "/packages/english-vocabulary/audio/gray.mp3",
+  "duration": 0.72,
+  "audible": 0.307,
+  "trimStart": 0.085375,
+  "trimEnd": 0.696208,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "c26690efdb23374113850cd2f632103c813ba21ef7bbaa0b42cf859fd98477fa",
+  "sha256": "b3300a2199500efc27c5adaf03baacf286903b05761d0c5248833181bcaf0375",
+  "bytes": 2160
+}

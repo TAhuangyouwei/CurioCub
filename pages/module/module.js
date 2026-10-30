@@ -131,6 +131,15 @@ Page({
     wx.navigateTo({ url: '/packages/pinyin-04/pages/builder/index' })
   },
 
+  openEnglishListening(event) {
+    const topic = event.currentTarget.dataset.topic || 'all'
+    wx.navigateTo({ url: `/pages/english-listening/english-listening?topic=${topic}` })
+  },
+
+  openEnglishVocabulary() {
+    wx.navigateTo({ url: '/packages/english-vocabulary/pages/cards/index' })
+  },
+
   openNotebook() {
     wx.navigateTo({ url: '/pages/notebook/notebook' })
   },

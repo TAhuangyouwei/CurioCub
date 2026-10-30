@@ -1,0 +1,20 @@
+{
+  "id": "pink",
+  "word": "pink",
+  "text": "pink",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/pink.mp3",
+  "target": "/packages/english-vocabulary/audio/pink.mp3",
+  "duration": 0.72,
+  "audible": 0.254,
+  "trimStart": 0.094542,
+  "trimEnd": 0.705667,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "846975659f8680f0575ef734c512e0681076fa1a27b19a82e192dfa008730a53",
+  "sha256": "511a5a702fcbdd3956c11d3483933692bc068a16c382dcaad15acfe8a2eec308",
+  "bytes": 2160
+}

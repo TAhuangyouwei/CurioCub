@@ -1,0 +1,20 @@
+{
+  "id": "long",
+  "word": "long",
+  "text": "long",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/long.mp3",
+  "target": "/packages/english-vocabulary/audio/long.mp3",
+  "duration": 0.672,
+  "audible": 0.31,
+  "trimStart": 0.085375,
+  "trimEnd": 0.6505,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "c8323b5059e352a1d98a47b97fac7c9fdb2b6e74e586be41ed918a7ecdd184b3",
+  "sha256": "732d579dca4e78b16ceed0114c0ab91c3f9ca3d41266245b7e0ef210462d8b52",
+  "bytes": 2016
+}

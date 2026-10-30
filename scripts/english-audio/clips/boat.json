@@ -1,0 +1,20 @@
+{
+  "id": "boat",
+  "word": "boat",
+  "text": "boat",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/boat.mp3",
+  "target": "/packages/english-vocabulary/audio/boat.mp3",
+  "duration": 0.696,
+  "audible": 0.218,
+  "trimStart": 0.088125,
+  "trimEnd": 0.687958,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "edd467dab099a2ceb1463f006487c37dfddb92ec5455c24ae500d7daca0c03d6",
+  "sha256": "de5daf7df05851cbed3b03429acdf2f1a5d95da3ea96952ee4c277272cbdf499",
+  "bytes": 2088
+}

@@ -1,0 +1,20 @@
+{
+  "id": "juice",
+  "word": "juice",
+  "text": "juice",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/juice.mp3",
+  "target": "/packages/english-vocabulary/audio/juice.mp3",
+  "duration": 0.768,
+  "audible": 0.243,
+  "trimStart": 0.085375,
+  "trimEnd": 0.762875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "80132b80a18f48698e3b3c0826f880a5dbbf479b6afc15f6bb93b33aaa1d158b",
+  "sha256": "9761a386746179d8465d6c4764fa80b2b4dc05293feeb05802eec00917b37177",
+  "bytes": 2304
+}

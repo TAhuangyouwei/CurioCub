@@ -1,0 +1,20 @@
+{
+  "id": "teacher",
+  "word": "teacher",
+  "text": "teacher",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/teacher.mp3",
+  "target": "/packages/english-vocabulary/audio/teacher.mp3",
+  "duration": 0.816,
+  "audible": 0.39,
+  "trimStart": 0.090667,
+  "trimEnd": 0.814958,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "47133af5871dc3ca1b60b325f4ec4aa3b818f586f91ba009c6777c2667d48364",
+  "sha256": "05bf409161f6ce6703b085eaa4bd01cb28613c7baf85c63969980a7ef42b6de1",
+  "bytes": 2448
+}

@@ -1,0 +1,20 @@
+{
+  "id": "three",
+  "word": "three",
+  "text": "three",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/three.mp3",
+  "target": "/packages/english-vocabulary/audio/three.mp3",
+  "duration": 0.768,
+  "audible": 0.278,
+  "trimStart": 0.08625,
+  "trimEnd": 0.746208,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "ef8abaac11a96118a81087521fe08970351bac64e57c5378e2df0840a7117e57",
+  "sha256": "e469926e6b0b81c63c4ff38fbd0c77a80e6b40dc8b4452cda350c95a24d194a9",
+  "bytes": 2304
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pen",
+  "word": "pen",
+  "text": "pen",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/pen.mp3",
+  "target": "/packages/english-vocabulary/audio/pen.mp3",
+  "duration": 0.696,
+  "audible": 0.33,
+  "trimStart": 0.088667,
+  "trimEnd": 0.68875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "5dd2a7fa9e96cae5923a139f60fc687bb8d9362bbb2b9cc2028b775528c7e124",
+  "sha256": "eb057234efb34c699fa8ef4927c70c83ae3fba0d506ba05c83817ccdb32704b7",
+  "bytes": 2088
+}

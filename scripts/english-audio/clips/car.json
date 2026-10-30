@@ -1,0 +1,20 @@
+{
+  "id": "car",
+  "word": "car",
+  "text": "car",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/car.mp3",
+  "target": "/packages/english-vocabulary/audio/car.mp3",
+  "duration": 0.648,
+  "audible": 0.278,
+  "trimStart": 0.090667,
+  "trimEnd": 0.641833,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "fe9efdb6f293f37c40476f78107973ffd7e6880c5e1acbcb8869627cb539c58f",
+  "sha256": "9d9a8693082f439dfc0270349fc9b36f0601f12c6babaecc25d3624a768a7a03",
+  "bytes": 1944
+}

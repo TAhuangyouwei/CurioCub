@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/learning-backup/learning-backup",
     "pages/module/module",
     "pages/learning-range/learning-range",
     "pages/learning-order/learning-order",
@@ -10,9 +11,11 @@
     "pages/challenge/challenge",
     "pages/reward/reward",
     "pages/review/review",
-    "pages/stickers/stickers"
+    "pages/stickers/stickers",
+    "pages/english-listening/english-listening"
   ],
   "subpackages": [
+    { "root": "packages/english-vocabulary", "name": "english-vocabulary", "pages": ["pages/cards/index", "pages/listening/index"] },
     { "root": "packages/hanzi-writing", "name": "hanzi-writing", "pages": ["pages/trace/index"] },
     { "root": "packages/hanzi-practice", "name": "hanzi-practice", "pages": ["pages/today/index", "pages/reading/index", "pages/trace/index", "pages/review/index"] },
     { "root": "packages/math-sticks", "name": "math-sticks", "pages": ["pages/workshop/index", "pages/practice/index", "pages/bonds/index"] },

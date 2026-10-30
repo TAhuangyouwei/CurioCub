@@ -1,0 +1,20 @@
+{
+  "id": "foot",
+  "word": "foot",
+  "text": "foot",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/foot.mp3",
+  "target": "/packages/english-vocabulary/audio/foot.mp3",
+  "duration": 0.792,
+  "audible": 0.204,
+  "trimStart": 0.084958,
+  "trimEnd": 0.771417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "9105d8654fad3488712b89b02c2933a2e27f0d9b628d143bc358f76aa8d43edd",
+  "sha256": "43d8e233292a8ecfccdb539a02961af6b52917799a76080c20fd2cbafd1cf64d",
+  "bytes": 2376
+}

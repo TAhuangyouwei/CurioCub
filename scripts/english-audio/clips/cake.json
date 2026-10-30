@@ -1,0 +1,20 @@
+{
+  "id": "cake",
+  "word": "cake",
+  "text": "cake",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cake.mp3",
+  "target": "/packages/english-vocabulary/audio/cake.mp3",
+  "duration": 0.672,
+  "audible": 0.21,
+  "trimStart": 0.092375,
+  "trimEnd": 0.675333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "aee2758da6859a9e4fcc2f3bd15dd6a4586cd852ab60d8748a955a95aad30b71",
+  "sha256": "1f7af9e854459cd91f659aa8f775c779764ee4290dc3a168ef9fd2fafe3996f2",
+  "bytes": 2016
+}

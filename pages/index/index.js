@@ -51,5 +51,9 @@ Page({
 
   openStickers() {
     wx.navigateTo({ url: '/pages/stickers/stickers' })
+  },
+
+  openBackup() {
+    wx.navigateTo({ url: '/pages/learning-backup/learning-backup' })
   }
 })

@@ -1,0 +1,20 @@
+{
+  "id": "robot",
+  "word": "robot",
+  "text": "robot",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/robot.mp3",
+  "target": "/packages/english-vocabulary/audio/robot.mp3",
+  "duration": 0.912,
+  "audible": 0.376,
+  "trimStart": 0.08475,
+  "trimEnd": 0.900333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "d2d578ae6908c8e71f65acf115f5f08a5056c097ae3df9b97b0cda4eff6cb44b",
+  "sha256": "53717e20c2f66639c5474cb3d7cd3f8ea7f6396414a10064dea2821d7aa0fcbf",
+  "bytes": 2736
+}

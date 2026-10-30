@@ -1,0 +1,20 @@
+{
+  "id": "seven",
+  "word": "seven",
+  "text": "seven",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/seven.mp3",
+  "target": "/packages/english-vocabulary/audio/seven.mp3",
+  "duration": 0.84,
+  "audible": 0.351,
+  "trimStart": 0.084958,
+  "trimEnd": 0.823458,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "4d3401d9465e6a2808d40516aa9818e3cf29971b0f75404d834fe39aaba52755",
+  "sha256": "193f447b9bb6e33f6cf231f1728299c456a9c0cd50aed2bc46d7e79530168e3a",
+  "bytes": 2520
+}

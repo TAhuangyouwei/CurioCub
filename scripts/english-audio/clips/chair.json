@@ -1,0 +1,20 @@
+{
+  "id": "chair",
+  "word": "chair",
+  "text": "chair",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/chair.mp3",
+  "target": "/packages/english-vocabulary/audio/chair.mp3",
+  "duration": 0.72,
+  "audible": 0.315,
+  "trimStart": 0.085208,
+  "trimEnd": 0.704375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "2aab45ccb833932e6947ef5b4dca40d3ba4d34af72f1606393cd055620018855",
+  "sha256": "621dbfa5ff04760cd97272ef6266cf6eac4fa1f4f6e5f7b2997a9bc63040ff88",
+  "bytes": 2160
+}

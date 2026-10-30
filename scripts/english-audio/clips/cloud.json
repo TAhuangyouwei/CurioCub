@@ -1,0 +1,20 @@
+{
+  "id": "cloud",
+  "word": "cloud",
+  "text": "cloud",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cloud.mp3",
+  "target": "/packages/english-vocabulary/audio/cloud.mp3",
+  "duration": 0.768,
+  "audible": 0.289,
+  "trimStart": 0.085375,
+  "trimEnd": 0.764333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "63e5330fde5567d01091dab84d2b43787f225dd94ec90a07891b80d140b22466",
+  "sha256": "e36088ff36018be818dba02cebfedd3bf5c8292bc1073edb91961191c0eb0fd4",
+  "bytes": 2304
+}

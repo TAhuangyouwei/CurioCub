@@ -1,0 +1,20 @@
+{
+  "id": "hot",
+  "word": "hot",
+  "text": "hot",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/hot.mp3",
+  "target": "/packages/english-vocabulary/audio/hot.mp3",
+  "duration": 0.72,
+  "audible": 0.235,
+  "trimStart": 0.085208,
+  "trimEnd": 0.708792,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "6bc58dbcdb27d07d8f4247afa6c2c6ad48de69adf785bcf3ab28aec2417207c0",
+  "sha256": "fbaeb7351a290c9d502a3e73b7cd9f41fa3bc7ffa5a7d05045f9f1c7df7b43cc",
+  "bytes": 2160
+}

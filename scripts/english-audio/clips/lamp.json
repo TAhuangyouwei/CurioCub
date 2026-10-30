@@ -1,0 +1,20 @@
+{
+  "id": "lamp",
+  "word": "lamp",
+  "text": "lamp",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/lamp.mp3",
+  "target": "/packages/english-vocabulary/audio/lamp.mp3",
+  "duration": 0.72,
+  "audible": 0.297,
+  "trimStart": 0.085375,
+  "trimEnd": 0.711625,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "4e73c84efa966639e6fe3012824bfcad2850ff60585ae03045701088a3e06b34",
+  "sha256": "e1194bcb4c0296f302faf041350fabb1b2bf7d2d7d8f0d083a99317fa444b672",
+  "bytes": 2160
+}

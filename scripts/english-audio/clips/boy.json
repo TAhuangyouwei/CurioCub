@@ -1,0 +1,20 @@
+{
+  "id": "boy",
+  "word": "boy",
+  "text": "boy",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/boy.mp3",
+  "target": "/packages/english-vocabulary/audio/boy.mp3",
+  "duration": 0.648,
+  "audible": 0.244,
+  "trimStart": 0.088708,
+  "trimEnd": 0.625,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "5106ece4fcc326cc586c842931d61293f81dba5065d5acd9cf945c79bd7e2a5c",
+  "sha256": "3ddef876b15020214f1c92e2f6e45afefee128ddaaa41c7f4a8efd1ab0149073",
+  "bytes": 1944
+}

@@ -1,0 +1,20 @@
+{
+  "id": "socks",
+  "word": "socks",
+  "text": "socks",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/socks.mp3",
+  "target": "/packages/english-vocabulary/audio/socks.mp3",
+  "duration": 0.888,
+  "audible": 0.185,
+  "trimStart": 0.085167,
+  "trimEnd": 0.875375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "1e5a09c8b5778dc9bb79113b9a2133431905c5d038d94d29f9fe36a4fe29ac3a",
+  "sha256": "bc35d9ac72d2739a8cde6084cf234865b6b0f3aab106b1d3ad342b0521356163",
+  "bytes": 2664
+}

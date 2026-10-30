@@ -1,0 +1,20 @@
+{
+  "id": "nine",
+  "word": "nine",
+  "text": "nine",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/nine.mp3",
+  "target": "/packages/english-vocabulary/audio/nine.mp3",
+  "duration": 0.696,
+  "audible": 0.352,
+  "trimStart": 0.092333,
+  "trimEnd": 0.687917,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "d30f74851b022da34e25a6ce505ddd4f3d71cb987d5d5ed098da537e0c33b99c",
+  "sha256": "940b64e5a712b65710e1f9ac1157bd10c6fe611998931a99e007cff2ab739e9b",
+  "bytes": 2088
+}

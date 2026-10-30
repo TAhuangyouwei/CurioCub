@@ -1,0 +1,20 @@
+{
+  "id": "door",
+  "word": "door",
+  "text": "door",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/door.mp3",
+  "target": "/packages/english-vocabulary/audio/door.mp3",
+  "duration": 0.672,
+  "audible": 0.287,
+  "trimStart": 0.085375,
+  "trimEnd": 0.663,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "caf19b4d9ee3ac4944e6afe3423461508ced65438d0543d524bd715cf9511296",
+  "sha256": "3c681dc1173cd1525129aa5f39889d92e9af4822dd71e68a59165eeafba78af2",
+  "bytes": 2016
+}

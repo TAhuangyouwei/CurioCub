@@ -1,0 +1,20 @@
+{
+  "id": "shoes",
+  "word": "shoes",
+  "text": "shoes",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/shoes.mp3",
+  "target": "/packages/english-vocabulary/audio/shoes.mp3",
+  "duration": 0.864,
+  "audible": 0.313,
+  "trimStart": 0.085208,
+  "trimEnd": 0.839333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "d8464909ff93221a19860d7e190f59355ef8411f3a0ebb3eb31f6ae47009e04a",
+  "sha256": "ed15e4dfb7ff38e858a3ea9d4da414e0c036ee095c34c4c4ecfdc9a504b1d325",
+  "bytes": 2592
+}

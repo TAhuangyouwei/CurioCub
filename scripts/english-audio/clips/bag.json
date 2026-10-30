@@ -1,0 +1,20 @@
+{
+  "id": "bag",
+  "word": "bag",
+  "text": "bag",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/bag.mp3",
+  "target": "/packages/english-vocabulary/audio/bag.mp3",
+  "duration": 0.648,
+  "audible": 0.221,
+  "trimStart": 0.08775,
+  "trimEnd": 0.625417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "0408a7dc0215b0811d377415bd21409dcce4fbc6680cd3f056fbac869cc0776b",
+  "sha256": "a532833b71de715a3c34f0f4ce86ba447d166468099dd409fabfcbf2640e60a3",
+  "bytes": 1944
+}

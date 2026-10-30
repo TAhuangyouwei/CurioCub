@@ -1,0 +1,20 @@
+{
+  "id": "big",
+  "word": "big",
+  "text": "big",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/big.mp3",
+  "target": "/packages/english-vocabulary/audio/big.mp3",
+  "duration": 0.6,
+  "audible": 0.182,
+  "trimStart": 0.088667,
+  "trimEnd": 0.600333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "65afb2c5806977ae00c58d08536d29ad39777d65e28f15af79025d6b6f76afa8",
+  "sha256": "d9cd501449325a3b83adc3f3ab7ffca7275554492d088063d69c96cc5c40cb0e",
+  "bytes": 1800
+}

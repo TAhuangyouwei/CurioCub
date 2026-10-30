@@ -1,0 +1,20 @@
+{
+  "id": "read",
+  "word": "read",
+  "text": "reed",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/read.mp3",
+  "target": "/packages/english-vocabulary/audio/read.mp3",
+  "duration": 0.696,
+  "audible": 0.276,
+  "trimStart": 0.0845,
+  "trimEnd": 0.6755,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "b041e6fcfae1958a62c600b1dcf8c7c761a61816aab69051b6d3e805002cb288",
+  "sha256": "28096696b926fb51ec4f4ed14b8059707d45a030da7f2b2b7c1074ec742b6442",
+  "bytes": 2088
+}

@@ -1,0 +1,20 @@
+{
+  "id": "milk",
+  "word": "milk",
+  "text": "milk",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/milk.mp3",
+  "target": "/packages/english-vocabulary/audio/milk.mp3",
+  "duration": 0.72,
+  "audible": 0.259,
+  "trimStart": 0.084917,
+  "trimEnd": 0.707167,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "e98048f8117ded25eba077be9d6f8ba8d7a6d2d2d553945fad1cf091d359183a",
+  "sha256": "0342fdd2ebdcba6259e0a82ee645e4b33adac0acb72ba5b8168a153bc8294675",
+  "bytes": 2160
+}

@@ -1,0 +1,20 @@
+{
+  "id": "snow",
+  "word": "snow",
+  "text": "snow",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/snow.mp3",
+  "target": "/packages/english-vocabulary/audio/snow.mp3",
+  "duration": 0.84,
+  "audible": 0.313,
+  "trimStart": 0.08125,
+  "trimEnd": 0.825583,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "8ccff8aa471b6e4064956f8cd7ee9661eb7e2240ee3a9101b1bf4a7b7a30ee86",
+  "sha256": "37a89b225aeeced5c14f35de24421502370d57ea1d91559aa4ea7e2b5acf88ae",
+  "bytes": 2520
+}

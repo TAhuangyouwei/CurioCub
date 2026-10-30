@@ -1,0 +1,20 @@
+{
+  "id": "tall",
+  "word": "tall",
+  "text": "tall",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/tall.mp3",
+  "target": "/packages/english-vocabulary/audio/tall.mp3",
+  "duration": 0.72,
+  "audible": 0.313,
+  "trimStart": 0.088458,
+  "trimEnd": 0.7005,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "63e0c7a7dd531bc9f73b1ea12ab2819d15549eebc3ec67586f9aedaa91ad3f58",
+  "sha256": "6b3607b58e3ccdff72df5311b2fd3bbf13d15fc28644eb3887b323213a7567b5",
+  "bytes": 2160
+}

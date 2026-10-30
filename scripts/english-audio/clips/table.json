@@ -1,0 +1,20 @@
+{
+  "id": "table",
+  "word": "table",
+  "text": "table",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/table.mp3",
+  "target": "/packages/english-vocabulary/audio/table.mp3",
+  "duration": 0.768,
+  "audible": 0.316,
+  "trimStart": 0.088667,
+  "trimEnd": 0.758708,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "5f3a0951d34aba2c7830c3fca329e3ec023bb3bfb20276c96a738274401b67eb",
+  "sha256": "106131d8ce90c875f3197fd0ee7b3b27c2f5ac62bd274fb4c32204e170c0bc51",
+  "bytes": 2304
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sad",
+  "word": "sad",
+  "text": "sad",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/sad.mp3",
+  "target": "/packages/english-vocabulary/audio/sad.mp3",
+  "duration": 0.744,
+  "audible": 0.202,
+  "trimStart": 0.08625,
+  "trimEnd": 0.725375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "190ae231e62cd0c230c70abfa5e4f1aaa458f867959be396281546e377c90786",
+  "sha256": "24747a26018596f43c170123d2b4172d9aed15cb0eb54c8da837b745c7d6f541",
+  "bytes": 2232
+}

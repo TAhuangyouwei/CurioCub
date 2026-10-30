@@ -1,0 +1,20 @@
+{
+  "id": "peach",
+  "word": "peach",
+  "text": "peach",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/peach.mp3",
+  "target": "/packages/english-vocabulary/audio/peach.mp3",
+  "duration": 0.792,
+  "audible": 0.336,
+  "trimStart": 0.088667,
+  "trimEnd": 0.787875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "2e8c1e76eab2804f9afa2114f52da7596b8be19f6d00f1a97ec4338dd7e3e0b4",
+  "sha256": "02f62cd4d52dd36eaf10d20c0631a7c01ebc845de75151fe29d3d0b282d1a65a",
+  "bytes": 2376
+}

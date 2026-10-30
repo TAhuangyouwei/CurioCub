@@ -1,0 +1,20 @@
+{
+  "id": "cow",
+  "word": "cow",
+  "text": "cow",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cow.mp3",
+  "target": "/packages/english-vocabulary/audio/cow.mp3",
+  "duration": 0.672,
+  "audible": 0.251,
+  "trimStart": 0.085375,
+  "trimEnd": 0.646292,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "7b6dba26126bb6b35274f28a742f192e6824b4543a37cfd2fc535660175ceb63",
+  "sha256": "8557dbcf32e08587b9e73ed779748908849d44494d214809db384a90c2ce20c3",
+  "bytes": 2016
+}

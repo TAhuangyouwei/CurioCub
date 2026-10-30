@@ -1,0 +1,20 @@
+{
+  "id": "pencil",
+  "word": "pencil",
+  "text": "pencil",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/pencil.mp3",
+  "target": "/packages/english-vocabulary/audio/pencil.mp3",
+  "duration": 0.84,
+  "audible": 0.353,
+  "trimStart": 0.094542,
+  "trimEnd": 0.833542,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "fe451876bdedcc074eadf095ac288ec79cbaa03e9663598c0dc8a9dc225bb172",
+  "sha256": "d29dca8cc881fc3055c3c6acf16d3b8cd772290e0b26e0890148077d53d6f740",
+  "bytes": 2520
+}

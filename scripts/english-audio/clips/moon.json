@@ -1,0 +1,20 @@
+{
+  "id": "moon",
+  "word": "moon",
+  "text": "moon",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/moon.mp3",
+  "target": "/packages/english-vocabulary/audio/moon.mp3",
+  "duration": 0.696,
+  "audible": 0.343,
+  "trimStart": 0.089083,
+  "trimEnd": 0.6755,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "2bed9874c7ffcc65c23f6a3f2d92acdb2a53f019f0c3d529c85e0f1e6a9bff91",
+  "sha256": "f9d2024244eeff717295e2854b4bbdd07aa703a161dc2a553b2e354d2e6a1cd9",
+  "bytes": 2088
+}

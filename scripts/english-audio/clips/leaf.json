@@ -1,0 +1,20 @@
+{
+  "id": "leaf",
+  "word": "leaf",
+  "text": "leaf",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/leaf.mp3",
+  "target": "/packages/english-vocabulary/audio/leaf.mp3",
+  "duration": 0.744,
+  "audible": 0.242,
+  "trimStart": 0.085208,
+  "trimEnd": 0.7255,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "da43c7c0da4c401e8809b326849e73eeba61f8083b1f03d74b5889f1ec3f0e2b",
+  "sha256": "d39fc67ed0a48a267eca95378934e41a8971f983b4b0ad27f5e29c90ab92e52e",
+  "bytes": 2232
+}

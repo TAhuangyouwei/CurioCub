@@ -1,0 +1,20 @@
+{
+  "id": "write",
+  "word": "write",
+  "text": "write",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/write.mp3",
+  "target": "/packages/english-vocabulary/audio/write.mp3",
+  "duration": 0.72,
+  "audible": 0.262,
+  "trimStart": 0.085208,
+  "trimEnd": 0.696375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "974547cf6f5b6d2eb5a9d3f4e3bd8d3f58cb5a52f0e4e4c49b13634a50636250",
+  "sha256": "fa3ae2fe2986e59ad24926a8e50f0d0a1680fc5271f3a1e40bebcf5754d53fbc",
+  "bytes": 2160
+}

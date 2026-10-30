@@ -1,0 +1,20 @@
+{
+  "id": "cap",
+  "word": "cap",
+  "text": "cap",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cap.mp3",
+  "target": "/packages/english-vocabulary/audio/cap.mp3",
+  "duration": 0.648,
+  "audible": 0.206,
+  "trimStart": 0.085375,
+  "trimEnd": 0.644583,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "1f3441735604d2d1ad64f00911e1c4af5157f58d3424ec51bf7ece63e9e5006f",
+  "sha256": "f44e34c31bf8a212557d6d524df9506c5fd203f8bd092972e6a01b93c824761a",
+  "bytes": 1944
+}

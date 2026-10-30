@@ -1,0 +1,20 @@
+{
+  "id": "chicken",
+  "word": "chicken",
+  "text": "chicken",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/chicken.mp3",
+  "target": "/packages/english-vocabulary/audio/chicken.mp3",
+  "duration": 0.84,
+  "audible": 0.399,
+  "trimStart": 0.085375,
+  "trimEnd": 0.820167,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "f847b093c83e3ba130239e10334aa8bf56e06d3a5fd6a25c8c55052528874243",
+  "sha256": "36456bb51390708356cd34c6dd77d0e62df4219e0b1fb3d51a101dc9475d7b81",
+  "bytes": 2520
+}

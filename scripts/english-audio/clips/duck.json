@@ -1,0 +1,20 @@
+{
+  "id": "duck",
+  "word": "duck",
+  "text": "duck",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/duck.mp3",
+  "target": "/packages/english-vocabulary/audio/duck.mp3",
+  "duration": 0.648,
+  "audible": 0.188,
+  "trimStart": 0.085375,
+  "trimEnd": 0.637875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "fad0b59a3b06aadae98d3bd6f58f9909236a377553026bca402badb1d0cf4b79",
+  "sha256": "bafeddd69b15a132d47f249d67ffe71cce1aa0e99d4a0add4f52151a407e2610",
+  "bytes": 1944
+}

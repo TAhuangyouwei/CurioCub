@@ -1,0 +1,20 @@
+{
+  "id": "window",
+  "word": "window",
+  "text": "window",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/window.mp3",
+  "target": "/packages/english-vocabulary/audio/window.mp3",
+  "duration": 0.84,
+  "audible": 0.408,
+  "trimStart": 0.085375,
+  "trimEnd": 0.814417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "527dc2f8e6adf8a958c13a6850d74a34eec8181fddf19e1449fc791a63ea3564",
+  "sha256": "4b673211db8523c5c48be835acc61a6a523ff5c2aea7c4376d8547f52834cdfd",
+  "bytes": 2520
+}

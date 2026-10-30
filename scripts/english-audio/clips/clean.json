@@ -1,0 +1,20 @@
+{
+  "id": "clean",
+  "word": "clean",
+  "text": "clean",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/clean.mp3",
+  "target": "/packages/english-vocabulary/audio/clean.mp3",
+  "duration": 0.768,
+  "audible": 0.363,
+  "trimStart": 0.085375,
+  "trimEnd": 0.74175,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "5fe0603f7932445d35eb04363a0374c0f696a00b73d2f6d068723b726462cf6e",
+  "sha256": "8b8d744cd9cb209e3955fd35c7f415b1785b8416127427bb9d377d83797e29bf",
+  "bytes": 2304
+}

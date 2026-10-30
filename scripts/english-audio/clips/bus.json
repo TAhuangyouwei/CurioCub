@@ -1,0 +1,20 @@
+{
+  "id": "bus",
+  "word": "bus",
+  "text": "bus",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/bus.mp3",
+  "target": "/packages/english-vocabulary/audio/bus.mp3",
+  "duration": 0.72,
+  "audible": 0.214,
+  "trimStart": 0.087833,
+  "trimEnd": 0.708708,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "fc6ffef310dc80318e0cf99a3cb25f7cb91769fba23560e419768f9f7196fbb4",
+  "sha256": "6888bb3b96c8a9bab3e92bacab672927f7382c1e25353c0ba8997e419633c8ed",
+  "bytes": 2160
+}

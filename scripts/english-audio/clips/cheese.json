@@ -1,0 +1,20 @@
+{
+  "id": "cheese",
+  "word": "cheese",
+  "text": "cheese",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cheese.mp3",
+  "target": "/packages/english-vocabulary/audio/cheese.mp3",
+  "duration": 0.816,
+  "audible": 0.272,
+  "trimStart": 0.085208,
+  "trimEnd": 0.800333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "bd572c032a3299f0a639038f59729abda2e7dada947470b799928b39528cd84e",
+  "sha256": "2412193edc5b42b1ef66a94d4c9588b0ee329765e83423b07b36be43df8bca09",
+  "bytes": 2448
+}

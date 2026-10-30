@@ -1,0 +1,20 @@
+{
+  "id": "ear",
+  "word": "ear",
+  "text": "ear",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/ear.mp3",
+  "target": "/packages/english-vocabulary/audio/ear.mp3",
+  "duration": 0.744,
+  "audible": 0.352,
+  "trimStart": 0.096458,
+  "trimEnd": 0.737875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "46322661af27cefbb682fef423295ea33ccf028a5060cae65ce8849bc6a22143",
+  "sha256": "31a207cd8d85d27bd118569b1bc82c1e502ecaddd3309e9dd716b5c712b3d8de",
+  "bytes": 2232
+}

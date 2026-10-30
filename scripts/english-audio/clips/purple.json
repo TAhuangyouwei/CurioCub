@@ -1,0 +1,20 @@
+{
+  "id": "purple",
+  "word": "purple",
+  "text": "purple",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/purple.mp3",
+  "target": "/packages/english-vocabulary/audio/purple.mp3",
+  "duration": 0.816,
+  "audible": 0.364,
+  "trimStart": 0.10025,
+  "trimEnd": 0.821917,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "7814937d87c1b409d2532a998732b3377b0f0203c06d4a650744f849770d45c0",
+  "sha256": "0957b43114668a33a6c13362bde538d6f7ab8e0376f2732dd609a9ef9ee6e842",
+  "bytes": 2448
+}

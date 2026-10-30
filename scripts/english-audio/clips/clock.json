@@ -1,0 +1,20 @@
+{
+  "id": "clock",
+  "word": "clock",
+  "text": "clock",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/clock.mp3",
+  "target": "/packages/english-vocabulary/audio/clock.mp3",
+  "duration": 0.792,
+  "audible": 0.265,
+  "trimStart": 0.085375,
+  "trimEnd": 0.771917,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "eca2c4e5fad9fb7418f81ad912da9e6c1011dcd16739d603b402dfd29bd42fa3",
+  "sha256": "6da0ae4b7e7f0dfcb9a7050713d2839b028c54f5f176aff7d2f0681d1bc2524d",
+  "bytes": 2376
+}

@@ -1,0 +1,20 @@
+{
+  "id": "egg",
+  "word": "egg",
+  "text": "egg",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/egg.mp3",
+  "target": "/packages/english-vocabulary/audio/egg.mp3",
+  "duration": 0.576,
+  "audible": 0.169,
+  "trimStart": 0.089208,
+  "trimEnd": 0.563083,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "1dba1d720b3b9aa17c954d6548ac89b0ed7b8bfc923cce10fa04f8fbccaccf8b",
+  "sha256": "4227802012b9e7b59ab7177a81a88f583cd07e72ae568a45d4aa73312fa16197",
+  "bytes": 1728
+}

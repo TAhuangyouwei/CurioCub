@@ -1,0 +1,20 @@
+{
+  "id": "lion",
+  "word": "lion",
+  "text": "lion",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/lion.mp3",
+  "target": "/packages/english-vocabulary/audio/lion.mp3",
+  "duration": 0.672,
+  "audible": 0.331,
+  "trimStart": 0.085375,
+  "trimEnd": 0.664042,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "905c6feaf890862e666b82288b9d0a8bbd0bda0078cfcac9ade426d48391a3a6",
+  "sha256": "13db20fc2843a59d903f6eef9eb0ef9843ccba9d6c0e4eafa5143025d7bbed3f",
+  "bytes": 2016
+}

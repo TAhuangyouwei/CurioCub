@@ -1,0 +1,20 @@
+{
+  "id": "mother",
+  "word": "mother",
+  "text": "mother",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/mother.mp3",
+  "target": "/packages/english-vocabulary/audio/mother.mp3",
+  "duration": 0.768,
+  "audible": 0.362,
+  "trimStart": 0.094375,
+  "trimEnd": 0.771208,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "e1aee1220cc48e20ca1b7d009fdfe6e43f0264ab51f0954d019f66cc4ac036af",
+  "sha256": "11ffbafd17e0f6cd37475760e8a56977b573b9661aa9ba3e30d4381144c7fecb",
+  "bytes": 2304
+}

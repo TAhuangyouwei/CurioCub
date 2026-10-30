@@ -1,0 +1,20 @@
+{
+  "id": "rice",
+  "word": "rice",
+  "text": "rice",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/rice.mp3",
+  "target": "/packages/english-vocabulary/audio/rice.mp3",
+  "duration": 0.768,
+  "audible": 0.255,
+  "trimStart": 0.085375,
+  "trimEnd": 0.751625,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "0e8b3d7a852363a82d0fd380d401e0e95e4bbc5db739a358cb9d7bc1b5ab34da",
+  "sha256": "5914bfb948b77a1de0886dec5aa228f5ffec793306f42b609039ab5cb6451358",
+  "bytes": 2304
+}

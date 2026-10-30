@@ -1,0 +1,35 @@
+<view class="backup-screen">
+  <text class="backup-title">把学习记录带到另一台设备</text>
+  <text class="backup-note">不用注册，不用付费。包括各科学习进度、生字本、学习顺序、星星贴纸和阅读测试记录。</text>
+  <view class="backup-card">
+    <text class="backup-heading">这台设备</text>
+    <text class="backup-note">已学 {{summary.learned}} 字 · 生字本 {{summary.notebook}} 字 · {{summary.stars}} 颗星星</text>
+    <button class="backup-primary" bindtap="sendFile" loading="{{busy}}" disabled="{{busy}}">发学习存档到微信</button>
+    <text class="backup-note">建议发送到“文件传输助手”。在另一台设备收到后，打开同一个小程序，点下方按钮选择刚收到的文件。</text>
+  </view>
+  <view class="backup-card">
+    <text class="backup-heading">从另一台设备接过来</text>
+    <button class="backup-primary" bindtap="chooseFile">选择微信里的存档文件</button>
+    <text class="backup-note">选择文件后先核对，再恢复。每次换设备前，从刚学完的那台设备发送最新存档。</text>
+  </view>
+  <view wx:if="{{pending}}" class="backup-card backup-preview">
+    <text class="backup-heading">核对这份存档</text>
+    <text class="backup-note">保存时间：{{pendingTime}}</text>
+    <text class="backup-note">已学 {{pending.learned}} 字 · 生字本 {{pending.notebook}} 字 · {{pending.stars}} 颗星星</text>
+    <text class="backup-note">恢复会替换本机学习记录，包含“未学会”状态。本机会自动保留一份导入前的记录，可撤销。</text>
+    <button class="backup-primary" bindtap="importBackup">确认恢复这份存档</button>
+    <button class="backup-secondary" bindtap="cancelImport">取消</button>
+  </view>
+  <view class="backup-card">
+    <text class="backup-heading">发文件不方便？也能传文字</text>
+    <button class="backup-secondary" bindtap="copyText">复制存档文字</button>
+    <button class="backup-secondary" bindtap="toggleText">{{showText ? '收起文字恢复' : '用收到的存档文字恢复'}}</button>
+    <block wx:if="{{showText}}">
+      <text class="backup-note">把复制的完整文字发到微信。在新设备复制收到的文字，再点“粘贴并检查”，或长按下方输入框粘贴。</text>
+      <textarea class="backup-input" value="{{text}}" bindinput="changeText" maxlength="1048576" placeholder="在这里粘贴完整的存档文字" />
+      <button class="backup-secondary" bindtap="pasteText">粘贴并检查</button>
+      <button class="backup-secondary" bindtap="previewText">检查输入框中的存档</button>
+    </block>
+  </view>
+  <button wx:if="{{canUndo}}" class="backup-secondary" bindtap="undo">撤销上次导入，恢复原记录</button>
+</view>

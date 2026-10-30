@@ -18,4 +18,9 @@
 .reader-navigation { display: flex; gap: 12px; }
 .reader-navigation .reader-secondary { flex: 1; width: 0; min-width: 0; padding-left: 6px; padding-right: 6px; }
 .reader-empty { padding-top: 60px; text-align: center; }
+.reader-tests { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.reader-tests .reader-stage { margin: 0; min-height: 44px; padding: 10px 12px; border-radius: 12px; color: #637e96; background: #e3edf7; font-size: 14px; line-height: 1.6; }
+.reader-tests .reader-stage.active, .reader-modes .active { color: #fff; background: #5f83dd; }
+.reader-result { margin-top: 18px; padding: 16px; border-radius: 16px; background: #fff3df; color: #83502e; font-size: 15px; line-height: 1.8; }
+.reader-result text { display: block; }
 @media (min-width: 600px) { .reader-screen { padding-top: 36px; } .reader-card { padding: 48px 20px; } .reader-character { font-size: 72px; } .reader-pinyin { font-size: 21px; } }

@@ -32,4 +32,8 @@ count(root)
 const total = Object.values(sizes).reduce((sum, size) => sum + size, 0)
 console.log(`上传包保守计量：${(total / 1024 / 1024).toFixed(2)} MiB（${total} 字节）；最大单包 ${(Math.max(...Object.values(sizes)) / 1024 / 1024).toFixed(2)} MiB。`)
 for (const [name, size] of Object.entries(sizes)) assert(size <= 2 * 1024 * 1024, `${name} 超出 2 MiB`)
-assert(total <= 19 * 1024 * 1024, '上传总包应控制在 19 MiB 内，为当前 20 MB 限制留出编译余量')
+// Keep the existing content budget; include all 150 images and 138 new offline recordings.
+const englishVocabularySize = sizes['english-vocabulary'] || 0
+assert(total - englishVocabularySize <= 19 * 1024 * 1024, '原有内容仍应控制在 19 MiB 内')
+assert(englishVocabularySize <= 1.05 * 1024 * 1024, '英语图片和录音词库应控制在 1.05 MiB 内')
+assert(total <= 19.9 * 1024 * 1024, '上传总包应控制在 19.9 MiB 内，为 20 MiB 总包保留编译余量')

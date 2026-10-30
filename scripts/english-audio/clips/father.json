@@ -1,0 +1,20 @@
+{
+  "id": "father",
+  "word": "father",
+  "text": "father",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/father.mp3",
+  "target": "/packages/english-vocabulary/audio/father.mp3",
+  "duration": 0.84,
+  "audible": 0.306,
+  "trimStart": 0.082667,
+  "trimEnd": 0.812833,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "620fdba411c649642e37b6b64d2bf7bc54bddf6bbe6cc2fd68453431c57122a7",
+  "sha256": "b66ae6fa96cc734e679de0d66130f75b1640d62ec99060ba972480798942ef06",
+  "bytes": 2520
+}

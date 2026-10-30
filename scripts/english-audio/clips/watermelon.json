@@ -1,0 +1,20 @@
+{
+  "id": "watermelon",
+  "word": "watermelon",
+  "text": "watermelon",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/watermelon.mp3",
+  "target": "/packages/english-vocabulary/audio/watermelon.mp3",
+  "duration": 1.056,
+  "audible": 0.631,
+  "trimStart": 0.080792,
+  "trimEnd": 1.041333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "b8505ed1590e7790311eace930984049d760644cdb225014cc77010c97895939",
+  "sha256": "ae97dad07847f5f1d4db3cf6c6785b2e1d1057123832cfe24eb02b171f50d897",
+  "bytes": 3168
+}

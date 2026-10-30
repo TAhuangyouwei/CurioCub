@@ -1,8 +1,25 @@
 <view class="reader-screen">
   <view wx:if="{{!fontReady}}" class="font-status"><text>{{fontError ? '汉字暂时没显示出来' : '正在准备汉字…'}}</text><button wx:if="{{fontError}}" bindtap="loadFont">点此重试</button></view>
-  <text class="reader-title">{{isToday ? '今天读一句' : '读读已学的字'}}</text>
+  <text class="reader-title">{{isToday ? '今天读一句' : testMode ? '每 5 站 · 阅读小测试' : '读读已学的字'}}</text>
+  <block wx:if="{{!isToday}}">
+    <view class="reader-navigation reader-modes">
+      <button class="reader-secondary {{testMode ? 'active' : ''}}" bindtap="showTests">阶段测试</button>
+      <button class="reader-secondary {{!testMode ? 'active' : ''}}" bindtap="showFreeReading">自由阅读</button>
+    </view>
+    <block wx:if="{{testMode}}">
+      <text class="reader-note">按当前学习顺序，每学会前 5 站的全部汉字，解锁 10 句。之后每 5 站再解锁一组；最后不足 5 站也有一组。</text>
+      <view class="reader-tests">
+        <button wx:for="{{tests}}" wx:key="title" class="reader-stage {{testIndex === index ? 'active' : ''}}" bindtap="chooseTest" data-index="{{index}}" disabled="{{!item.unlocked}}">{{item.title}}{{item.unlocked ? '' : ' · 未解锁'}}</button>
+      </view>
+      <view wx:if="{{sentence}}" class="reader-result">
+        <text>{{testTitle}} · {{position}} / {{total}} 句</text>
+        <text>已测 {{answered}} / 10 · 独立读出 {{independent}} · 需要帮助 {{helped}}</text>
+        <text wx:if="{{answered === 10}}">这组完成啦！可以用上下句复习，再点按钮更新结果。</text>
+      </view>
+    </block>
+  </block>
   <block wx:if="{{sentence}}">
-    <text class="reader-note">这里的字你都学过。先试着读，再听一听。</text>
+    <text class="reader-note">{{testMode ? '只用本阶段及前面已学的字，优先练最近 5 站。先自己读，再请家长记录结果。' : '这里的字你都学过。先试着读，再听一听。'}}</text>
     <view class="reader-card">
       <text class="reader-scene">{{sentence.icon}}</text>
       <view class="reader-sentence">
@@ -15,17 +32,20 @@
     </view>
     <button class="reader-primary" bindtap="playSentence">🔊 听整句</button>
     <button class="reader-secondary" bindtap="togglePinyin">{{showPinyin ? '收起拼音' : '显示拼音'}}</button>
-    <button class="reader-primary warm" bindtap="finish">我读过啦</button>
+    <text wx:if="{{testMode && currentAnswer}}" class="reader-note">本句记录：{{currentAnswer === 'independent' ? '独立读出' : '需要帮助'}}</text>
+    <button class="reader-primary warm" bindtap="finish">{{testMode ? '独立读出' : '我读过啦'}}</button>
+    <button wx:if="{{testMode}}" class="reader-secondary" bindtap="finishWithHelp">需要帮助</button>
     <view wx:if="{{!isToday}}" class="reader-navigation">
       <button class="reader-secondary" bindtap="previous" disabled="{{!hasPrevious}}">‹ 上一句</button>
       <button class="reader-secondary" bindtap="next" disabled="{{!hasNext}}">下一句 ›</button>
     </view>
-    <text class="reader-note">每天推荐一句新短句，喜欢的句子随时可以重读。</text>
+    <text class="reader-note">{{testMode ? '结果会自动保存在这台设备，也会随学习存档一起带走。测试不会改动识字状态或重复发星星。' : '每天推荐一句新短句，喜欢的句子随时可以重读。'}}</text>
   </block>
   <view wx:else class="reader-empty">
     <text class="reader-scene">🌱</text>
-    <text class="reader-title">先认识几个字</text>
-    <text class="reader-note">句子里的字都学过后，就能在这里读啦。</text>
+    <text class="reader-title">{{testMode ? testIndex >= 0 ? '本阶段可用短句还不足 10 句' : '学会前 5 站，就能测一测' : '先认识几个字'}}</text>
+    <text class="reader-note">{{testMode ? testIndex >= 0 ? '当前学习顺序下，句库还不能组成完整一组。可以先自由阅读；不会混入未学过的字来凑数。' : '本站的字要全部标记为“已学会”。没到 5 站，也可以先自由阅读已有的短句。' : '句子里的字都学过后，就能在这里读啦。'}}</text>
+    <button wx:if="{{testMode}}" class="reader-secondary" bindtap="showFreeReading">先读已学字短句</button>
     <button class="reader-primary" bindtap="startToday">去今天的小任务</button>
   </view>
 </view>

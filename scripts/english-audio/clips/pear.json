@@ -1,0 +1,20 @@
+{
+  "id": "pear",
+  "word": "pear",
+  "text": "pear",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/pear.mp3",
+  "target": "/packages/english-vocabulary/audio/pear.mp3",
+  "duration": 0.696,
+  "audible": 0.301,
+  "trimStart": 0.088708,
+  "trimEnd": 0.678542,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "d3e6893af9a67eb5f28d2bcb632d520ab42ba8eb9b841f00cf9959ae14eb3a2a",
+  "sha256": "ced7f3e1760fbd710bf159758504f52ac6517e367a41bf425c9df1793f41c822",
+  "bytes": 2088
+}

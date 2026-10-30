@@ -1,0 +1,20 @@
+{
+  "id": "eye",
+  "word": "eye",
+  "text": "eye",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/eye.mp3",
+  "target": "/packages/english-vocabulary/audio/eye.mp3",
+  "duration": 0.648,
+  "audible": 0.224,
+  "trimStart": 0.085375,
+  "trimEnd": 0.6255,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "5482aafcb0eda05da6d710cdb2b4e5923bbe3d8aed8292ff3b85cfea455ab5b9",
+  "sha256": "fba905bf18b191808ba21cb68a825878dfb90b3e17c4720eb2912a3fb1befa64",
+  "bytes": 1944
+}

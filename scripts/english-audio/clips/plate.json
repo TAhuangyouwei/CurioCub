@@ -1,0 +1,20 @@
+{
+  "id": "plate",
+  "word": "plate",
+  "text": "plate",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/plate.mp3",
+  "target": "/packages/english-vocabulary/audio/plate.mp3",
+  "duration": 0.792,
+  "audible": 0.272,
+  "trimStart": 0.096167,
+  "trimEnd": 0.783958,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "a0928d1a9c030d3ab3f04d63137d79ad6fd6a52bc99da3984fc63f5fc382f8af",
+  "sha256": "e829977b3934e130b71912775eb505188dcf62c763504fec449834335b92e5f1",
+  "bytes": 2376
+}

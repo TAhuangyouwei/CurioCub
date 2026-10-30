@@ -1,0 +1,20 @@
+{
+  "id": "run",
+  "word": "run",
+  "text": "run",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/run.mp3",
+  "target": "/packages/english-vocabulary/audio/run.mp3",
+  "duration": 0.672,
+  "audible": 0.311,
+  "trimStart": 0.085208,
+  "trimEnd": 0.664125,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "131d2c3430b67e68df55f5bc9f9172b39b5366daa6bf932b7577b119a4d1139a",
+  "sha256": "3a6d48319d63a7c38667cfc67094e36f87551fda98583c559006ec7bfec25dca",
+  "bytes": 2016
+}

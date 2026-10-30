@@ -1,0 +1,20 @@
+{
+  "id": "cold",
+  "word": "cold",
+  "text": "cold",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cold.mp3",
+  "target": "/packages/english-vocabulary/audio/cold.mp3",
+  "duration": 0.72,
+  "audible": 0.268,
+  "trimStart": 0.085375,
+  "trimEnd": 0.700417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "55b0bbd33722e74595a66c62ec2a18e8547df715e998e09b584faeb46fd9392b",
+  "sha256": "889482a1a22ebb4271328c6a60309bc6ce4e691c0217ea8fe620f9d1832f7026",
+  "bytes": 2160
+}

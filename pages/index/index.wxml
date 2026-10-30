@@ -17,6 +17,7 @@
       <button bindtap="openReading">📖 已学字阅读</button>
       <button bindtap="continueLearning">自由探险 ›</button>
     </view>
+    <button class="home-backup" bindtap="openBackup">换设备 · 传学习存档</button>
     <view class="reward-row">
       <view class="reward-card star-card">
         <text class="reward-icon">⭐</text>

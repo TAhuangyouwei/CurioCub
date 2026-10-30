@@ -1,0 +1,20 @@
+{
+  "id": "hair",
+  "word": "hair",
+  "text": "hair",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/hair.mp3",
+  "target": "/packages/english-vocabulary/audio/hair.mp3",
+  "duration": 0.72,
+  "audible": 0.292,
+  "trimStart": 0.085208,
+  "trimEnd": 0.696458,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "8bff00d5322bd3f8b672a1249099407c27ca571c0898b452ef7e4a9361dc77d9",
+  "sha256": "04a48be9d9f905867c769d2ae24edc0911d58dfd29f587e8527a6a1b4822cb64",
+  "bytes": 2160
+}

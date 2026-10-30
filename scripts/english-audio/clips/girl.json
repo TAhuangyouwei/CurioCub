@@ -1,0 +1,20 @@
+{
+  "id": "girl",
+  "word": "girl",
+  "text": "girl",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/girl.mp3",
+  "target": "/packages/english-vocabulary/audio/girl.mp3",
+  "duration": 0.672,
+  "audible": 0.285,
+  "trimStart": 0.093083,
+  "trimEnd": 0.675375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "6baedcf8dbf820fb9f0e86d6c6c0c3cf70abe53ca5a179fde6f176b588718555",
+  "sha256": "71b0e08223d68685898bf6dee4422b5ee92a3ca691ce5dc5c214a0e7b79713b9",
+  "bytes": 2016
+}

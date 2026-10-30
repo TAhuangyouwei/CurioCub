@@ -1,0 +1,20 @@
+{
+  "id": "mouth",
+  "word": "mouth",
+  "text": "mouth",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/mouth.mp3",
+  "target": "/packages/english-vocabulary/audio/mouth.mp3",
+  "duration": 0.696,
+  "audible": 0.245,
+  "trimStart": 0.088208,
+  "trimEnd": 0.695083,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "a257924083c9e9017fe6dfd593393afb278761cee92204dff49d16e22f2eb52b",
+  "sha256": "84adc370ab25b7684b3a12156a76ebce4c758a9070a65e3c2f3b7cc14475bb4b",
+  "bytes": 2088
+}

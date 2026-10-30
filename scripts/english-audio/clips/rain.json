@@ -1,0 +1,20 @@
+{
+  "id": "rain",
+  "word": "rain",
+  "text": "rain",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/rain.mp3",
+  "target": "/packages/english-vocabulary/audio/rain.mp3",
+  "duration": 0.72,
+  "audible": 0.355,
+  "trimStart": 0.085375,
+  "trimEnd": 0.7005,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "4790e237d54788923bbc34cdb5d106144055026bbe1b5feaff2a20462d79b2a6",
+  "sha256": "e6934a109c4f1d6cc00308d343eac936aa89131c89f906e6b851e737e2e602ea",
+  "bytes": 2160
+}

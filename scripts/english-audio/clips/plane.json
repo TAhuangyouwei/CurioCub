@@ -1,0 +1,20 @@
+{
+  "id": "plane",
+  "word": "plane",
+  "text": "plane",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/plane.mp3",
+  "target": "/packages/english-vocabulary/audio/plane.mp3",
+  "duration": 0.744,
+  "audible": 0.362,
+  "trimStart": 0.096167,
+  "trimEnd": 0.746208,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "e5985bf1269c304582465051194e63b4438eef96650bdc894e847b400b6d23d6",
+  "sha256": "b2a5aaf80ae14d2eb2b5bdecfe84d5192eeb2d3dd8423dc279bb8b1c7f22f1db",
+  "bytes": 2232
+}

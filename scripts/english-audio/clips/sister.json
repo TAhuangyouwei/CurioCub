@@ -1,0 +1,20 @@
+{
+  "id": "sister",
+  "word": "sister",
+  "text": "sister",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/sister.mp3",
+  "target": "/packages/english-vocabulary/audio/sister.mp3",
+  "duration": 0.936,
+  "audible": 0.326,
+  "trimStart": 0.08775,
+  "trimEnd": 0.921375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "9038f191323c6378e94e76763d6344fd46b9f693817f23b53911a14c7577a9db",
+  "sha256": "2ef9bc9aed6044c967bbdd8b61c3322016fedc721288fc086b9012c452f9e2af",
+  "bytes": 2808
+}

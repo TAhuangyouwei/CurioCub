@@ -1,0 +1,20 @@
+{
+  "id": "doll",
+  "word": "doll",
+  "text": "doll",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/doll.mp3",
+  "target": "/packages/english-vocabulary/audio/doll.mp3",
+  "duration": 0.672,
+  "audible": 0.294,
+  "trimStart": 0.087417,
+  "trimEnd": 0.663208,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "076beb1bbf88df2804084fbc39a75794ebf0efe02b9d51fa70d93290f55161e1",
+  "sha256": "f37d5efb6552afa7c9c90c3307653cc3e60769b616b3409f00766f07c556f6d0",
+  "bytes": 2016
+}

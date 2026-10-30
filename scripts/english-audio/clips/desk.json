@@ -1,0 +1,20 @@
+{
+  "id": "desk",
+  "word": "desk",
+  "text": "desk",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/desk.mp3",
+  "target": "/packages/english-vocabulary/audio/desk.mp3",
+  "duration": 0.72,
+  "audible": 0.193,
+  "trimStart": 0.08775,
+  "trimEnd": 0.701375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "e970c8ea31b4560a33f8028185574ed34ab8dbcbde306a64d8cf831106138867",
+  "sha256": "dacebf11d6c7a2eaad44b31f7013ecdeb53f2823da9fb9eb7e363b38b3975b9f",
+  "bytes": 2160
+}

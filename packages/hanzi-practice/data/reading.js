@@ -38,6 +38,13 @@ const sentences = seeds.map(([text, pinyin, icon], index) => ({
   id: `sentence-${String(index + 1).padStart(2, '0')}`, text, pinyin: pinyin.split(' '), icon,
   audio: `/packages/hanzi-practice/audio/sentence-${String(index + 1).padStart(2, '0')}.mp3`
 }))
+require('./reading-stages').forEach(([endStation, lines], group) => {
+  lines.forEach(([text, pinyin], index) => {
+    const id = `test-${group + 1}-${index + 1}`
+    sentences.push({ id, text, pinyin: pinyin.split(' '), icon: '📖', endStation,
+      audio: `/packages/hanzi-practice/audio/${id}.mp3` })
+  })
+})
 const units = getModule('hanzi').items
 const byTitle = Object.fromEntries(units.map((unit) => [unit.title, unit]))
 function sentenceUnits(sentence) {

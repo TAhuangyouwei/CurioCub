@@ -1,0 +1,20 @@
+{
+  "id": "sun",
+  "word": "sun",
+  "text": "sun",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/sun.mp3",
+  "target": "/packages/english-vocabulary/audio/sun.mp3",
+  "duration": 0.72,
+  "audible": 0.232,
+  "trimStart": 0.08775,
+  "trimEnd": 0.697458,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "63ad4c0d223e17573fff6cd0b89e8b158fd215a9e51c4fab91a4c9fd9a52bc0c",
+  "sha256": "122499cc2ed6c05aee06318ec091ee502191bd76e29050fec62b132ac7eb5dd9",
+  "bytes": 2160
+}

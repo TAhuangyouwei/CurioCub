@@ -1,0 +1,20 @@
+{
+  "id": "four",
+  "word": "four",
+  "text": "four",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/four.mp3",
+  "target": "/packages/english-vocabulary/audio/four.mp3",
+  "duration": 0.696,
+  "audible": 0.238,
+  "trimStart": 0.088875,
+  "trimEnd": 0.688792,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "3bdd5389c5408ea025bb6de353f8878772a5930e6869eebe5d5b3d28981a7dea",
+  "sha256": "284382f10d64f7c4e28b19aab9f22b5d79e5835f3ae036e614ea10f976b88339",
+  "bytes": 2088
+}

@@ -1,0 +1,20 @@
+{
+  "id": "draw",
+  "word": "draw",
+  "text": "draw",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/draw.mp3",
+  "target": "/packages/english-vocabulary/audio/draw.mp3",
+  "duration": 0.72,
+  "audible": 0.319,
+  "trimStart": 0.085333,
+  "trimEnd": 0.700458,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "452f47d67386101fe9644a2a20e728db664a9db597b2193a60a2b06818c87dac",
+  "sha256": "c9269d982cebd175571bdca7d828b844cd2f3376a3e888a7d0ddb76ac3e374ae",
+  "bytes": 2160
+}

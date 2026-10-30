@@ -1,0 +1,20 @@
+{
+  "id": "hand",
+  "word": "hand",
+  "text": "hand",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/hand.mp3",
+  "target": "/packages/english-vocabulary/audio/hand.mp3",
+  "duration": 0.72,
+  "audible": 0.289,
+  "trimStart": 0.085375,
+  "trimEnd": 0.712875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "cfc7bb9661e3f7024d9bf0c1b8d3d3678a6f98326a26beb40a058ee5b66e0b35",
+  "sha256": "680a9445f6adaec451a75a3137017585f3579762fddbb76b05669c0ef5069011",
+  "bytes": 2160
+}

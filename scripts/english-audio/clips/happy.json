@@ -1,0 +1,20 @@
+{
+  "id": "happy",
+  "word": "happy",
+  "text": "happy",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/happy.mp3",
+  "target": "/packages/english-vocabulary/audio/happy.mp3",
+  "duration": 0.816,
+  "audible": 0.327,
+  "trimStart": 0.086583,
+  "trimEnd": 0.808708,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "bdfdfe68010d54ee53ea1f980d9fe719c169656f810bc5e0a0de647d1d2b902b",
+  "sha256": "ab4370e12a1b5379612022d31d5ef1bcaef00f380526e2d65a56b6941277f67c",
+  "bytes": 2448
+}

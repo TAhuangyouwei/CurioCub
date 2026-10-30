@@ -1,0 +1,20 @@
+{
+  "id": "flower",
+  "word": "flower",
+  "text": "flower",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/flower.mp3",
+  "target": "/packages/english-vocabulary/audio/flower.mp3",
+  "duration": 0.888,
+  "audible": 0.375,
+  "trimStart": 0.086583,
+  "trimEnd": 0.862875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "97c75883bb4522befe7a69a852e0c473584e5815001c3111d5361dc1f5547c2f",
+  "sha256": "43e61db8a10bb7ebbc97d4c2ff888a57d1c526aa3a479d05aaefd354165ac0f1",
+  "bytes": 2664
+}

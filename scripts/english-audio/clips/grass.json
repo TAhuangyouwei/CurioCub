@@ -1,0 +1,20 @@
+{
+  "id": "grass",
+  "word": "grass",
+  "text": "grass",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/grass.mp3",
+  "target": "/packages/english-vocabulary/audio/grass.mp3",
+  "duration": 0.792,
+  "audible": 0.262,
+  "trimStart": 0.087458,
+  "trimEnd": 0.785917,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "b9be39c8ebc680261b140962eb9e701b7f04077ffefbd6fcdd785b345acb4037",
+  "sha256": "f2c3d932e458c7b64026eb435e5442ef53fff94d8b1b1aea837b4ac08a82c633",
+  "bytes": 2376
+}

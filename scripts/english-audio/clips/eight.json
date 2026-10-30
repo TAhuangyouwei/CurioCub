@@ -1,0 +1,20 @@
+{
+  "id": "eight",
+  "word": "eight",
+  "text": "eight",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/eight.mp3",
+  "target": "/packages/english-vocabulary/audio/eight.mp3",
+  "duration": 0.672,
+  "audible": 0.209,
+  "trimStart": 0.093167,
+  "trimEnd": 0.664792,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "68f4eb185c5152cc23c9dd7abbdb17b17519c69ed9a9837f1703d4d9d176c036",
+  "sha256": "7a481d2d7cf9b4ff44e84d88d43811f087c4b6b96b5afcd0659440f2195bf4b9",
+  "bytes": 2016
+}

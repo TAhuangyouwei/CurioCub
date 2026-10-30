@@ -1,0 +1,20 @@
+{
+  "id": "train",
+  "word": "train",
+  "text": "train",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/train.mp3",
+  "target": "/packages/english-vocabulary/audio/train.mp3",
+  "duration": 0.72,
+  "audible": 0.347,
+  "trimStart": 0.085375,
+  "trimEnd": 0.714167,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "004aff6204fe60fb0ceaaa291b56ad0feef05e4d10a120afb3933b079ea3b7b9",
+  "sha256": "7b52d1af77c3c405fe0e8686ce6b753e336b9c1a2d9a1d0bf7d9c0032456d837",
+  "bytes": 2160
+}

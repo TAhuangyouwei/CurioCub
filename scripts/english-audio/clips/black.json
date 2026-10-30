@@ -1,0 +1,20 @@
+{
+  "id": "black",
+  "word": "black",
+  "text": "black",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/black.mp3",
+  "target": "/packages/english-vocabulary/audio/black.mp3",
+  "duration": 0.72,
+  "audible": 0.244,
+  "trimStart": 0.086583,
+  "trimEnd": 0.713292,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "d9fa9112b6fd3f8397d7f9e1312377fe8b06a8855b4193317c087d839d50ba6c",
+  "sha256": "0d5548776b62dea7e85829e8d1949ad15cf168a472425a182e67879914fc5119",
+  "bytes": 2160
+}

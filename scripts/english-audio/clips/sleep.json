@@ -1,0 +1,20 @@
+{
+  "id": "sleep",
+  "word": "sleep",
+  "text": "sleep",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/sleep.mp3",
+  "target": "/packages/english-vocabulary/audio/sleep.mp3",
+  "duration": 0.816,
+  "audible": 0.221,
+  "trimStart": 0.085208,
+  "trimEnd": 0.811792,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "6c0dffbf773c43594676abb501a494a6fc03c037d17ef77fbc4bc13fccc202a6",
+  "sha256": "d90aae714c7bf4462fed7bbe93ae276002780df49e1f59efa8499010b94757d6",
+  "bytes": 2448
+}

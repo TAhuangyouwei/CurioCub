@@ -1,0 +1,20 @@
+{
+  "id": "book",
+  "word": "book",
+  "text": "book",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/book.mp3",
+  "target": "/packages/english-vocabulary/audio/book.mp3",
+  "duration": 0.672,
+  "audible": 0.206,
+  "trimStart": 0.088708,
+  "trimEnd": 0.662875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "af1f826bc95ee20040f4e183071ca5646a71e003ae92165d2090f84c5141c349",
+  "sha256": "f119f5e220ab92b27f4d808bc97a6cb6f0a64570196fb98587805eddf866b728",
+  "bytes": 2016
+}

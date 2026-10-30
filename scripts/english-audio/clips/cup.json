@@ -1,0 +1,20 @@
+{
+  "id": "cup",
+  "word": "cup",
+  "text": "cup",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cup.mp3",
+  "target": "/packages/english-vocabulary/audio/cup.mp3",
+  "duration": 0.696,
+  "audible": 0.217,
+  "trimStart": 0.085375,
+  "trimEnd": 0.672167,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "d2a929eba1f2f8714dec4cfcc4f5bf70b0798666377bd63b251a81320ba259b7",
+  "sha256": "cb19bfe86f3096b5c652939a892e1d36a299fa6474321e44c542d29814e74c85",
+  "bytes": 2088
+}

@@ -1,0 +1,20 @@
+{
+  "id": "dress",
+  "word": "dress",
+  "text": "dress",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/dress.mp3",
+  "target": "/packages/english-vocabulary/audio/dress.mp3",
+  "duration": 0.792,
+  "audible": 0.273,
+  "trimStart": 0.085375,
+  "trimEnd": 0.776833,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "0db7c9ffd00ab1ee4141f5353b33a944b6bf38887a6ea606270c9be4ef74ffe0",
+  "sha256": "9b9e3d4563a0d5e2a8404783941ec34baa831dcbe317c39f1147c29d6a703cbc",
+  "bytes": 2376
+}

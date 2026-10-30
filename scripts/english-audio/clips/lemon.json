@@ -1,0 +1,20 @@
+{
+  "id": "lemon",
+  "word": "lemon",
+  "text": "lemon",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/lemon.mp3",
+  "target": "/packages/english-vocabulary/audio/lemon.mp3",
+  "duration": 0.768,
+  "audible": 0.414,
+  "trimStart": 0.085375,
+  "trimEnd": 0.750375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "a424936b9e7e9a6967784dc0c4e5d23de8f515b708fe045288dd327ef7e8390d",
+  "sha256": "a1d53fcceb96cdc57cd15009b7226c5001cbea12e4aed46700bc3bbd312dab3f",
+  "bytes": 2304
+}

@@ -1,0 +1,20 @@
+{
+  "id": "giraffe",
+  "word": "giraffe",
+  "text": "giraffe",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/giraffe.mp3",
+  "target": "/packages/english-vocabulary/audio/giraffe.mp3",
+  "duration": 0.84,
+  "audible": 0.363,
+  "trimStart": 0.085375,
+  "trimEnd": 0.818917,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "0910b9d893dfa18d7c7f9b2398c106fa7022f4e58a37fe0bb6f2d304ca81b4c8",
+  "sha256": "cf0d1a1f243878ba596b4886837d288564f1424ba9d452d3261b790c8b7e898b",
+  "bytes": 2520
+}

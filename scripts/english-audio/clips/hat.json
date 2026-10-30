@@ -1,0 +1,20 @@
+{
+  "id": "hat",
+  "word": "hat",
+  "text": "hat",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/hat.mp3",
+  "target": "/packages/english-vocabulary/audio/hat.mp3",
+  "duration": 0.72,
+  "audible": 0.231,
+  "trimStart": 0.085208,
+  "trimEnd": 0.708792,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "46e0225c805d0e3cea47a36e988fa34f00dd282101af3b45d14a0b9a837babbb",
+  "sha256": "ee1b04466905d6ddfb7445d7bf2835acd04344e8b315839c06ce8a209bad71ce",
+  "bytes": 2160
+}

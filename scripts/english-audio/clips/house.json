@@ -1,0 +1,20 @@
+{
+  "id": "house",
+  "word": "house",
+  "text": "house",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/house.mp3",
+  "target": "/packages/english-vocabulary/audio/house.mp3",
+  "duration": 0.792,
+  "audible": 0.243,
+  "trimStart": 0.085208,
+  "trimEnd": 0.780875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "4bb40d743232a348dba93c3783c3f94ca23b9c92de47326f62e972fe9f1f5da9",
+  "sha256": "7efc329e1f9da6725d46321fd4a1c2ac1bac9c3503e4143491c6cc2ac4b061b6",
+  "bytes": 2376
+}

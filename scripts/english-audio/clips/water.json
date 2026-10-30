@@ -1,0 +1,20 @@
+{
+  "id": "water",
+  "word": "water",
+  "text": "water",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/water.mp3",
+  "target": "/packages/english-vocabulary/audio/water.mp3",
+  "duration": 0.792,
+  "audible": 0.358,
+  "trimStart": 0.085375,
+  "trimEnd": 0.783708,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "b37a93c8a11eafe69345971dfc7c4d2a5623380ba3e08005f8a49e88a5d11419",
+  "sha256": "9d0e209477481a421d5a80f1aca2d88d4ce6e582f93e530e1a02d0be0376d18f",
+  "bytes": 2376
+}

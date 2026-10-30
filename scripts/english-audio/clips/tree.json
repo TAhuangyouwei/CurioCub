@@ -1,0 +1,20 @@
+{
+  "id": "tree",
+  "word": "tree",
+  "text": "tree",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/tree.mp3",
+  "target": "/packages/english-vocabulary/audio/tree.mp3",
+  "duration": 0.696,
+  "audible": 0.3,
+  "trimStart": 0.085333,
+  "trimEnd": 0.68875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "366e9a4c36c6666f0d7e9dd3d3cd8d1ba87e79d0d94ff880cd41af3f9f519827",
+  "sha256": "0bfd71e964d8c7469b11666c9f8a9d429717889a3d504ac90d764c57d2fdcd6b",
+  "bytes": 2088
+}

@@ -1,0 +1,20 @@
+{
+  "id": "panda",
+  "word": "panda",
+  "text": "panda",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/panda.mp3",
+  "target": "/packages/english-vocabulary/audio/panda.mp3",
+  "duration": 0.816,
+  "audible": 0.402,
+  "trimStart": 0.08525,
+  "trimEnd": 0.808708,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "60410b4049a6501507455efcfca6e5cfabeb0cb1f8d68fad8db98a6e69231364",
+  "sha256": "dd8ffcd7416e2499c969d69bfc45b3058c13028717c3cbfea6608a1d72b581ed",
+  "bytes": 2448
+}

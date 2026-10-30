@@ -1,0 +1,20 @@
+{
+  "id": "rabbit",
+  "word": "rabbit",
+  "text": "rabbit",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/rabbit.mp3",
+  "target": "/packages/english-vocabulary/audio/rabbit.mp3",
+  "duration": 0.912,
+  "audible": 0.366,
+  "trimStart": 0.084875,
+  "trimEnd": 0.89925,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "21fe5c8877492542fd4e6fbe060cbf1291bbb44cb81cc7c87373765fb40411ad",
+  "sha256": "5482b53369f3c14110f29b48233f777399a866ee0bd9c39bf8d7767846b7bb70",
+  "bytes": 2736
+}

@@ -1,0 +1,20 @@
+{
+  "id": "white",
+  "word": "white",
+  "text": "white",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/white.mp3",
+  "target": "/packages/english-vocabulary/audio/white.mp3",
+  "duration": 0.744,
+  "audible": 0.263,
+  "trimStart": 0.081125,
+  "trimEnd": 0.726083,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "dfc2951cc6dda0143799b8f11c4e0a6c7434f394471159d56835495722e84224",
+  "sha256": "a102ec25b11c6ff772baf88c861372101490a805c7de2f00a810e2632d99a14e",
+  "bytes": 2232
+}

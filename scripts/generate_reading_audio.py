@@ -18,6 +18,9 @@ async def main(ffmpeg):
     output = ROOT / 'packages/hanzi-practice/audio'
     output.mkdir(exist_ok=True)
     for unit in data['units']:
+        target = output / (unit['id'] + '.mp3')
+        if target.exists() and target.stat().st_size:
+            continue  # Preserve audited compact clips and full-source exceptions.
         source = unit['characterAudioFile']
         source = ROOT / (source.lstrip('/') if source.startswith('/') else 'assets/audio/' + source)
         # Re-encode only this package's duplicate clips; original lesson audio stays intact.

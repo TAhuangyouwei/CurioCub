@@ -1,0 +1,20 @@
+{
+  "id": "ruler",
+  "word": "ruler",
+  "text": "ruler",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/ruler.mp3",
+  "target": "/packages/english-vocabulary/audio/ruler.mp3",
+  "duration": 0.792,
+  "audible": 0.405,
+  "trimStart": 0.085375,
+  "trimEnd": 0.783292,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "71e691c8f1e489543692c4bde0b6568b7feaffc3b62952029e2945b2e5ad2207",
+  "sha256": "d48b72493e6c1a020fc629a7d883852c5f1122ab50b3ffb1bb13148bb3a5a52e",
+  "bytes": 2376
+}

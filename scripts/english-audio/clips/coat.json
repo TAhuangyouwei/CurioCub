@@ -1,0 +1,20 @@
+{
+  "id": "coat",
+  "word": "coat",
+  "text": "coat",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/coat.mp3",
+  "target": "/packages/english-vocabulary/audio/coat.mp3",
+  "duration": 0.744,
+  "audible": 0.251,
+  "trimStart": 0.085375,
+  "trimEnd": 0.721208,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "15cf4f6fd381c92efee6afce0c4673651eea5b0c8425e66fc957022b2ead2e5e",
+  "sha256": "9135e300fc76625693d5b4be4a7d523abed0f98c575ea156f461fee7ce17551b",
+  "bytes": 2232
+}

@@ -1,0 +1,20 @@
+{
+  "id": "brown",
+  "word": "brown",
+  "text": "brown",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/brown.mp3",
+  "target": "/packages/english-vocabulary/audio/brown.mp3",
+  "duration": 0.672,
+  "audible": 0.298,
+  "trimStart": 0.08775,
+  "trimEnd": 0.66425,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "51167cff86b7e6b8f774260d0f8b27da7e1a1fe07925be9e10d6b8a8171a0aec",
+  "sha256": "83b33002f3599bc6cd7331285206954c2ce506b9f66e62dfcd79241b1788770d",
+  "bytes": 2016
+}

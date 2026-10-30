@@ -1,0 +1,20 @@
+{
+  "id": "bread",
+  "word": "bread",
+  "text": "bread",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/bread.mp3",
+  "target": "/packages/english-vocabulary/audio/bread.mp3",
+  "duration": 0.72,
+  "audible": 0.272,
+  "trimStart": 0.086583,
+  "trimEnd": 0.700417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "5b55e2a35443368c0b91142197d45d12c166d7791ac77d1a2fba06ce0e4f1ee4",
+  "sha256": "9d63972bfc53fbe98a553ceb5cc0aeb8e13440f990ff3611e5b5e1f25d3610fa",
+  "bytes": 2160
+}

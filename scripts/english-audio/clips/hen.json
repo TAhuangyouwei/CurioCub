@@ -1,0 +1,20 @@
+{
+  "id": "hen",
+  "word": "hen",
+  "text": "hen",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/hen.mp3",
+  "target": "/packages/english-vocabulary/audio/hen.mp3",
+  "duration": 0.672,
+  "audible": 0.296,
+  "trimStart": 0.085208,
+  "trimEnd": 0.668458,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "c1a966a94a46e8fdc7a0170bbb1eb462937cbe56911b28296bcb12c157843af0",
+  "sha256": "1812d8734e469f7d37689395efb70004de47eec27f949ca0b481e7c7c921d6cf",
+  "bytes": 2016
+}

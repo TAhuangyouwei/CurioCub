@@ -1,0 +1,20 @@
+{
+  "id": "eraser",
+  "word": "eraser",
+  "text": "eraser",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/eraser.mp3",
+  "target": "/packages/english-vocabulary/audio/eraser.mp3",
+  "duration": 0.936,
+  "audible": 0.467,
+  "trimStart": 0.085375,
+  "trimEnd": 0.930458,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "cf495d2e70fafbd9681e00ef9e76e01733b65c1af4e4b70710be41f4d4176035",
+  "sha256": "d0cd38b83d7c62d7922dc5f500802d3c81ebceea1ae4451d180ca393379549bf",
+  "bytes": 2808
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ball",
+  "word": "ball",
+  "text": "ball",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/ball.mp3",
+  "target": "/packages/english-vocabulary/audio/ball.mp3",
+  "duration": 0.672,
+  "audible": 0.286,
+  "trimStart": 0.088458,
+  "trimEnd": 0.6505,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "a360b41121366f4debc7baa269606f650989b1d9a32e5fd0deddf13541162783",
+  "sha256": "7130feef7c4321e9355ef05c9d48232860fe21a330de2fa17e33d1da7f16d899",
+  "bytes": 2016
+}

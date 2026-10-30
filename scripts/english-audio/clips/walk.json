@@ -1,0 +1,20 @@
+{
+  "id": "walk",
+  "word": "walk",
+  "text": "walk",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/walk.mp3",
+  "target": "/packages/english-vocabulary/audio/walk.mp3",
+  "duration": 0.696,
+  "audible": 0.225,
+  "trimStart": 0.084917,
+  "trimEnd": 0.6735,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "2723355f21a4f1a1bf0409934f59d581c745dc4378f0e286138d779e233919be",
+  "sha256": "1e58e24f643932f4936339ed484702feba00102e30af6bebf59de95ecc231de8",
+  "bytes": 2088
+}

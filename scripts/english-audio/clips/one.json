@@ -1,0 +1,20 @@
+{
+  "id": "one",
+  "word": "one",
+  "text": "one",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/one.mp3",
+  "target": "/packages/english-vocabulary/audio/one.mp3",
+  "duration": 0.648,
+  "audible": 0.291,
+  "trimStart": 0.084917,
+  "trimEnd": 0.639,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "7c553c7212ba9349eab3b4ff2465175655bbd1cd6910dcbe1b7ee80076b3b978",
+  "sha256": "2e9368a5ad5532d8b658c39e7a3e78401efee0346aa261d02df5f6eea51faa9c",
+  "bytes": 1944
+}

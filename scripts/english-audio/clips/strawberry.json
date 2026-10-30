@@ -1,0 +1,20 @@
+{
+  "id": "strawberry",
+  "word": "strawberry",
+  "text": "strawberry",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/strawberry.mp3",
+  "target": "/packages/english-vocabulary/audio/strawberry.mp3",
+  "duration": 1.104,
+  "audible": 0.494,
+  "trimStart": 0.085208,
+  "trimEnd": 1.089667,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "5d59ebb215172d67829cc7b97c8c858bc9777f595096de78eba3e29883fe9755",
+  "sha256": "7ebfcac3eef7539c271a37ea21a5dfbdac71ab37b1049179816d5cfcf4fe5719",
+  "bytes": 3312
+}

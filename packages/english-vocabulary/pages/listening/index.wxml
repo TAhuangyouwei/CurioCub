@@ -1,0 +1,38 @@
+<view class="listening-page">
+  <text class="eyebrow">英语果园 · 听音找图</text>
+  <block wx:if="{{!started}}">
+    <text class="title">用小耳朵找一找</text>
+    <text class="note">先听单词，再选图片。不用先会读英文。</text>
+    <picker mode="selector" range="{{topics}}" range-key="title" value="{{topicIndex}}" bindchange="changeTopic">
+      <view class="topic-picker" role="button" aria-label="选择练习主题"><text>{{topicTitle}}</text><text>换个主题 ▾</text></view>
+    </picker>
+    <view class="intro"><text class="intro-icon">🐻 🎧</text><text>15 个主题，共 150 个生活词。</text><text>每轮最多 5 题，听不清可以再听。</text></view>
+    <button class="primary" bindtap="start">开始听一听</button>
+    <button wx:if="{{reviewCount}}" class="secondary" bindtap="startReview">再练这些词 · {{reviewCount}} 个</button>
+    <text class="note">可以先练一个主题，再试试混合练习。</text>
+  </block>
+  <block wx:elif="{{!finished}}">
+    <view class="question-heading"><text class="title">听一听，找图片</text><text>{{position}} / {{total}}</text></view>
+    <button class="listen" bindtap="listen" aria-label="播放当前单词">🔊<text>{{heard ? '再听一遍' : '点我听单词'}}</text></button>
+    <text class="feedback" aria-live="polite">{{feedback}}</text>
+    <view class="options">
+      <button wx:for="{{options}}" wx:key="id" class="picture {{selected === item.id ? (answered ? 'correct' : 'try-again') : ''}}" bindtap="choose" data-id="{{item.id}}" disabled="{{!heard || answered}}" aria-label="第{{index + 1}}张图片">
+        <image class="picture-image" src="{{item.image}}" mode="aspectFit" />
+        <text class="picture-number">{{index + 1}}</text>
+      </button>
+    </view>
+    <view wx:if="{{answered}}" class="answer"><text class="answer-word">{{word.title}}</text><text>{{word.phrase}}</text></view>
+    <button wx:if="{{answered}}" class="primary" bindtap="next">{{position === total ? '完成这一轮' : '下一题'}}</button>
+  </block>
+  <block wx:else>
+    <text class="finish-icon">🌟</text>
+    <text class="title">小耳朵练习完成啦</text>
+    <text class="note">这一轮 {{firstCorrectCount}} / {{total}} 个词一遍就选对。</text>
+    <view wx:if="{{retryWords.length}}" class="retry-card"><text>这些词再听听</text><text wx:for="{{retryWords}}" wx:key="id" class="retry-word">{{item.title}} · {{item.phrase}}</text></view>
+    <text wx:else class="note">这一轮都找对了，喜欢的话还可以再玩。</text>
+    <button wx:if="{{retryWords.length}}" class="primary" bindtap="retry">再练这些词</button>
+    <button class="secondary" bindtap="chooseAgain">换个主题</button>
+    <button class="secondary" bindtap="goBack">回英语果园</button>
+    <text class="note">{{reviewCount ? '再练的词会留在这里，下次还能接着练。' : '今天先练到这里，想玩还能再来一轮。'}}</text>
+  </block>
+</view>

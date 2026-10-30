@@ -1,0 +1,20 @@
+{
+  "id": "pig",
+  "word": "pig",
+  "text": "pig",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/pig.mp3",
+  "target": "/packages/english-vocabulary/audio/pig.mp3",
+  "duration": 0.624,
+  "audible": 0.195,
+  "trimStart": 0.096208,
+  "trimEnd": 0.625375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "721c9bf0edb3535ce851d5e3066190e91fd61051577863517d1e59deee117f73",
+  "sha256": "cdd967bee9209bff10ed6c28dd0b2db0726467b61d4182fa69152d3a9edc9098",
+  "bytes": 1872
+}

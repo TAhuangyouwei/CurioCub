@@ -1,0 +1,16 @@
+.vocabulary-page { box-sizing: border-box; max-width: 680px; margin: 0 auto; padding: 24px 20px calc(32px + env(safe-area-inset-bottom)); }
+.eyebrow, .count, .word, .meaning, .note { display: block; }
+.eyebrow { color: #a7657d; font-size: 14px; margin-bottom: 20px; }
+.topic-picker { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 48px; padding: 8px 16px; border-radius: 18px; background: #fff; color: #76566a; font-size: 17px; font-weight: 700; }
+.topic-picker text + text { font-size: 14px; font-weight: 400; }
+.count { margin: 18px 0; text-align: right; color: #71849a; font-size: 14px; }
+.word-card { padding: 20px; border-radius: 28px; background: #fff; text-align: center; }
+.word-image { width: 100%; height: 230px; }
+.word { margin-top: 16px; color: #27445d; font-size: 34px; font-weight: 800; overflow-wrap: anywhere; }
+.meaning { margin: 12px 0; color: #526c84; font-size: 20px; }
+.vocabulary-page button { min-height: 48px; margin: 0; padding: 12px; border-radius: 18px; font-size: 16px; line-height: 1.5; }
+.vocabulary-page .listen { margin-top: 18px; background: #ce688b; color: #fff; }
+.navigation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
+.navigation button { width: 100%; background: #fff; color: #76566a; }
+.navigation button[disabled] { color: #a9b3bd; background: #f3f6f8; }
+.note { margin-top: 20px; color: #71849a; font-size: 14px; line-height: 1.8; text-align: center; }

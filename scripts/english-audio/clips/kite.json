@@ -1,0 +1,20 @@
+{
+  "id": "kite",
+  "word": "kite",
+  "text": "kite",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/kite.mp3",
+  "target": "/packages/english-vocabulary/audio/kite.mp3",
+  "duration": 0.744,
+  "audible": 0.243,
+  "trimStart": 0.087458,
+  "trimEnd": 0.731958,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "0263c7ba5e03888d27b536a63e05d079e038cf69cdb76e1a6c29d9368fd5eae1",
+  "sha256": "726734ab9f07e3ed2664582161f7a85dbdca56b550dd0f71550aef3ddcb876e9",
+  "bytes": 2232
+}

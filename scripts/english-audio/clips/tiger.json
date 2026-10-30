@@ -1,0 +1,20 @@
+{
+  "id": "tiger",
+  "word": "tiger",
+  "text": "tiger",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/tiger.mp3",
+  "target": "/packages/english-vocabulary/audio/tiger.mp3",
+  "duration": 0.816,
+  "audible": 0.362,
+  "trimStart": 0.088458,
+  "trimEnd": 0.805583,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "698aa78accd6a62202daff82f73d9f4c5afd301b3181f0031cd310583841e78b",
+  "sha256": "529f27c58e1d4deb77f991feb4ba1fd3220fbedb264ffaf4356b559fa97410a4",
+  "bytes": 2448
+}

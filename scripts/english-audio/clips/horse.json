@@ -1,0 +1,20 @@
+{
+  "id": "horse",
+  "word": "horse",
+  "text": "horse",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/horse.mp3",
+  "target": "/packages/english-vocabulary/audio/horse.mp3",
+  "duration": 0.816,
+  "audible": 0.264,
+  "trimStart": 0.085375,
+  "trimEnd": 0.801417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "51869d3e058aaa8656b5a83c1bf07e67b87b8b2647d6dbc0e94187985649d4c8",
+  "sha256": "9aef2b90a92d4cb1d6abeb14c4de5484664dcbecaff770a48a9080fd5e50357f",
+  "bytes": 2448
+}

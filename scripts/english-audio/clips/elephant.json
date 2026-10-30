@@ -1,0 +1,20 @@
+{
+  "id": "elephant",
+  "word": "elephant",
+  "text": "elephant",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/elephant.mp3",
+  "target": "/packages/english-vocabulary/audio/elephant.mp3",
+  "duration": 0.96,
+  "audible": 0.419,
+  "trimStart": 0.086583,
+  "trimEnd": 0.95425,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "a35b8121ea51d0a0eaa3caddc336d9fc1c10b2852f19b8546608810f240eee4f",
+  "sha256": "485051aa12e39f18e4a9425b365db1e3dc880d5ef65726bbbdc5c3e85b28ebcb",
+  "bytes": 2880
+}

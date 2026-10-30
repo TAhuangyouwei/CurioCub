@@ -1,0 +1,20 @@
+{
+  "id": "sit",
+  "word": "sit",
+  "text": "sit",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/sit.mp3",
+  "target": "/packages/english-vocabulary/audio/sit.mp3",
+  "duration": 0.768,
+  "audible": 0.166,
+  "trimStart": 0.086583,
+  "trimEnd": 0.752083,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "7d1c55aff21e0e6a8cdc38b270c308d7d1661791bb23fb6010777f6ede30e189",
+  "sha256": "773d65328141d7c70e1d6c323d2835d2012c47679325aed66a8e6fd70cba256e",
+  "bytes": 2304
+}

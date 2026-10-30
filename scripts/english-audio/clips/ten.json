@@ -1,0 +1,20 @@
+{
+  "id": "ten",
+  "word": "ten",
+  "text": "ten",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/ten.mp3",
+  "target": "/packages/english-vocabulary/audio/ten.mp3",
+  "duration": 0.696,
+  "audible": 0.321,
+  "trimStart": 0.085375,
+  "trimEnd": 0.684542,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "8c09557bb6176107e58dfbf4f152b7dfe542fc68723db7c3c3df283cda19959d",
+  "sha256": "5088dfbfa9d5eac8194893678ebf5b4da19cc00aefeb43dc6a075f4125aad61c",
+  "bytes": 2088
+}

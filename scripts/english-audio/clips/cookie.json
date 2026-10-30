@@ -1,0 +1,20 @@
+{
+  "id": "cookie",
+  "word": "cookie",
+  "text": "cookie",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cookie.mp3",
+  "target": "/packages/english-vocabulary/audio/cookie.mp3",
+  "duration": 0.816,
+  "audible": 0.331,
+  "trimStart": 0.085375,
+  "trimEnd": 0.809917,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "d0bbed2a18e3a4f4b18a6157d3a23dcb72c1db6d4ff5bdfd49db932711057861",
+  "sha256": "a187f39c7c689e94543683ddf133c9288e40a5d9f9b50b7ca5d160186c9fde6c",
+  "bytes": 2448
+}

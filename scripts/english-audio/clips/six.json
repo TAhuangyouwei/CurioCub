@@ -1,0 +1,20 @@
+{
+  "id": "six",
+  "word": "six",
+  "text": "six",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/six.mp3",
+  "target": "/packages/english-vocabulary/audio/six.mp3",
+  "duration": 0.864,
+  "audible": 0.168,
+  "trimStart": 0.085208,
+  "trimEnd": 0.850375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "0aab3f115fdff10f4091bfe91a8a1e9033e0a016f1a2a7482a09acf4f13fafb5",
+  "sha256": "3715beddf825fad886650a1189de5ae9facf7d859d70b43ffe63db11151fc596",
+  "bytes": 2592
+}

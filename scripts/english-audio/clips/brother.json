@@ -1,0 +1,20 @@
+{
+  "id": "brother",
+  "word": "brother",
+  "text": "brother",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/brother.mp3",
+  "target": "/packages/english-vocabulary/audio/brother.mp3",
+  "duration": 0.816,
+  "audible": 0.372,
+  "trimStart": 0.092708,
+  "trimEnd": 0.81775,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "7f969b51586d25c8c168a6c85ba39d36d9ec1febacb7bebcaa28317e8882018f",
+  "sha256": "c74d9a14f11fb212895359c7d6ff3f44d9947b07b4b4ce7c4d4251d44ef8db77",
+  "bytes": 2448
+}

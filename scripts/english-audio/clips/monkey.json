@@ -1,0 +1,20 @@
+{
+  "id": "monkey",
+  "word": "monkey",
+  "text": "monkey",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/monkey.mp3",
+  "target": "/packages/english-vocabulary/audio/monkey.mp3",
+  "duration": 0.816,
+  "audible": 0.381,
+  "trimStart": 0.088708,
+  "trimEnd": 0.800417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "164ff4d55b591bc29e8c037a38b96e0f9b2a5ec45f3f037f389663816ca75424",
+  "sha256": "8c888562aedbd0de2f58cc5689888556306805cf41036026a82143d8196508c5",
+  "bytes": 2448
+}

@@ -1,0 +1,20 @@
+{
+  "id": "two",
+  "word": "two",
+  "text": "two",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/two.mp3",
+  "target": "/packages/english-vocabulary/audio/two.mp3",
+  "duration": 0.672,
+  "audible": 0.26,
+  "trimStart": 0.085375,
+  "trimEnd": 0.662875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "cc830edfafd41d464bcebf06642e62112ed219a8e0370f56d17387cb5a9d238e",
+  "sha256": "f84de648c1bdcf95fbbfaf98c888fcb15c2d4a7e959910bfc4014301ed7ab906",
+  "bytes": 2016
+}

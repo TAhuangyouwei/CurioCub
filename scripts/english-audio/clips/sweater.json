@@ -1,0 +1,20 @@
+{
+  "id": "sweater",
+  "word": "sweater",
+  "text": "sweater",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/sweater.mp3",
+  "target": "/packages/english-vocabulary/audio/sweater.mp3",
+  "duration": 0.912,
+  "audible": 0.34,
+  "trimStart": 0.085,
+  "trimEnd": 0.901625,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "94933c5a762d7edb7549a46fb40be341836963b77729a6469935493c0f0705c8",
+  "sha256": "d976972a57c20d4fd0f02ad29d93ca879977352d14a24fd59e41a6f07f6929bb",
+  "bytes": 2736
+}

@@ -1,0 +1,20 @@
+{
+  "id": "skirt",
+  "word": "skirt",
+  "text": "skirt",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/skirt.mp3",
+  "target": "/packages/english-vocabulary/audio/skirt.mp3",
+  "duration": 0.816,
+  "audible": 0.198,
+  "trimStart": 0.085375,
+  "trimEnd": 0.80775,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "a5897765beec70a771bd100f1647b317b96183e188c7a66927adcf400684490b",
+  "sha256": "6a2d2242a2fdc6476e3fea23124822e35f0502a78fc6bc81b14b461538f4eb51",
+  "bytes": 2448
+}

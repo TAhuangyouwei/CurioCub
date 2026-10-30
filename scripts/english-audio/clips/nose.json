@@ -1,0 +1,20 @@
+{
+  "id": "nose",
+  "word": "nose",
+  "text": "nose",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/nose.mp3",
+  "target": "/packages/english-vocabulary/audio/nose.mp3",
+  "duration": 0.792,
+  "audible": 0.281,
+  "trimStart": 0.08625,
+  "trimEnd": 0.775417,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "11790878a0180d8f17116fb2d90df0ac88e149fff145986afbeb8b776f18814b",
+  "sha256": "a22d71800fe139beace836d33b8bc4406736cf92455e6407391fc8333c94229e",
+  "bytes": 2376
+}

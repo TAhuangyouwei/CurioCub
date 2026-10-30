@@ -1,0 +1,20 @@
+{
+  "id": "friend",
+  "word": "friend",
+  "text": "friend",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/friend.mp3",
+  "target": "/packages/english-vocabulary/audio/friend.mp3",
+  "duration": 0.816,
+  "audible": 0.282,
+  "trimStart": 0.086583,
+  "trimEnd": 0.797542,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "0050eb6d1a14d2d8130c3f0a2f98da7cfb4aa1ed56a680f3ad1237477fc97bdf",
+  "sha256": "03761140c99666196c8b4edcaea3d7d232c519105ec4bb4f26bf39ab5d7f9de8",
+  "bytes": 2448
+}

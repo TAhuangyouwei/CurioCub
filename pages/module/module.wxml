@@ -44,6 +44,18 @@
       <text class="workshop-arrow">›</text>
     </button>
 
+    <button wx:if="{{module.id === 'english'}}" class="workshop-button" bindtap="openEnglishListening">
+      <text class="workshop-title">🔊 听音找图</text>
+      <text class="workshop-subtitle">15 个主题，每轮 5 题；选错的词下次再练</text>
+      <text class="workshop-arrow">›</text>
+    </button>
+
+    <button wx:if="{{module.id === 'english'}}" class="workshop-button" bindtap="openEnglishVocabulary">
+      <text class="workshop-title">📚 150 个生活词</text>
+      <text class="workshop-subtitle">15 个主题，看图片，一起说英文</text>
+      <text class="workshop-arrow">›</text>
+    </button>
+
     <view wx:for="{{groups}}" wx:key="index" class="group-card {{item.outsideRange ? 'outside-range' : ''}}">
       <view class="group-header {{module.id === 'hanzi' ? 'collapsible-header' : ''}}" bindtap="openGroup" data-group-index="{{item.index}}" role="{{module.id === 'hanzi' ? 'button' : ''}}" aria-disabled="{{item.outsideRange}}" aria-label="{{module.id === 'hanzi' ? '第' + item.number + '站，' + (item.outsideRange ? '不在学习范围内' : '开始学习') : ''}}">
         <view>
@@ -58,7 +70,7 @@
         </view>
       </view>
 
-      <text wx:if="{{module.id === 'hanzi' && item.collapsed}}" class="group-preview" bindtap="openGroup" data-group-index="{{item.index}}" role="button" aria-disabled="{{item.outsideRange}}" aria-label="从第{{item.number}}站的可学字开始学习">{{item.preview}}</text>
+      <text wx:if="{{module.id === 'hanzi' && item.collapsed}}" class="group-preview" bindtap="openGroup" data-group-index="{{item.index}}" role="button" aria-disabled="{{item.outsideRange}}" aria-label="从第{{item.number}}站的可学字开始学习"><text wx:for="{{item.items}}" wx:for-item="unit" wx:key="id" class="preview-character {{unit.completed ? 'preview-learned' : ''}}">{{unit.title}} </text></text>
       <view wx:if="{{!item.collapsed}}" class="unit-list">
         <view
           wx:for="{{item.items}}"

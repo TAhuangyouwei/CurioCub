@@ -1,0 +1,20 @@
+{
+  "id": "frog",
+  "word": "frog",
+  "text": "frog",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/frog.mp3",
+  "target": "/packages/english-vocabulary/audio/frog.mp3",
+  "duration": 0.744,
+  "audible": 0.214,
+  "trimStart": 0.084958,
+  "trimEnd": 0.738,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "807b7804f94a4a8be2e40124ac7ea5610d69a6719f4b29818f7dad9334009f0d",
+  "sha256": "0961dbedcca0a6228dc30ef48d3bad73110e7672305ef8436ed31c252214e137",
+  "bytes": 2232
+}

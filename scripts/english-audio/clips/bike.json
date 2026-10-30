@@ -1,0 +1,20 @@
+{
+  "id": "bike",
+  "word": "bike",
+  "text": "bike",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/bike.mp3",
+  "target": "/packages/english-vocabulary/audio/bike.mp3",
+  "duration": 0.672,
+  "audible": 0.22,
+  "trimStart": 0.0885,
+  "trimEnd": 0.671208,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "de68bbd65edcf030bf454b3f778915f119fe291ac3225d89fca1368d2261e247",
+  "sha256": "13e1e23370b67eb5d557e718a720eb1bdc58e52eae92915de02390fba416ab80",
+  "bytes": 2016
+}

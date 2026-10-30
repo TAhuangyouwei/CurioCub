@@ -1,0 +1,20 @@
+{
+  "id": "pants",
+  "word": "pants",
+  "text": "pants",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/pants.mp3",
+  "target": "/packages/english-vocabulary/audio/pants.mp3",
+  "duration": 0.84,
+  "audible": 0.293,
+  "trimStart": 0.08625,
+  "trimEnd": 0.837875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "7e2fa3de93af7fa7e978bfbfcf89c7dd3b1993d793f817dc8f3abaf5239d4f88",
+  "sha256": "9eda10896737efd1dbec7686029ca6e43f039b0f30d4c81e11bab88a23a523d3",
+  "bytes": 2520
+}

@@ -1,0 +1,20 @@
+{
+  "id": "grandmother",
+  "word": "grandmother",
+  "text": "grandmother",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/grandmother.mp3",
+  "target": "/packages/english-vocabulary/audio/grandmother.mp3",
+  "duration": 1.032,
+  "audible": 0.58,
+  "trimStart": 0.086583,
+  "trimEnd": 1.026875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "cd8cf032da1912c644c20819d16ae1e973882cb0330083a7c0251639792ca3aa",
+  "sha256": "225afae48f7d926cdc994fc4d5ba7369cf78519c64c8b2c246a37c4dd3e0a727",
+  "bytes": 3096
+}

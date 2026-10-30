@@ -1,0 +1,20 @@
+{
+  "id": "turtle",
+  "word": "turtle",
+  "text": "turtle",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/turtle.mp3",
+  "target": "/packages/english-vocabulary/audio/turtle.mp3",
+  "duration": 0.84,
+  "audible": 0.372,
+  "trimStart": 0.09075,
+  "trimEnd": 0.821042,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "a472b794aee92b11fe6d5770c8317e5d03f4c17a3a46d94bd597223846903715",
+  "sha256": "eb4ab234a29edf328e8ea1509b856ded89630c22246dc97a3449920709a06c84",
+  "bytes": 2520
+}

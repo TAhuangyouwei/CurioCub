@@ -1,0 +1,20 @@
+{
+  "id": "drink",
+  "word": "drink",
+  "text": "drink",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/drink.mp3",
+  "target": "/packages/english-vocabulary/audio/drink.mp3",
+  "duration": 0.768,
+  "audible": 0.285,
+  "trimStart": 0.085375,
+  "trimEnd": 0.746333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "ef55287271d8623caf2f061ed158f84dce96b44f5adf8228f2401181b0b82de4",
+  "sha256": "e4732aa5e0750f341c125787e084e5fa0e87cf929739cd49ce2973f4fe86a58c",
+  "bytes": 2304
+}

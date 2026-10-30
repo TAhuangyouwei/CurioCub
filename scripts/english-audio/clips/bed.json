@@ -1,0 +1,20 @@
+{
+  "id": "bed",
+  "word": "bed",
+  "text": "bed",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/bed.mp3",
+  "target": "/packages/english-vocabulary/audio/bed.mp3",
+  "duration": 0.672,
+  "audible": 0.234,
+  "trimStart": 0.085833,
+  "trimEnd": 0.650375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "52b0a8d5433dfd2aa5f24e3957ae488b43195878ec245afe819eb9266c65f9a4",
+  "sha256": "4a1b3e575800821013be60db7585aa845b6398f8d2e3589ba45ec958af907301",
+  "bytes": 2016
+}

@@ -1,0 +1,20 @@
+{
+  "id": "baby",
+  "word": "baby",
+  "text": "baby",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/baby.mp3",
+  "target": "/packages/english-vocabulary/audio/baby.mp3",
+  "duration": 0.792,
+  "audible": 0.331,
+  "trimStart": 0.087458,
+  "trimEnd": 0.775375,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "aaf71125024d04610bf293272e4b04a0f10ce87d18e5a8175e7abbf3fafe0948",
+  "sha256": "ab8ea69fe96ae95de823e03d73572ac8cd1d49402d0befc18dc5827d75926f12",
+  "bytes": 2376
+}

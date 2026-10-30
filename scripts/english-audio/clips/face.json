@@ -1,0 +1,20 @@
+{
+  "id": "face",
+  "word": "face",
+  "text": "face",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/face.mp3",
+  "target": "/packages/english-vocabulary/audio/face.mp3",
+  "duration": 0.84,
+  "audible": 0.211,
+  "trimStart": 0.084958,
+  "trimEnd": 0.81775,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "fbe78db90d237cc1ea3a5791a402321c808dc03450973d0c6bdaf3ac19a38bc9",
+  "sha256": "4e9ccdec6f326ccdd87e98fda3467fa7b161e7db1bf0a9b72bff63277c7d5e3d",
+  "bytes": 2520
+}

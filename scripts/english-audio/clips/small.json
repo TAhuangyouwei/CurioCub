@@ -1,0 +1,20 @@
+{
+  "id": "small",
+  "word": "small",
+  "text": "small",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/small.mp3",
+  "target": "/packages/english-vocabulary/audio/small.mp3",
+  "duration": 0.816,
+  "audible": 0.306,
+  "trimStart": 0.084958,
+  "trimEnd": 0.801708,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "f4128b4e456aa755aca7b59f5a7217ce723a9f2d01702437ee9f60ac7cdcc57d",
+  "sha256": "69575d3d18d7aacef4d567322996dddeb7b0b0f5e98fa2fa747c36f307b9c72e",
+  "bytes": 2448
+}

@@ -1,0 +1,20 @@
+{
+  "id": "five",
+  "word": "five",
+  "text": "five",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/five.mp3",
+  "target": "/packages/english-vocabulary/audio/five.mp3",
+  "duration": 0.744,
+  "audible": 0.27,
+  "trimStart": 0.082958,
+  "trimEnd": 0.737083,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "6681230415a5af96b2273995f5e077ebbb4b42699fefd7d1f70dd2492cf72c2d",
+  "sha256": "86833bd50f2fd74e62d62ff3c71c69dba7b2bc5f93d6d9e6b5c4cb522cd69029",
+  "bytes": 2232
+}

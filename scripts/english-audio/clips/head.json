@@ -1,0 +1,20 @@
+{
+  "id": "head",
+  "word": "head",
+  "text": "head",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/head.mp3",
+  "target": "/packages/english-vocabulary/audio/head.mp3",
+  "duration": 0.696,
+  "audible": 0.246,
+  "trimStart": 0.085208,
+  "trimEnd": 0.687875,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "05c6df490f0b3220852bc5cd0b892b7c6ca938071be87075a4259e97eddfcfad",
+  "sha256": "cbf85bc2f4d0ee51a71bfdc464569594485d8313fc9d5f6b7ebe3f81ed890b5d",
+  "bytes": 2088
+}

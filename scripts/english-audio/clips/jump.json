@@ -1,0 +1,20 @@
+{
+  "id": "jump",
+  "word": "jump",
+  "text": "jump",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/jump.mp3",
+  "target": "/packages/english-vocabulary/audio/jump.mp3",
+  "duration": 0.72,
+  "audible": 0.281,
+  "trimStart": 0.085208,
+  "trimEnd": 0.7085,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "b468fe7cd7f504cfc2934f40e8419a00c2adecafefed7fe80c15e5ec166d427f",
+  "sha256": "3dbd5baba6414d16b620dcf558b532d144b71e0b0e6d3a41c226a320a568c561",
+  "bytes": 2160
+}

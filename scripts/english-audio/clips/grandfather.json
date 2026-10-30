@@ -1,0 +1,20 @@
+{
+  "id": "grandfather",
+  "word": "grandfather",
+  "text": "grandfather",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/grandfather.mp3",
+  "target": "/packages/english-vocabulary/audio/grandfather.mp3",
+  "duration": 1.08,
+  "audible": 0.505,
+  "trimStart": 0.084875,
+  "trimEnd": 1.05625,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "35db81f41efd3ad79dcc45d2efd66daef3058dd6914198916e323d25c3432a3e",
+  "sha256": "e1ba8854955e9c80fcdbde8eb14d84d2b5422b5e811c573b4db46096da850564",
+  "bytes": 3240
+}

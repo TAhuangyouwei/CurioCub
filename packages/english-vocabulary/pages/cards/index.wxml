@@ -1,0 +1,16 @@
+<view class="vocabulary-page" wx:if="{{word}}">
+  <text class="eyebrow">英语果园 · 150 个生活词</text>
+  <picker mode="selector" range="{{groups}}" range-key="title" value="{{topicIndex}}" bindchange="changeTopic">
+    <view class="topic-picker" role="button" aria-label="选择单词主题"><text>{{groupTitle}}</text><text>换个主题 ▾</text></view>
+  </picker>
+  <text class="count">第 {{position}} / {{total}} 个词</text>
+  <view class="word-card">
+    <image class="word-image" src="{{word.image}}" mode="aspectFit" binderror="imageFailed" />
+    <text wx:if="{{imageError}}" class="note">图片暂时没显示出来，请重新进入这一组。</text>
+    <text class="word">{{word.word}}</text>
+    <text class="meaning">{{word.meaning}}</text>
+  </view>
+  <button wx:if="{{audioFile}}" class="listen" bindtap="listen">🔊 听单词</button>
+  <view class="navigation"><button bindtap="previous" disabled="{{position === 1}}">‹ 上一个</button><button bindtap="next" disabled="{{position === total}}">下一个 ›</button></view>
+  <text class="note">看看图片，说说它是什么。愿意的话，再一起说英文。</text>
+</view>

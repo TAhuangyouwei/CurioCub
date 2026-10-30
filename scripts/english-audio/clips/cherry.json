@@ -1,0 +1,20 @@
+{
+  "id": "cherry",
+  "word": "cherry",
+  "text": "cherry",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/cherry.mp3",
+  "target": "/packages/english-vocabulary/audio/cherry.mp3",
+  "duration": 0.792,
+  "audible": 0.401,
+  "trimStart": 0.085375,
+  "trimEnd": 0.786333,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "17dfdc710e392ad4521003179110f2ef3581ea381e6812386384a3dc5319d0d5",
+  "sha256": "582a1fa527fb76c37472f58b77d193485b5cc9b44e03bb392493155666632b42",
+  "bytes": 2376
+}

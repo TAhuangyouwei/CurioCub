@@ -1,0 +1,20 @@
+{
+  "id": "star",
+  "word": "star",
+  "text": "star",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/star.mp3",
+  "target": "/packages/english-vocabulary/audio/star.mp3",
+  "duration": 0.768,
+  "audible": 0.247,
+  "trimStart": 0.082958,
+  "trimEnd": 0.752167,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "1905ffebc423a515e06c4b1b86f3d41f5dc843d4e8c45c1457b79963e32fc873",
+  "sha256": "fa69aa9f5083370565a362e1ded6e609a5aaea361474438d1caf911cbd630961",
+  "bytes": 2304
+}

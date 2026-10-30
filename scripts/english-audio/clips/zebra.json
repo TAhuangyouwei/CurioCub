@@ -1,0 +1,20 @@
+{
+  "id": "zebra",
+  "word": "zebra",
+  "text": "zebra",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/zebra.mp3",
+  "target": "/packages/english-vocabulary/audio/zebra.mp3",
+  "duration": 0.84,
+  "audible": 0.312,
+  "trimStart": 0.085333,
+  "trimEnd": 0.826583,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "2be6e6d87d1ce20baf431069192e62d5589d131ad7240d6457139b1d7fdacbd8",
+  "sha256": "398f1a6f2de217863ea3940c45d1143ab01a3319f7d2442b2770b70fa4a4ca98",
+  "bytes": 2520
+}

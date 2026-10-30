@@ -1,0 +1,20 @@
+{
+  "id": "spoon",
+  "word": "spoon",
+  "text": "spoon",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/spoon.mp3",
+  "target": "/packages/english-vocabulary/audio/spoon.mp3",
+  "duration": 0.84,
+  "audible": 0.306,
+  "trimStart": 0.085333,
+  "trimEnd": 0.826667,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "efb1f10ba6c95b0fa11a10e02d0acea9efdab764170b836ee5c0d7aaa3b30adb",
+  "sha256": "8b590f46057b5cbbc4e1f095e093eb66d2e3451f3ff47e761618e78f0be934b4",
+  "bytes": 2520
+}

@@ -1,0 +1,20 @@
+{
+  "id": "shirt",
+  "word": "shirt",
+  "text": "shirt",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/shirt.mp3",
+  "target": "/packages/english-vocabulary/audio/shirt.mp3",
+  "duration": 0.792,
+  "audible": 0.289,
+  "trimStart": 0.085375,
+  "trimEnd": 0.786,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "e49fc79e4aebabb67e8e7f1fb060dc608d7c232c9513c22b90b3ac936549e1b0",
+  "sha256": "7b029a50da4af547177a2490774fb2ee8120782ac44a0de86db72718ea09922b",
+  "bytes": 2376
+}

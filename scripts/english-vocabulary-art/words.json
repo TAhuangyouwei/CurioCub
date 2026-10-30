@@ -1,0 +1,1566 @@
+{
+  "groups": [
+    {
+      "id": "animals",
+      "title": "身边的动物"
+    },
+    {
+      "id": "wildlife",
+      "title": "动物朋友"
+    },
+    {
+      "id": "fruit",
+      "title": "香甜水果"
+    },
+    {
+      "id": "colors",
+      "title": "缤纷颜色"
+    },
+    {
+      "id": "food",
+      "title": "食物与饮品"
+    },
+    {
+      "id": "body",
+      "title": "认识身体"
+    },
+    {
+      "id": "people",
+      "title": "家人与伙伴"
+    },
+    {
+      "id": "school",
+      "title": "学校用品"
+    },
+    {
+      "id": "play",
+      "title": "玩具与交通"
+    },
+    {
+      "id": "clothes",
+      "title": "穿衣服"
+    },
+    {
+      "id": "home",
+      "title": "我的家"
+    },
+    {
+      "id": "nature",
+      "title": "自然世界"
+    },
+    {
+      "id": "actions",
+      "title": "动一动"
+    },
+    {
+      "id": "numbers",
+      "title": "数字一到十"
+    },
+    {
+      "id": "describing",
+      "title": "说说样子"
+    }
+  ],
+  "words": [
+    {
+      "id": "dog",
+      "word": "dog",
+      "meaning": "小狗",
+      "topic": "animals",
+      "subject": "one friendly golden-brown dog with floppy ears and a wagging tail",
+      "image": "/packages/english-vocabulary/images/dog.webp",
+      "legacyId": "english-01",
+      "audioFile": "/assets/audio/english-01.mp3"
+    },
+    {
+      "id": "cat",
+      "word": "cat",
+      "meaning": "小猫",
+      "topic": "animals",
+      "subject": "one orange pet cat with whiskers and a curved tail",
+      "image": "/packages/english-vocabulary/images/cat.webp",
+      "legacyId": "english-02",
+      "audioFile": "/assets/audio/english-02.mp3"
+    },
+    {
+      "id": "bird",
+      "word": "bird",
+      "meaning": "小鸟",
+      "topic": "animals",
+      "subject": "one little blue songbird with a beak, wings and two feet",
+      "image": "/packages/english-vocabulary/images/bird.webp",
+      "legacyId": "english-03",
+      "audioFile": "/assets/audio/english-03.mp3"
+    },
+    {
+      "id": "fish",
+      "word": "fish",
+      "meaning": "小鱼",
+      "topic": "animals",
+      "subject": "one orange goldfish with fins and a flowing tail",
+      "image": "/packages/english-vocabulary/images/fish.webp",
+      "legacyId": "english-04",
+      "audioFile": "/assets/audio/english-04.mp3"
+    },
+    {
+      "id": "rabbit",
+      "word": "rabbit",
+      "meaning": "兔子",
+      "topic": "animals",
+      "subject": "one white rabbit with two long upright ears",
+      "image": "/packages/english-vocabulary/images/rabbit.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/rabbit.mp3"
+    },
+    {
+      "id": "duck",
+      "word": "duck",
+      "meaning": "鸭子",
+      "topic": "animals",
+      "subject": "one yellow duck with a broad flat orange bill and webbed feet",
+      "image": "/packages/english-vocabulary/images/duck.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/duck.mp3"
+    },
+    {
+      "id": "hen",
+      "word": "hen",
+      "meaning": "母鸡",
+      "topic": "animals",
+      "subject": "one brown adult hen, clearly a female chicken, with a small red comb",
+      "image": "/packages/english-vocabulary/images/hen.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/hen.mp3"
+    },
+    {
+      "id": "pig",
+      "word": "pig",
+      "meaning": "小猪",
+      "topic": "animals",
+      "subject": "one pink pig with a round snout and a curly tail",
+      "image": "/packages/english-vocabulary/images/pig.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/pig.mp3"
+    },
+    {
+      "id": "cow",
+      "word": "cow",
+      "meaning": "奶牛",
+      "topic": "animals",
+      "subject": "one black-and-white dairy cow with visible udders",
+      "image": "/packages/english-vocabulary/images/cow.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cow.mp3"
+    },
+    {
+      "id": "horse",
+      "word": "horse",
+      "meaning": "小马",
+      "topic": "animals",
+      "subject": "one chestnut horse with a mane and four hooves",
+      "image": "/packages/english-vocabulary/images/horse.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/horse.mp3"
+    },
+    {
+      "id": "lion",
+      "word": "lion",
+      "meaning": "狮子",
+      "topic": "wildlife",
+      "subject": "one friendly male lion with a round golden mane",
+      "image": "/packages/english-vocabulary/images/lion.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/lion.mp3"
+    },
+    {
+      "id": "tiger",
+      "word": "tiger",
+      "meaning": "老虎",
+      "topic": "wildlife",
+      "subject": "one friendly orange tiger with clear black stripes",
+      "image": "/packages/english-vocabulary/images/tiger.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/tiger.mp3"
+    },
+    {
+      "id": "elephant",
+      "word": "elephant",
+      "meaning": "大象",
+      "topic": "wildlife",
+      "subject": "one gray elephant with big ears and a long trunk",
+      "image": "/packages/english-vocabulary/images/elephant.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/elephant.mp3"
+    },
+    {
+      "id": "monkey",
+      "word": "monkey",
+      "meaning": "猴子",
+      "topic": "wildlife",
+      "subject": "one playful brown monkey with a long curved tail",
+      "image": "/packages/english-vocabulary/images/monkey.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/monkey.mp3"
+    },
+    {
+      "id": "panda",
+      "word": "panda",
+      "meaning": "熊猫",
+      "topic": "wildlife",
+      "subject": "one black-and-white giant panda sitting with a bamboo shoot",
+      "image": "/packages/english-vocabulary/images/panda.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/panda.mp3"
+    },
+    {
+      "id": "bear",
+      "word": "bear",
+      "meaning": "小熊",
+      "topic": "wildlife",
+      "subject": "one friendly brown bear with round ears",
+      "image": "/packages/english-vocabulary/images/bear.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/bear.mp3"
+    },
+    {
+      "id": "giraffe",
+      "word": "giraffe",
+      "meaning": "长颈鹿",
+      "topic": "wildlife",
+      "subject": "one giraffe with a very long neck and brown patches",
+      "image": "/packages/english-vocabulary/images/giraffe.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/giraffe.mp3"
+    },
+    {
+      "id": "zebra",
+      "word": "zebra",
+      "meaning": "斑马",
+      "topic": "wildlife",
+      "subject": "one zebra with crisp black-and-white stripes",
+      "image": "/packages/english-vocabulary/images/zebra.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/zebra.mp3"
+    },
+    {
+      "id": "frog",
+      "word": "frog",
+      "meaning": "青蛙",
+      "topic": "wildlife",
+      "subject": "one green frog with round eyes and folded hind legs",
+      "image": "/packages/english-vocabulary/images/frog.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/frog.mp3"
+    },
+    {
+      "id": "turtle",
+      "word": "turtle",
+      "meaning": "乌龟",
+      "topic": "wildlife",
+      "subject": "one small land turtle with a domed shell and four short feet",
+      "image": "/packages/english-vocabulary/images/turtle.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/turtle.mp3"
+    },
+    {
+      "id": "apple",
+      "word": "apple",
+      "meaning": "苹果",
+      "topic": "fruit",
+      "subject": "one whole red apple with a short stem and a green leaf",
+      "image": "/packages/english-vocabulary/images/apple.webp",
+      "legacyId": "english-09",
+      "audioFile": "/assets/audio/english-09.mp3"
+    },
+    {
+      "id": "banana",
+      "word": "banana",
+      "meaning": "香蕉",
+      "topic": "fruit",
+      "subject": "one curved yellow banana, partly peeled",
+      "image": "/packages/english-vocabulary/images/banana.webp",
+      "legacyId": "english-10",
+      "audioFile": "/assets/audio/english-10.mp3"
+    },
+    {
+      "id": "orange",
+      "word": "orange",
+      "meaning": "橙子",
+      "topic": "fruit",
+      "subject": "one whole orange fruit with a green leaf and one cut orange half",
+      "image": "/packages/english-vocabulary/images/orange.webp",
+      "legacyId": "english-11",
+      "audioFile": "/assets/audio/english-11.mp3"
+    },
+    {
+      "id": "grape",
+      "word": "grape",
+      "meaning": "葡萄",
+      "topic": "fruit",
+      "subject": "one small bunch of purple grapes on a vine stem",
+      "image": "/packages/english-vocabulary/images/grape.webp",
+      "legacyId": "english-12",
+      "audioFile": "/assets/audio/english-12.mp3"
+    },
+    {
+      "id": "lemon",
+      "word": "lemon",
+      "meaning": "柠檬",
+      "topic": "fruit",
+      "subject": "one yellow lemon and one lemon slice",
+      "image": "/packages/english-vocabulary/images/lemon.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/lemon.mp3"
+    },
+    {
+      "id": "peach",
+      "word": "peach",
+      "meaning": "桃子",
+      "topic": "fruit",
+      "subject": "one pink peach with a visible crease and a green leaf",
+      "image": "/packages/english-vocabulary/images/peach.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/peach.mp3"
+    },
+    {
+      "id": "pear",
+      "word": "pear",
+      "meaning": "梨",
+      "topic": "fruit",
+      "subject": "one green pear with its distinctive narrow top and round base",
+      "image": "/packages/english-vocabulary/images/pear.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/pear.mp3"
+    },
+    {
+      "id": "watermelon",
+      "word": "watermelon",
+      "meaning": "西瓜",
+      "topic": "fruit",
+      "subject": "one triangular slice of red watermelon with black seeds and green rind",
+      "image": "/packages/english-vocabulary/images/watermelon.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/watermelon.mp3"
+    },
+    {
+      "id": "strawberry",
+      "word": "strawberry",
+      "meaning": "草莓",
+      "topic": "fruit",
+      "subject": "one red strawberry with tiny seeds and a green leafy top",
+      "image": "/packages/english-vocabulary/images/strawberry.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/strawberry.mp3"
+    },
+    {
+      "id": "cherry",
+      "word": "cherry",
+      "meaning": "樱桃",
+      "topic": "fruit",
+      "subject": "two ripe red cherries joined by their stems",
+      "image": "/packages/english-vocabulary/images/cherry.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cherry.mp3"
+    },
+    {
+      "id": "red",
+      "word": "red",
+      "meaning": "红色",
+      "topic": "colors",
+      "subject": "one simple solid red paint blob with smooth edges; red only",
+      "image": "/packages/english-vocabulary/images/red.webp",
+      "legacyId": "english-05",
+      "audioFile": "/assets/audio/english-05.mp3"
+    },
+    {
+      "id": "blue",
+      "word": "blue",
+      "meaning": "蓝色",
+      "topic": "colors",
+      "subject": "one simple solid blue paint blob with smooth edges; blue only",
+      "image": "/packages/english-vocabulary/images/blue.webp",
+      "legacyId": "english-06",
+      "audioFile": "/assets/audio/english-06.mp3"
+    },
+    {
+      "id": "yellow",
+      "word": "yellow",
+      "meaning": "黄色",
+      "topic": "colors",
+      "subject": "one simple solid yellow paint blob with smooth edges; yellow only",
+      "image": "/packages/english-vocabulary/images/yellow.webp",
+      "legacyId": "english-07",
+      "audioFile": "/assets/audio/english-07.mp3"
+    },
+    {
+      "id": "green",
+      "word": "green",
+      "meaning": "绿色",
+      "topic": "colors",
+      "subject": "one simple solid green paint blob with smooth edges; green only",
+      "image": "/packages/english-vocabulary/images/green.webp",
+      "legacyId": "english-08",
+      "audioFile": "/assets/audio/english-08.mp3"
+    },
+    {
+      "id": "black",
+      "word": "black",
+      "meaning": "黑色",
+      "topic": "colors",
+      "subject": "one simple solid black paint blob with smooth edges; black only",
+      "image": "/packages/english-vocabulary/images/black.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/black.mp3"
+    },
+    {
+      "id": "white",
+      "word": "white",
+      "meaning": "白色",
+      "topic": "colors",
+      "subject": "one solid white paint blob with a thin pale-gray outline so white remains visible",
+      "image": "/packages/english-vocabulary/images/white.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/white.mp3"
+    },
+    {
+      "id": "pink",
+      "word": "pink",
+      "meaning": "粉色",
+      "topic": "colors",
+      "subject": "one simple solid pink paint blob with smooth edges; pink only",
+      "image": "/packages/english-vocabulary/images/pink.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/pink.mp3"
+    },
+    {
+      "id": "purple",
+      "word": "purple",
+      "meaning": "紫色",
+      "topic": "colors",
+      "subject": "one simple solid purple paint blob with smooth edges; purple only",
+      "image": "/packages/english-vocabulary/images/purple.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/purple.mp3"
+    },
+    {
+      "id": "brown",
+      "word": "brown",
+      "meaning": "棕色",
+      "topic": "colors",
+      "subject": "one simple solid brown paint blob with smooth edges; brown only",
+      "image": "/packages/english-vocabulary/images/brown.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/brown.mp3"
+    },
+    {
+      "id": "gray",
+      "word": "gray",
+      "meaning": "灰色",
+      "topic": "colors",
+      "subject": "one simple solid medium-gray paint blob with smooth edges; gray only",
+      "image": "/packages/english-vocabulary/images/gray.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/gray.mp3"
+    },
+    {
+      "id": "bread",
+      "word": "bread",
+      "meaning": "面包",
+      "topic": "food",
+      "subject": "one small loaf of bread with one slice leaning against it",
+      "image": "/packages/english-vocabulary/images/bread.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/bread.mp3"
+    },
+    {
+      "id": "rice",
+      "word": "rice",
+      "meaning": "米饭",
+      "topic": "food",
+      "subject": "one bowl filled with cooked white rice",
+      "image": "/packages/english-vocabulary/images/rice.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/rice.mp3"
+    },
+    {
+      "id": "egg",
+      "word": "egg",
+      "meaning": "鸡蛋",
+      "topic": "food",
+      "subject": "one whole chicken egg and one boiled egg half with a yellow yolk",
+      "image": "/packages/english-vocabulary/images/egg.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/egg.mp3"
+    },
+    {
+      "id": "milk",
+      "word": "milk",
+      "meaning": "牛奶",
+      "topic": "food",
+      "subject": "one clear glass full of white milk beside a plain unlabelled milk bottle",
+      "image": "/packages/english-vocabulary/images/milk.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/milk.mp3"
+    },
+    {
+      "id": "water",
+      "word": "water",
+      "meaning": "水",
+      "topic": "food",
+      "subject": "one clear drinking glass filled with transparent water, not milk or juice",
+      "image": "/packages/english-vocabulary/images/water.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/water.mp3"
+    },
+    {
+      "id": "juice",
+      "word": "juice",
+      "meaning": "果汁",
+      "topic": "food",
+      "subject": "one clear glass of orange juice with a straw and a small orange wedge",
+      "image": "/packages/english-vocabulary/images/juice.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/juice.mp3"
+    },
+    {
+      "id": "cake",
+      "word": "cake",
+      "meaning": "蛋糕",
+      "topic": "food",
+      "subject": "one slice of strawberry sponge cake on a small plate",
+      "image": "/packages/english-vocabulary/images/cake.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cake.mp3"
+    },
+    {
+      "id": "cookie",
+      "word": "cookie",
+      "meaning": "饼干",
+      "topic": "food",
+      "subject": "one round golden cookie with chocolate chips",
+      "image": "/packages/english-vocabulary/images/cookie.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cookie.mp3"
+    },
+    {
+      "id": "cheese",
+      "word": "cheese",
+      "meaning": "奶酪",
+      "topic": "food",
+      "subject": "one yellow cheese wedge with round holes",
+      "image": "/packages/english-vocabulary/images/cheese.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cheese.mp3"
+    },
+    {
+      "id": "chicken",
+      "word": "chicken",
+      "meaning": "鸡肉",
+      "topic": "food",
+      "subject": "one cooked chicken drumstick on a plain plate; food, not a living bird",
+      "image": "/packages/english-vocabulary/images/chicken.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/chicken.mp3"
+    },
+    {
+      "id": "head",
+      "word": "head",
+      "meaning": "头",
+      "topic": "body",
+      "subject": "one friendly child head, whole head silhouette with face, hair and ears, neck cropped",
+      "image": "/packages/english-vocabulary/images/head.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/head.mp3"
+    },
+    {
+      "id": "hair",
+      "word": "hair",
+      "meaning": "头发",
+      "topic": "body",
+      "subject": "close-up of the top and back of a child head with thick brown hair, hair emphasized",
+      "image": "/packages/english-vocabulary/images/hair.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/hair.mp3"
+    },
+    {
+      "id": "face",
+      "word": "face",
+      "meaning": "脸",
+      "topic": "body",
+      "subject": "only the front oval of a friendly child face: forehead, eyes, nose, cheeks, mouth and chin; no hair, ears or neck, clearly different from a whole head",
+      "image": "/packages/english-vocabulary/images/face.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/face.mp3"
+    },
+    {
+      "id": "eye",
+      "word": "eye",
+      "meaning": "眼睛",
+      "topic": "body",
+      "subject": "one clear friendly human eye with eyebrow and eyelashes",
+      "image": "/packages/english-vocabulary/images/eye.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/eye.mp3"
+    },
+    {
+      "id": "ear",
+      "word": "ear",
+      "meaning": "耳朵",
+      "topic": "body",
+      "subject": "one clear human outer ear viewed from the side",
+      "image": "/packages/english-vocabulary/images/ear.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/ear.mp3"
+    },
+    {
+      "id": "nose",
+      "word": "nose",
+      "meaning": "鼻子",
+      "topic": "body",
+      "subject": "one clear child nose in three-quarter view with nostrils, a tiny part of cheeks for context",
+      "image": "/packages/english-vocabulary/images/nose.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/nose.mp3"
+    },
+    {
+      "id": "mouth",
+      "word": "mouth",
+      "meaning": "嘴巴",
+      "topic": "body",
+      "subject": "one smiling human mouth with lips, slightly open, no full face",
+      "image": "/packages/english-vocabulary/images/mouth.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/mouth.mp3"
+    },
+    {
+      "id": "hand",
+      "word": "hand",
+      "meaning": "手",
+      "topic": "body",
+      "subject": "one open child hand, palm forward, exactly five fingers",
+      "image": "/packages/english-vocabulary/images/hand.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/hand.mp3"
+    },
+    {
+      "id": "leg",
+      "word": "leg",
+      "meaning": "腿",
+      "topic": "body",
+      "subject": "one child leg shown from knee to ankle, foot only partly visible, wearing short trousers at top",
+      "image": "/packages/english-vocabulary/images/leg.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/leg.mp3"
+    },
+    {
+      "id": "foot",
+      "word": "foot",
+      "meaning": "脚",
+      "topic": "body",
+      "subject": "one bare human foot in side three-quarter view, exactly five toes",
+      "image": "/packages/english-vocabulary/images/foot.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/foot.mp3"
+    },
+    {
+      "id": "mother",
+      "word": "mother",
+      "meaning": "妈妈",
+      "topic": "people",
+      "subject": "one friendly adult mother holding the hand of a small child, mother is central and larger",
+      "image": "/packages/english-vocabulary/images/mother.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/mother.mp3"
+    },
+    {
+      "id": "father",
+      "word": "father",
+      "meaning": "爸爸",
+      "topic": "people",
+      "subject": "one friendly adult father holding the hand of a small child, father is central and larger",
+      "image": "/packages/english-vocabulary/images/father.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/father.mp3"
+    },
+    {
+      "id": "sister",
+      "word": "sister",
+      "meaning": "姐姐／妹妹",
+      "topic": "people",
+      "subject": "a girl standing beside a younger sibling, the girl is central and emphasized",
+      "image": "/packages/english-vocabulary/images/sister.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/sister.mp3"
+    },
+    {
+      "id": "brother",
+      "word": "brother",
+      "meaning": "哥哥／弟弟",
+      "topic": "people",
+      "subject": "a boy standing beside a younger sibling, the boy is central and emphasized",
+      "image": "/packages/english-vocabulary/images/brother.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/brother.mp3"
+    },
+    {
+      "id": "grandmother",
+      "word": "grandmother",
+      "meaning": "奶奶／外婆",
+      "topic": "people",
+      "subject": "one friendly elderly grandmother with gray hair and glasses",
+      "image": "/packages/english-vocabulary/images/grandmother.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/grandmother.mp3"
+    },
+    {
+      "id": "grandfather",
+      "word": "grandfather",
+      "meaning": "爷爷／外公",
+      "topic": "people",
+      "subject": "one friendly elderly grandfather with gray hair and glasses",
+      "image": "/packages/english-vocabulary/images/grandfather.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/grandfather.mp3"
+    },
+    {
+      "id": "baby",
+      "word": "baby",
+      "meaning": "婴儿",
+      "topic": "people",
+      "subject": "one smiling baby sitting in a soft yellow onesie",
+      "image": "/packages/english-vocabulary/images/baby.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/baby.mp3"
+    },
+    {
+      "id": "boy",
+      "word": "boy",
+      "meaning": "男孩",
+      "topic": "people",
+      "subject": "one smiling young boy standing and waving, full body",
+      "image": "/packages/english-vocabulary/images/boy.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/boy.mp3"
+    },
+    {
+      "id": "girl",
+      "word": "girl",
+      "meaning": "女孩",
+      "topic": "people",
+      "subject": "one smiling young girl standing and waving, full body",
+      "image": "/packages/english-vocabulary/images/girl.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/girl.mp3"
+    },
+    {
+      "id": "friend",
+      "word": "friend",
+      "meaning": "朋友",
+      "topic": "people",
+      "subject": "two cheerful children of the same age giving each other a high five",
+      "image": "/packages/english-vocabulary/images/friend.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/friend.mp3"
+    },
+    {
+      "id": "book",
+      "word": "book",
+      "meaning": "书",
+      "topic": "school",
+      "subject": "one open picture book with blank pages and a bright blue cover",
+      "image": "/packages/english-vocabulary/images/book.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/book.mp3"
+    },
+    {
+      "id": "pen",
+      "word": "pen",
+      "meaning": "钢笔",
+      "topic": "school",
+      "subject": "one blue fountain pen with an unmistakable metal nib, no pencil",
+      "image": "/packages/english-vocabulary/images/pen.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/pen.mp3"
+    },
+    {
+      "id": "pencil",
+      "word": "pencil",
+      "meaning": "铅笔",
+      "topic": "school",
+      "subject": "one yellow wooden pencil with a sharpened graphite tip and a pink eraser",
+      "image": "/packages/english-vocabulary/images/pencil.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/pencil.mp3"
+    },
+    {
+      "id": "ruler",
+      "word": "ruler",
+      "meaning": "尺子",
+      "topic": "school",
+      "subject": "one straight school ruler with tick marks but no numerals",
+      "image": "/packages/english-vocabulary/images/ruler.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/ruler.mp3"
+    },
+    {
+      "id": "eraser",
+      "word": "eraser",
+      "meaning": "橡皮",
+      "topic": "school",
+      "subject": "one pink-and-white rectangular school eraser",
+      "image": "/packages/english-vocabulary/images/eraser.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/eraser.mp3"
+    },
+    {
+      "id": "bag",
+      "word": "bag",
+      "meaning": "书包",
+      "topic": "school",
+      "subject": "one red school backpack with two shoulder straps and a front pocket",
+      "image": "/packages/english-vocabulary/images/bag.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/bag.mp3"
+    },
+    {
+      "id": "desk",
+      "word": "desk",
+      "meaning": "课桌",
+      "topic": "school",
+      "subject": "one small student desk with a pencil groove and a single school book",
+      "image": "/packages/english-vocabulary/images/desk.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/desk.mp3"
+    },
+    {
+      "id": "chair",
+      "word": "chair",
+      "meaning": "椅子",
+      "topic": "school",
+      "subject": "one simple wooden child chair with a backrest and four legs",
+      "image": "/packages/english-vocabulary/images/chair.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/chair.mp3"
+    },
+    {
+      "id": "teacher",
+      "word": "teacher",
+      "meaning": "老师",
+      "topic": "school",
+      "subject": "one friendly adult teacher beside a small classroom board with simple star drawings, no writing",
+      "image": "/packages/english-vocabulary/images/teacher.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/teacher.mp3"
+    },
+    {
+      "id": "school",
+      "word": "school",
+      "meaning": "学校",
+      "topic": "school",
+      "subject": "one cheerful small school building with a school bell and a playground slide, no writing",
+      "image": "/packages/english-vocabulary/images/school.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/school.mp3"
+    },
+    {
+      "id": "ball",
+      "word": "ball",
+      "meaning": "球",
+      "topic": "play",
+      "subject": "one colorful striped play ball",
+      "image": "/packages/english-vocabulary/images/ball.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/ball.mp3"
+    },
+    {
+      "id": "doll",
+      "word": "doll",
+      "meaning": "玩偶",
+      "topic": "play",
+      "subject": "one soft child doll wearing a simple dress, stitched toy features",
+      "image": "/packages/english-vocabulary/images/doll.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/doll.mp3"
+    },
+    {
+      "id": "kite",
+      "word": "kite",
+      "meaning": "风筝",
+      "topic": "play",
+      "subject": "one diamond-shaped kite with a string and a ribbon tail",
+      "image": "/packages/english-vocabulary/images/kite.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/kite.mp3"
+    },
+    {
+      "id": "robot",
+      "word": "robot",
+      "meaning": "机器人",
+      "topic": "play",
+      "subject": "one friendly toy robot with a square head, two arms and two legs",
+      "image": "/packages/english-vocabulary/images/robot.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/robot.mp3"
+    },
+    {
+      "id": "car",
+      "word": "car",
+      "meaning": "小汽车",
+      "topic": "play",
+      "subject": "one small red car viewed from the side with two visible wheels",
+      "image": "/packages/english-vocabulary/images/car.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/car.mp3"
+    },
+    {
+      "id": "train",
+      "word": "train",
+      "meaning": "火车",
+      "topic": "play",
+      "subject": "one cheerful toy locomotive with a short attached carriage",
+      "image": "/packages/english-vocabulary/images/train.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/train.mp3"
+    },
+    {
+      "id": "bus",
+      "word": "bus",
+      "meaning": "公共汽车",
+      "topic": "play",
+      "subject": "one yellow city bus with many windows and two visible wheels",
+      "image": "/packages/english-vocabulary/images/bus.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/bus.mp3"
+    },
+    {
+      "id": "bike",
+      "word": "bike",
+      "meaning": "自行车",
+      "topic": "play",
+      "subject": "one small blue bicycle with two wheels and pedals, no motor",
+      "image": "/packages/english-vocabulary/images/bike.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/bike.mp3"
+    },
+    {
+      "id": "boat",
+      "word": "boat",
+      "meaning": "小船",
+      "topic": "play",
+      "subject": "one small sailboat with a triangular sail",
+      "image": "/packages/english-vocabulary/images/boat.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/boat.mp3"
+    },
+    {
+      "id": "plane",
+      "word": "plane",
+      "meaning": "飞机",
+      "topic": "play",
+      "subject": "one small passenger airplane with wings and tail, three-quarter view",
+      "image": "/packages/english-vocabulary/images/plane.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/plane.mp3"
+    },
+    {
+      "id": "shirt",
+      "word": "shirt",
+      "meaning": "衬衫",
+      "topic": "clothes",
+      "subject": "one blue collared button-up shirt laid flat",
+      "image": "/packages/english-vocabulary/images/shirt.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/shirt.mp3"
+    },
+    {
+      "id": "coat",
+      "word": "coat",
+      "meaning": "外套",
+      "topic": "clothes",
+      "subject": "one warm orange coat with sleeves and a front zipper",
+      "image": "/packages/english-vocabulary/images/coat.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/coat.mp3"
+    },
+    {
+      "id": "dress",
+      "word": "dress",
+      "meaning": "连衣裙",
+      "topic": "clothes",
+      "subject": "one pink child dress with a fitted top and flared skirt",
+      "image": "/packages/english-vocabulary/images/dress.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/dress.mp3"
+    },
+    {
+      "id": "skirt",
+      "word": "skirt",
+      "meaning": "短裙",
+      "topic": "clothes",
+      "subject": "one purple skirt with a visible waistband, no top",
+      "image": "/packages/english-vocabulary/images/skirt.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/skirt.mp3"
+    },
+    {
+      "id": "pants",
+      "word": "pants",
+      "meaning": "长裤",
+      "topic": "clothes",
+      "subject": "one pair of green long trousers laid flat",
+      "image": "/packages/english-vocabulary/images/pants.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/pants.mp3"
+    },
+    {
+      "id": "shoes",
+      "word": "shoes",
+      "meaning": "鞋子",
+      "topic": "clothes",
+      "subject": "one pair of red child sneakers",
+      "image": "/packages/english-vocabulary/images/shoes.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/shoes.mp3"
+    },
+    {
+      "id": "socks",
+      "word": "socks",
+      "meaning": "袜子",
+      "topic": "clothes",
+      "subject": "one pair of striped child socks",
+      "image": "/packages/english-vocabulary/images/socks.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/socks.mp3"
+    },
+    {
+      "id": "hat",
+      "word": "hat",
+      "meaning": "帽子",
+      "topic": "clothes",
+      "subject": "one yellow wide-brimmed sun hat",
+      "image": "/packages/english-vocabulary/images/hat.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/hat.mp3"
+    },
+    {
+      "id": "cap",
+      "word": "cap",
+      "meaning": "鸭舌帽",
+      "topic": "clothes",
+      "subject": "one blue baseball cap with a front peak",
+      "image": "/packages/english-vocabulary/images/cap.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cap.mp3"
+    },
+    {
+      "id": "sweater",
+      "word": "sweater",
+      "meaning": "毛衣",
+      "topic": "clothes",
+      "subject": "one red knitted sweater with a round neck and a simple knit texture",
+      "image": "/packages/english-vocabulary/images/sweater.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/sweater.mp3"
+    },
+    {
+      "id": "house",
+      "word": "house",
+      "meaning": "房子",
+      "topic": "home",
+      "subject": "one small family house with a pitched red roof, door and two windows",
+      "image": "/packages/english-vocabulary/images/house.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/house.mp3"
+    },
+    {
+      "id": "door",
+      "word": "door",
+      "meaning": "门",
+      "topic": "home",
+      "subject": "one wooden door with a round handle in a simple door frame",
+      "image": "/packages/english-vocabulary/images/door.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/door.mp3"
+    },
+    {
+      "id": "window",
+      "word": "window",
+      "meaning": "窗户",
+      "topic": "home",
+      "subject": "one square window with four glass panes and short curtains",
+      "image": "/packages/english-vocabulary/images/window.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/window.mp3"
+    },
+    {
+      "id": "bed",
+      "word": "bed",
+      "meaning": "床",
+      "topic": "home",
+      "subject": "one small bed with a pillow and a blue blanket",
+      "image": "/packages/english-vocabulary/images/bed.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/bed.mp3"
+    },
+    {
+      "id": "table",
+      "word": "table",
+      "meaning": "桌子",
+      "topic": "home",
+      "subject": "one plain round dining table with four legs, no school items",
+      "image": "/packages/english-vocabulary/images/table.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/table.mp3"
+    },
+    {
+      "id": "cup",
+      "word": "cup",
+      "meaning": "杯子",
+      "topic": "home",
+      "subject": "one plain green drinking cup with a handle",
+      "image": "/packages/english-vocabulary/images/cup.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cup.mp3"
+    },
+    {
+      "id": "plate",
+      "word": "plate",
+      "meaning": "盘子",
+      "topic": "home",
+      "subject": "one plain white dinner plate with a blue rim, slightly tilted",
+      "image": "/packages/english-vocabulary/images/plate.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/plate.mp3"
+    },
+    {
+      "id": "spoon",
+      "word": "spoon",
+      "meaning": "勺子",
+      "topic": "home",
+      "subject": "one simple silver spoon with a round bowl and long handle",
+      "image": "/packages/english-vocabulary/images/spoon.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/spoon.mp3"
+    },
+    {
+      "id": "clock",
+      "word": "clock",
+      "meaning": "时钟",
+      "topic": "home",
+      "subject": "one round wall clock with two hands and plain tick marks, no numerals",
+      "image": "/packages/english-vocabulary/images/clock.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/clock.mp3"
+    },
+    {
+      "id": "lamp",
+      "word": "lamp",
+      "meaning": "台灯",
+      "topic": "home",
+      "subject": "one yellow desk lamp with a shade and a round base",
+      "image": "/packages/english-vocabulary/images/lamp.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/lamp.mp3"
+    },
+    {
+      "id": "sun",
+      "word": "sun",
+      "meaning": "太阳",
+      "topic": "nature",
+      "subject": "one bright yellow sun with simple rays",
+      "image": "/packages/english-vocabulary/images/sun.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/sun.mp3"
+    },
+    {
+      "id": "moon",
+      "word": "moon",
+      "meaning": "月亮",
+      "topic": "nature",
+      "subject": "one pale-yellow crescent moon",
+      "image": "/packages/english-vocabulary/images/moon.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/moon.mp3"
+    },
+    {
+      "id": "star",
+      "word": "star",
+      "meaning": "星星",
+      "topic": "nature",
+      "subject": "one golden five-pointed star",
+      "image": "/packages/english-vocabulary/images/star.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/star.mp3"
+    },
+    {
+      "id": "cloud",
+      "word": "cloud",
+      "meaning": "云",
+      "topic": "nature",
+      "subject": "one fluffy white cloud with a thin pale-blue outline",
+      "image": "/packages/english-vocabulary/images/cloud.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cloud.mp3"
+    },
+    {
+      "id": "rain",
+      "word": "rain",
+      "meaning": "下雨",
+      "topic": "nature",
+      "subject": "one gray cloud releasing several clear blue raindrops",
+      "image": "/packages/english-vocabulary/images/rain.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/rain.mp3"
+    },
+    {
+      "id": "snow",
+      "word": "snow",
+      "meaning": "下雪",
+      "topic": "nature",
+      "subject": "one pale-blue cloud releasing large clearly shaped snowflakes",
+      "image": "/packages/english-vocabulary/images/snow.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/snow.mp3"
+    },
+    {
+      "id": "tree",
+      "word": "tree",
+      "meaning": "树",
+      "topic": "nature",
+      "subject": "one green leafy tree with a brown trunk",
+      "image": "/packages/english-vocabulary/images/tree.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/tree.mp3"
+    },
+    {
+      "id": "flower",
+      "word": "flower",
+      "meaning": "花",
+      "topic": "nature",
+      "subject": "one pink flower with a yellow center, green stem and two leaves",
+      "image": "/packages/english-vocabulary/images/flower.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/flower.mp3"
+    },
+    {
+      "id": "grass",
+      "word": "grass",
+      "meaning": "草",
+      "topic": "nature",
+      "subject": "one small tuft of fresh green grass",
+      "image": "/packages/english-vocabulary/images/grass.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/grass.mp3"
+    },
+    {
+      "id": "leaf",
+      "word": "leaf",
+      "meaning": "叶子",
+      "topic": "nature",
+      "subject": "one green leaf with a clear central vein and a short stalk",
+      "image": "/packages/english-vocabulary/images/leaf.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/leaf.mp3"
+    },
+    {
+      "id": "run",
+      "word": "run",
+      "meaning": "跑",
+      "topic": "actions",
+      "subject": "one child running fast, arms bent and both feet momentarily off ground, a few motion strokes",
+      "image": "/packages/english-vocabulary/images/run.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/run.mp3"
+    },
+    {
+      "id": "walk",
+      "word": "walk",
+      "meaning": "走",
+      "topic": "actions",
+      "subject": "one child walking calmly, one foot firmly on ground and arms relaxed",
+      "image": "/packages/english-vocabulary/images/walk.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/walk.mp3"
+    },
+    {
+      "id": "jump",
+      "word": "jump",
+      "meaning": "跳",
+      "topic": "actions",
+      "subject": "one child jumping straight up with both feet together off ground, arms raised",
+      "image": "/packages/english-vocabulary/images/jump.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/jump.mp3"
+    },
+    {
+      "id": "sit",
+      "word": "sit",
+      "meaning": "坐",
+      "topic": "actions",
+      "subject": "one child sitting upright on a small chair",
+      "image": "/packages/english-vocabulary/images/sit.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/sit.mp3"
+    },
+    {
+      "id": "sleep",
+      "word": "sleep",
+      "meaning": "睡觉",
+      "topic": "actions",
+      "subject": "one child sleeping with eyes closed in bed under a blanket, no written sleep symbols",
+      "image": "/packages/english-vocabulary/images/sleep.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/sleep.mp3"
+    },
+    {
+      "id": "eat",
+      "word": "eat",
+      "meaning": "吃",
+      "topic": "actions",
+      "subject": "one child raising a spoon of rice toward their open mouth",
+      "image": "/packages/english-vocabulary/images/eat.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/eat.mp3"
+    },
+    {
+      "id": "drink",
+      "word": "drink",
+      "meaning": "喝",
+      "topic": "actions",
+      "subject": "one child drinking water from a clear glass held to their lips",
+      "image": "/packages/english-vocabulary/images/drink.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/drink.mp3"
+    },
+    {
+      "id": "read",
+      "word": "read",
+      "meaning": "读",
+      "topic": "actions",
+      "subject": "one child looking attentively at an open picture book with blank pages",
+      "image": "/packages/english-vocabulary/images/read.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/read.mp3"
+    },
+    {
+      "id": "write",
+      "word": "write",
+      "meaning": "写",
+      "topic": "actions",
+      "subject": "one child using a pencil to write short abstract strokes in a notebook, no actual text",
+      "image": "/packages/english-vocabulary/images/write.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/write.mp3"
+    },
+    {
+      "id": "draw",
+      "word": "draw",
+      "meaning": "画",
+      "topic": "actions",
+      "subject": "one child using a crayon to draw a simple flower on paper",
+      "image": "/packages/english-vocabulary/images/draw.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/draw.mp3"
+    },
+    {
+      "id": "one",
+      "word": "one",
+      "meaning": "一",
+      "topic": "numbers",
+      "subject": "exactly ONE red apple, isolated and easy to count",
+      "image": "/packages/english-vocabulary/images/one.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/one.mp3"
+    },
+    {
+      "id": "two",
+      "word": "two",
+      "meaning": "二",
+      "topic": "numbers",
+      "subject": "exactly TWO red apples in one row, separated and easy to count",
+      "image": "/packages/english-vocabulary/images/two.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/two.mp3"
+    },
+    {
+      "id": "three",
+      "word": "three",
+      "meaning": "三",
+      "topic": "numbers",
+      "subject": "exactly THREE red apples in one row, separated and easy to count",
+      "image": "/packages/english-vocabulary/images/three.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/three.mp3"
+    },
+    {
+      "id": "four",
+      "word": "four",
+      "meaning": "四",
+      "topic": "numbers",
+      "subject": "exactly FOUR red apples in two rows of two, separated and easy to count",
+      "image": "/packages/english-vocabulary/images/four.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/four.mp3"
+    },
+    {
+      "id": "five",
+      "word": "five",
+      "meaning": "五",
+      "topic": "numbers",
+      "subject": "exactly FIVE red apples, three in the top row and two in the bottom row, easy to count",
+      "image": "/packages/english-vocabulary/images/five.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/five.mp3"
+    },
+    {
+      "id": "six",
+      "word": "six",
+      "meaning": "六",
+      "topic": "numbers",
+      "subject": "exactly SIX red apples in two rows of three, separated and easy to count",
+      "image": "/packages/english-vocabulary/images/six.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/six.mp3"
+    },
+    {
+      "id": "seven",
+      "word": "seven",
+      "meaning": "七",
+      "topic": "numbers",
+      "subject": "exactly SEVEN red apples, four in the top row and three in the bottom row, easy to count",
+      "image": "/packages/english-vocabulary/images/seven.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/seven.mp3"
+    },
+    {
+      "id": "eight",
+      "word": "eight",
+      "meaning": "八",
+      "topic": "numbers",
+      "subject": "exactly EIGHT red apples in two rows of four, separated and easy to count",
+      "image": "/packages/english-vocabulary/images/eight.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/eight.mp3"
+    },
+    {
+      "id": "nine",
+      "word": "nine",
+      "meaning": "九",
+      "topic": "numbers",
+      "subject": "exactly NINE red apples in three rows of three, separated and easy to count",
+      "image": "/packages/english-vocabulary/images/nine.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/nine.mp3"
+    },
+    {
+      "id": "ten",
+      "word": "ten",
+      "meaning": "十",
+      "topic": "numbers",
+      "subject": "exactly TEN red apples in two rows of five, separated and easy to count",
+      "image": "/packages/english-vocabulary/images/ten.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/ten.mp3"
+    },
+    {
+      "id": "big",
+      "word": "big",
+      "meaning": "大的",
+      "topic": "describing",
+      "subject": "a very large red ball beside a much smaller faint gray ball; a simple arrow points to the large red ball",
+      "image": "/packages/english-vocabulary/images/big.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/big.mp3"
+    },
+    {
+      "id": "small",
+      "word": "small",
+      "meaning": "小的",
+      "topic": "describing",
+      "subject": "a very small red ball beside a much larger faint gray ball; a simple arrow points to the small red ball",
+      "image": "/packages/english-vocabulary/images/small.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/small.mp3"
+    },
+    {
+      "id": "long",
+      "word": "long",
+      "meaning": "长的",
+      "topic": "describing",
+      "subject": "a long blue ribbon beside a short faint gray ribbon; a simple arrow points to the long blue ribbon",
+      "image": "/packages/english-vocabulary/images/long.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/long.mp3"
+    },
+    {
+      "id": "short",
+      "word": "short",
+      "meaning": "短的",
+      "topic": "describing",
+      "subject": "a short blue ribbon beside a long faint gray ribbon; a simple arrow points to the short blue ribbon",
+      "image": "/packages/english-vocabulary/images/short.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/short.mp3"
+    },
+    {
+      "id": "tall",
+      "word": "tall",
+      "meaning": "高的",
+      "topic": "describing",
+      "subject": "a tall green tree beside a much shorter faint gray tree; a simple arrow points to the tall green tree",
+      "image": "/packages/english-vocabulary/images/tall.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/tall.mp3"
+    },
+    {
+      "id": "hot",
+      "word": "hot",
+      "meaning": "热的",
+      "topic": "describing",
+      "subject": "one red mug with visible curling steam rising from a hot drink, no person touching it",
+      "image": "/packages/english-vocabulary/images/hot.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/hot.mp3"
+    },
+    {
+      "id": "cold",
+      "word": "cold",
+      "meaning": "冷的",
+      "topic": "describing",
+      "subject": "one clear blue glass of water with visible ice cubes and condensation droplets",
+      "image": "/packages/english-vocabulary/images/cold.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/cold.mp3"
+    },
+    {
+      "id": "happy",
+      "word": "happy",
+      "meaning": "开心的",
+      "topic": "describing",
+      "subject": "one child face with a big joyful smile and happy eyes",
+      "image": "/packages/english-vocabulary/images/happy.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/happy.mp3"
+    },
+    {
+      "id": "sad",
+      "word": "sad",
+      "meaning": "难过的",
+      "topic": "describing",
+      "subject": "one child face with a gently downturned mouth and one small tear, comforting not frightening",
+      "image": "/packages/english-vocabulary/images/sad.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/sad.mp3"
+    },
+    {
+      "id": "clean",
+      "word": "clean",
+      "meaning": "干净的",
+      "topic": "describing",
+      "subject": "two freshly washed child hands with a few little sparkle shapes, no dirt",
+      "image": "/packages/english-vocabulary/images/clean.webp",
+      "legacyId": "",
+      "audioFile": "/packages/english-vocabulary/audio/clean.mp3"
+    }
+  ]
+}

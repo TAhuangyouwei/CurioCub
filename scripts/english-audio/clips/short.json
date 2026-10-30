@@ -1,0 +1,20 @@
+{
+  "id": "short",
+  "word": "short",
+  "text": "short",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/short.mp3",
+  "target": "/packages/english-vocabulary/audio/short.mp3",
+  "duration": 0.84,
+  "audible": 0.313,
+  "trimStart": 0.085208,
+  "trimEnd": 0.8235,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "23d6083310f60c6ad10ce679e70f1b248e5a1f833132fd471b37ab100d3696d4",
+  "sha256": "98e726f66e9d228364d3f6bbdad2e2e57f34ed8d9c05180ce9aed3de4244073a",
+  "bytes": 2520
+}

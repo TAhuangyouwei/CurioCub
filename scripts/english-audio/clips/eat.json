@@ -1,0 +1,20 @@
+{
+  "id": "eat",
+  "word": "eat",
+  "text": "eat",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "bitrate": "24k",
+  "source": "scripts/english-audio/raw/eat.mp3",
+  "target": "/packages/english-vocabulary/audio/eat.mp3",
+  "duration": 0.672,
+  "audible": 0.22,
+  "trimStart": 0.083167,
+  "trimEnd": 0.65225,
+  "onsetMargin": 0.06,
+  "endMargin": 0.08,
+  "tailPadding": 0.04,
+  "sourceSha256": "cd43a34b8d8183f14ed2ec89bf4cb80e7e7359db9bd8ffebac0064e5a1e82218",
+  "sha256": "b8825629fd6c2132f6203d838129271b1112bac3b18cf9e9069649e89d639f1f",
+  "bytes": 2016
+}
