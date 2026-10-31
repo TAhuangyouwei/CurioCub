@@ -1,6 +1,6 @@
-<view class="arithmetic-screen">
+<view class="arithmetic-screen {{activeIndex !== null ? 'number-pad-open' : ''}}">
   <text class="practice-heading">随机计算</text>
-  <text class="practice-description">一页10道题，填完后一起检查。</text>
+  <text class="practice-description">一页10道题，点答案框，用下方数字键填写，填完后一起检查。</text>
   <view class="practice-settings">
     <view class="operation-tabs">
       <button class="operation-option {{operation === 'add' ? 'selected' : ''}}" bindtap="changeOperation" data-operation="add">加法</button>
@@ -8,7 +8,7 @@
     </view>
     <view class="limit-setting">
       <text>练习范围</text>
-      <view class="limit-value"><input type="number" maxlength="3" value="{{limitText}}" bindinput="onLimitInput" aria-label="练习上限，1到100" /><text>以内</text></view>
+      <view class="limit-value"><button class="limit-input {{activeIndex === -1 ? 'input-selected' : ''}}" bindtap="selectLimit" aria-label="练习上限，当前{{limitText || '未填写'}}，点击修改">{{limitText || '?'}}</button><text>以内</text></view>
     </view>
     <text class="settings-note">填写1～100。加法的和不超范围，减法不出现负数。</text>
     <button class="generate-button" bindtap="generate">{{questions.length ? '重新生成10题' : '生成10道题'}}</button>
@@ -20,7 +20,7 @@
         <view class="question-row">
           <text class="question-number">{{item.id}}.</text>
           <text class="equation">{{item.left}} {{roundOperation === 'add' ? '+' : '−'}} {{item.right}} =</text>
-          <input class="answer-input" type="number" maxlength="3" value="{{item.response}}" placeholder="?" bindinput="onAnswerInput" data-index="{{index}}" aria-label="第{{item.id}}题答案" />
+          <button class="answer-input {{activeIndex === index ? 'input-selected' : ''}}" bindtap="selectAnswer" data-index="{{index}}" aria-label="第{{item.id}}题答案，当前{{item.response || '未填写'}}，点击修改">{{item.response || '?'}}</button>
           <text wx:if="{{checked}}" class="answer-mark">{{item.correct ? '✓' : '再想想'}}</text>
         </view>
         <text wx:if="{{checked && !item.correct}}" class="correction">正确答案：{{item.answer}}</text>
@@ -32,4 +32,14 @@
     </view>
     <button class="check-button" bindtap="checkAnswers">{{checked ? '再次检查' : '统一检查答案'}}</button>
   </block>
+  <view wx:if="{{activeIndex !== null}}" class="number-pad">
+    <view class="number-pad-header">
+      <text wx:if="{{activeIndex === -1}}">练习范围：{{limitText || '?'}}</text>
+      <text wx:else>第{{activeIndex + 1}}题：{{questions[activeIndex].left}} {{roundOperation === 'add' ? '+' : '−'}} {{questions[activeIndex].right}} = {{questions[activeIndex].response || '?'}}</text>
+      <button class="number-pad-done" bindtap="closeNumberPad">完成</button>
+    </view>
+    <view class="number-pad-keys">
+      <button wx:for="{{numberKeys}}" wx:key="*this" class="number-key {{item === '清空' || item === '删除' ? 'edit-key' : ''}}" bindtap="onNumberTap" data-key="{{item}}">{{item}}</button>
+    </view>
+  </view>
 </view>

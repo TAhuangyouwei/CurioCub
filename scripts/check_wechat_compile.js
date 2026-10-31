@@ -118,6 +118,13 @@ assert.doesNotThrow(() => {
     modulePage.onShow()
     assert.strictEqual(modulePage.data.module.id, moduleId)
   }
+  const arithmetic = page('packages/math-sticks/pages/practice/index.js')
+  arithmetic.generate()
+  assert.strictEqual(arithmetic.data.questions.length, 10)
+  arithmetic.selectAnswer({ currentTarget: { dataset: { index: 0 } } })
+  assert.strictEqual(arithmetic.data.activeIndex, 0)
+  arithmetic.closeNumberPad()
+  assert.strictEqual(arithmetic.data.activeIndex, null)
   const cards = page('packages/english-vocabulary/pages/cards/index.js')
   cards.onLoad()
   assert.strictEqual(cards.data.word.word, 'dog')
