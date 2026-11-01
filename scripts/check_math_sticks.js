@@ -59,6 +59,7 @@ for (let total = 0; total <= 10; total += 1) {
 
 let definition
 let measuredWidth = 347
+let dataUpdates = 0
 global.Page = (page) => { definition = page }
 global.wx = {
   getWindowInfo() { return { windowWidth: 375 } },
@@ -76,17 +77,54 @@ require('../packages/math-sticks/pages/workshop/index')
 const page = {
   ...definition,
   data: JSON.parse(JSON.stringify(definition.data)),
-  setData(changes) {
+  setData(changes, callback) {
+    dataUpdates += 1
     Object.entries(changes).forEach(([key, value]) => {
       const match = key.match(/^sticks\[(\d+)\]\.(x|y)$/)
       if (match) this.data.sticks[Number(match[1])][match[2]] = value
       else this.data[key] = value
     })
+    if (callback) callback()
   }
 }
 page.onLoad()
 page.onReady()
 assert.strictEqual(page.data.equation, '0 根')
+
+const firstStick = page.sticks[0]
+const firstTarget = { dataset: { id: firstStick.id } }
+page.onDragStart({ currentTarget: firstTarget, touches: [{ identifier: 7, pageX: firstStick.x, pageY: firstStick.y }] })
+dataUpdates = 0
+for (let i = 1; i <= 120; i += 1) {
+  page.onDragMove({ currentTarget: firstTarget,
+    touches: [{ identifier: 7, pageX: firstStick.x + i, pageY: firstStick.y - i }],
+    detail: { source: 'touch', x: firstStick.x + i, y: firstStick.y - i } })
+}
+assert.strictEqual(dataUpdates, 0, '连续拖动应由视图直接跟手，不能每次移动都调用 setData')
+page.onDragCancel({ currentTarget: firstTarget })
+assert.deepStrictEqual(page.data.sticks, page.sticks, '取消拖动应恢复排齐坐标')
+
+// A native drag does not update bound x/y. Publish its final position before
+// snapping back, even when the destination is the original slot.
+let pendingCallback
+const applyData = page.setData
+page.setData = function(changes, callback) {
+  applyData.call(this, changes)
+  if (callback) pendingCallback = callback
+}
+page.onDragStart({ currentTarget: firstTarget, touches: [{ identifier: 7, pageX: firstStick.x, pageY: firstStick.y }] })
+page.onDragMove({ currentTarget: firstTarget, detail: { source: 'touch', x: firstStick.x + 10, y: firstStick.y } })
+page.onDragCancel({ currentTarget: firstTarget })
+assert.strictEqual(page.data.sticks[0].x, firstStick.x + 10, '先同步原生组件的实际位置')
+pendingCallback()
+assert.deepStrictEqual(page.data.sticks, page.sticks, '再恢复原槽位，避免火柴停在半路')
+page.onDragStart({ currentTarget: firstTarget, touches: [{ identifier: 7, pageX: firstStick.x, pageY: firstStick.y }] })
+page.onDragEnd({ currentTarget: firstTarget, changedTouches: [{ identifier: 7, pageX: firstStick.x, pageY: 50 }] })
+page.resetBoard()
+const updatesAfterReset = dataUpdates
+pendingCallback()
+assert.strictEqual(dataUpdates, updatesAfterReset, '重置后的旧拖动回调不能覆盖新棋盘')
+page.setData = applyData
 
 // Use a nonzero page offset to reproduce dragging after scrolling. End at a
 // different coordinate from the last move, as happens with quick finger lifts.
@@ -97,7 +135,7 @@ function drag(id, zoneId, options = {}) {
   page.onDragStart({ currentTarget, touches: [origin] })
   const destination = options.outside ? { x: -200, y: -200 } : centerOf(page.layout.zones.find((item) => item.id === zoneId), page.layout)
   const touch = { identifier: 7, pageX: origin.pageX + destination.x - stick.x, pageY: origin.pageY + destination.y - stick.y }
-  page.onDragMove({ currentTarget, touches: [{ ...touch, pageY: origin.pageY }] })
+  page.onDragMove({ currentTarget, detail: { source: 'touch', x: destination.x, y: stick.y } })
   if (options.cancel) page.onDragCancel({ currentTarget })
   else page.onDragEnd({ currentTarget, changedTouches: [touch] })
   assert.strictEqual(page.data.activeId, -1)
@@ -153,4 +191,4 @@ let route
 global.wx.navigateTo = (options) => { route = options.url }
 definition.openMathWorkshop()
 assert.strictEqual(route, `/${subpackage.root}/${subpackage.pages[0]}`)
-console.log('火柴棍检查通过：四种屏宽、全部十以内加减组合、拖动/吸附/取消/重摆/屏宽变化，以及地图入口均正常。')
+console.log('火柴棍检查通过：120次连续移动无需setData、原生位置同步/取消/重置回调、四种屏宽、全部十以内加减组合与吸附均正常。')

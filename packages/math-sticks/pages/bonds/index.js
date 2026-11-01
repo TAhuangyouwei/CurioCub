@@ -1,104 +1,126 @@
-const { createQuestion, createLayout, slotPosition, arrangeStars, dropStar } = require('../../utils/number-bonds')
-const { dragPosition } = require('../../sticks')
+const { createQuestion } = require('../../utils/number-bonds')
 
 Page({
   data: {
-    limit: 5, questionNumber: 0, target: 1, initialCount: 0,
-    stars: [], fixedStars: [], slots: [], boardHeight: 208, trayTop: 112, zoneHeight: 96,
-    activeId: -1, addedCount: 0, basketCount: 0, complete: false, equation: '', feedback: ''
+    stage: 'quantity', limit: 5, whole: 3, left: 1, right: 2,
+    missing: '', response: '', correct: false, showDots: true,
+    questionNumber: 0, counted: 0, previousWhole: null, feedback: '', reading: '',
+    wholeChoices: [], numberChoices: [], leftDots: [], rightDots: [], tenFrame: []
   },
 
-  onLoad() {
-    const info = wx.getWindowInfo ? wx.getWindowInfo() : wx.getSystemInfoSync()
-    this.layout = createLayout(Math.min(560, info.windowWidth - 32), this.data.limit)
-    this.nextQuestion()
-  },
-  onReady() { this.measureBoard() },
-  onResize() { if (this.layout) this.measureBoard() },
+  onLoad() { this.render() },
 
-  measureBoard() {
-    this.cancelDrag()
-    wx.createSelectorQuery().in(this).select('.number-board').boundingClientRect(rect => {
-      if (this.destroyed || !rect || !rect.width) return
-      this.layout = createLayout(rect.width, this.data.limit)
-      this.renderBoard()
-    }).exec()
+  render(changes = {}) {
+    const next = { ...this.data, ...changes }
+    const dots = count => Array.from({ length: count }, (_, index) => index)
+    const reading = next.stage === 'learn' || next.correct
+      ? next.whole + ' 可以分成 ' + next.left + ' 和 ' + next.right + '。' + next.left + ' 和 ' + next.right + ' 组成 ' + next.whole + '。'
+      : ''
+    this.setData({
+      ...changes, reading,
+      wholeChoices: Array.from({ length: next.limit - (next.stage === 'quantity' ? 0 : 1) }, (_, index) => index + (next.stage === 'quantity' ? 1 : 2)),
+      numberChoices: dots(next.limit + 1),
+      leftDots: dots(next.left), rightDots: dots(next.right),
+      tenFrame: Array.from({ length: 10 }, (_, index) => ({
+        index, filled: index < next.whole, counted: index < next.counted
+      }))
+    })
+  },
+
+  changeStage(event) {
+    const stage = event.currentTarget.dataset.stage
+    if (!['quantity', 'learn', 'practice'].includes(stage) || stage === this.data.stage) return
+    this.setData({ stage, whole: Math.max(2, this.data.whole), questionNumber: 0 })
+    if (stage === 'practice') this.nextQuestion()
+    else this.resetSplit()
   },
 
   changeLimit(event) {
     const limit = Number(event.currentTarget.dataset.limit)
     if (![5, 10].includes(limit) || limit === this.data.limit) return
-    this.layout = createLayout(this.layout.width, limit)
-    this.setData({ limit, questionNumber: 0 })
-    this.nextQuestion()
+    this.setData({ limit, whole: Math.min(this.data.whole, limit), questionNumber: 0 })
+    if (this.data.stage === 'practice') this.nextQuestion()
+    else this.resetSplit()
+  },
+
+  changeWhole(event) {
+    const whole = Number(event.currentTarget.dataset.whole)
+    if (this.data.stage === 'practice' || !Number.isInteger(whole) || whole < (this.data.stage === 'quantity' ? 1 : 2) || whole > this.data.limit) return
+    this.setData({ whole })
+    this.resetSplit()
+  },
+
+  resetSplit() {
+    this.render({
+      left: 1, right: this.data.whole - 1, counted: 0, previousWhole: null,
+      missing: '', response: '', correct: false, showDots: true, feedback: ''
+    })
+  },
+
+  countStar(event) {
+    if (this.data.stage !== 'quantity') return
+    const index = Number(event.currentTarget.dataset.index)
+    if (index !== this.data.counted || index >= this.data.whole) return
+    const counted = this.data.counted + 1
+    const { previousWhole, whole } = this.data
+    const result = previousWhole === null
+      ? '最后数到 ' + whole + '，这一堆一共有 ' + whole + ' 颗。'
+      : previousWhole + ' 颗' + (whole > previousWhole ? '添 1 颗' : '拿走 1 颗') + '，现在有 ' + whole + ' 颗。' + (whole > previousWhole ? previousWhole + ' 后面是 ' + whole + '。' : '')
+    this.render({
+      counted,
+      feedback: counted === this.data.whole
+        ? result
+        : '数到 ' + counted + '，再点下一颗。'
+    })
+  },
+
+  changeQuantity(event) {
+    if (this.data.stage !== 'quantity' || this.data.counted !== this.data.whole) return
+    const delta = Number(event.currentTarget.dataset.delta)
+    const whole = this.data.whole + delta
+    if (![-1, 1].includes(delta) || whole < 1 || whole > this.data.limit) return
+    this.render({
+      previousWhole: this.data.whole, whole, counted: 0, left: 1, right: whole - 1,
+      feedback: '星星' + (delta === 1 ? '添了' : '拿走了') + ' 1 颗。可以从 1 开始，再点数一遍。'
+    })
+  },
+
+  moveStar(event) {
+    if (this.data.stage !== 'learn') return
+    const part = event.currentTarget.dataset.part
+    if (!['left', 'right'].includes(part) || this.data[part] === 0) return
+    const delta = part === 'left' ? -1 : 1
+    this.render({ left: this.data.left + delta, right: this.data.right - delta })
   },
 
   nextQuestion() {
-    this.drag = null
-    this.setData({ ...createQuestion(this.data.limit), questionNumber: this.data.questionNumber + 1 })
-    this.resetBoard()
-  },
-
-  resetBoard() {
-    this.drag = null
-    this.stars = Array.from({ length: this.data.limit }, (_, id) => ({ id, zone: 'tray' }))
-    this.renderBoard()
-  },
-
-  renderBoard() {
-    const { initialCount, target } = this.data
-    this.stars = arrangeStars(this.stars, this.layout, initialCount)
-    const addedCount = this.stars.filter(star => star.zone === 'basket').length
-    const basketCount = initialCount + addedCount
-    const complete = basketCount === target
-    this.setData({
-      stars: this.stars.map(star => ({ ...star })),
-      fixedStars: Array.from({ length: initialCount }, (_, id) => ({ id, ...slotPosition(id, this.layout.basket, this.layout) })),
-      slots: Array.from({ length: target }, (_, id) => ({ id, ...slotPosition(id, this.layout.basket, this.layout) })),
-      boardHeight: this.layout.height, trayTop: this.layout.tray.y, zoneHeight: this.layout.basket.height,
-      activeId: -1, addedCount, basketCount, complete,
-      equation: complete ? `${initialCount} + ${addedCount} = ${target}` : '',
-      feedback: complete ? `凑齐啦！${initialCount}和${addedCount}合起来是${target}。` : basketCount > target ? '多了一些，拖回几颗再试试。' : '慢慢数一数，还需要再放几颗？'
+    const questionNumber = this.data.questionNumber + 1
+    const missing = ['left', 'right', 'whole'][(questionNumber - 1) % 3]
+    this.render({
+      ...createQuestion(this.data.limit, missing), questionNumber,
+      response: '', correct: false, showDots: false, counted: 0, feedback: ''
     })
   },
 
-  onDragStart(event) {
-    if (this.drag || event.touches.length !== 1) return
-    const star = this.stars.find(item => item.id === Number(event.currentTarget.dataset.id))
-    if (!star) return
-    const touch = event.touches[0]
-    this.drag = { id: star.id, identifier: touch.identifier, x: star.x, y: star.y, pageX: touch.pageX, pageY: touch.pageY }
-    this.setData({ activeId: star.id })
+  chooseNumber(event) {
+    if (this.data.stage !== 'practice' || this.data.correct) return
+    const number = Number(event.currentTarget.dataset.number)
+    if (!Number.isInteger(number) || number < 0 || number > this.data.limit) return
+    this.render({ response: String(number), feedback: '' })
   },
 
-  onDragMove(event) {
-    if (!this.drag) return
-    if (event.touches.length !== 1) { this.cancelDrag(); return }
-    const touch = event.touches.find(item => item.identifier === this.drag.identifier)
-    if (!touch) return
-    const position = dragPosition(this.drag, touch)
-    const index = this.stars.findIndex(star => star.id === this.drag.id)
-    this.setData({
-      [`stars[${index}].x`]: Math.max(0, Math.min(this.layout.width - 44, position.x)),
-      [`stars[${index}].y`]: Math.max(0, Math.min(this.layout.height - 44, position.y))
+  toggleHint() { this.setData({ showDots: !this.data.showDots }) },
+
+  checkAnswer() {
+    if (this.data.stage !== 'practice') return
+    if (this.data.response === '') {
+      this.setData({ feedback: '先点一个数字，再点检查。' })
+      return
+    }
+    const correct = Number(this.data.response) === this.data[this.data.missing]
+    this.render({
+      correct, showDots: correct || this.data.showDots,
+      feedback: correct ? '填对啦！指着图，把下面的话说一遍。' : '再看看：两部分合起来，要和“一共”一样多。可以点“看星星提示”。'
     })
-  },
-
-  onDragEnd(event) {
-    if (!this.drag) return
-    const touch = event.changedTouches.find(item => item.identifier === this.drag.identifier)
-    if (!touch) return
-    this.stars = dropStar(this.stars, this.drag.id, dragPosition(this.drag, touch), this.layout, this.data.initialCount)
-    this.drag = null
-    this.renderBoard()
-  },
-
-  onDragCancel() { this.cancelDrag() },
-  cancelDrag() {
-    if (!this.drag) return
-    this.drag = null
-    this.renderBoard()
-  },
-  onHide() { this.cancelDrag() },
-  onUnload() { this.cancelDrag(); this.destroyed = true }
+  }
 })

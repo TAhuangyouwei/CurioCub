@@ -1,108 +1,132 @@
 const assert = require('assert')
-const { createQuestion, createLayout, arrangeStars, dropStar, slotPosition } = require('../packages/math-sticks/utils/number-bonds')
+const fs = require('fs')
+const { createQuestion } = require('../packages/math-sticks/utils/number-bonds')
 
-function stars(limit) { return Array.from({ length: limit }, (_, id) => ({ id, zone: 'tray' })) }
-function center(zone) { return { x: zone.x + zone.width / 2 - 22, y: zone.y + zone.height / 2 - 22 } }
 for (const limit of [5, 10]) {
-  for (let round = 0; round < 100; round++) {
-    const q = createQuestion(limit)
-    assert(q.target >= 1 && q.target <= limit)
-    assert(q.initialCount >= 0 && q.initialCount < q.target, '每题至少需要补一颗星')
-  }
-  for (const width of [288, 343, 560]) {
-    const layout = createLayout(width, limit)
-    for (let initial = 0; initial < limit; initial++) {
-      let pieces = arrangeStars(stars(limit), layout, initial)
-      for (let id = 0; id < limit; id++) pieces = dropStar(pieces, id, center(layout.basket), layout, initial)
-      assert.strictEqual(initial + pieces.filter(s => s.zone === 'basket').length, limit, '篮子最多容纳当前范围内的星星')
-      const occupied = [
-        ...Array.from({ length: initial }, (_, i) => slotPosition(i, layout.basket, layout)),
-        ...pieces.filter(s => s.zone === 'basket')
-      ]
-      assert.strictEqual(new Set(occupied.map(p => `${p.x}:${p.y}`)).size, limit, '已有星星与补入星星不能重叠')
-      for (const piece of pieces) {
-        const zone = layout[piece.zone]
-        assert(piece.x >= 0 && piece.x + 44 <= width + 0.001)
-        assert(piece.y >= zone.y && piece.y + 44 <= zone.y + zone.height)
-      }
-      pieces = dropStar(pieces, 0, center(layout.tray), layout, initial)
-      assert.strictEqual(pieces[0].zone, 'tray', '补入的星星可以拖回')
-      const before = JSON.stringify(pieces)
-      pieces = dropStar(pieces, 0, { x: -200, y: -200 }, layout, initial)
-      assert.strictEqual(JSON.stringify(pieces), before, '拖到区域外应归位')
-      assert.strictEqual(pieces.length, limit)
+  for (const missing of ['left', 'right', 'whole']) {
+    for (let round = 0; round < 100; round++) {
+      const q = createQuestion(limit, missing)
+      assert(q.whole >= 2 && q.whole <= limit)
+      assert(q.left >= 1 && q.right >= 1)
+      assert.strictEqual(q.left + q.right, q.whole)
+      assert.strictEqual(q.missing, missing)
     }
   }
 }
 
 let definition
-let measuredWidth = 343
 let navigation
 global.Page = page => { definition = page }
 global.wx = {
-  getWindowInfo: () => ({ windowWidth: measuredWidth + 32 }),
-  getStorageSync: () => null,
-  setStorageSync() { throw new Error('分合小游戏不能覆盖原有学习记录') },
-  setNavigationBarTitle() {},
-  navigateTo: options => { navigation = options.url },
-  createSelectorQuery() {
-    return { in() { return this }, select() { return this }, boundingClientRect(callback) { this.callback = callback; return this }, exec() { this.callback({ width: measuredWidth }) } }
-  }
+  setStorageSync() { throw new Error('分合练习不能改写学习记录') },
+  navigateTo: options => { navigation = options.url }
 }
 require('../packages/math-sticks/pages/bonds/index')
-const page = { ...definition, data: JSON.parse(JSON.stringify(definition.data)), setData(changes) {
-  for (const [key, value] of Object.entries(changes)) {
-    const nested = key.match(/^stars\[(\d+)\]\.(x|y)$/)
-    if (nested) this.data.stars[Number(nested[1])][nested[2]] = value
-    else this.data[key] = value
-  }
-} }
+const page = { ...definition, data: JSON.parse(JSON.stringify(definition.data)), setData(changes) { Object.assign(this.data, changes) } }
+const event = (key, value) => ({ currentTarget: { dataset: { [key]: value } } })
 page.onLoad()
-page.onReady()
-page.setData({ target: 3, initialCount: 1 })
-page.resetBoard()
-function drag(id, zone) {
-  const star = page.stars.find(s => s.id === id)
-  const event = { currentTarget: { dataset: { id } } }
-  const touch = { pageX: star.x + 22, pageY: star.y + 22, identifier: 1 }
-  page.onDragStart({ ...event, touches: [touch] })
-  const destination = center(page.layout[zone])
-  const end = { pageX: destination.x + 22, pageY: destination.y + 22, identifier: 1 }
-  page.onDragMove({ ...event, touches: [end] })
-  page.onDragEnd({ ...event, changedTouches: [end] })
+assert.strictEqual(page.data.stage, 'quantity')
+assert.strictEqual(page.data.limit, 5)
+assert(page.data.showDots)
+assert.strictEqual(page.data.whole, 3)
+page.changeLimit(event('limit', 10))
+page.changeWhole(event('whole', 6))
+assert.strictEqual(page.data.tenFrame.filter(cell => cell.filled).length, 6, '数字6对应6颗星星')
+assert.strictEqual(page.data.tenFrame.slice(0, 5).filter(cell => cell.filled).length, 5)
+assert.strictEqual(page.data.tenFrame.slice(5).filter(cell => cell.filled).length, 1, '6显示成5和1')
+page.countStar(event('index', 5))
+assert.strictEqual(page.data.counted, 0, '从第一颗开始逐一对应数数')
+for (let index = 0; index < 6; index++) page.countStar(event('index', index))
+assert.strictEqual(page.data.counted, 6)
+assert(page.data.feedback.includes('一共有 6 颗'))
+page.countStar(event('index', 6))
+assert.strictEqual(page.data.counted, 6, '空格不能算成物品')
+page.changeQuantity(event('delta', 1))
+assert.strictEqual(page.data.whole, 7)
+assert.strictEqual(page.data.counted, 0, '添一个以后，允许从1重新数')
+for (let index = 0; index < 7; index++) page.countStar(event('index', index))
+assert(page.data.feedback.includes('6 后面是 7'))
+page.changeQuantity(event('delta', -1))
+for (let index = 0; index < 6; index++) page.countStar(event('index', index))
+assert(page.data.feedback.includes('7 颗拿走 1 颗，现在有 6 颗'))
+page.changeWhole(event('whole', 1))
+page.countStar(event('index', 0))
+page.changeQuantity(event('delta', -1))
+assert.strictEqual(page.data.whole, 1, '认数量先从1开始，不出现负数量')
+for (let whole = 1; whole <= 10; whole++) {
+  page.changeWhole(event('whole', whole))
+  assert.strictEqual(page.data.tenFrame.filter(cell => cell.filled).length, whole)
+  for (let index = 0; index < whole; index++) page.countStar(event('index', index))
+  assert.strictEqual(page.data.counted, whole)
 }
-drag(0, 'basket')
-assert(!page.data.complete && page.data.basketCount === 2)
-assert.strictEqual(page.data.equation, '', '没有补齐前不提前显示答案')
-drag(1, 'basket')
-assert(page.data.complete)
-assert.strictEqual(page.data.equation, '1 + 2 = 3')
-const beforeResize = page.data.equation
-measuredWidth = 560
-page.onResize()
-assert.strictEqual(page.data.equation, beforeResize)
-drag(2, 'basket')
-assert(!page.data.complete && page.data.feedback.includes('多'))
-drag(2, 'tray')
-assert(page.data.complete)
-page.nextQuestion()
-assert(!page.data.complete && page.data.addedCount === 0)
-page.changeLimit({ currentTarget: { dataset: { limit: 10 } } })
-assert.strictEqual(page.data.stars.length, 10)
-assert(page.data.target <= 10 && page.data.initialCount < page.data.target)
-const first = page.stars[0]
-const event = { currentTarget: { dataset: { id: first.id } }, touches: [{ pageX: first.x, pageY: first.y, identifier: 1 }] }
-page.onDragStart(event)
-page.onDragMove({ ...event, touches: [...event.touches, { pageX: 10, pageY: 10, identifier: 2 }] })
-assert.strictEqual(page.drag, null, '多指误触应取消拖动')
-page.onDragStart(event)
-page.onHide()
-assert.strictEqual(page.drag, null)
-assert.strictEqual(page.data.addedCount, 0)
-page.onUnload()
+page.changeStage(event('stage', 'learn'))
 
+for (const limit of [5, 10]) {
+  page.changeLimit(event('limit', limit))
+  for (let whole = 2; whole <= limit; whole++) {
+    page.changeWhole(event('whole', whole))
+    for (let i = 0; i < whole + 1; i++) page.moveStar(event('part', 'right'))
+    assert.strictEqual(page.data.left, whole)
+    assert.strictEqual(page.data.right, 0)
+    for (let i = 0; i < whole + 1; i++) {
+      page.moveStar(event('part', 'left'))
+      assert.strictEqual(page.data.left + page.data.right, whole, '移动星星时总数守恒')
+      assert.strictEqual(page.data.leftDots.length, page.data.left)
+      assert.strictEqual(page.data.rightDots.length, page.data.right)
+      assert.strictEqual(page.data.tenFrame.filter(cell => cell.filled).length, whole)
+    }
+    assert.strictEqual(page.data.left, 0)
+    assert.strictEqual(page.data.right, whole)
+    assert(page.data.reading.includes(String(whole)))
+  }
+}
+
+page.changeStage(event('stage', 'practice'))
+assert(!page.data.showDots)
+for (let round = 0; round < 6; round++) {
+  const missing = ['left', 'right', 'whole'][round % 3]
+  assert.strictEqual(page.data.missing, missing, '轮流练两部分和总数')
+  assert.strictEqual(page.data.response, '')
+  assert.strictEqual(page.data.reading, '', '未答对前不展示完整口诀与答案')
+  page.checkAnswer()
+  assert(!page.data.correct)
+  assert.strictEqual(page.data.reading, '', '答错时不直接显示完整分合答案')
+  const solution = page.data[missing]
+  page.chooseNumber(event('number', (solution + 1) % (page.data.limit + 1)))
+  page.checkAnswer()
+  assert(!page.data.correct)
+  page.toggleHint()
+  assert(page.data.showDots)
+  page.chooseNumber(event('number', solution))
+  assert(!page.data.correct, '选择后等待主动检查')
+  page.checkAnswer()
+  assert(page.data.correct)
+  assert(page.data.reading.includes(String(solution)))
+  page.nextQuestion()
+  assert(!page.data.correct && !page.data.showDots, '换题应清除答案和提示')
+}
+page.changeLimit(event('limit', 5))
+assert.strictEqual(page.data.questionNumber, 1)
+assert(page.data.whole <= 5)
+assert.deepStrictEqual(page.data.numberChoices, [0, 1, 2, 3, 4, 5])
+page.chooseNumber(event('number', 0))
+assert.strictEqual(page.data.response, '0', '0 应能作为答案输入')
+const before = JSON.stringify(page.data)
+page.chooseNumber(event('number', 99))
+page.changeWhole(event('whole', 99))
+page.changeLimit(event('limit', 99))
+assert.strictEqual(JSON.stringify(page.data), before)
+page.changeStage(event('stage', 'learn'))
+assert(page.data.showDots && page.data.reading)
+
+const root = '../packages/math-sticks/pages/bonds/'
+const markup = fs.readFileSync(require.resolve(root + 'index.wxml'), 'utf8')
+assert(!/<input\b/.test(markup), '练习使用页面数字按钮，避开 iPad 系统键盘')
+assert(markup.includes('一共') && markup.includes('部分'), '分合图应明确整体与部分')
+assert.strictEqual(require(root + 'index.json').navigationBarTitleText, '数的分解和组合')
+const mapMarkup = fs.readFileSync(require.resolve('../pages/module/module.wxml'), 'utf8')
+assert(mapMarkup.includes('第 4 站 · 数的分解和组合'))
 require('../pages/module/module')
 definition.openNumberBonds()
 assert.strictEqual(navigation, '/packages/math-sticks/pages/bonds/index')
-assert(require('../app.json').subpackages.find(p => p.name === 'math-sticks').pages.includes('pages/bonds/index'))
-console.log('数的分合检查通过：5/10以内题目、拖入/拖回、超量/取消、星星不丢失不重叠、补齐算式、换题、改范围与尺寸变化。')
+console.log('数的分合检查通过：1～10数量对应/逐颗点数、添1/少1、全部分法与总数守恒、三个空位轮换、提示/纠错/换题和页面数字输入。')

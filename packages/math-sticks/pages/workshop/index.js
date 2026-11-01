@@ -99,14 +99,8 @@ Page({
 
   onDragMove(event) {
     if (!this.drag || Number(event.currentTarget.dataset.id) !== this.drag.id) return
-    const touch = event.touches.find((item) => item.identifier === this.drag.identifier)
-    if (!touch) return
-    const position = dragPosition(this.drag, touch)
-    const index = this.sticks.findIndex((item) => item.id === this.drag.id)
-    this.setData({
-      [`sticks[${index}].x`]: Math.max(0, Math.min(this.layout.width - this.layout.chipWidth, position.x)),
-      [`sticks[${index}].y`]: Math.max(0, Math.min(this.layout.height - this.layout.chipHeight, position.y))
-    })
+    if (event.detail.source !== 'touch') return
+    this.drag.position = { x: event.detail.x, y: event.detail.y }
   },
 
   onDragEnd(event) {
@@ -114,9 +108,7 @@ Page({
     const touch = event.changedTouches.find((item) => item.identifier === this.drag.identifier)
     if (!touch) return
     const position = dragPosition(this.drag, touch)
-    this.sticks = dropStick(this.sticks, this.drag.id, position, this.layout)
-    this.drag = null
-    this.renderBoard()
+    this.finishDrag(position)
   },
 
   onDragCancel(event) {
@@ -125,7 +117,21 @@ Page({
 
   cancelDrag() {
     if (!this.drag) return
-    this.drag = null
-    this.renderBoard()
+    this.finishDrag(this.drag.position || this.drag, true)
+  },
+
+  finishDrag(position, cancelled = false) {
+    const drag = this.drag
+    const index = this.sticks.findIndex((item) => item.id === drag.id)
+    // Sync the native position first so returning to the same slot also resets it.
+    this.setData({
+      [`sticks[${index}].x`]: Math.max(0, Math.min(this.layout.width - this.layout.chipWidth, position.x)),
+      [`sticks[${index}].y`]: Math.max(0, Math.min(this.layout.height - this.layout.chipHeight, position.y))
+    }, () => {
+      if (this.drag !== drag) return
+      if (!cancelled) this.sticks = dropStick(this.sticks, drag.id, position, this.layout)
+      this.drag = null
+      this.renderBoard()
+    })
   }
 })

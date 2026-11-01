@@ -7,7 +7,7 @@
   <view class="trace-tools">
     <button class="tool-button" bindtap="showHint">💡 提示</button>
     <button class="tool-button" bindtap="playCharacter">🔊 听字</button>
-    <label class="auto-read"><text>换字朗读</text><switch checked="{{autoRead}}" bindchange="changeAutoRead" color="#5f83dd" aria-label="换字自动朗读" /></label>
+    <label class="auto-read"><text>自动朗读</text><switch checked="{{autoRead}}" bindchange="changeAutoRead" color="#5f83dd" aria-label="换字、第一笔起笔和写完时自动朗读" /></label>
   </view>
   <view class="trace-guide-help">
     <text>{{demonstrating ? '正在演示' : complete ? '全部完成 ✓' : '请写'}} · 第 {{strokeNumber}} / {{strokeCount}} 笔</text>

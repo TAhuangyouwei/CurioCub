@@ -24,7 +24,7 @@
 
   <text class="instruction">{{instruction}}</text>
 
-  <view class="sticks-board" style="height: {{boardHeight}}px;">
+  <movable-area class="sticks-board" style="height: {{boardHeight}}px;">
     <view wx:for="{{zones}}" wx:key="id" class="drop-zone zone-{{item.id}}" style="left: {{item.x}}px; top: {{item.y}}px; width: {{item.width}}px; height: {{item.height}}px;">
       <view class="zone-heading">
         <text>{{item.title}}</text>
@@ -33,20 +33,25 @@
       <text wx:if="{{!item.count}}" class="zone-empty">{{item.id === 'pool' ? '都拿出来啦' : '拖到这里'}}</text>
     </view>
 
-    <view
+    <movable-view
       wx:for="{{sticks}}" wx:key="id"
       class="stick-handle stick-{{item.zone}} {{activeId === item.id ? 'dragging' : ''}}"
-      style="left: {{item.x}}px; top: {{item.y}}px; width: {{chipWidth}}px; height: {{chipHeight}}px;"
+      style="width: {{chipWidth}}px; height: {{chipHeight}}px;"
+      direction="all"
+      x="{{item.x}}"
+      y="{{item.y}}"
+      animation="{{false}}"
+      inertia="{{false}}"
       data-id="{{item.id}}"
       catchtouchstart="onDragStart"
-      catchtouchmove="onDragMove"
+      bindchange="onDragMove"
       catchtouchend="onDragEnd"
       catchtouchcancel="onDragCancel"
       aria-label="可拖动的火柴棍"
     >
       <view class="matchstick"><view class="match-head" /></view>
-    </view>
-  </view>
+    </movable-view>
+  </movable-area>
 
   <view class="workshop-footer">
     <text class="footer-tip">10 以内 · 松手自动排齐</text>

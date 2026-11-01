@@ -114,9 +114,9 @@
       <button class="review-button" bindtap="openMathPractice">开始随机练习</button>
     </view>
     <view wx:if="{{module.id === 'math'}}" class="group-card">
-      <view class="group-header"><text class="group-title">第 4 站 · 分一分，凑一凑</text></view>
-      <text class="group-progress">把星星拖进篮子，试着补齐指定数量。</text>
-      <button class="review-button" bindtap="openNumberBonds">开始补星星</button>
+      <view class="group-header"><text class="group-title">第 4 站 · 数的分解和组合</text></view>
+      <text class="group-progress">先数清数量，再把星星分成两部分，最后练习填分合图。</text>
+      <button class="review-button" bindtap="openNumberBonds">开始认识数的分合</button>
     </view>
   </view>
 </scroll-view>

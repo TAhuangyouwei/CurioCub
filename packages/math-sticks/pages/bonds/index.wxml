@@ -1,27 +1,103 @@
 <view class="number-screen">
-  <view class="number-header"><text class="number-title">分一分，凑一凑</text><text class="question-count">第 {{questionNumber}} 题</text></view>
-  <view class="limit-tabs">
-    <button class="limit-option {{limit === 5 ? 'selected' : ''}}" bindtap="changeLimit" data-limit="5">5以内</button>
-    <button class="limit-option {{limit === 10 ? 'selected' : ''}}" bindtap="changeLimit" data-limit="10">10以内</button>
+  <text class="number-title">数的分解和组合</text>
+  <text class="page-intro">先看清有几个，再看它能分成哪两部分。</text>
+  <view class="stage-tabs">
+    <button class="stage-option {{stage === 'quantity' ? 'selected' : ''}}" bindtap="changeStage" data-stage="quantity">① 认数量</button>
+    <button class="stage-option {{stage === 'learn' ? 'selected' : ''}}" bindtap="changeStage" data-stage="learn">② 分与合</button>
+    <button class="stage-option {{stage === 'practice' ? 'selected' : ''}}" bindtap="changeStage" data-stage="practice">③ 填分合图</button>
   </view>
-  <view class="goal-card"><text class="goal-title">请把篮子补到 {{target}} 颗星</text><text class="goal-description">原来已有 {{initialCount}} 颗，再放一些，刚好凑齐。</text></view>
-  <text class="number-instruction">把下面的星星拖进篮子，放多了也能拖回去。</text>
-  <view class="number-board" style="height: {{boardHeight}}px;">
-    <view class="basket-zone" style="height: {{zoneHeight}}px;"><text class="zone-label">篮子 · 现在有 {{basketCount}} 颗</text></view>
-    <view class="tray-zone" style="top: {{trayTop}}px; height: {{zoneHeight}}px;"><text class="zone-label">从这里拿星星</text></view>
-    <view wx:for="{{slots}}" wx:key="id" class="star-slot" style="left: {{item.x}}px; top: {{item.y}}px;"></view>
-    <view wx:for="{{fixedStars}}" wx:key="id" class="fixed-star" style="left: {{item.x}}px; top: {{item.y}}px;" aria-label="原有的星星">★</view>
-    <view wx:for="{{stars}}" wx:key="id" class="star-token {{item.zone === 'basket' ? 'added-star' : ''}} {{activeId === item.id ? 'dragging' : ''}}"
-      style="left: {{item.x}}px; top: {{item.y}}px;" data-id="{{item.id}}"
-      catchtouchstart="onDragStart" catchtouchmove="onDragMove" catchtouchend="onDragEnd" catchtouchcancel="onDragCancel" aria-label="可拖动的星星">
-      <text class="star-symbol">★</text>
+  <view class="limit-tabs">
+    <button class="limit-option {{limit === 5 ? 'selected' : ''}}" bindtap="changeLimit" data-limit="5">先学 5 以内</button>
+    <button class="limit-option {{limit === 10 ? 'selected' : ''}}" bindtap="changeLimit" data-limit="10">再学 10 以内</button>
+  </view>
+  <view wx:if="{{stage !== 'practice'}}" class="number-picker">
+    <text>今天认识几？</text>
+    <view class="whole-choices">
+      <button wx:for="{{wholeChoices}}" wx:key="*this" class="whole-choice {{whole === item ? 'chosen' : ''}}" bindtap="changeWhole" data-whole="{{item}}">{{item}}</button>
     </view>
   </view>
-  <view class="number-feedback {{complete ? 'success' : basketCount > target ? 'try-again' : ''}}" aria-live="polite">
-    <text wx:if="{{complete}}" class="number-equation">{{equation}}</text><text>{{feedback}}</text>
+
+  <view wx:if="{{stage === 'quantity'}}" class="quantity-card">
+    <text class="card-heading">数字 {{whole}}，就是 {{whole}} 颗星星</text>
+    <text class="instruction">从第一颗开始，按顺序点星星，一颗数一次。</text>
+    <view class="ten-frame">
+      <button wx:for="{{tenFrame}}" wx:key="index" class="frame-cell {{item.filled ? 'filled' : ''}} {{item.index >= 5 ? 'extra-five' : ''}} {{item.counted ? 'counted' : ''}}" bindtap="countStar" data-index="{{item.index}}" disabled="{{!item.filled}}" aria-label="第{{item.index + 1}}格{{item.filled ? '有一颗星星' : '是空的'}}">
+        <text wx:if="{{item.filled}}">★</text><text wx:if="{{item.counted}}" class="count-label">{{item.index + 1}}</text>
+      </button>
+    </view>
+    <text class="quantity-reading">{{whole > 5 ? '上排 5 颗，下排 ' + (whole - 5) + ' 颗，一共 ' + whole + ' 颗。' : '一排有 5 个格子，现在放了 ' + whole + ' 颗星星。'}}</text>
+    <text class="anchor-tip">满一排就是 5。数的是星星有几颗。</text>
+    <view wx:if="{{feedback}}" class="number-feedback" aria-live="polite">{{feedback}}</view>
+    <view class="number-actions">
+      <button class="secondary-button" bindtap="changeQuantity" data-delta="-1" disabled="{{counted !== whole || whole === 1}}">拿走 1 颗</button>
+      <button class="primary-button" bindtap="changeQuantity" data-delta="1" disabled="{{counted !== whole || whole === limit}}">添 1 颗</button>
+    </view>
+    <text class="anchor-tip">先数清这一堆，再试着添一颗或拿走一颗。可以每次从 1 重新数。</text>
+    <button class="primary-button" bindtap="changeStage" data-stage="learn">认清数量，试着分一分 ›</button>
   </view>
-  <view class="number-actions">
-    <button class="reset-button" bindtap="resetBoard">重新摆</button>
-    <button class="next-button" bindtap="nextQuestion" disabled="{{!complete}}">下一题 ›</button>
-  </view>
+
+  <block wx:else>
+    <view class="lesson-heading">
+      <text class="card-heading">{{stage === 'learn' ? '同一堆星星，分成两部分' : '第 ' + questionNumber + ' 题 · ' + (missing === 'whole' ? '两部分合起来是多少？' : '另一部分是多少？')}}</text>
+      <text class="instruction">{{missing === 'whole' ? '上面是两部分，合起来填下面的“一共”。' : '上面是“一共”，下面是“两部分”，两部分合起来就是一共。'}}</text>
+      <text wx:if="{{stage === 'learn'}}" class="instruction">点下面任意一颗星星，把它移到另一边。看看数字怎样变。</text>
+    </view>
+    <view class="bond-diagram {{missing === 'whole' ? 'composition' : ''}}">
+      <view class="bond-whole">
+        <text class="node-label">一共 · 整体</text>
+        <text class="node-number {{missing === 'whole' && !correct ? 'blank-number' : ''}}">{{missing === 'whole' && !correct ? (response || '?') : whole}}</text>
+        <view wx:if="{{showDots}}" class="whole-dots">
+          <view wx:for="{{tenFrame}}" wx:key="index" class="mini-cell {{item.filled ? 'filled' : ''}} {{item.index >= 5 ? 'extra-five' : ''}}"><text wx:if="{{item.filled}}">★</text></view>
+        </view>
+        <text wx:if="{{stage === 'learn'}}" class="whole-note">上面记总数，下面把这同一堆星星分开。</text>
+      </view>
+      <view class="bond-branches"><view class="branch-left"></view><view class="branch-right"></view></view>
+      <view class="bond-parts">
+        <view class="bond-part left-part">
+          <text class="node-label">左边这一部分</text>
+          <text class="node-number {{missing === 'left' && !correct ? 'blank-number' : ''}}">{{missing === 'left' && !correct ? (response || '?') : left}}</text>
+          <view wx:if="{{showDots}}" class="part-stars">
+            <block wx:for="{{leftDots}}" wx:key="*this">
+              <button wx:if="{{stage === 'learn'}}" class="star-button" bindtap="moveStar" data-part="left" aria-label="把左边一颗星星移到右边">★</button>
+              <text wx:else class="hint-star">★</text>
+            </block>
+            <text wx:if="{{!left}}" class="empty-part">没有星星，就是 0</text>
+          </view>
+        </view>
+        <view class="bond-part right-part">
+          <text class="node-label">右边这一部分</text>
+          <text class="node-number {{missing === 'right' && !correct ? 'blank-number' : ''}}">{{missing === 'right' && !correct ? (response || '?') : right}}</text>
+          <view wx:if="{{showDots}}" class="part-stars">
+            <block wx:for="{{rightDots}}" wx:key="*this">
+              <button wx:if="{{stage === 'learn'}}" class="star-button" bindtap="moveStar" data-part="right" aria-label="把右边一颗星星移到左边">★</button>
+              <text wx:else class="hint-star">★</text>
+            </block>
+            <text wx:if="{{!right}}" class="empty-part">没有星星，就是 0</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view wx:if="{{reading}}" class="reading-card">
+      <text>{{reading}}</text>
+      <text class="number-equation">{{left}} + {{right}} = {{whole}}</text>
+      <text wx:if="{{stage === 'learn'}}" class="anchor-tip">一边多 1 颗，另一边少 1 颗，一共还是 {{whole}} 颗。</text>
+    </view>
+    <view wx:if="{{stage === 'practice'}}" class="practice-controls">
+      <button class="hint-button" bindtap="toggleHint">{{showDots ? '收起星星提示' : '看星星提示'}}</button>
+      <text class="instruction">选一个数字填进问号，再点检查。</text>
+      <view class="answer-choices">
+        <button wx:for="{{numberChoices}}" wx:key="*this" class="number-choice {{response === '' + item ? 'chosen' : ''}}" bindtap="chooseNumber" data-number="{{item}}" disabled="{{correct}}">{{item}}</button>
+      </view>
+      <view class="number-actions">
+        <button class="primary-button" bindtap="checkAnswer" disabled="{{correct}}">检查</button>
+        <button class="primary-button" bindtap="nextQuestion" disabled="{{!correct}}">下一题 ›</button>
+      </view>
+    </view>
+    <view wx:else class="number-actions">
+      <button class="secondary-button" bindtap="resetSplit">重新分</button>
+      <button class="primary-button" bindtap="changeStage" data-stage="practice">试着填分合图 ›</button>
+    </view>
+  </block>
+  <view wx:if="{{feedback && stage !== 'quantity'}}" class="number-feedback {{correct ? 'success' : ''}}" aria-live="polite">{{feedback}}</view>
+  <view class="parent-tip">陪练提示：数完问“一共有几个”，让孩子把最后数到的数和整堆星星联系起来。还没理解数量时，先停留在“认数量”，不急着填图、背口诀。</view>
 </view>

@@ -145,6 +145,10 @@ function createTracePage(loadWritingTools) {
     this.activeTouchId = touch.identifier
     this.activeStroke = [point]
     this.paintSegment(null, point)
+    if (!this.strokes.length && !this.firstStrokeRead && this.data.autoRead) {
+      this.firstStrokeRead = true
+      this.audio.play(this.data.unit)
+    }
   },
 
   onTouchMove(event) {
@@ -172,6 +176,7 @@ function createTracePage(loadWritingTools) {
     this.activeStroke = null
     this.activeTouchId = null
     this.refreshWriting(this.strokes.length === this.characterGuide.count ? '真棒！这个字写好啦，想继续就换下一字吧！' : '写对啦！沿绿点继续写下一笔')
+    if (this.data.complete && this.data.autoRead) this.audio.play(this.data.unit)
   },
 
   discardStroke() {
@@ -205,6 +210,7 @@ function createTracePage(loadWritingTools) {
     this.stopDemonstration()
     this.discardStroke()
     this.strokes.pop()
+    if (!this.strokes.length) this.firstStrokeRead = false
     this.refreshWriting()
   },
 
@@ -212,6 +218,7 @@ function createTracePage(loadWritingTools) {
     this.stopDemonstration()
     this.discardStroke()
     this.strokes = []
+    this.firstStrokeRead = false
     this.refreshWriting()
   },
 
@@ -224,6 +231,7 @@ function createTracePage(loadWritingTools) {
     this.activeTouchId = null
     this.index = index
     this.strokes = []
+    this.firstStrokeRead = false
     this.characterGuide = this.strokeTools.guideFor(this.units[index].title)
     const restoreCanvas = this.data.hintVisible
     this.setData({ unit: this.units[index], currentNumber: index + 1, total: this.units.length,
